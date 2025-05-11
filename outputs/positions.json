@@ -1,0 +1,3384 @@
+{
+  "positions": {
+    "BA": {
+      "callsign": "Agen Tower",
+      "frequency": "121.300",
+      "type": "TWR",
+      "pre": [
+        "LFBA"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "BB": {
+      "callsign": "Bordeaux Control",
+      "frequency": "125.105",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBH2": {
+      "callsign": "Bordeaux Control",
+      "frequency": "132.910",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBH3": {
+      "callsign": "Bordeaux Control",
+      "frequency": "120.935",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBH4": {
+      "callsign": "Bordeaux Control",
+      "frequency": "134.610",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBH5": {
+      "callsign": "Bordeaux Control",
+      "frequency": "124.080",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBH": {
+      "callsign": "Bordeaux Control",
+      "frequency": "124.830",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBL2": {
+      "callsign": "Bordeaux Control",
+      "frequency": "136.040",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBL3": {
+      "callsign": "Bordeaux Control",
+      "frequency": "134.225",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBL4": {
+      "callsign": "Bordeaux Control",
+      "frequency": "122.630",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBL5": {
+      "callsign": "Bordeaux Control",
+      "frequency": "127.435",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBL": {
+      "callsign": "Bordeaux Control",
+      "frequency": "132.990",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBN2": {
+      "callsign": "Bordeaux Control",
+      "frequency": "134.765",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBN3": {
+      "callsign": "Bordeaux Control",
+      "frequency": "120.935",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBN4": {
+      "callsign": "Bordeaux Control",
+      "frequency": "133.460",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBN5": {
+      "callsign": "Bordeaux Control",
+      "frequency": "124.080",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBN1": {
+      "callsign": "Bordeaux Control",
+      "frequency": "135.665",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBP2": {
+      "callsign": "Bordeaux Control",
+      "frequency": "133.960",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBP3": {
+      "callsign": "Bordeaux Control",
+      "frequency": "132.180",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBP4": {
+      "callsign": "Bordeaux Control",
+      "frequency": "130.230",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBP": {
+      "callsign": "Bordeaux Control",
+      "frequency": "133.960",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBR2": {
+      "callsign": "Bordeaux Control",
+      "frequency": "132.430",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBR3": {
+      "callsign": "Bordeaux Control",
+      "frequency": "135.240",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBR4": {
+      "callsign": "Bordeaux Control",
+      "frequency": "133.010",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBR5": {
+      "callsign": "Bordeaux Control",
+      "frequency": "124.635",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBR": {
+      "callsign": "Bordeaux Control",
+      "frequency": "132.990",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBT2": {
+      "callsign": "Bordeaux Control",
+      "frequency": "123.630",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBT3": {
+      "callsign": "Bordeaux Control",
+      "frequency": "133.465",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBT4": {
+      "callsign": "Bordeaux Control",
+      "frequency": "134.730",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBT": {
+      "callsign": "Bordeaux Control",
+      "frequency": "123.630",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBN": {
+      "callsign": "Bordeaux Control",
+      "frequency": "118.430",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBS": {
+      "callsign": "Bordeaux Control",
+      "frequency": "136.040",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBX2": {
+      "callsign": "Bordeaux Control",
+      "frequency": "126.130",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBX3": {
+      "callsign": "Bordeaux Control",
+      "frequency": "122.415",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBX4": {
+      "callsign": "Bordeaux Control",
+      "frequency": "135.115",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBX5": {
+      "callsign": "Bordeaux Control",
+      "frequency": "120.785",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBX": {
+      "callsign": "Bordeaux Control",
+      "frequency": "118.430",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBZ2": {
+      "callsign": "Bordeaux Control",
+      "frequency": "121.340",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBZ3": {
+      "callsign": "Bordeaux Control",
+      "frequency": "136.180",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBZ4": {
+      "callsign": "Bordeaux Control",
+      "frequency": "133.680",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBZ5": {
+      "callsign": "Bordeaux Control",
+      "frequency": "120.785",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BBZ": {
+      "callsign": "Bordeaux Control",
+      "frequency": "128.765",
+      "type": "CTR",
+      "pre": [
+        "LFBB"
+      ],
+      "colours": [
+        {
+          "hex": "#837285"
+        }
+      ]
+    },
+    "BDA": {
+      "callsign": "Aquitaine Approach",
+      "frequency": "126.730",
+      "type": "APP",
+      "pre": [
+        "LFBD"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "BDI": {
+      "callsign": "Aquitaine East Approach",
+      "frequency": "129.875",
+      "type": "APP",
+      "pre": [
+        "LFBD"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "BD": {
+      "callsign": "Merignac Tower",
+      "frequency": "118.300",
+      "type": "TWR",
+      "pre": [
+        "LFBD"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "BE": {
+      "callsign": "Bergerac Tower",
+      "frequency": "119.800",
+      "type": "TWR",
+      "pre": [
+        "LFBE"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "BG": {
+      "callsign": "Cognac Tower",
+      "frequency": "120.075",
+      "type": "TWR",
+      "pre": [
+        "LFBG"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "BHA": {
+      "callsign": "La Rochelle Approach",
+      "frequency": "124.200",
+      "type": "APP",
+      "pre": [
+        "LFBH"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "BH": {
+      "callsign": "La Rochelle Tower",
+      "frequency": "118.000",
+      "type": "TWR",
+      "pre": [
+        "LFBH"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "BIA": {
+      "callsign": "Poitiers Approach",
+      "frequency": "134.100",
+      "type": "APP",
+      "pre": [
+        "LFBI"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "BI": {
+      "callsign": "Poitiers Biard Tower",
+      "frequency": "118.500",
+      "type": "TWR",
+      "pre": [
+        "LFBI"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "BLA": {
+      "callsign": "Limoge Approach",
+      "frequency": "118.080",
+      "type": "APP",
+      "pre": [
+        "LFBL"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "BL": {
+      "callsign": "Limoges Tower",
+      "frequency": "119.550",
+      "type": "TWR",
+      "pre": [
+        "LFBL"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "BOA": {
+      "callsign": "Toulouse Approach",
+      "frequency": "129.305",
+      "type": "APP",
+      "pre": [
+        "LFBO"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "BOE": {
+      "callsign": "Toulouse East Approach",
+      "frequency": "125.180",
+      "type": "APP",
+      "pre": [
+        "LFBO"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "BO": {
+      "callsign": "Blagnac Tower",
+      "frequency": "118.100",
+      "type": "TWR",
+      "pre": [
+        "LFBO"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "BOW": {
+      "callsign": "Toulouse West Approach",
+      "frequency": "121.105",
+      "type": "APP",
+      "pre": [
+        "LFBO"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "BPA": {
+      "callsign": "Pyrennees Approach",
+      "frequency": "128.800",
+      "type": "APP",
+      "pre": [
+        "LFBP"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "BP": {
+      "callsign": "Pau Tower",
+      "frequency": "124.150",
+      "type": "TWR",
+      "pre": [
+        "LFBP"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "BT": {
+      "callsign": "Lourdes Tower",
+      "frequency": "120.305",
+      "type": "TWR",
+      "pre": [
+        "LFBT"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "BZA": {
+      "callsign": "Biarritz Approach",
+      "frequency": "125.600",
+      "type": "APP",
+      "pre": [
+        "LFBZ"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "BZ": {
+      "callsign": "Biarritz Tower",
+      "frequency": "118.700",
+      "type": "TWR",
+      "pre": [
+        "LFBZ"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "LTT": {
+      "callsign": "Lasbordes Tower",
+      "frequency": "122.700",
+      "type": "TWR",
+      "pre": [
+        "LFCL"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "CR": {
+      "callsign": "Rodez Tower",
+      "frequency": "118.125",
+      "type": "TWR",
+      "pre": [
+        "LFCR"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "LX": {
+      "callsign": "Chateauroux Tower",
+      "frequency": "125.875",
+      "type": "TWR",
+      "pre": [
+        "LFLX"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "MK": {
+      "callsign": "Carcassonne Tower",
+      "frequency": "134.500",
+      "type": "TWR",
+      "pre": [
+        "LFMK"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "EE": {
+      "callsign": "Reims Control",
+      "frequency": "133.005",
+      "type": "CTR",
+      "pre": [
+        "LFEE"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "HE": {
+      "callsign": "Reims Control",
+      "frequency": "131.085",
+      "type": "CTR",
+      "pre": [
+        "LFEE"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "HH": {
+      "callsign": "Reims Control",
+      "frequency": "128.875",
+      "type": "CTR",
+      "pre": [
+        "LFEE"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "HN": {
+      "callsign": "Reims Control",
+      "frequency": "132.505",
+      "type": "CTR",
+      "pre": [
+        "LFEE"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "HR": {
+      "callsign": "Reims Control",
+      "frequency": "125.975",
+      "type": "CTR",
+      "pre": [
+        "LFEE"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "KD": {
+      "callsign": "Reims Control",
+      "frequency": "135.035",
+      "type": "CTR",
+      "pre": [
+        "LFEE"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "KE": {
+      "callsign": "Reims Control",
+      "frequency": "132.390",
+      "type": "CTR",
+      "pre": [
+        "LFEE"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "KF": {
+      "callsign": "Reims Control",
+      "frequency": "132.280",
+      "type": "CTR",
+      "pre": [
+        "LFEE"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "KH": {
+      "callsign": "Reims Control",
+      "frequency": "133.830",
+      "type": "CTR",
+      "pre": [
+        "LFEE"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "KN": {
+      "callsign": "Reims Control",
+      "frequency": "127.855",
+      "type": "CTR",
+      "pre": [
+        "LFEE"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "KR": {
+      "callsign": "Reims Control",
+      "frequency": "126.285",
+      "type": "CTR",
+      "pre": [
+        "LFEE"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "EEN": {
+      "callsign": "Reims Control",
+      "frequency": "127.555",
+      "type": "CTR",
+      "pre": [
+        "LFEE"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "EES": {
+      "callsign": "Reims Control",
+      "frequency": "135.105",
+      "type": "CTR",
+      "pre": [
+        "LFEE"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "UB": {
+      "callsign": "Reims Control",
+      "frequency": "133.010",
+      "type": "CTR",
+      "pre": [
+        "LFEE"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "UE": {
+      "callsign": "Reims Control",
+      "frequency": "127.570",
+      "type": "CTR",
+      "pre": [
+        "LFEE"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "UF": {
+      "callsign": "Reims Control",
+      "frequency": "134.960",
+      "type": "CTR",
+      "pre": [
+        "LFEE"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "UH": {
+      "callsign": "Reims Control",
+      "frequency": "134.405",
+      "type": "CTR",
+      "pre": [
+        "LFEE"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "RUN": {
+      "callsign": "Reims Control",
+      "frequency": "133.255",
+      "type": "CTR",
+      "pre": [
+        "LFEE"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "UR": {
+      "callsign": "Reims Control",
+      "frequency": "135.505",
+      "type": "CTR",
+      "pre": [
+        "LFEE"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "XE": {
+      "callsign": "Reims Control",
+      "frequency": "127.785",
+      "type": "CTR",
+      "pre": [
+        "LFEE"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "XH": {
+      "callsign": "Reims Control",
+      "frequency": "133.415",
+      "type": "CTR",
+      "pre": [
+        "LFEE"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "XR": {
+      "callsign": "Reims Control",
+      "frequency": "132.785",
+      "type": "CTR",
+      "pre": [
+        "LFEE"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "YB": {
+      "callsign": "Reims Control",
+      "frequency": "135.305",
+      "type": "CTR",
+      "pre": [
+        "LFEE"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "HST": {
+      "callsign": "Houssen Tower",
+      "frequency": "119.000",
+      "type": "TWR",
+      "pre": [
+        "LFGA"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "GJ": {
+      "callsign": "Dole Tower",
+      "frequency": "130.775",
+      "type": "TWR",
+      "pre": [
+        "LFGJ"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "JLA": {
+      "callsign": "Lorraine Approach",
+      "frequency": "119.125",
+      "type": "APP",
+      "pre": [
+        "LFJL"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "JL": {
+      "callsign": "Lorraine Tower",
+      "frequency": "122.075",
+      "type": "TWR",
+      "pre": [
+        "LFJL"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "SBA": {
+      "callsign": "Bale Approach",
+      "frequency": "119.355",
+      "type": "APP",
+      "pre": [
+        "LFSB"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "SBC": {
+      "callsign": "Bale Control",
+      "frequency": "135.850",
+      "type": "APP",
+      "pre": [
+        "LFSB"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "SB": {
+      "callsign": "Bale Tower",
+      "frequency": "118.300",
+      "type": "TWR",
+      "pre": [
+        "LFSB"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "SI": {
+      "callsign": "Saint Dizier Tower",
+      "frequency": "134.775",
+      "type": "TWR",
+      "pre": [
+        "LFSI"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "SO": {
+      "callsign": "Ochey Tower",
+      "frequency": "122.100",
+      "type": "TWR",
+      "pre": [
+        "LFSO"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "STA": {
+      "callsign": "Strasbourg Approach",
+      "frequency": "120.700",
+      "type": "APP",
+      "pre": [
+        "LFST"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "ST": {
+      "callsign": "Strasbourg Tower",
+      "frequency": "119.250",
+      "type": "TWR",
+      "pre": [
+        "LFST"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "SX": {
+      "callsign": "Luxeuil Tower",
+      "frequency": "122.100",
+      "type": "TWR",
+      "pre": [
+        "LFSX"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "AQ": {
+      "callsign": "Albert-Bray Tower",
+      "frequency": "119.655",
+      "type": "TWR",
+      "pre": [
+        "LFAQ"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "AT": {
+      "callsign": "Le Touquet Tower",
+      "frequency": "118.450",
+      "type": "TWR",
+      "pre": [
+        "LFAT"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "FFM": {
+      "callsign": "France Military Control",
+      "frequency": "128.375",
+      "type": "CTR",
+      "pre": [
+        "LFFM"
+      ],
+      "colours": [
+        {
+          "hex": "#43ffff"
+        }
+      ]
+    },
+    "LD": {
+      "callsign": "Bourges AFIS",
+      "frequency": "119.600",
+      "type": "TWR",
+      "pre": [
+        "LFLD"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "OAA": {
+      "callsign": "Avord Approach",
+      "frequency": "119.700",
+      "type": "APP",
+      "pre": [
+        "LFOA"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "OA": {
+      "callsign": "Avord Tower",
+      "frequency": "122.100",
+      "type": "TWR",
+      "pre": [
+        "LFOA"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "OBA": {
+      "callsign": "Beauvais Approach",
+      "frequency": "123.985",
+      "type": "APP",
+      "pre": [
+        "LFOB"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "OB": {
+      "callsign": "Beauvais Tower",
+      "frequency": "121.400",
+      "type": "TWR",
+      "pre": [
+        "LFOB"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "OC": {
+      "callsign": "Chateaudun Tower",
+      "frequency": "125.625",
+      "type": "TWR",
+      "pre": [
+        "LFOC"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "OH": {
+      "callsign": "Le Havre AFIS",
+      "frequency": "135.205",
+      "type": "TWR",
+      "pre": [
+        "LFOH"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "OJA": {
+      "callsign": "Orl\u00e9ans Approach",
+      "frequency": "122.700",
+      "type": "APP",
+      "pre": [
+        "LFOJ"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "OJ": {
+      "callsign": "Orl\u00e9ans Tower",
+      "frequency": "124.800",
+      "type": "TWR",
+      "pre": [
+        "LFOJ"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "OPA": {
+      "callsign": "Rouen Approach",
+      "frequency": "118.575",
+      "type": "APP",
+      "pre": [
+        "LFOP"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "OP": {
+      "callsign": "Rouen Tower",
+      "frequency": "120.200",
+      "type": "TWR",
+      "pre": [
+        "LFOP"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "OTA": {
+      "callsign": "Tours Approach",
+      "frequency": "121.000",
+      "type": "APP",
+      "pre": [
+        "LFOT"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "OT": {
+      "callsign": "Tours Tower",
+      "frequency": "124.400",
+      "type": "TWR",
+      "pre": [
+        "LFOT"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "PB": {
+      "callsign": "Le Bourget Tower",
+      "frequency": "118.925",
+      "type": "TWR",
+      "pre": [
+        "LFPB"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "PGN": {
+      "callsign": "De Gaulle Approach",
+      "frequency": "121.155",
+      "type": "APP",
+      "pre": [
+        "LFPG"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "PGD": {
+      "callsign": "De Gaulle Departure",
+      "frequency": "124.355",
+      "type": "DEP",
+      "pre": [
+        "LFPG"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "PGG": {
+      "callsign": "De Gaulle Arrival",
+      "frequency": "118.150",
+      "type": "APP",
+      "pre": [
+        "LFPG"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "PGF": {
+      "callsign": "De Gaulle Arrival",
+      "frequency": "126.430",
+      "type": "APP",
+      "pre": [
+        "LFPG"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "PGS": {
+      "callsign": "De Gaulle Approach",
+      "frequency": "125.830",
+      "type": "APP",
+      "pre": [
+        "LFPG"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "PGE": {
+      "callsign": "De Gaulle Departure",
+      "frequency": "133.380",
+      "type": "DEP",
+      "pre": [
+        "LFPG"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "PGTS": {
+      "callsign": "De Gaulle Tower",
+      "frequency": "120.900",
+      "type": "TWR",
+      "pre": [
+        "LFPG"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "PGTN": {
+      "callsign": "De Gaulle Tower",
+      "frequency": "119.250",
+      "type": "TWR",
+      "pre": [
+        "LFPG"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "PL": {
+      "callsign": "Lognes Tower",
+      "frequency": "118.600",
+      "type": "TWR",
+      "pre": [
+        "LFPL"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "PN": {
+      "callsign": "Toussus Tower",
+      "frequency": "120.750",
+      "type": "TWR",
+      "pre": [
+        "LFPN"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "POA": {
+      "callsign": "Orly Approach",
+      "frequency": "123.875",
+      "type": "APP",
+      "pre": [
+        "LFPO"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "POD": {
+      "callsign": "Orly Departure",
+      "frequency": "127.750",
+      "type": "DEP",
+      "pre": [
+        "LFPO"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "POF": {
+      "callsign": "Orly Arrival",
+      "frequency": "124.450",
+      "type": "APP",
+      "pre": [
+        "LFPO"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "PO": {
+      "callsign": "Orly Tower",
+      "frequency": "118.700",
+      "type": "TWR",
+      "pre": [
+        "LFPO"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "PVA": {
+      "callsign": "Villacoublay Approach",
+      "frequency": "119.425",
+      "type": "APP",
+      "pre": [
+        "LFPV"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "PV": {
+      "callsign": "Villacoublay Tower",
+      "frequency": "121.750",
+      "type": "TWR",
+      "pre": [
+        "LFPV"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "PZ": {
+      "callsign": "Saint Cyr Tower",
+      "frequency": "118.000",
+      "type": "TWR",
+      "pre": [
+        "LFPZ"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "QQA": {
+      "callsign": "Lille Approach",
+      "frequency": "126.480",
+      "type": "APP",
+      "pre": [
+        "LFQQ"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "QQ": {
+      "callsign": "Lille Tower",
+      "frequency": "118.550",
+      "type": "TWR",
+      "pre": [
+        "LFQQ"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "QT": {
+      "callsign": "Merville Tower",
+      "frequency": "119.075",
+      "type": "TWR",
+      "pre": [
+        "LFQT"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "RC": {
+      "callsign": "Cherbourg AFIS",
+      "frequency": "119.625",
+      "type": "TWR",
+      "pre": [
+        "LFRC"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "RGA": {
+      "callsign": "Deauville Approach",
+      "frequency": "120.350",
+      "type": "APP",
+      "pre": [
+        "LFRG"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "RG": {
+      "callsign": "Deauville Tower",
+      "frequency": "118.300",
+      "type": "TWR",
+      "pre": [
+        "LFRG"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "RK": {
+      "callsign": "Caen Tower",
+      "frequency": "134.525",
+      "type": "TWR",
+      "pre": [
+        "LFRK"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "YR": {
+      "callsign": "Romorantin Tower",
+      "frequency": "119.075",
+      "type": "TWR",
+      "pre": [
+        "LFYR"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "AENB": {
+      "callsign": "Paris Control",
+      "frequency": "135.580",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "AOML": {
+      "callsign": "Paris Control",
+      "frequency": "129.625",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "AOUS": {
+      "callsign": "Paris Control",
+      "frequency": "132.675",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "AO": {
+      "callsign": "Paris Control",
+      "frequency": "125.080",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "APTE": {
+      "callsign": "Paris Control",
+      "frequency": "131.055",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "AP": {
+      "callsign": "Paris Control",
+      "frequency": "131.065",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "ARML": {
+      "callsign": "Paris Control",
+      "frequency": "125.700",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "AR": {
+      "callsign": "Paris Control",
+      "frequency": "132.100",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "PAR": {
+      "callsign": "Paris Control",
+      "frequency": "128.155",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "DGTJ": {
+      "callsign": "Paris Control",
+      "frequency": "126.100",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "DG": {
+      "callsign": "Paris Control",
+      "frequency": "124.630",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "DODG": {
+      "callsign": "Paris Control",
+      "frequency": "127.080",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "DOGS": {
+      "callsign": "Paris Control",
+      "frequency": "135.405",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "DO": {
+      "callsign": "Paris Control",
+      "frequency": "135.410",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "FPAE": {
+      "callsign": "Paris Control",
+      "frequency": "125.060",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "HPKZ": {
+      "callsign": "Paris Control",
+      "frequency": "129.005",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "HP": {
+      "callsign": "Paris Control",
+      "frequency": "122.615",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "LMHJ": {
+      "callsign": "Paris Control",
+      "frequency": "132.730",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "LMH": {
+      "callsign": "Paris Control",
+      "frequency": "132.740",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "OPKZ": {
+      "callsign": "Paris Control",
+      "frequency": "127.305",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "ORGY": {
+      "callsign": "Paris Control",
+      "frequency": "127.310",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "LOT": {
+      "callsign": "Paris Control",
+      "frequency": "118.725",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "PU": {
+      "callsign": "Paris Control",
+      "frequency": "132.755",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "RPAE": {
+      "callsign": "Paris Control",
+      "frequency": "133.550",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "RPAW": {
+      "callsign": "Paris Control",
+      "frequency": "133.925",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "RT": {
+      "callsign": "Paris Control",
+      "frequency": "122.575",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "TB": {
+      "callsign": "Paris Control",
+      "frequency": "128.275",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "TE": {
+      "callsign": "Paris Control",
+      "frequency": "128.105",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "THUZ": {
+      "callsign": "Paris Control",
+      "frequency": "129.150",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "TH": {
+      "callsign": "Paris Control",
+      "frequency": "124.850",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "TL": {
+      "callsign": "Paris Control",
+      "frequency": "120.955",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "TML": {
+      "callsign": "Paris Control",
+      "frequency": "133.920",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "TM": {
+      "callsign": "Paris Control",
+      "frequency": "131.180",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "TNTB": {
+      "callsign": "Paris Conrol",
+      "frequency": "135.660",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "TN": {
+      "callsign": "Paris Control",
+      "frequency": "135.550",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "TP": {
+      "callsign": "Paris Control",
+      "frequency": "128.875",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "UJ": {
+      "callsign": "Paris Control",
+      "frequency": "132.380",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "UP": {
+      "callsign": "Paris Control",
+      "frequency": "118.230",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "US": {
+      "callsign": "Paris Control",
+      "frequency": "128.140",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "UT": {
+      "callsign": "Paris Control",
+      "frequency": "133.505",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "UZ": {
+      "callsign": "Paris Control",
+      "frequency": "131.255",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#4067a9"
+        }
+      ]
+    },
+    "KBA": {
+      "callsign": "Bastia Approach",
+      "frequency": "123.825",
+      "type": "APP",
+      "pre": [
+        "LFKB"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "KB": {
+      "callsign": "Bastia Tower",
+      "frequency": "118.000",
+      "type": "TWR",
+      "pre": [
+        "LFKB"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "KC": {
+      "callsign": "Calvi Tower",
+      "frequency": "123.200",
+      "type": "TWR",
+      "pre": [
+        "LFKC"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "": {
+      "callsign": "Palyvestre Tower",
+      "frequency": "121.000",
+      "type": "TWR",
+      "pre": [
+        "LFTH"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "KJA": {
+      "callsign": "Ajaccio Approach",
+      "frequency": "121.050",
+      "type": "APP",
+      "pre": [
+        "LFKJ"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "KJ": {
+      "callsign": "Ajaccio Tower",
+      "frequency": "118.075",
+      "type": "TWR",
+      "pre": [
+        "LFKJ"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "LBA": {
+      "callsign": "Chamb\u00e9ry Approach",
+      "frequency": "121.205",
+      "type": "APP",
+      "pre": [
+        "LFLB"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "LB": {
+      "callsign": "Chamb\u00e9ry Tower",
+      "frequency": "118.300",
+      "type": "TWR",
+      "pre": [
+        "LFLB"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "LCA": {
+      "callsign": "Clermont Approach",
+      "frequency": "119.375",
+      "type": "APP",
+      "pre": [
+        "LFLC"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "LCI": {
+      "callsign": "Clermont South Approach",
+      "frequency": "122.225",
+      "type": "APP",
+      "pre": [
+        "LFLC"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "LC": {
+      "callsign": "Clermont Tower",
+      "frequency": "118.625",
+      "type": "TWR",
+      "pre": [
+        "LFLC"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "LG": {
+      "callsign": "Le Versoux Tower",
+      "frequency": "121.000",
+      "type": "TWR",
+      "pre": [
+        "LFLG"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "LLA": {
+      "callsign": "Lyon Approach",
+      "frequency": "120.230",
+      "type": "APP",
+      "pre": [
+        "LFLL"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "LLD": {
+      "callsign": "Lyon Departure",
+      "frequency": "131.315",
+      "type": "DEP",
+      "pre": [
+        "LFLL"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "LLE": {
+      "callsign": "Lyon East Approach",
+      "frequency": "136.075",
+      "type": "APP",
+      "pre": [
+        "LFLL"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "LL": {
+      "callsign": "Saint-Exup\u00e9ry Tower",
+      "frequency": "120.450",
+      "type": "TWR",
+      "pre": [
+        "LFLL"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "LP": {
+      "callsign": "Annecy Tower",
+      "frequency": "118.200",
+      "type": "TWR",
+      "pre": [
+        "LFLP"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "LS": {
+      "callsign": "Grenoble Tower",
+      "frequency": "119.300",
+      "type": "TWR",
+      "pre": [
+        "LFLS"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "LV": {
+      "callsign": "Vichy AFIS",
+      "frequency": "121.405",
+      "type": "TWR",
+      "pre": [
+        "LFLV"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "LY": {
+      "callsign": "Bron Tower",
+      "frequency": "118.100",
+      "type": "TWR",
+      "pre": [
+        "LFLY"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "MA": {
+      "callsign": "Aix Tower",
+      "frequency": "118.750",
+      "type": "TWR",
+      "pre": [
+        "LFMA"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "MD": {
+      "callsign": "Mandelieu Tower",
+      "frequency": "118.625",
+      "type": "TWR",
+      "pre": [
+        "LFMD"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "MH": {
+      "callsign": "Saint Etienne Tower",
+      "frequency": "119.250",
+      "type": "TWR",
+      "pre": [
+        "LFMH"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "MI": {
+      "callsign": "Le Tube Tower",
+      "frequency": "123.600",
+      "type": "TWR",
+      "pre": [
+        "LFMI"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "MLA": {
+      "callsign": "Provence Approach",
+      "frequency": "124.350",
+      "type": "APP",
+      "pre": [
+        "LFML"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "MLS": {
+      "callsign": "Provence South Approach",
+      "frequency": "132.300",
+      "type": "APP",
+      "pre": [
+        "LFML"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "ML": {
+      "callsign": "Provence Tower",
+      "frequency": "133.100",
+      "type": "TWR",
+      "pre": [
+        "LFML"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "MM": {
+      "callsign": "Marseille Control",
+      "frequency": "124.305",
+      "type": "CTR",
+      "pre": [
+        "LFMM"
+      ],
+      "colours": [
+        {
+          "hex": "#909967"
+        }
+      ]
+    },
+    "MEU": {
+      "callsign": "Marseille Control",
+      "frequency": "132.385",
+      "type": "CTR",
+      "pre": [
+        "LFMM"
+      ],
+      "colours": [
+        {
+          "hex": "#909967"
+        }
+      ]
+    },
+    "MME": {
+      "callsign": "Marseille Control",
+      "frequency": "128.305",
+      "type": "CTR",
+      "pre": [
+        "LFMM"
+      ],
+      "colours": [
+        {
+          "hex": "#909967"
+        }
+      ]
+    },
+    "NEM": {
+      "callsign": "Marseille Control",
+      "frequency": "128.385",
+      "type": "CTR",
+      "pre": [
+        "LFMM"
+      ],
+      "colours": [
+        {
+          "hex": "#909967"
+        }
+      ]
+    },
+    "MNU": {
+      "callsign": "Marseille Control",
+      "frequency": "133.430",
+      "type": "CTR",
+      "pre": [
+        "LFMM"
+      ],
+      "colours": [
+        {
+          "hex": "#909967"
+        }
+      ]
+    },
+    "MMN": {
+      "callsign": "Marseille Control",
+      "frequency": "123.805",
+      "type": "CTR",
+      "pre": [
+        "LFMM"
+      ],
+      "colours": [
+        {
+          "hex": "#909967"
+        }
+      ]
+    },
+    "MUU": {
+      "callsign": "Marseille Control",
+      "frequency": "126.255",
+      "type": "CTR",
+      "pre": [
+        "LFMM"
+      ],
+      "colours": [
+        {
+          "hex": "#909967"
+        }
+      ]
+    },
+    "MNA": {
+      "callsign": "Nice Approach",
+      "frequency": "134.475",
+      "type": "APP",
+      "pre": [
+        "LFMN"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "MND": {
+      "callsign": "Nice Departure",
+      "frequency": "130.830",
+      "type": "DEP",
+      "pre": [
+        "LFMN"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "MNE": {
+      "callsign": "Nice Approach",
+      "frequency": "124.180",
+      "type": "APP",
+      "pre": [
+        "LFMN"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "MNF": {
+      "callsign": "Nice Arrival",
+      "frequency": "128.205",
+      "type": "APP",
+      "pre": [
+        "LFMN"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "MNI": {
+      "callsign": "Nice Information",
+      "frequency": "122.925",
+      "type": "APP",
+      "pre": [
+        "LFMN"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "MN": {
+      "callsign": "Nice Tower",
+      "frequency": "118.700",
+      "type": "TWR",
+      "pre": [
+        "LFMN"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "MO": {
+      "callsign": "Orange Tower",
+      "frequency": "128.950",
+      "type": "TWR",
+      "pre": [
+        "LFMO"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "MP": {
+      "callsign": "Perpignan Tower",
+      "frequency": "118.300",
+      "type": "TWR",
+      "pre": [
+        "LFMP"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "MTA": {
+      "callsign": "Montpellier Approach",
+      "frequency": "120.375",
+      "type": "APP",
+      "pre": [
+        "LFMT"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "MTS": {
+      "callsign": "Montpellier Sud Approach",
+      "frequency": "130.855",
+      "type": "APP",
+      "pre": [
+        "LFMT"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "MT": {
+      "callsign": "Montpellier Tower",
+      "frequency": "118.200",
+      "type": "TWR",
+      "pre": [
+        "LFMT"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "MU": {
+      "callsign": "Beziers Tower",
+      "frequency": "120.175",
+      "type": "TWR",
+      "pre": [
+        "LFMU"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "MV": {
+      "callsign": "Avignon Tower",
+      "frequency": "122.600",
+      "type": "TWR",
+      "pre": [
+        "LFMV"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "THA": {
+      "callsign": "Toulon Approach",
+      "frequency": "126.325",
+      "type": "APP",
+      "pre": [
+        "LFTH"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "TW": {
+      "callsign": "Garons Tower",
+      "frequency": "123.200",
+      "type": "TWR",
+      "pre": [
+        "LFTW"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "AFC": {
+      "callsign": "Cholet AFIS",
+      "frequency": "120.405",
+      "type": "TWR",
+      "pre": [
+        "LFOU"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "RBA": {
+      "callsign": "Iroise Approach",
+      "frequency": "125.860",
+      "type": "APP",
+      "pre": [
+        "LFRB"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "RBI": {
+      "callsign": "Brest Info",
+      "frequency": "119.575",
+      "type": "APP",
+      "pre": [
+        "LFRB"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "RB": {
+      "callsign": "Bretagne Tower",
+      "frequency": "120.100",
+      "type": "TWR",
+      "pre": [
+        "LFRB"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "RD": {
+      "callsign": "Dinard Tower",
+      "frequency": "120.150",
+      "type": "TWR",
+      "pre": [
+        "LFRD"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "RHA": {
+      "callsign": "Lorient Approach",
+      "frequency": "123.000",
+      "type": "APP",
+      "pre": [
+        "LFRH"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "RH": {
+      "callsign": "Lorient Tower",
+      "frequency": "119.700",
+      "type": "TWR",
+      "pre": [
+        "LFRH"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "RLI": {
+      "callsign": "Landivisiau Approach",
+      "frequency": "122.400",
+      "type": "APP",
+      "pre": [
+        "LFRJ"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "RLT": {
+      "callsign": "Landivisiau Tower",
+      "frequency": "119.200",
+      "type": "TWR",
+      "pre": [
+        "LFRJ"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "RNA": {
+      "callsign": "Rennes Approach",
+      "frequency": "134.000",
+      "type": "APP",
+      "pre": [
+        "LFRN"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "RNC": {
+      "callsign": "Cotentin Info",
+      "frequency": "134.200",
+      "type": "APP",
+      "pre": [
+        "LFRN"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "RNN": {
+      "callsign": "Rennes North Approach",
+      "frequency": "126.950",
+      "type": "APP",
+      "pre": [
+        "LFRN"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "RN": {
+      "callsign": "Rennes Tower",
+      "frequency": "120.500",
+      "type": "TWR",
+      "pre": [
+        "LFRN"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "RQ": {
+      "callsign": "Quimper Tower",
+      "frequency": "118.625",
+      "type": "TWR",
+      "pre": [
+        "LFRQ"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "RR": {
+      "callsign": "Brest Control",
+      "frequency": "125.500",
+      "type": "CTR",
+      "pre": [
+        "LFRR"
+      ],
+      "colours": [
+        {
+          "hex": "#165a86"
+        }
+      ]
+    },
+    "RRE": {
+      "callsign": "Brest Control",
+      "frequency": "136.000",
+      "type": "CTR",
+      "pre": [
+        "LFRR"
+      ],
+      "colours": [
+        {
+          "hex": "#165a86"
+        }
+      ]
+    },
+    "RRJ": {
+      "callsign": "Brest Control",
+      "frequency": "132.510",
+      "type": "CTR",
+      "pre": [
+        "LFRR"
+      ],
+      "colours": [
+        {
+          "hex": "#165a86"
+        }
+      ]
+    },
+    "RRN": {
+      "callsign": "Brest Control",
+      "frequency": "127.200",
+      "type": "CTR",
+      "pre": [
+        "LFRR"
+      ],
+      "colours": [
+        {
+          "hex": "#165a86"
+        }
+      ]
+    },
+    "RRS": {
+      "callsign": "Brest Control",
+      "frequency": "124.675",
+      "type": "CTR",
+      "pre": [
+        "LFRR"
+      ],
+      "colours": [
+        {
+          "hex": "#165a86"
+        }
+      ]
+    },
+    "RRQ": {
+      "callsign": "Brest Control",
+      "frequency": "130.235",
+      "type": "CTR",
+      "pre": [
+        "LFRR"
+      ],
+      "colours": [
+        {
+          "hex": "#165a86"
+        }
+      ]
+    },
+    "RRA": {
+      "callsign": "Brest Control",
+      "frequency": "131.280",
+      "type": "CTR",
+      "pre": [
+        "LFRR"
+      ],
+      "colours": [
+        {
+          "hex": "#165a86"
+        }
+      ]
+    },
+    "RRV": {
+      "callsign": "Brest Control",
+      "frequency": "124.775",
+      "type": "CTR",
+      "pre": [
+        "LFRR"
+      ],
+      "colours": [
+        {
+          "hex": "#165a86"
+        }
+      ]
+    },
+    "RRW": {
+      "callsign": "Brest Control",
+      "frequency": "127.860",
+      "type": "CTR",
+      "pre": [
+        "LFRR"
+      ],
+      "colours": [
+        {
+          "hex": "#165a86"
+        }
+      ]
+    },
+    "RSA": {
+      "callsign": "Nantes Approach",
+      "frequency": "124.430",
+      "type": "APP",
+      "pre": [
+        "LFRS"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "RSI": {
+      "callsign": "Nantes Information",
+      "frequency": "124.250",
+      "type": "APP",
+      "pre": [
+        "LFRS"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "RS": {
+      "callsign": "Nantes Tower",
+      "frequency": "118.650",
+      "type": "TWR",
+      "pre": [
+        "LFRS"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "RZ": {
+      "callsign": "Saint Nazaire Tower",
+      "frequency": "118.950",
+      "type": "TWR",
+      "pre": [
+        "LFRZ"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    }
+  }
+}

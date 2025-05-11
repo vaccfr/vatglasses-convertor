@@ -1,0 +1,23 @@
+{
+    "callsigns":{
+        "DEL": {
+            "": "Delivery",
+            "C": "Coordinator"
+        },
+        "GND": {
+            "": "Ground"
+        },
+        "TWR": {
+            "": "Tower",
+            "I": "Information"
+        },
+        "APP": {
+            "": "Approach",
+            "U": "Control",
+            "F": "Arrival"
+        },
+        "DEP": {
+            "": "Departure"
+        }
+    }
+}

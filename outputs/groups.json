@@ -1,0 +1,22 @@
+{
+    "groups": {
+        "LFBB": {
+           "name": "Bordeaux"
+        },
+        "LFEE": {
+           "name": "Rheins"
+        },
+        "LFFF": {
+           "name": "Paris"
+        },
+        "LFMM": {
+            "name": "Marseille"
+        },
+        "LFRR": {
+            "name": "Brest"
+        },
+        "TWR": {
+            "name": "Tower"
+        }
+     }
+}

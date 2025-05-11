@@ -1,0 +1,3536 @@
+{
+  "airports": {
+    "LFAB": {
+      "callsign": "Dieppe Saint Aubin",
+      "coord": [
+        49.882633,
+        1.085331
+      ]
+    },
+    "LFAC": {
+      "callsign": "Calais",
+      "coord": [
+        50.960933,
+        1.951433
+      ]
+    },
+    "LFAD": {
+      "callsign": "Compiegne Margny",
+      "coord": [
+        49.433611,
+        2.804722
+      ]
+    },
+    "LFAE": {
+      "callsign": "Eu Mers Le Treport",
+      "coord": [
+        50.069167,
+        1.426667
+      ]
+    },
+    "LFAF": {
+      "callsign": "Laon Chambry",
+      "coord": [
+        49.594722,
+        3.630278
+      ]
+    },
+    "LFAG": {
+      "callsign": "Peronne Saint Quentin",
+      "coord": [
+        49.868861,
+        3.0296
+      ]
+    },
+    "LFAI": {
+      "callsign": "Nangis Les Loges",
+      "coord": [
+        48.596944,
+        3.008056
+      ]
+    },
+    "LFAJ": {
+      "callsign": "Argentan",
+      "coord": [
+        48.709444,
+        0.002778
+      ]
+    },
+    "LFAK": {
+      "callsign": "Dunkerque",
+      "coord": [
+        51.040556,
+        2.550278
+      ]
+    },
+    "LFAL": {
+      "callsign": "La Fleche Thoree Les Pins",
+      "coord": [
+        47.692778,
+        -0.001944
+      ]
+    },
+    "LFAM": {
+      "callsign": "Berck Sur Mer",
+      "coord": [
+        50.423056,
+        1.591944
+      ]
+    },
+    "LFAO": {
+      "callsign": "Bagnoles De L'Orne Couterne",
+      "coord": [
+        48.544722,
+        -0.385
+      ]
+    },
+    "LFAP": {
+      "callsign": "Rethel Perthes",
+      "coord": [
+        49.481111,
+        4.363333
+      ]
+    },
+    "LFAQ": {
+      "callsign": "Albert Bray",
+      "coord": [
+        49.970061,
+        2.692617
+      ],
+      "topdown": [
+        "QQA",
+        "TB",
+        "TNTB",
+        "AENB",
+        "RPAW",
+        "PAR"
+      ]
+    },
+    "LFAR": {
+      "callsign": "Montdidier",
+      "coord": [
+        49.673056,
+        2.569167
+      ]
+    },
+    "LFAS": {
+      "callsign": "Falaise Monts D'Eraines",
+      "coord": [
+        48.926944,
+        -0.144722
+      ]
+    },
+    "LFAT": {
+      "callsign": "Le Touquet",
+      "coord": [
+        50.514847,
+        1.627578
+      ],
+      "topdown": [
+        "QQA",
+        "TB",
+        "TNTB",
+        "AENB",
+        "RPAW",
+        "PAR"
+      ]
+    },
+    "LFAU": {
+      "callsign": "Vauville",
+      "coord": [
+        49.622778,
+        -1.83
+      ]
+    },
+    "LFAV": {
+      "callsign": "Valenciennes",
+      "coord": [
+        50.324792,
+        3.465444
+      ]
+    },
+    "LFAW": {
+      "callsign": "Villerupt",
+      "coord": [
+        49.410556,
+        5.889167
+      ]
+    },
+    "LFAX": {
+      "callsign": "Mortagne Au Perche",
+      "coord": [
+        48.539722,
+        0.534167
+      ]
+    },
+    "LFAY": {
+      "callsign": "Amiens-Glisy",
+      "coord": [
+        49.873103,
+        2.386986
+      ]
+    },
+    "LFBA": {
+      "callsign": "Agen",
+      "coord": [
+        44.174714,
+        0.590619
+      ],
+      "topdown": [
+        "BOA",
+        "BB"
+      ]
+    },
+    "LFBC": {
+      "callsign": "Cazaux",
+      "coord": [
+        44.534886,
+        -1.131453
+      ]
+    },
+    "LFBD": {
+      "callsign": "Bordeaux",
+      "coord": [
+        44.828653,
+        -0.715344
+      ],
+      "topdown": [
+        "BDA",
+        "BB"
+      ]
+    },
+    "LFBE": {
+      "callsign": "Bergerac",
+      "coord": [
+        44.824431,
+        0.520525
+      ],
+      "topdown": [
+        "BDA",
+        "BB"
+      ]
+    },
+    "LFBF": {
+      "callsign": "Toulouse-Francazal",
+      "coord": [
+        43.549061,
+        1.357261
+      ]
+    },
+    "LFBG": {
+      "callsign": "Cognac",
+      "coord": [
+        45.658231,
+        -0.317567
+      ],
+      "topdown": [
+        "BDA",
+        "BB"
+      ]
+    },
+    "LFBH": {
+      "callsign": "La Rochelle",
+      "coord": [
+        46.179211,
+        -1.195236
+      ],
+      "topdown": [
+        "BHA",
+        "BB"
+      ]
+    },
+    "LFBI": {
+      "callsign": "Poitiers",
+      "coord": [
+        46.587397,
+        0.306786
+      ],
+      "topdown": [
+        "BIA",
+        "BB"
+      ]
+    },
+    "LFBJ": {
+      "callsign": "Saint Junien",
+      "coord": [
+        45.9025,
+        0.918889
+      ]
+    },
+    "LFBK": {
+      "callsign": "Montlucon-Gueret",
+      "coord": [
+        46.226094,
+        2.362817
+      ]
+    },
+    "LFBL": {
+      "callsign": "Limoges",
+      "coord": [
+        45.860764,
+        1.180306
+      ],
+      "topdown": [
+        "BLA",
+        "BB"
+      ]
+    },
+    "LFBM": {
+      "callsign": "Mont-De-Marsan",
+      "coord": [
+        43.911389,
+        -0.51
+      ]
+    },
+    "LFBN": {
+      "callsign": "Niort",
+      "coord": [
+        46.313422,
+        -0.394433
+      ]
+    },
+    "LFBO": {
+      "callsign": "Toulouse",
+      "coord": [
+        43.635128,
+        1.367856
+      ],
+      "topdown": [
+        "BOA",
+        "BB"
+      ]
+    },
+    "LFBP": {
+      "callsign": "Pau-Pyrenees",
+      "coord": [
+        43.3799,
+        -0.418511
+      ],
+      "topdown": [
+        "BPA",
+        "BB"
+      ]
+    },
+    "LFBR": {
+      "callsign": "Muret Lherm",
+      "coord": [
+        43.449156,
+        1.263694
+      ]
+    },
+    "LFBS": {
+      "callsign": "Biscarosse",
+      "coord": [
+        44.368056,
+        -1.132222
+      ]
+    },
+    "LFBT": {
+      "callsign": "Tarbes",
+      "coord": [
+        43.18545,
+        -0.002894
+      ],
+      "topdown": [
+        "BPA",
+        "BB"
+      ]
+    },
+    "LFBU": {
+      "callsign": "Angouleme Brie Champniers",
+      "coord": [
+        45.729475,
+        0.219153
+      ]
+    },
+    "LFBV": {
+      "callsign": "Brive",
+      "coord": [
+        45.149722,
+        1.474444
+      ]
+    },
+    "LFBX": {
+      "callsign": "Perigueux",
+      "coord": [
+        45.197489,
+        0.815217
+      ]
+    },
+    "LFBY": {
+      "callsign": "Dax",
+      "coord": [
+        43.689167,
+        -1.068889
+      ]
+    },
+    "LFBZ": {
+      "callsign": "Biarritz",
+      "coord": [
+        43.468308,
+        -1.531161
+      ],
+      "topdown": [
+        "BZA",
+        "BB"
+      ]
+    },
+    "LFCA": {
+      "callsign": "Chatellerault Targe",
+      "coord": [
+        46.780278,
+        0.550556
+      ]
+    },
+    "LFCB": {
+      "callsign": "Bagneres De Luchon",
+      "coord": [
+        42.800556,
+        0.601111
+      ]
+    },
+    "LFCC": {
+      "callsign": "Cahors Lalbenque",
+      "coord": [
+        44.350542,
+        1.478586
+      ]
+    },
+    "LFCD": {
+      "callsign": "Andernos Les Bains",
+      "coord": [
+        44.755,
+        -1.065
+      ]
+    },
+    "LFCE": {
+      "callsign": "Gueret Saint Laurent",
+      "coord": [
+        46.175556,
+        1.953056
+      ]
+    },
+    "LFCF": {
+      "callsign": "Figeac Livernon",
+      "coord": [
+        44.6725,
+        1.788056
+      ]
+    },
+    "LFCG": {
+      "callsign": "St-Girons",
+      "coord": [
+        43.007778,
+        1.103056
+      ]
+    },
+    "LFCH": {
+      "callsign": "Arcachon",
+      "coord": [
+        44.596944,
+        -1.113889
+      ]
+    },
+    "LFCI": {
+      "callsign": "Albi",
+      "coord": [
+        43.913278,
+        2.11675
+      ]
+    },
+    "LFCJ": {
+      "callsign": "Jonzac Neulles",
+      "coord": [
+        45.483056,
+        -0.423056
+      ]
+    },
+    "LFCK": {
+      "callsign": "Castres Mazamet",
+      "coord": [
+        43.554961,
+        2.290592
+      ]
+    },
+    "LFCL": {
+      "callsign": "Toulouse Labordes",
+      "coord": [
+        43.587778,
+        1.498611
+      ]
+    },
+    "LFCM": {
+      "callsign": "Millau Larzac",
+      "coord": [
+        43.989058,
+        3.183303
+      ]
+    },
+    "LFCN": {
+      "callsign": "Nogaro",
+      "coord": [
+        43.768889,
+        -0.034722
+      ]
+    },
+    "LFCO": {
+      "callsign": "Oloron Herrere",
+      "coord": [
+        43.164722,
+        -0.560278
+      ]
+    },
+    "LFCP": {
+      "callsign": "Pons Avy",
+      "coord": [
+        45.565833,
+        -0.513611
+      ]
+    },
+    "LFCQ": {
+      "callsign": "Graulhet Montdragon",
+      "coord": [
+        43.768611,
+        2.007778
+      ]
+    },
+    "LFCR": {
+      "callsign": "Rodez",
+      "coord": [
+        44.407489,
+        2.483314
+      ],
+      "topdown": [
+        "LCI",
+        "LCA"
+      ]
+    },
+    "LFCS": {
+      "callsign": "Bordeaux Leognan Saucats",
+      "coord": [
+        44.699167,
+        -0.597222
+      ]
+    },
+    "LFCT": {
+      "callsign": "Thouars",
+      "coord": [
+        46.961944,
+        -0.152778
+      ]
+    },
+    "LFCU": {
+      "callsign": "Ussel Thalamy",
+      "coord": [
+        45.535833,
+        2.424722
+      ]
+    },
+    "LFCV": {
+      "callsign": "Villefranche De Rouergue",
+      "coord": [
+        44.368889,
+        2.026944
+      ]
+    },
+    "LFCW": {
+      "callsign": "Villeneuve Sur Lot",
+      "coord": [
+        44.399178,
+        0.759533
+      ]
+    },
+    "LFCX": {
+      "callsign": "Castelsarrasin Moissac",
+      "coord": [
+        44.085833,
+        1.126944
+      ]
+    },
+    "LFCY": {
+      "callsign": "Royan Medis",
+      "coord": [
+        45.631161,
+        -0.975489
+      ]
+    },
+    "LFCZ": {
+      "callsign": "Mimizan",
+      "coord": [
+        44.145886,
+        -1.164803
+      ]
+    },
+    "LFDA": {
+      "callsign": "Aire Sur L'Adour",
+      "coord": [
+        43.708611,
+        -0.247222
+      ]
+    },
+    "LFDB": {
+      "callsign": "Montauban",
+      "coord": [
+        44.026667,
+        1.376944
+      ]
+    },
+    "LFDC": {
+      "callsign": "Montendre Marcillac",
+      "coord": [
+        45.273611,
+        -0.453333
+      ]
+    },
+    "LFDE": {
+      "callsign": "Egletons",
+      "coord": [
+        45.420556,
+        2.067778
+      ]
+    },
+    "LFDF": {
+      "callsign": "Sainte Foy La Grande",
+      "coord": [
+        44.8525,
+        0.175556
+      ]
+    },
+    "LFDG": {
+      "callsign": "Gaillac Lisle Sur Tarn",
+      "coord": [
+        43.883056,
+        1.874167
+      ]
+    },
+    "LFDH": {
+      "callsign": "Auch",
+      "coord": [
+        43.686839,
+        0.600047
+      ]
+    },
+    "LFDI": {
+      "callsign": "Libourne Artigues De Lussac",
+      "coord": [
+        44.984167,
+        -0.137222
+      ]
+    },
+    "LFDJ": {
+      "callsign": "Pamiers Les Pujols",
+      "coord": [
+        43.090683,
+        1.695853
+      ]
+    },
+    "LFDK": {
+      "callsign": "Soulac Sur Mer",
+      "coord": [
+        45.493889,
+        -1.083889
+      ]
+    },
+    "LFDL": {
+      "callsign": "Loudun",
+      "coord": [
+        47.036111,
+        0.100833
+      ]
+    },
+    "LFDM": {
+      "callsign": "Marmande Virazeil",
+      "coord": [
+        44.499167,
+        0.200278
+      ]
+    },
+    "LFDN": {
+      "callsign": "Rochefort Saint Agnan",
+      "coord": [
+        45.889508,
+        -0.982347
+      ]
+    },
+    "LFDP": {
+      "callsign": "Saint Pierre D'Oleron",
+      "coord": [
+        45.957778,
+        -1.311389
+      ]
+    },
+    "LFDQ": {
+      "callsign": "Castelnau Magnoac",
+      "coord": [
+        43.2775,
+        0.519444
+      ]
+    },
+    "LFDR": {
+      "callsign": "La Reole Floudes",
+      "coord": [
+        44.566947,
+        -0.05725
+      ]
+    },
+    "LFDS": {
+      "callsign": "Sarlat Domme",
+      "coord": [
+        44.792222,
+        1.243611
+      ]
+    },
+    "LFDT": {
+      "callsign": "Tarbes Laloubere",
+      "coord": [
+        43.215,
+        0.0775
+      ]
+    },
+    "LFDU": {
+      "callsign": "Lesparre Saint Laurent Medoc",
+      "coord": [
+        45.196389,
+        -0.884722
+      ]
+    },
+    "LFDV": {
+      "callsign": "Couhe Verac",
+      "coord": [
+        46.270556,
+        0.188333
+      ]
+    },
+    "LFDW": {
+      "callsign": "Chauvigny",
+      "coord": [
+        46.583333,
+        0.642222
+      ]
+    },
+    "LFDX": {
+      "callsign": "Fumel Montayral",
+      "coord": [
+        44.459167,
+        1.007222
+      ]
+    },
+    "LFDY": {
+      "callsign": "Bordeaux Yvrac",
+      "coord": [
+        44.877222,
+        -0.479167
+      ]
+    },
+    "LFEA": {
+      "callsign": "Belle-Ile-en-mer",
+      "coord": [
+        47.326111,
+        -3.198889
+      ]
+    },
+    "LFEB": {
+      "callsign": "Dinan Trelivan",
+      "coord": [
+        48.443333,
+        -2.103333
+      ]
+    },
+    "LFEC": {
+      "callsign": "Ouessant",
+      "coord": [
+        48.463214,
+        -5.063583
+      ]
+    },
+    "LFED": {
+      "callsign": "Pontivy",
+      "coord": [
+        48.056944,
+        -2.923333
+      ]
+    },
+    "LFEF": {
+      "callsign": "Amboise Dierre",
+      "coord": [
+        47.340556,
+        0.941111
+      ]
+    },
+    "LFEG": {
+      "callsign": "Argenton Sur Creuse",
+      "coord": [
+        46.595833,
+        1.601111
+      ]
+    },
+    "LFEH": {
+      "callsign": "Aubigny Sur Nere",
+      "coord": [
+        47.480556,
+        2.394167
+      ]
+    },
+    "LFEI": {
+      "callsign": "Briare Chatillon",
+      "coord": [
+        47.614581,
+        2.78185
+      ]
+    },
+    "LFEJ": {
+      "callsign": "Chateauroux Villers",
+      "coord": [
+        46.840833,
+        1.62
+      ]
+    },
+    "LFEK": {
+      "callsign": "Issoudun Le Fay",
+      "coord": [
+        46.888611,
+        2.041389
+      ]
+    },
+    "LFEL": {
+      "callsign": "Le Blanc",
+      "coord": [
+        46.62,
+        1.085833
+      ]
+    },
+    "LFEM": {
+      "callsign": "Montargis Vimory",
+      "coord": [
+        47.960556,
+        2.685833
+      ]
+    },
+    "LFEN": {
+      "callsign": "Tours Sorigny",
+      "coord": [
+        47.266414,
+        0.699033
+      ]
+    },
+    "LFEP": {
+      "callsign": "Pouilly Maconge",
+      "coord": [
+        47.220556,
+        4.560278
+      ]
+    },
+    "LFEQ": {
+      "callsign": "Quiberon",
+      "coord": [
+        47.481389,
+        -3.101667
+      ]
+    },
+    "LFER": {
+      "callsign": "Redon Bains sur Oust",
+      "coord": [
+        47.698611,
+        -2.038056
+      ]
+    },
+    "LFES": {
+      "callsign": "Guiscriff Scaer",
+      "coord": [
+        48.053736,
+        -3.664036
+      ]
+    },
+    "LFET": {
+      "callsign": "Til-Chatel",
+      "coord": [
+        47.546389,
+        5.210833
+      ]
+    },
+    "LFEU": {
+      "callsign": "Bar-le-Duc Les Monts de Chee",
+      "coord": [
+        48.867778,
+        5.184167
+      ]
+    },
+    "LFEV": {
+      "callsign": "Gray St Adrien",
+      "coord": [
+        47.432222,
+        5.621389
+      ]
+    },
+    "LFEW": {
+      "callsign": "Saulieu Liernais",
+      "coord": [
+        47.238611,
+        4.264444
+      ]
+    },
+    "LFEX": {
+      "callsign": "Nancy Azelot",
+      "coord": [
+        48.591944,
+        6.239722
+      ]
+    },
+    "LFEY": {
+      "callsign": "Ile D'Yeu",
+      "coord": [
+        46.7175,
+        -2.3925
+      ]
+    },
+    "LFEZ": {
+      "callsign": "Nancy Malzeville",
+      "coord": [
+        48.723611,
+        6.206389
+      ]
+    },
+    "LFFB": {
+      "callsign": "Buno Bonnevaux",
+      "coord": [
+        48.350278,
+        2.424444
+      ]
+    },
+    "LFFC": {
+      "callsign": "Mantes Cherence",
+      "coord": [
+        49.078056,
+        1.688333
+      ]
+    },
+    "LFFD": {
+      "callsign": "Saint Andre De L'Eure",
+      "coord": [
+        48.8975,
+        1.250833
+      ]
+    },
+    "LFFE": {
+      "callsign": "Enghien Moisselles",
+      "coord": [
+        49.045556,
+        2.351944
+      ]
+    },
+    "LFFG": {
+      "callsign": "La Ferte Gaucher",
+      "coord": [
+        48.7575,
+        3.278889
+      ]
+    },
+    "LFFH": {
+      "callsign": "Chateau-Thierry Belleau",
+      "coord": [
+        49.066667,
+        3.355556
+      ]
+    },
+    "LFFI": {
+      "callsign": "Ancenis",
+      "coord": [
+        47.407222,
+        -1.178889
+      ]
+    },
+    "LFFJ": {
+      "callsign": "Joinville Mussey",
+      "coord": [
+        48.385278,
+        5.143333
+      ]
+    },
+    "LFFK": {
+      "callsign": "Fontenay Le Comte",
+      "coord": [
+        46.440833,
+        -0.793889
+      ]
+    },
+    "LFFL": {
+      "callsign": "Bailleau Armenonville",
+      "coord": [
+        48.514722,
+        1.638611
+      ]
+    },
+    "LFFN": {
+      "callsign": "Brienne Le Chateau",
+      "coord": [
+        48.429722,
+        4.482222
+      ]
+    },
+    "LFFO": {
+      "callsign": "Beauvoir Fromentine",
+      "coord": [
+        46.890556,
+        -2.088611
+      ]
+    },
+    "LFFP": {
+      "callsign": "Pithiviers",
+      "coord": [
+        48.156389,
+        2.191111
+      ]
+    },
+    "LFFQ": {
+      "callsign": "La Ferte Alais",
+      "coord": [
+        48.499528,
+        2.329964
+      ]
+    },
+    "LFFR": {
+      "callsign": "Bar Sur Seine",
+      "coord": [
+        48.066111,
+        4.4125
+      ]
+    },
+    "LFFS": {
+      "callsign": "Suippes Range Met",
+      "coord": [
+        49.14972,
+        4.53306
+      ]
+    },
+    "LFFT": {
+      "callsign": "Neufchateau",
+      "coord": [
+        48.361667,
+        5.720278
+      ]
+    },
+    "LFFU": {
+      "callsign": "Chateauneuf Sur Cher",
+      "coord": [
+        46.871111,
+        2.376944
+      ]
+    },
+    "LFFV": {
+      "callsign": "Vierzon Mereau",
+      "coord": [
+        47.194722,
+        2.066667
+      ]
+    },
+    "LFFW": {
+      "callsign": "Montaigu Saint Georges",
+      "coord": [
+        46.932222,
+        -1.327222
+      ]
+    },
+    "LFFX": {
+      "callsign": "Tournus Cuisery",
+      "coord": [
+        46.561389,
+        4.975278
+      ]
+    },
+    "LFFY": {
+      "callsign": "Etrepagny",
+      "coord": [
+        49.305278,
+        1.637778
+      ]
+    },
+    "LFFZ": {
+      "callsign": "Sezanne Saint Remy",
+      "coord": [
+        48.709444,
+        3.762778
+      ]
+    },
+    "LFGA": {
+      "callsign": "Colmar Houssen",
+      "coord": [
+        48.11035,
+        7.359147
+      ]
+    },
+    "LFGB": {
+      "callsign": "Habsheim",
+      "coord": [
+        47.737222,
+        7.429722
+      ]
+    },
+    "LFGC": {
+      "callsign": "Strasbourg Neuhof",
+      "coord": [
+        48.553611,
+        7.7775
+      ]
+    },
+    "LFGE": {
+      "callsign": "Avallon",
+      "coord": [
+        47.501944,
+        3.898333
+      ]
+    },
+    "LFGF": {
+      "callsign": "Beaune Challanges",
+      "coord": [
+        47.010278,
+        4.896389
+      ]
+    },
+    "LFGG": {
+      "callsign": "Belfort Chaux",
+      "coord": [
+        47.700975,
+        6.830833
+      ]
+    },
+    "LFGH": {
+      "callsign": "Cosne Sur Loire",
+      "coord": [
+        47.360278,
+        2.918333
+      ]
+    },
+    "LFGI": {
+      "callsign": "Dijon Darois",
+      "coord": [
+        47.385278,
+        4.946944
+      ]
+    },
+    "LFGJ": {
+      "callsign": "Dole Tavaux",
+      "coord": [
+        47.042694,
+        5.434928
+      ],
+      "topdown": []
+    },
+    "LFGK": {
+      "callsign": "Joigny",
+      "coord": [
+        47.994444,
+        3.390833
+      ]
+    },
+    "LFGL": {
+      "callsign": "Lons-Le-Saunier Courlaoux",
+      "coord": [
+        46.675,
+        5.469167
+      ]
+    },
+    "LFGM": {
+      "callsign": "Montceau Les Mines Pouilloux",
+      "coord": [
+        46.603333,
+        4.332778
+      ]
+    },
+    "LFGN": {
+      "callsign": "Paray Le Monial",
+      "coord": [
+        46.466667,
+        4.133056
+      ]
+    },
+    "LFGO": {
+      "callsign": "Pont Sur Yonne",
+      "coord": [
+        48.289444,
+        3.248889
+      ]
+    },
+    "LFGP": {
+      "callsign": "Saint Florentin Cheu",
+      "coord": [
+        47.981389,
+        3.776944
+      ]
+    },
+    "LFGQ": {
+      "callsign": "Semur En Auxois",
+      "coord": [
+        47.481111,
+        4.343056
+      ]
+    },
+    "LFGR": {
+      "callsign": "Doncourt Les Conflans",
+      "coord": [
+        49.151972,
+        5.931278
+      ]
+    },
+    "LFGS": {
+      "callsign": "Longuyon Villette",
+      "coord": [
+        49.483611,
+        5.571944
+      ]
+    },
+    "LFGT": {
+      "callsign": "Sarrebourg Buhl",
+      "coord": [
+        48.718333,
+        7.08
+      ]
+    },
+    "LFGU": {
+      "callsign": "Sarreguemines Neunkirch",
+      "coord": [
+        49.1275,
+        7.106667
+      ]
+    },
+    "LFGV": {
+      "callsign": "Thionville Yutz",
+      "coord": [
+        49.35665,
+        6.2024
+      ]
+    },
+    "LFGW": {
+      "callsign": "Verdun Le Rozelier",
+      "coord": [
+        49.122181,
+        5.470853
+      ]
+    },
+    "LFGX": {
+      "callsign": "Champagnole Crotenay",
+      "coord": [
+        46.763333,
+        5.819722
+      ]
+    },
+    "LFGY": {
+      "callsign": "St Die Remoneix",
+      "coord": [
+        48.266389,
+        7.0075
+      ]
+    },
+    "LFGZ": {
+      "callsign": "Nuits Saint Georges",
+      "coord": [
+        47.142222,
+        4.968333
+      ]
+    },
+    "LFHA": {
+      "callsign": "Issoire Le Broc",
+      "coord": [
+        45.513889,
+        3.266111
+      ]
+    },
+    "LFHC": {
+      "callsign": "Perouges Meximieux",
+      "coord": [
+        45.868611,
+        5.186111
+      ]
+    },
+    "LFHD": {
+      "callsign": "Pierrelatte",
+      "coord": [
+        44.397778,
+        4.716944
+      ]
+    },
+    "LFHE": {
+      "callsign": "Romans Saint Paul",
+      "coord": [
+        45.064722,
+        5.101389
+      ]
+    },
+    "LFHF": {
+      "callsign": "Ruoms",
+      "coord": [
+        44.444722,
+        4.332778
+      ]
+    },
+    "LFHG": {
+      "callsign": "Saint Chamond L'Horme",
+      "coord": [
+        45.491944,
+        4.534444
+      ]
+    },
+    "LFHH": {
+      "callsign": "Vienne Reventin",
+      "coord": [
+        45.462778,
+        4.827778
+      ]
+    },
+    "LFHI": {
+      "callsign": "Morestel",
+      "coord": [
+        45.686944,
+        5.4525
+      ]
+    },
+    "LFHJ": {
+      "callsign": "Lyon Corbas",
+      "coord": [
+        45.652778,
+        4.912222
+      ]
+    },
+    "LFHL": {
+      "callsign": "Langogne Lesperon",
+      "coord": [
+        44.705556,
+        3.887222
+      ]
+    },
+    "LFHM": {
+      "callsign": "Megeve ",
+      "coord": [
+        45.824444,
+        6.648333
+      ]
+    },
+    "LFHN": {
+      "callsign": "Bellegarde Vouvray",
+      "coord": [
+        46.123333,
+        5.804722
+      ]
+    },
+    "LFHO": {
+      "callsign": "Aubenas Ardeche Meridionale",
+      "coord": [
+        44.539419,
+        4.371733
+      ]
+    },
+    "LFHP": {
+      "callsign": "Le Puy",
+      "coord": [
+        45.079656,
+        3.763442
+      ]
+    },
+    "LFHQ": {
+      "callsign": "Saint Flour Coltines",
+      "coord": [
+        45.074919,
+        2.992636
+      ]
+    },
+    "LFHR": {
+      "callsign": "Brioude Beaumont",
+      "coord": [
+        45.323889,
+        3.358333
+      ]
+    },
+    "LFHS": {
+      "callsign": "Bourg Ceyzeriat",
+      "coord": [
+        46.205619,
+        5.291794
+      ]
+    },
+    "LFHT": {
+      "callsign": "Ambert Le Poyet",
+      "coord": [
+        45.515556,
+        3.745
+      ]
+    },
+    "LFHU": {
+      "callsign": "Alpes d'Huez ",
+      "coord": [
+        45.0875,
+        6.083611
+      ]
+    },
+    "LFHV": {
+      "callsign": "Villefranche Tarare",
+      "coord": [
+        45.919983,
+        4.634931
+      ]
+    },
+    "LFHW": {
+      "callsign": "Belleville Villie Morgon",
+      "coord": [
+        46.141111,
+        4.713889
+      ]
+    },
+    "LFHX": {
+      "callsign": "Lapalisse Perigny",
+      "coord": [
+        46.253056,
+        3.5875
+      ]
+    },
+    "LFHY": {
+      "callsign": "Moulins Montbeugny",
+      "coord": [
+        46.534383,
+        3.421606
+      ]
+    },
+    "LFHZ": {
+      "callsign": "Sallanches Mt-Blanc ",
+      "coord": [
+        45.96444,
+        6.2
+      ]
+    },
+    "LFIB": {
+      "callsign": "Belves Saint Pardoux",
+      "coord": [
+        44.781389,
+        0.9575
+      ]
+    },
+    "LFID": {
+      "callsign": "Condom Valence Sur Baise",
+      "coord": [
+        43.909167,
+        0.386111
+      ]
+    },
+    "LFIF": {
+      "callsign": "Saint Affrique Belmont",
+      "coord": [
+        43.822778,
+        2.747222
+      ]
+    },
+    "LFIG": {
+      "callsign": "Cassagnes-Begonhes",
+      "coord": [
+        44.178333,
+        2.517778
+      ]
+    },
+    "LFIH": {
+      "callsign": "Chalais",
+      "coord": [
+        45.267078,
+        0.015833
+      ]
+    },
+    "LFIK": {
+      "callsign": "Riberac-Tourette",
+      "coord": [
+        45.239444,
+        0.265833
+      ]
+    },
+    "LFIL": {
+      "callsign": "Rion Des Landes",
+      "coord": [
+        43.915833,
+        -0.949167
+      ]
+    },
+    "LFIM": {
+      "callsign": "Saint Gaudens Montrejeau",
+      "coord": [
+        43.1075,
+        0.619167
+      ]
+    },
+    "LFIP": {
+      "callsign": "Peyresourde Balestas",
+      "coord": [
+        42.796944,
+        0.433889
+      ]
+    },
+    "LFIR": {
+      "callsign": "Revel Montgey",
+      "coord": [
+        43.480278,
+        1.978889
+      ]
+    },
+    "LFIS": {
+      "callsign": "Saint Inglevert Les Deux Caps",
+      "coord": [
+        50.8825,
+        1.736111
+      ]
+    },
+    "LFIT": {
+      "callsign": "Toulouse Bourg Saint Bernard",
+      "coord": [
+        43.611111,
+        1.724167
+      ]
+    },
+    "LFIV": {
+      "callsign": "Vendays Montalivet",
+      "coord": [
+        45.380556,
+        -1.115833
+      ]
+    },
+    "LFIX": {
+      "callsign": "Itxassou",
+      "coord": [
+        43.336389,
+        -1.423333
+      ]
+    },
+    "LFIY": {
+      "callsign": "Saint Jean D'Angely Saint Denis Du Pin",
+      "coord": [
+        45.965203,
+        -0.524358
+      ]
+    },
+    "LFJA": {
+      "callsign": "Chaumont Semoutiers",
+      "coord": [
+        48.091667,
+        5.05
+      ]
+    },
+    "LFJB": {
+      "callsign": "Mauleon",
+      "coord": [
+        46.903056,
+        -0.6975
+      ]
+    },
+    "LFJC": {
+      "callsign": "Clamecy",
+      "coord": [
+        47.4375,
+        3.5075
+      ]
+    },
+    "LFJD": {
+      "callsign": "Corlier",
+      "coord": [
+        46.039722,
+        5.496111
+      ]
+    },
+    "LFJE": {
+      "callsign": "La Motte Chalancon",
+      "coord": [
+        44.496667,
+        5.403333
+      ]
+    },
+    "LFJF": {
+      "callsign": "Aubenasson",
+      "coord": [
+        44.695278,
+        5.153889
+      ]
+    },
+    "LFJH": {
+      "callsign": "Cazeres Palaminy",
+      "coord": [
+        43.200833,
+        1.05
+      ]
+    },
+    "LFJI": {
+      "callsign": "Marennes",
+      "coord": [
+        45.823889,
+        -1.077222
+      ]
+    },
+    "LFJL": {
+      "callsign": "Metz-Nancy-Lorraine",
+      "coord": [
+        48.978281,
+        6.246531
+      ],
+      "topdown": [
+        "JLA",
+        "EE"
+      ]
+    },
+    "LFJR": {
+      "callsign": "Angers Marce",
+      "coord": [
+        47.560211,
+        -0.312128
+      ]
+    },
+    "LFJS": {
+      "callsign": "Soissons Courmelles",
+      "coord": [
+        49.345,
+        3.283056
+      ]
+    },
+    "LFJT": {
+      "callsign": "Tours Le Louroux",
+      "coord": [
+        47.15,
+        0.712778
+      ]
+    },
+    "LFJU": {
+      "callsign": "Lurcy Levis",
+      "coord": [
+        46.712222,
+        2.944722
+      ]
+    },
+    "LFJV": {
+      "callsign": "Lasclaveries",
+      "coord": [
+        43.425278,
+        -0.286944
+      ]
+    },
+    "LFJY": {
+      "callsign": "Chambley",
+      "coord": [
+        49.025469,
+        5.876092
+      ]
+    },
+    "LFKA": {
+      "callsign": "Albertvile ",
+      "coord": [
+        45.626389,
+        6.328889
+      ]
+    },
+    "LFKB": {
+      "callsign": "Bastia",
+      "coord": [
+        42.55,
+        9.484847
+      ],
+      "topdown": [
+        "KBA",
+        "MME",
+        "NEM",
+        "MM"
+      ]
+    },
+    "LFKC": {
+      "callsign": "Calvi",
+      "coord": [
+        42.524356,
+        8.793011
+      ],
+      "topdown": [
+        "KBA",
+        "MME",
+        "NEM",
+        "MM"
+      ]
+    },
+    "LFKD": {
+      "callsign": "Sollieres ",
+      "coord": [
+        45.253889,
+        6.801111
+      ]
+    },
+    "LFKE": {
+      "callsign": "Saint Jean En Royans",
+      "coord": [
+        45.026389,
+        5.309167
+      ]
+    },
+    "LFKF": {
+      "callsign": "Figari-Sud Corse",
+      "coord": [
+        41.502108,
+        9.096747
+      ],
+      "topdown": [
+        "KJA",
+        "MME",
+        "NEM",
+        "MM"
+      ]
+    },
+    "LFKG": {
+      "callsign": "Ghisonaccia Alzitone",
+      "coord": [
+        42.054444,
+        9.400278
+      ]
+    },
+    "LFKH": {
+      "callsign": "Saint Jean D'Avelanne",
+      "coord": [
+        45.515833,
+        5.679444
+      ]
+    },
+    "LFKJ": {
+      "callsign": "Ajaccio",
+      "coord": [
+        41.923897,
+        8.802436
+      ],
+      "topdown": [
+        "KJA",
+        "MME",
+        "NEM",
+        "MM"
+      ]
+    },
+    "LFKK": {
+      "callsign": "Montmeilleur",
+      "coord": [
+        44.793611,
+        5.761667
+      ]
+    },
+    "LFKL": {
+      "callsign": "Lyon Brindas",
+      "coord": [
+        45.71065,
+        4.69665
+      ]
+    },
+    "LFKM": {
+      "callsign": "Saint Galmier",
+      "coord": [
+        45.606389,
+        4.305
+      ]
+    },
+    "LFKO": {
+      "callsign": "Propriano",
+      "coord": [
+        41.660278,
+        8.893889
+      ]
+    },
+    "LFKP": {
+      "callsign": "La Tour Du Pin Cessieu",
+      "coord": [
+        45.558889,
+        5.383889
+      ]
+    },
+    "LFKR": {
+      "callsign": "Saint Remy De Maurienne",
+      "coord": [
+        45.375033,
+        6.277814
+      ]
+    },
+    "LFKS": {
+      "callsign": "Solenzara",
+      "coord": [
+        41.926289,
+        9.405303
+      ]
+    },
+    "LFKT": {
+      "callsign": "Corte",
+      "coord": [
+        42.290278,
+        9.1925
+      ]
+    },
+    "LFKX": {
+      "callsign": "Meribel ",
+      "coord": [
+        45.4075,
+        6.5775
+      ]
+    },
+    "LFKY": {
+      "callsign": "Belley-Peyrieu",
+      "coord": [
+        45.693889,
+        5.691667
+      ]
+    },
+    "LFLA": {
+      "callsign": "Auxerre",
+      "coord": [
+        47.846328,
+        3.496578
+      ]
+    },
+    "LFLB": {
+      "callsign": "Chambery",
+      "coord": [
+        45.639272,
+        5.880122
+      ],
+      "topdown": [
+        "LBA",
+        "LLA",
+        "MMN",
+        "NEM",
+        "MM"
+      ]
+    },
+    "LFLC": {
+      "callsign": "Clermont-Ferrand",
+      "coord": [
+        45.785972,
+        3.16245
+      ],
+      "topdown": [
+        "LCA",
+        "MMN",
+        "NEM",
+        "MM",
+        "BB"
+      ]
+    },
+    "LFLD": {
+      "callsign": "Bourges",
+      "coord": [
+        47.060786,
+        2.370083
+      ]
+    },
+    "LFLE": {
+      "callsign": "Chambery Challes Les Eaux",
+      "coord": [
+        45.560556,
+        5.975833
+      ]
+    },
+    "LFLG": {
+      "callsign": "Grenoble-Le Versoud ",
+      "coord": [
+        45.218056,
+        5.848611
+      ]
+    },
+    "LFLH": {
+      "callsign": "Chalon Champforgueil",
+      "coord": [
+        46.828275,
+        4.817058
+      ]
+    },
+    "LFLI": {
+      "callsign": "Annemasse",
+      "coord": [
+        46.191944,
+        6.268333
+      ]
+    },
+    "LFLJ": {
+      "callsign": "Courchevel ",
+      "coord": [
+        45.395833,
+        6.6325
+      ]
+    },
+    "LFLK": {
+      "callsign": "Oyonnax Arbent",
+      "coord": [
+        46.278611,
+        5.666389
+      ]
+    },
+    "LFLL": {
+      "callsign": "Lyon",
+      "coord": [
+        45.725639,
+        5.081106
+      ],
+      "topdown": [
+        "LLA",
+        "MMN",
+        "NEM",
+        "MM"
+      ]
+    },
+    "LFLM": {
+      "callsign": "Macon",
+      "coord": [
+        46.295922,
+        4.795858
+      ]
+    },
+    "LFLN": {
+      "callsign": "Saint-Yan",
+      "coord": [
+        46.406619,
+        4.020986
+      ]
+    },
+    "LFLO": {
+      "callsign": "Roanne",
+      "coord": [
+        46.052778,
+        3.999722
+      ]
+    },
+    "LFLP": {
+      "callsign": "Annecy",
+      "coord": [
+        45.930775,
+        6.106289
+      ],
+      "topdown": [
+        "LBA",
+        "LLA",
+        "MMN",
+        "NEM",
+        "MM"
+      ]
+    },
+    "LFLQ": {
+      "callsign": "Montelimar",
+      "coord": [
+        44.580278,
+        4.739167
+      ]
+    },
+    "LFLR": {
+      "callsign": "Saint Rambert D'Albon",
+      "coord": [
+        45.255,
+        4.824722
+      ]
+    },
+    "LFLS": {
+      "callsign": "Grenoble",
+      "coord": [
+        45.362936,
+        5.332664
+      ],
+      "topdown": [
+        "LLA",
+        "MMN",
+        "NEM",
+        "MM"
+      ]
+    },
+    "LFLT": {
+      "callsign": "Montlucon Domerat",
+      "coord": [
+        46.352778,
+        2.570556
+      ]
+    },
+    "LFLU": {
+      "callsign": "Valence Chabeuil",
+      "coord": [
+        44.915558,
+        4.968744
+      ]
+    },
+    "LFLV": {
+      "callsign": "Vichy",
+      "coord": [
+        46.171783,
+        3.404033
+      ]
+    },
+    "LFLW": {
+      "callsign": "Aurillac",
+      "coord": [
+        44.897583,
+        2.416719
+      ]
+    },
+    "LFLX": {
+      "callsign": "Chateauroux",
+      "coord": [
+        46.860314,
+        1.721125
+      ],
+      "topdown": [
+        "BIA",
+        "BB"
+      ]
+    },
+    "LFLY": {
+      "callsign": "Lyon-Bron",
+      "coord": [
+        45.729519,
+        4.938844
+      ],
+      "topdown": [
+        "LLA",
+        "MMN",
+        "NEM",
+        "MM"
+      ]
+    },
+    "LFLZ": {
+      "callsign": "Feurs Chambeon",
+      "coord": [
+        45.706667,
+        4.196944
+      ]
+    },
+    "LFMA": {
+      "callsign": "Aix Les Milles",
+      "coord": [
+        43.505278,
+        5.367222
+      ],
+      "topdown": [
+        "MLS",
+        "MLA",
+        "MM"
+      ]
+    },
+    "LFMC": {
+      "callsign": "Le Luc",
+      "coord": [
+        43.384722,
+        6.386944
+      ]
+    },
+    "LFMD": {
+      "callsign": "Cannes",
+      "coord": [
+        43.546389,
+        6.954167
+      ],
+      "topdown": [
+        "MND",
+        "MNE",
+        "MNA",
+        "MME",
+        "NEM",
+        "MM"
+      ]
+    },
+    "LFME": {
+      "callsign": "Nimes-Courbessac",
+      "coord": [
+        43.853056,
+        4.414444
+      ]
+    },
+    "LFMF": {
+      "callsign": "Fayence",
+      "coord": [
+        43.608056,
+        6.701667
+      ]
+    },
+    "LFMG": {
+      "callsign": "Montagne Noire",
+      "coord": [
+        43.406389,
+        1.989167
+      ]
+    },
+    "LFMH": {
+      "callsign": "St-Etienne",
+      "coord": [
+        45.53405,
+        4.297311
+      ],
+      "topdown": [
+        "LCA",
+        "MMN",
+        "NEM",
+        "MM"
+      ]
+    },
+    "LFMI": {
+      "callsign": "Istres",
+      "coord": [
+        43.522394,
+        4.924236
+      ],
+      "topdown": [
+        "MLS",
+        "MM"
+      ]
+    },
+    "LFMK": {
+      "callsign": "Carcassonne",
+      "coord": [
+        43.215817,
+        2.308544
+      ],
+      "topdown": [
+        "BOE",
+        "BOA",
+        "BB"
+      ]
+    },
+    "LFML": {
+      "callsign": "Marseille",
+      "coord": [
+        43.436633,
+        5.215119
+      ],
+      "topdown": [
+        "MLS",
+        "MLA",
+        "MM"
+      ]
+    },
+    "LFMN": {
+      "callsign": "Nice-Cote d'Azur",
+      "coord": [
+        43.665406,
+        7.214983
+      ],
+      "topdown": [
+        "MNA",
+        "MME",
+        "NEM",
+        "MM"
+      ]
+    },
+    "LFMO": {
+      "callsign": "Orange",
+      "coord": [
+        44.140089,
+        4.868581
+      ],
+      "topdown": [
+        "MLA",
+        "MM"
+      ]
+    },
+    "LFMP": {
+      "callsign": "Perpignan",
+      "coord": [
+        42.740833,
+        2.869722
+      ],
+      "topdown": [
+        "MTS",
+        "MTA",
+        "MM"
+      ]
+    },
+    "LFMQ": {
+      "callsign": "Le Castellet",
+      "coord": [
+        43.252222,
+        5.786111
+      ]
+    },
+    "LFMR": {
+      "callsign": "Barcelonnette-St Pons ",
+      "coord": [
+        44.387222,
+        6.609167
+      ]
+    },
+    "LFMS": {
+      "callsign": "Ales Cevennes",
+      "coord": [
+        44.072733,
+        4.142919
+      ]
+    },
+    "LFMT": {
+      "callsign": "Montpellier-Mediterranee",
+      "coord": [
+        43.583261,
+        3.961378
+      ],
+      "topdown": [
+        "MTA",
+        "MM"
+      ]
+    },
+    "LFMU": {
+      "callsign": "Beziers-Vias",
+      "coord": [
+        43.323428,
+        3.353397
+      ],
+      "topdown": [
+        "MTA",
+        "MM"
+      ]
+    },
+    "LFMV": {
+      "callsign": "Avignon-Caumont",
+      "coord": [
+        43.906581,
+        4.902028
+      ],
+      "topdown": [
+        "MLA",
+        "MM"
+      ]
+    },
+    "LFMW": {
+      "callsign": "Castelnaudary Villeneuve",
+      "coord": [
+        43.311111,
+        1.92
+      ]
+    },
+    "LFMX": {
+      "callsign": "St-Auban-sur-durance",
+      "coord": [
+        44.058611,
+        5.990833
+      ]
+    },
+    "LFMY": {
+      "callsign": "Salon",
+      "coord": [
+        43.603056,
+        5.108333
+      ]
+    },
+    "LFMZ": {
+      "callsign": "Lezignan Corbieres",
+      "coord": [
+        43.175,
+        2.732778
+      ]
+    },
+    "LFNA": {
+      "callsign": "Gap Tallard ",
+      "coord": [
+        44.453889,
+        6.036667
+      ]
+    },
+    "LFNB": {
+      "callsign": "Mende-Brenoux",
+      "coord": [
+        44.504081,
+        3.527633
+      ]
+    },
+    "LFNC": {
+      "callsign": "St Crepin-Mont Dauphin ",
+      "coord": [
+        44.700556,
+        6.599167
+      ]
+    },
+    "LFNE": {
+      "callsign": "Salon Eyguieres",
+      "coord": [
+        43.6575,
+        5.012778
+      ]
+    },
+    "LFNF": {
+      "callsign": "Vinon",
+      "coord": [
+        43.736389,
+        5.783056
+      ]
+    },
+    "LFNG": {
+      "callsign": "Montpellier Candillargues",
+      "coord": [
+        43.610172,
+        4.070161
+      ]
+    },
+    "LFNH": {
+      "callsign": "Carpentras",
+      "coord": [
+        44.0225,
+        5.09
+      ]
+    },
+    "LFNJ": {
+      "callsign": "Aspres Sur Buech",
+      "coord": [
+        44.517778,
+        5.736111
+      ]
+    },
+    "LFNL": {
+      "callsign": "Saint Martin De Londres",
+      "coord": [
+        43.800278,
+        3.781667
+      ]
+    },
+    "LFNN": {
+      "callsign": "Narbonne",
+      "coord": [
+        43.194167,
+        3.051667
+      ]
+    },
+    "LFNO": {
+      "callsign": "Florac Sainte Enimie",
+      "coord": [
+        44.285556,
+        3.465556
+      ]
+    },
+    "LFNQ": {
+      "callsign": "La Llagonne La Quillane",
+      "coord": [
+        42.543461,
+        2.120022
+      ]
+    },
+    "LFNR": {
+      "callsign": "Berre La Fare",
+      "coord": [
+        43.536667,
+        5.1775
+      ]
+    },
+    "LFNS": {
+      "callsign": "Sisteron Vaumeilh",
+      "coord": [
+        44.286667,
+        5.929167
+      ]
+    },
+    "LFNT": {
+      "callsign": "Avignon Pujaut",
+      "coord": [
+        43.996111,
+        4.754444
+      ]
+    },
+    "LFNU": {
+      "callsign": "Uzes",
+      "coord": [
+        44.083472,
+        4.393833
+      ]
+    },
+    "LFNV": {
+      "callsign": "Valreas Visan",
+      "coord": [
+        44.335833,
+        4.906944
+      ]
+    },
+    "LFNW": {
+      "callsign": "Puivert",
+      "coord": [
+        42.910278,
+        2.054722
+      ]
+    },
+    "LFNX": {
+      "callsign": "Bedarieux La Tour Sur Orb",
+      "coord": [
+        43.639722,
+        3.144722
+      ]
+    },
+    "LFNZ": {
+      "callsign": "Le Mazet De Romanin",
+      "coord": [
+        43.770833,
+        4.894444
+      ]
+    },
+    "LFOA": {
+      "callsign": "Avord",
+      "coord": [
+        47.056944,
+        2.638889
+      ],
+      "topdown": [
+        "OAA",
+        "FFM"
+      ]
+    },
+    "LFOB": {
+      "callsign": "Beauvais",
+      "coord": [
+        49.454422,
+        2.112814
+      ],
+      "topdown": [
+        "OBA",
+        "PGD",
+        "PGN",
+        "TN",
+        "TNTB",
+        "AENB",
+        "RPAW",
+        "PAR"
+      ]
+    },
+    "LFOC": {
+      "callsign": "Chateaudun",
+      "coord": [
+        48.057875,
+        1.379722
+      ]
+    },
+    "LFOD": {
+      "callsign": "Saumur Saint Florent",
+      "coord": [
+        47.256731,
+        -0.113553
+      ]
+    },
+    "LFOE": {
+      "callsign": "Evreux",
+      "coord": [
+        49.028611,
+        1.22
+      ]
+    },
+    "LFOF": {
+      "callsign": "Alencon",
+      "coord": [
+        48.446667,
+        0.108333
+      ]
+    },
+    "LFOG": {
+      "callsign": "Flers-St Paul",
+      "coord": [
+        48.749722,
+        -0.594722
+      ]
+    },
+    "LFOH": {
+      "callsign": "Le Havre",
+      "coord": [
+        49.533847,
+        0.088119
+      ]
+    },
+    "LFOI": {
+      "callsign": "Abbeville",
+      "coord": [
+        50.142222,
+        1.831111
+      ]
+    },
+    "LFOJ": {
+      "callsign": "Orleans",
+      "coord": [
+        47.987778,
+        1.760556
+      ]
+    },
+    "LFOK": {
+      "callsign": "Chalons Vatry",
+      "coord": [
+        48.773325,
+        4.206156
+      ],
+      "topdown": [
+        "FFM"
+      ]
+    },
+    "LFOL": {
+      "callsign": "L'Aigle Saint Michel",
+      "coord": [
+        48.758889,
+        0.657778
+      ]
+    },
+    "LFOM": {
+      "callsign": "Lessay",
+      "coord": [
+        49.203333,
+        -1.504722
+      ]
+    },
+    "LFON": {
+      "callsign": "Dreux Vernouillet",
+      "coord": [
+        48.705833,
+        1.361389
+      ]
+    },
+    "LFOO": {
+      "callsign": "Les Sables D'Olonne Talmont",
+      "coord": [
+        46.475556,
+        -1.725
+      ]
+    },
+    "LFOP": {
+      "callsign": "Rouen",
+      "coord": [
+        49.390953,
+        1.183936
+      ],
+      "topdown": [
+        "OPA"
+      ]
+    },
+    "LFOQ": {
+      "callsign": "Blois Le Breuil",
+      "coord": [
+        47.679833,
+        1.205775
+      ]
+    },
+    "LFOR": {
+      "callsign": "Chartres",
+      "coord": [
+        48.458889,
+        1.523889
+      ]
+    },
+    "LFOS": {
+      "callsign": "Vittefleur-St. Vale",
+      "coord": [
+        49.835278,
+        0.655556
+      ]
+    },
+    "LFOT": {
+      "callsign": "Tours",
+      "coord": [
+        47.431944,
+        0.723056
+      ],
+      "topdown": [
+        "OTA"
+      ]
+    },
+    "LFOU": {
+      "callsign": "Cholet Le Pontreau",
+      "coord": [
+        47.081906,
+        -0.877217
+      ]
+    },
+    "LFOV": {
+      "callsign": "Laval Entrammes",
+      "coord": [
+        48.03225,
+        -0.742781
+      ]
+    },
+    "LFOW": {
+      "callsign": "Saint-Quentin",
+      "coord": [
+        49.816944,
+        3.206667
+      ]
+    },
+    "LFOX": {
+      "callsign": "Etampes",
+      "coord": [
+        48.381111,
+        2.073889
+      ]
+    },
+    "LFOY": {
+      "callsign": "Le Havre Saint Romain",
+      "coord": [
+        49.543889,
+        0.359722
+      ]
+    },
+    "LFOZ": {
+      "callsign": "Orleans Saint Denis De L'Hotel",
+      "coord": [
+        47.897617,
+        2.164208
+      ]
+    },
+    "LFPA": {
+      "callsign": "Persan-Beaumont",
+      "coord": [
+        49.165,
+        2.311667
+      ]
+    },
+    "LFPB": {
+      "callsign": "Paris-Le Bourget",
+      "coord": [
+        48.969525,
+        2.441492
+      ],
+      "topdown": [
+        "PGE",
+        "PGD",
+        "PGS",
+        "PGN",
+        "DODG",
+        "DOGS",
+        "FPAE",
+        "RPAE",
+        "PAR"
+      ]
+    },
+    "LFPC": {
+      "callsign": "Creil",
+      "coord": [
+        49.253611,
+        2.519167
+      ]
+    },
+    "LFPD": {
+      "callsign": "Bernay Saint Martin",
+      "coord": [
+        49.1025,
+        0.565556
+      ]
+    },
+    "LFPE": {
+      "callsign": "Meaux Esbly",
+      "coord": [
+        48.926944,
+        2.833889
+      ]
+    },
+    "LFPF": {
+      "callsign": "Beynes Thiverval",
+      "coord": [
+        48.842778,
+        1.9075
+      ]
+    },
+    "LFPG": {
+      "callsign": "Paris-Charles de Gaulle (Roissy)",
+      "coord": [
+        49.009747,
+        2.547819
+      ],
+      "topdown": [
+        "PGD",
+        "PGN",
+        "DODG",
+        "DOGS",
+        "FPAE",
+        "RPAE",
+        "PAR"
+      ]
+    },
+    "LFPH": {
+      "callsign": "Chelles Le Pin",
+      "coord": [
+        48.896667,
+        2.606111
+      ]
+    },
+    "LFPK": {
+      "callsign": "Coulommiers Voisins",
+      "coord": [
+        48.8375,
+        3.014444
+      ]
+    },
+    "LFPL": {
+      "callsign": "Lognes",
+      "coord": [
+        48.821944,
+        2.622778
+      ]
+    },
+    "LFPM": {
+      "callsign": "Melun",
+      "coord": [
+        48.605283,
+        2.670781
+      ]
+    },
+    "LFPN": {
+      "callsign": "Toussus Le Noble",
+      "coord": [
+        48.749756,
+        2.111178
+      ]
+    },
+    "LFPO": {
+      "callsign": "Paris-Orly",
+      "coord": [
+        48.723281,
+        2.379578
+      ],
+      "topdown": [
+        "POA",
+        "POD",
+        "PGE",
+        "PGD",
+        "PGS",
+        "PGN",
+        "DODG",
+        "DOGS",
+        "FPAE",
+        "RPAE",
+        "PAR"
+      ]
+    },
+    "LFPP": {
+      "callsign": "Le Plessis Belleville",
+      "coord": [
+        49.109167,
+        2.736944
+      ]
+    },
+    "LFPQ": {
+      "callsign": "Fontenay Tresigny",
+      "coord": [
+        48.706111,
+        2.902778
+      ]
+    },
+    "LFPR": {
+      "callsign": "Orange Plan De Dieu",
+      "coord": [
+        44.179444,
+        4.918889
+      ]
+    },
+    "LFPT": {
+      "callsign": "Pontoise Cormeilles",
+      "coord": [
+        49.096628,
+        2.040722
+      ]
+    },
+    "LFPU": {
+      "callsign": "Moret Episy",
+      "coord": [
+        48.340833,
+        2.797778
+      ]
+    },
+    "LFPV": {
+      "callsign": "Villacoublay",
+      "coord": [
+        48.774172,
+        2.191389
+      ],
+      "topdown": [
+        "PVA",
+        "POA",
+        "POD",
+        "PGE",
+        "PGD",
+        "PGS",
+        "PGN",
+        "DODG",
+        "DOGS",
+        "FPAE",
+        "RPAE",
+        "PAR"
+      ]
+    },
+    "LFPW": {
+      "callsign": "Paris Met Center",
+      "coord": [
+        48.83306,
+        2.33306
+      ]
+    },
+    "LFPX": {
+      "callsign": "Chavenay Villepreux",
+      "coord": [
+        48.842222,
+        1.980278
+      ]
+    },
+    "LFPY": {
+      "callsign": "Bretigny-sur-Orge",
+      "coord": [
+        48.596111,
+        2.332222
+      ]
+    },
+    "LFPZ": {
+      "callsign": "St Cyr",
+      "coord": [
+        48.810278,
+        2.073333
+      ]
+    },
+    "LFQA": {
+      "callsign": "Reims Prunay",
+      "coord": [
+        49.208689,
+        4.156581
+      ]
+    },
+    "LFQB": {
+      "callsign": "Troyes",
+      "coord": [
+        48.321619,
+        4.016622
+      ]
+    },
+    "LFQC": {
+      "callsign": "Luneville Croismare",
+      "coord": [
+        48.593611,
+        6.542222
+      ]
+    },
+    "LFQD": {
+      "callsign": "Arras Roclincourt",
+      "coord": [
+        50.323889,
+        2.802778
+      ]
+    },
+    "LFQE": {
+      "callsign": "Etain Rouvres",
+      "coord": [
+        49.229089,
+        5.676039
+      ]
+    },
+    "LFQF": {
+      "callsign": "Autun Bellevue",
+      "coord": [
+        46.971111,
+        4.261111
+      ]
+    },
+    "LFQG": {
+      "callsign": "Nevers",
+      "coord": [
+        47.003731,
+        3.110742
+      ]
+    },
+    "LFQH": {
+      "callsign": "Chatillon-Sur-seine",
+      "coord": [
+        47.845278,
+        4.579444
+      ]
+    },
+    "LFQI": {
+      "callsign": "Cambrai",
+      "coord": [
+        50.219167,
+        3.152222
+      ]
+    },
+    "LFQJ": {
+      "callsign": "Maubeuge Elesmes",
+      "coord": [
+        50.308333,
+        4.03
+      ]
+    },
+    "LFQK": {
+      "callsign": "Chalons Ecury Sur Coole",
+      "coord": [
+        48.905556,
+        4.352778
+      ]
+    },
+    "LFQL": {
+      "callsign": "Lens Benifontaine",
+      "coord": [
+        50.466389,
+        2.819722
+      ]
+    },
+    "LFQM": {
+      "callsign": "Besancon la Veze",
+      "coord": [
+        47.205308,
+        6.08055
+      ]
+    },
+    "LFQN": {
+      "callsign": "Saint Omer Wizernes",
+      "coord": [
+        50.728889,
+        2.234444
+      ]
+    },
+    "LFQO": {
+      "callsign": "Bondues",
+      "coord": [
+        50.687222,
+        3.075556
+      ]
+    },
+    "LFQP": {
+      "callsign": "Phalsbourg Bourscheid",
+      "coord": [
+        48.768153,
+        7.205131
+      ]
+    },
+    "LFQQ": {
+      "callsign": "Lille",
+      "coord": [
+        50.563425,
+        3.086822
+      ],
+      "topdown": [
+        "QQA",
+        "TB",
+        "TNTB",
+        "AENB",
+        "RPAW",
+        "PAR"
+      ]
+    },
+    "LFQS": {
+      "callsign": "Vitry En Artois",
+      "coord": [
+        50.3375,
+        2.991944
+      ]
+    },
+    "LFQT": {
+      "callsign": "Merville Calonne",
+      "coord": [
+        50.6166,
+        2.640094
+      ],
+      "topdown": [
+        "QQA",
+        "TB",
+        "TNTB",
+        "AENB",
+        "RPAW",
+        "PAR"
+      ]
+    },
+    "LFQU": {
+      "callsign": "Sarre Union",
+      "coord": [
+        48.950833,
+        7.076389
+      ]
+    },
+    "LFQV": {
+      "callsign": "Charleville",
+      "coord": [
+        49.785053,
+        4.642808
+      ]
+    },
+    "LFQW": {
+      "callsign": "Vesoul Frotey",
+      "coord": [
+        47.638611,
+        6.204167
+      ]
+    },
+    "LFQX": {
+      "callsign": "Juvancourt",
+      "coord": [
+        48.113889,
+        4.819444
+      ]
+    },
+    "LFQY": {
+      "callsign": "Saverne Steinbourg",
+      "coord": [
+        48.753333,
+        7.425833
+      ]
+    },
+    "LFQZ": {
+      "callsign": "Dieuze Gueblange",
+      "coord": [
+        48.774444,
+        6.714167
+      ]
+    },
+    "LFRA": {
+      "callsign": "Angers",
+      "coord": [
+        47.5,
+        -0.56639
+      ]
+    },
+    "LFRB": {
+      "callsign": "Brest",
+      "coord": [
+        48.447131,
+        -4.421753
+      ],
+      "topdown": [
+        "RBA",
+        "RR"
+      ]
+    },
+    "LFRC": {
+      "callsign": "Cherbourg",
+      "coord": [
+        49.650775,
+        -1.4753
+      ]
+    },
+    "LFRD": {
+      "callsign": "Dinard",
+      "coord": [
+        48.587706,
+        -2.07995
+      ],
+      "topdown": [
+        "RNN",
+        "RNA",
+        "RR"
+      ]
+    },
+    "LFRE": {
+      "callsign": "La Baule Escoublac",
+      "coord": [
+        47.288333,
+        -2.346944
+      ]
+    },
+    "LFRF": {
+      "callsign": "Granville-Mont Saint Michel",
+      "coord": [
+        48.882875,
+        -1.563833
+      ]
+    },
+    "LFRG": {
+      "callsign": "Deauville-St Gatien",
+      "coord": [
+        49.363394,
+        0.159997
+      ],
+      "topdown": [
+        "RGA"
+      ]
+    },
+    "LFRH": {
+      "callsign": "Lorient",
+      "coord": [
+        47.760556,
+        -3.44
+      ],
+      "topdown": [
+        "RHA",
+        "RBI",
+        "RBA",
+        "RR"
+      ]
+    },
+    "LFRI": {
+      "callsign": "La Roche-Sur-yon",
+      "coord": [
+        46.702383,
+        -1.381758
+      ]
+    },
+    "LFRJ": {
+      "callsign": "Landivisiau",
+      "coord": [
+        48.530258,
+        -4.151642
+      ]
+    },
+    "LFRK": {
+      "callsign": "Caen",
+      "coord": [
+        49.173281,
+        -0.449875
+      ],
+      "topdown": [
+        "RGA"
+      ]
+    },
+    "LFRL": {
+      "callsign": "Lanveoc Poulmic",
+      "coord": [
+        48.282531,
+        -4.443692
+      ]
+    },
+    "LFRM": {
+      "callsign": "Le Mans",
+      "coord": [
+        47.948492,
+        0.201647
+      ]
+    },
+    "LFRN": {
+      "callsign": "Rennes",
+      "coord": [
+        48.071933,
+        -1.732233
+      ],
+      "topdown": [
+        "RNA",
+        "RR"
+      ]
+    },
+    "LFRO": {
+      "callsign": "Lannion-Servel",
+      "coord": [
+        48.754444,
+        -3.471944
+      ]
+    },
+    "LFRP": {
+      "callsign": "Ploermel Loyat",
+      "coord": [
+        48.001856,
+        -2.378719
+      ]
+    },
+    "LFRQ": {
+      "callsign": "Quimper",
+      "coord": [
+        47.974947,
+        -4.167875
+      ],
+      "topdown": [
+        "RBA",
+        "RR"
+      ]
+    },
+    "LFRR": {
+      "callsign": "Iroise",
+      "coord": [
+        48.447222,
+        -4.421667
+      ]
+    },
+    "LFRS": {
+      "callsign": "Nantes-Atlantique",
+      "coord": [
+        47.157019,
+        -1.607808
+      ],
+      "topdown": [
+        "RSA",
+        "RR"
+      ]
+    },
+    "LFRT": {
+      "callsign": "St.Brieuc",
+      "coord": [
+        48.537492,
+        -2.856542
+      ]
+    },
+    "LFRU": {
+      "callsign": "Morlaix-Ploujean",
+      "coord": [
+        48.600747,
+        -3.816669
+      ]
+    },
+    "LFRV": {
+      "callsign": "Vannes Meucon",
+      "coord": [
+        47.719244,
+        -2.723378
+      ]
+    },
+    "LFRW": {
+      "callsign": "Avranches Le Val Saint Pere",
+      "coord": [
+        48.660833,
+        -1.405833
+      ]
+    },
+    "LFRZ": {
+      "callsign": "St.Nazaire",
+      "coord": [
+        47.31065,
+        -2.156803
+      ],
+      "topdown": [
+        "RSI",
+        "RR"
+      ]
+    },
+    "LFSA": {
+      "callsign": "Besancon Thise",
+      "coord": [
+        47.273611,
+        6.083056
+      ]
+    },
+    "LFSB": {
+      "callsign": "Basle-Mulhouse",
+      "coord": [
+        47.589878,
+        7.529222
+      ],
+      "topdown": [
+        "SBA",
+        "SBC",
+        "EE",
+        "LSAA",
+        "LSAS",
+        "LSAV",
+        "LSAU"
+      ]
+    },
+    "LFSC": {
+      "callsign": "Colmar Meyenheim",
+      "coord": [
+        47.921978,
+        7.399669
+      ]
+    },
+    "LFSD": {
+      "callsign": "Dijon Longvic",
+      "coord": [
+        47.265817,
+        5.094978
+      ]
+    },
+    "LFSE": {
+      "callsign": "Epinal Dogneville",
+      "coord": [
+        48.211389,
+        6.448333
+      ]
+    },
+    "LFSF": {
+      "callsign": "Metz Frescaty",
+      "coord": [
+        49.076389,
+        6.133889
+      ]
+    },
+    "LFSG": {
+      "callsign": "Epinal Mirecourt",
+      "coord": [
+        48.325006,
+        6.066742
+      ]
+    },
+    "LFSH": {
+      "callsign": "Haguenau",
+      "coord": [
+        48.796944,
+        7.819167
+      ]
+    },
+    "LFSI": {
+      "callsign": "St.Dizier",
+      "coord": [
+        48.633536,
+        4.908189
+      ]
+    },
+    "LFSJ": {
+      "callsign": "Sedan Douzy",
+      "coord": [
+        49.658889,
+        5.036667
+      ]
+    },
+    "LFSK": {
+      "callsign": "Vitry Le Francois Vauclerc",
+      "coord": [
+        48.702222,
+        4.683333
+      ]
+    },
+    "LFSL": {
+      "callsign": "Brive\u2013Souillac",
+      "coord": [
+        45.039721,
+        1.485555
+      ]
+    },
+    "LFSM": {
+      "callsign": "Montbeliard Courcelles",
+      "coord": [
+        47.486661,
+        6.791469
+      ]
+    },
+    "LFSN": {
+      "callsign": "Nancy-Essey",
+      "coord": [
+        48.692086,
+        6.22605
+      ]
+    },
+    "LFSO": {
+      "callsign": "Nancy-Ochey",
+      "coord": [
+        48.583186,
+        5.954525
+      ]
+    },
+    "LFSP": {
+      "callsign": "Pontarlier",
+      "coord": [
+        46.908333,
+        6.329167
+      ]
+    },
+    "LFSQ": {
+      "callsign": "Belfort Fontaine",
+      "coord": [
+        47.655556,
+        7.011667
+      ]
+    },
+    "LFSR": {
+      "callsign": "Reims",
+      "coord": [
+        49.31015,
+        4.050761
+      ]
+    },
+    "LFSS": {
+      "callsign": "Saint Sulpice Des Landes",
+      "coord": [
+        47.791667,
+        -1.643611
+      ]
+    },
+    "LFST": {
+      "callsign": "Strasbourg Entzheim",
+      "coord": [
+        48.541944,
+        7.634444
+      ],
+      "topdown": [
+        "STA",
+        "EE"
+      ]
+    },
+    "LFSU": {
+      "callsign": "Langres-Rolampont",
+      "coord": [
+        47.964167,
+        5.293611
+      ]
+    },
+    "LFSV": {
+      "callsign": "Pont Saint Vincent",
+      "coord": [
+        48.6,
+        6.056389
+      ]
+    },
+    "LFSW": {
+      "callsign": "Epernay Plivot",
+      "coord": [
+        49.004444,
+        4.085278
+      ]
+    },
+    "LFSX": {
+      "callsign": "Luxeuil",
+      "coord": [
+        47.787222,
+        6.365
+      ]
+    },
+    "LFSY": {
+      "callsign": "Cessey Baigneux Les Juifs",
+      "coord": [
+        47.609722,
+        4.6175
+      ]
+    },
+    "LFSZ": {
+      "callsign": "Vittel Champ de Course",
+      "coord": [
+        48.22366,
+        5.93639
+      ]
+    },
+    "LFTB": {
+      "callsign": "Marignane Berre",
+      "coord": [
+        43.45,
+        5.216667
+      ]
+    },
+    "LFTF": {
+      "callsign": "Cuers Pierrefeu",
+      "coord": [
+        43.247589,
+        6.127294
+      ]
+    },
+    "LFTH": {
+      "callsign": "Hyeres",
+      "coord": [
+        43.097344,
+        6.146031
+      ],
+      "topdown": [
+        "THA",
+        "MM"
+      ]
+    },
+    "LFTM": {
+      "callsign": "Serres La Batie Montsaleon",
+      "coord": [
+        44.457222,
+        5.727222
+      ]
+    },
+    "LFTN": {
+      "callsign": "La Grand'Combe",
+      "coord": [
+        44.243056,
+        4.011111
+      ]
+    },
+    "LFTP": {
+      "callsign": "Puimoisson",
+      "coord": [
+        43.868889,
+        6.162778
+      ]
+    },
+    "LFTQ": {
+      "callsign": "Chateaubriant Pouance",
+      "coord": [
+        47.739444,
+        -1.190278
+      ]
+    },
+    "LFTU": {
+      "callsign": "St-Raphael",
+      "coord": [
+        43.41667,
+        6.75
+      ]
+    },
+    "LFTW": {
+      "callsign": "Nimes",
+      "coord": [
+        43.757428,
+        4.416344
+      ],
+      "topdown": [
+        "MTA",
+        "MM"
+      ]
+    },
+    "LFTZ": {
+      "callsign": "La Mole",
+      "coord": [
+        43.205278,
+        6.481944
+      ]
+    },
+    "LFXA": {
+      "callsign": "Amberieu",
+      "coord": [
+        45.979722,
+        5.337778
+      ]
+    },
+    "LFXB": {
+      "callsign": "Saintes Thenac",
+      "coord": [
+        45.701944,
+        -0.636111
+      ]
+    },
+    "LFXC": {
+      "callsign": "Vittel Auxainvilliers",
+      "coord": [
+        48.2305,
+        5.84605
+      ]
+    },
+    "LFXG": {
+      "callsign": "Bitche",
+      "coord": [
+        49.066667,
+        7.45
+      ]
+    },
+    "LFXH": {
+      "callsign": "Le Valdahon",
+      "coord": [
+        47.166667,
+        6.35
+      ]
+    },
+    "LFXI": {
+      "callsign": "Saint Christol",
+      "coord": [
+        44.0525,
+        5.493889
+      ]
+    },
+    "LFXQ": {
+      "callsign": "Coetquidan",
+      "coord": [
+        47.943889,
+        -2.181944
+      ]
+    },
+    "LFXU": {
+      "callsign": "Les Mureaux",
+      "coord": [
+        48.998611,
+        1.941667
+      ]
+    },
+    "LFYD": {
+      "callsign": "Damblain",
+      "coord": [
+        48.08889,
+        5.67377
+      ]
+    },
+    "LFYG": {
+      "callsign": "Cambrai Niergnies",
+      "coord": [
+        50.141389,
+        3.263611
+      ]
+    },
+    "LFYH": {
+      "callsign": "Broye Les Pesmes",
+      "coord": [
+        47.316667,
+        5.516667
+      ]
+    },
+    "LFYM": {
+      "callsign": "Marigny Le Grand",
+      "coord": [
+        48.66,
+        3.833889
+      ]
+    },
+    "LFYR": {
+      "callsign": "Romorantin",
+      "coord": [
+        47.320833,
+        1.688889
+      ]
+    },
+    "LFYS": {
+      "callsign": "Sainte Leocadie",
+      "coord": [
+        42.447222,
+        2.010833
+      ]
+    },
+    "LFYV": {
+      "callsign": "Yvetot-Baons Le Comte",
+      "coord": [
+        49.638611,
+        0.7325
+      ]
+    }
+  }
+}

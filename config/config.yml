@@ -1,0 +1,26 @@
+config:
+  valid_fir:
+    - LFBB
+    - LFEE
+    - LFFF
+    - LFMM
+    - LFRR
+  valid_callsign: "^(LF[^V][A-Z]|PAR)_"
+  valid_airport: "LF[^V][A-Z]"
+colors:
+  - callsign: "LFFM_CTR$"
+    color: "#43ffff"
+  - callsign: "LFBB.*_CTR$"
+    color: "#837285"
+  - callsign: "LFEE.*_CTR$"
+    color: "#71aa71"
+  - callsign: "LFMM.*_CTR$"
+    color: "#909967"
+  - callsign: "LFRR.*_CTR$"
+    color: "#165a86"
+  - callsign: "PAR.*_CTR$"
+    color: "#4067a9"
+  - callsign: "(_APP|_DEP)$"
+    color: "#a24fde"
+  - callsign: "_TWR$"
+    color: "#71aa71"
