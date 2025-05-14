@@ -2,15 +2,17 @@
 
 ## File structure
 
-The final target file is `outputs.json`. Each section of that json are generated in separate files first:
+The final target file is `outputs/lf.json`. Each section of that json are generated in separate files first:
 
-| File | Type | Script
-|---| ---| --- |
-| airports.json | Dynamic | `generate_airports.py`
-| airspace.json | Dynamic | `generate_airspaces.py`
-| callsigns.json | Static |
-| groups.json | Static |
-| positions.json | Dynamic |  `generate_positions.py`
+| `lf.json` section | File | Type | Script
+|---| ---| --- | --- |
+| `airports` | `outputs/airports.json` | Dynamic | `generate_airports.py`
+| `airspace` | `outputs/airspace.json` | Dynamic | `generate_airspaces.py`
+| `callsigns` | `outputs/callsigns.json` | Static |
+| `groups` | `outputs/groups.json` | Static |
+| `positions` | `outputs/positions.json` | Dynamic |  `generate_positions.py`
+
+The script `merge_all.py` takes all 5 above files and merge them into `outputs/lf.json`
 
 
 ## Install the prerequisites
@@ -24,22 +26,22 @@ pip install -r requirements.txt
 
 ## Generate the target files
 
-- Run the following command to generate the `airports.json`
+- Run the following command to generate the `outputs/airports.json`
 ```
 python generate_airports.py
 ```
 
-- Run the following command to generate the `airspaces.json`
+- Run the following command to generate the `outputs/airspaces.json`
 ```
 python generate_airspaces.py
 ```
 
-- Run the following command to generate the `positions.json`
+- Run the following command to generate the `outputs/positions.json`
 ```
 python generate_positions.py
 ```
 
-- Run the following command to generate the target `lf.json`
+- Run the following command to generate the target `outputs/lf.json`
 ```
 python merge_all.py
 ```
