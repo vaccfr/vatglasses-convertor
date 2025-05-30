@@ -1,0 +1,32 @@
+name: Export GeoJSON
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'outputs/lf.json'
+  workflow_dispatch:
+
+jobs:
+  export_geojson:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+
+      - name: Export GeoJSON
+        run: |
+          for i in $(seq 0 10 390)
+          do
+            echo "Exporting GEOJSON for FL$i"
+            python ./export_geojson.py --input-files ./outputs/lf.json --output-file ./exports/ctr_fl$i.geojson --flight-level $i --position PAR BB EE MM RR
+          done
+
