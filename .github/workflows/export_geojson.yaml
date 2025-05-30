@@ -35,3 +35,10 @@ jobs:
             python ./export_geojson.py --input-files ./outputs/lf.json --output-file ./exports/ctr_fl$i.geojson --flight-level $i --position PAR BB EE MM RR
           done
 
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          file_pattern: 'exports/*.geojson'
+          commit_message: 'Export GeoJSON'
+          commit_options: '--no-verify'
+          branch: ${{ github.ref }}
