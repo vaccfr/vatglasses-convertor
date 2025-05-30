@@ -3,7 +3,7 @@ from geojson import Feature, FeatureCollection, Polygon, dump, dumps
 
 # Parse arguments
 parser = argparse.ArgumentParser()
-parser.add_argument("--input-file", "-i", dest="input_file", required=True, help="VATGlass input file")
+parser.add_argument("--input-files", "-i", dest="input_files", nargs="*", required=True, help="VATGlass input file")
 parser.add_argument("--output-file", "-o", dest="output_file", required=False, help="GeoJSON output file")
 parser.add_argument("--show", "-s", dest="show", required=False, action="store_true", help="Show on geojson.io")
 parser.add_argument("--flight-level", "-f", dest="flightlevel", required=True, type=int, help="Flight Level")
@@ -12,8 +12,18 @@ parser.add_argument("--sector-regexp", dest="sector_regexp", help="Regular Expre
 args = parser.parse_args()
 
 # Open VATGlass input file
-with open(args.input_file, "r") as file:
-    data =  json.load(file)
+data = {
+    "airspace": [], 
+    "positions": {}
+}
+for input_file in args.input_files:
+    with open(input_file, "r") as file:
+        d =  json.load(file)
+        for airspace in d["airspace"]:
+            data["airspace"].append(airspace)
+        for position in d["positions"]:
+            print(f" Position {position}")
+            data["positions"][position] = d["positions"][position]
 
 # Determine opened positions
 if (args.positions):
@@ -66,16 +76,19 @@ for airspace in data["airspace"]:
 
         if matching_owner:
             for sector in airspace["sectors"]:
-                if args.flightlevel >= sector["min"] and args.flightlevel <= sector["max"]:
-                    print(f"{airspace['id'].ljust(25)} {str(sector['min']).ljust(3)}:{str(sector['max']).ljust(3)} {matching_owner.ljust(4)} {matching_color}")
+                sector_min = sector["min"] if "min" in sector else 0
+                sector_max = sector["max"] if "max" in sector else 660
+                if args.flightlevel >= sector_min and args.flightlevel <= sector_max:
+                    print(f"{airspace['id'].ljust(25)} {str(sector_min).ljust(3)}:{str(sector_max).ljust(3)} {matching_owner.ljust(4)} {matching_color}")
                     converted_points = [convert_coordinates(point) for point in sector["points"]]
                     polygon = Polygon([converted_points])
                     properties = {
                         "name": airspace["id"],
                         "owner": matching_owner,
                         "owners": airspace["owner"],
-                        "min": sector["min"],
-                        "max": sector["max"],
+                        "min": sector_min,
+                        "cur": args.flightlevel,
+                        "max": sector_max,
                         "color_hex": matching_color,
                         "stroke": matching_color,
                         "stroke-width": 1,

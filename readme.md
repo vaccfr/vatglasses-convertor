@@ -51,11 +51,11 @@ python merge_all.py
 You can use the script `export_geojson.py` to generate GEOJson file and visualize them with https://geojson.io/
 
 ```
-usage: export_geojson.py [-h] --input-file INPUT_FILE [--output-file OUTPUT_FILE] [--show] --flight-level FLIGHTLEVEL [--positions [POSITIONS ...]] [--sector-regexp SECTOR_REGEXP]
+usage: export_geojson.py [-h] --input-files [INPUT_FILES ...] [--output-file OUTPUT_FILE] [--show] --flight-level FLIGHTLEVEL [--positions [POSITIONS ...]] [--sector-regexp SECTOR_REGEXP]
 
 optional arguments:
   -h, --help            show this help message and exit
-  --input-file INPUT_FILE, -i INPUT_FILE
+  --input-files [INPUT_FILES ...], -i [INPUT_FILES ...]
                         VATGlass input file
   --output-file OUTPUT_FILE, -o OUTPUT_FILE
                         GeoJSON output file
