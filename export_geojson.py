@@ -59,8 +59,11 @@ def convert_coordinates(point):
 
 # Get Position HEX color
 def get_position_color(position):
-    for color in data["positions"][position]["colours"]:
-        return color["hex"]
+    if "colours" in data["positions"][position]:
+        for color in data["positions"][position]["colours"]:
+            return color["hex"]
+    else:
+        return "#ffffff"
 
 feature_list = []
 for airspace in data["airspace"]:
