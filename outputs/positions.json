@@ -2160,7 +2160,7 @@
     },
     "RPAE": {
       "callsign": "Paris Control",
-      "frequency": "133.550",
+      "frequency": "133.560",
       "type": "CTR",
       "pre": [
         "PAR"
