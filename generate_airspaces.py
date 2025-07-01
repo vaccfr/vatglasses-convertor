@@ -1,6 +1,13 @@
 import json, re, yaml
 from pathlib import Path
 
+# Remove comments from ESE file lines. Everything after ';' is considered a comment.
+def strip_comments(line):
+    comment_pos = line.find(';')
+    if comment_pos != -1:
+        return line[:comment_pos].rstrip()
+    return line.rstrip()
+
 yml_config_file = Path("config/config.yml")
 ese_input_file = Path("inputs/LFXX.ese")
 json_output_file = Path("outputs/airspace.json")
@@ -49,58 +56,54 @@ def getcoor(line):
     return coors
 
 # Connects all sector lines into one big line
-def chain(dominoes):
-    #print("\n",dominoes)
-    #print("Before", linedic["176"])
-    for i in range(len(dominoes) - 1):
-        for j in range(len(dominoes) - 1):
-            j += i + 1
-
-            if dominoes[i][-1] == dominoes[j][0]: # head == tail
-                #print("head=tail",dominoes[i],dominoes[j])
-                rev = dominoes[j]
-                new_list = dominoes[i] + rev
-                dominoes[i] = new_list
-                #dominoes[i].extend(rev)
-                dominoes.remove(dominoes[j])
+def chain(segments):
+    if not segments:
+        return []
+    
+    if len(segments) == 1:
+        return segments[0]
+    
+    # Start with the first segment
+    result = segments[0][:]
+    remaining = [seg[:] for seg in segments[1:]]
+    
+    # Keep trying to connect segments until no more connections can be made
+    changed = True
+    max_iterations = len(segments) * 2  # Prevent infinite loops
+    iterations = 0
+    
+    while changed and remaining and iterations < max_iterations:
+        changed = False
+        iterations += 1
+        
+        for i in range(len(remaining)):
+            segment = remaining[i]
             
-                if len(dominoes) == 1:
-                    return dominoes[0]
-                else:
-                    return chain(dominoes)
-
-            elif dominoes[i][-1] == dominoes[j][-1]: # head == head
-                #print("head=head",dominoes[i][-1],dominoes[i],dominoes[j])
-                rev = dominoes[j][::-1]
-                new_list = dominoes[i] + rev
-                dominoes[i] = new_list
-                #dominoes[i].extend(rev)
-                dominoes.remove(dominoes[j])
-                
-                if len(dominoes) == 1:
-                    return dominoes[0]
-                else:
-                    return chain(dominoes)
-
-            elif dominoes[i][0] == dominoes[j][0]: # tail == tail
-                #print("tail=tail",dominoes[i][0],dominoes[i],dominoes[j])
-                dominoes[i] = dominoes[j][::-1] + dominoes[i]
-                dominoes.remove(dominoes[j])
-                
-                if len(dominoes) == 1:
-                    return dominoes[0]
-                else:
-                    return chain(dominoes)
-
-            elif dominoes[i][0] == dominoes[j][-1]: # tail == head
-                #print("tail=head",dominoes[i][0],dominoes[i],dominoes[j])
-                dominoes[i] = dominoes[j] + dominoes[i]
-                dominoes.remove(dominoes[j])
-                
-                if len(dominoes) == 1:
-                    return dominoes[0]
-                else:
-                    return chain(dominoes)
+            # Try to connect to the end of result
+            if result[-1] == segment[0]:  # tail of result matches head of segment
+                result.extend(segment[1:])  # Add segment (without duplicate point)
+                remaining.pop(i)
+                changed = True
+                break
+            elif result[-1] == segment[-1]:  # tail of result matches tail of segment
+                result.extend(segment[-2::-1])  # Add reversed segment (without duplicate point)
+                remaining.pop(i)
+                changed = True
+                break
+            # Try to connect to the beginning of result  
+            elif result[0] == segment[-1]:  # head of result matches tail of segment
+                result = segment[:-1] + result  # Prepend segment (without duplicate point)
+                remaining.pop(i)
+                changed = True
+                break
+            elif result[0] == segment[0]:  # head of result matches head of segment
+                result = segment[::-1][:-1] + result  # Prepend reversed segment (without duplicate point)
+                remaining.pop(i)
+                changed = True
+                break
+    
+    # If we couldn't connect all segments, return what we have
+    return result
 
 def removesequentialduplicates(coors):
     new_coors = []
@@ -117,13 +120,34 @@ def removesequentialduplicates(coors):
 def getpoints(borders):
     coordinates = []
     for b in borders:
+        if b not in linedic:
+            print(f"Warning: Border {b} not found in sectorlines")
+            continue
+        if "coor" not in linedic[b] or not linedic[b]["coor"]:
+            print(f"Warning: Border {b} has no coordinates")
+            continue
         coordinates.append(linedic[b]["coor"])
+    
+    if not coordinates:
+        print("Warning: No valid coordinates found for borders")
+        return None
 
     if len(coordinates) == 1:
         return coordinates[0]
-    else:    
-        coordinates_copy = coordinates.copy()
-        return removesequentialduplicates(chain(coordinates_copy))
+    elif len(coordinates) > 1:    
+        coordinates_copy = [coor[:] for coor in coordinates]  # Deep copy
+        try:
+            chained = chain(coordinates_copy)
+            if chained:
+                return removesequentialduplicates(chained)
+            else:
+                print("Warning: Chain algorithm returned empty result")
+                return None
+        except Exception as e:
+            print(f"Warning: Error chaining coordinates: {e}")
+            return None
+    else:
+        return None
 
 # Used to assign the sector a group based on the sectors' name
 def get_group_name(sector):
@@ -148,7 +172,7 @@ position_regexp = config["config"]["valid_callsign"]
 # Load ESE file
 print(f"Loading ESE file {ese_input_file}")
 with open(ese_input_file, "r", encoding="cp1252") as file:
-    ese_data = file.readlines()
+    ese_data = [strip_comments(line) for line in file.readlines()]
 
 # Extract positions
 valid_positions = []
@@ -173,7 +197,7 @@ for line in ese_data:
         block = False
         if "OWNER:" in sector:
             sectors.append(sector)
-    elif block and not line.strip().startswith(";"):
+    elif block and line.strip():
             line = line.replace("\u00b7","·").replace("�","·")
             sector += "\n" + line.strip()
 print(f"Found {len(sectors)} SECTOR")
@@ -188,7 +212,7 @@ for line in ese_data:
     elif block and len(line.strip()) == 0:
         block = False
         sectorlines.append(sectorline)
-    elif block and not line.strip().startswith(";"):
+    elif block and line.strip():
         sectorline += "\n" + line.strip()
 print(f"Found {len(sectorlines)} SECTORLINE")
     
@@ -231,20 +255,28 @@ for sector in reversed(sectordic.keys()):
     
     if sector.split("·")[0] in fir_list: #If this sector is a sector of the vacc
         if any(pos in valid_positions for pos in sectordic[sector]["owners"]):
-            tmp = {}
-            tmp["id"] = name
-            tmp["group"] = get_group_name(sector)
-            tmp["owner"] = sectordic[sector]["owners"]
-            tmp["sectors"] = [ {
-                "min" : int(int(sectordic[sector]["low"])/100) ,
-                "max": int(int(sectordic[sector]["high"])/100) -1,
-                "points" : getpoints(sectordic[sector]["borders"])
-            }]
+            try:
+                points = getpoints(sectordic[sector]["borders"])
+                if points is None:
+                    print(sector.ljust(30), "         no valid coordinates found")
+                    continue
+                    
+                tmp = {}
+                tmp["id"] = name
+                tmp["group"] = get_group_name(sector)
+                tmp["owner"] = sectordic[sector]["owners"]
+                tmp["sectors"] = [ {
+                    "min" : int(int(sectordic[sector]["low"])/100) ,
+                    "max": int(int(sectordic[sector]["high"])/100) -1,
+                    "points" : points
+                }]
 
-            if tmp["sectors"][0]["points"] != None and "_GND" not in name and "_DEL" not in name: #and "-GND" not in name
-                airspaces.append(tmp)
-            else:
-                print(sector.ljust(30), "         is ground or delivery")
+                if "_GND" not in name and "_DEL" not in name:
+                    airspaces.append(tmp)
+                else:
+                    print(sector.ljust(30), "         is ground or delivery")
+            except Exception as e:
+                print(sector.ljust(30), f"         error processing coordinates: {e}")
         else:
             print(sector.ljust(30), "         no owner are in this vacc", sectordic[sector]["owners"])
     else:
