@@ -591,6 +591,54 @@
         "coordinates": [
           [
             [
+              -3.141667,
+              46.798611
+            ],
+            [
+              -2.964167,
+              47.284444
+            ],
+            [
+              -3.430556,
+              47.260556
+            ],
+            [
+              -3.433333,
+              47.147778
+            ],
+            [
+              -3.141667,
+              46.798611
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "AS_NF_KS_BRIDGE_1",
+        "owner": "RR",
+        "owners": [
+          "RRA",
+          "RRS",
+          "RR"
+        ],
+        "min": 195,
+        "cur": 290,
+        "max": 324,
+        "color_hex": "#165a86",
+        "stroke": "#165a86",
+        "stroke-width": 1,
+        "stroke-opacity": 0.7,
+        "fill": "#165a86",
+        "fill-opacity": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               -8.0,
               47.25
             ],
