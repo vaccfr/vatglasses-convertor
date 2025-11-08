@@ -2759,7 +2759,9 @@
       "id": "AS_NF_KS_BRIDGE_1",
       "group": "LFRR",
       "owner": [
-        "RRA"
+        "RRA",
+        "RRS",
+        "RR"
       ],
       "sectors": [
         {
