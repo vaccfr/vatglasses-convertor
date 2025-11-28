@@ -1,56 +1,24 @@
-import yaml, json, re, sys
+import yaml, json, random, re, os, sys
 from pathlib import Path
 
 yml_config_file = Path("config/config.yml")
+yml_colors_file = Path("config/colors.yml")
 ese_input_file = Path("inputs/LFXX.ese")
 json_output_file = Path("outputs/positions.json")
 
-# Attempt to create random colors for every position, but in a way that also attempts to keep similar tints for similar positions types
-def similarhex(position):
-    import random
-    if position == "APP" or position == "DEP":
-        color = (0,0,random.randint(0, 255)) #"blue"
-    
-    elif position == "CTR":
-        color = (random.randint(0, 255),140,0) #"orange"
-
-    else:
-        color = (0,random.randint(0, 255),0) #green
-
-    r, g, b = color
-
-    return '#{:02x}{:02x}{:02x}'.format(r, g, b)
-
-# File like
-
-# ; ACC ------------------------------------
-# Brussels West/Combined Control:Brussels Control:131.100:BW:W:EBBU:CTR:-:-:7101:7177
-# Brussels East Control:Brussels Control:129.575:BE:E:EBBU:CTR:-:-:7101:7177
-
-# Brussels NLS Control:Brussels Control:128.800:BN:N:EBBU:CTR:-:-:7101:7177
-# Brussels HUS Control:Brussels Control:128.200:BH:H:EBBU:CTR:-:-:7101:7177
-# Br
-# ussels LUS Control:Brussels Control:125.000:BL:L:EBBU:CTR:-:-:7101:7177
-# Brussels WHS Control:Brussels Control:127.225:BC:C:EBBU:CTR:-:-:7101:7177
-
-# Brussels Supervisor:Brussels Supervisor:199.998:BSUP:S:EBBU:CTR:-:-:7101:7177
-# Brussels Information:Brussels Information:126.900:BI:I:EBBU:CTR:-:-:0040:0047
-
-# ; UAC ------------------------------------
-# Brussels Upper Control:Maastricht Radar:126.000:BU:U:EBBU:CTR:-:-:7101:7177
-
-# Maastricht NIK:Maastricht Radar:135.975:YN:N:EDYY:CTR:-:-:7101:7177
-# Maastricht LNO:Maastricht Radar:132.850:YO:O:EDYY:CTR:-:-:7101:7177
-# Maastricht KOK:Maastricht Radar:132.200:YK:K:EDYY:CTR:-:-:7101:7177
-# Maastricht LUX:Maastricht Radar:133.350:YL:L:EDYY:CTR:-:-:7101:7177
-
-# ;Maastricht NIK HIGH:Maastricht Radar:132.750:YNH:A:EDYY:CTR:-:-:7101:7177
-# ;Maastricht LUX HIGH:Maastricht Radar:132.350:YLH:Z:EDYY:CTR:-:-:7101:7177
-
 # Load Config file
-print(f"Loading color file {yml_config_file}")
+print(f"Loading config file {yml_config_file}")
 with open(yml_config_file, "r") as file:
     config = yaml.safe_load(file)
+
+# Load Colors file if it exists
+if os.path.exists(yml_colors_file):
+    print(f"Loading color file {yml_colors_file}")
+    with open(yml_colors_file, "r") as file:
+        colors = yaml.safe_load(file)
+else:
+    print(f"Color file {yml_colors_file} does not exist, will create new one")
+    colors = []
 
 # Load ESE data
 print(f"Loading ESE file {ese_input_file}")
@@ -70,13 +38,32 @@ for line in ese_data:
 
 # Function to get color
 def get_position_color(position):
+    for color in colors:
+        if color["callsign"] == position:
+            return color["color"]
     for pattern in config["colors"]:
         if re.search(pattern["callsign"], position):
-            return pattern["color"]
+            # LFXX_CTR: main color, LFXX_X_CTR: randomized color
+            if position.count("_") >= 2:
+                color = randomize_color(pattern["color"])
+            else:
+                color = pattern["color"]
+            colors.append({"callsign": position, "color": color})
+            return color
     return ""
 
+# Function to ramdom color
+def randomize_color(color_hex, variance=30):
+    r = clamp(int(color_hex[1:3], 16) + random.randint(-variance, variance))
+    g = clamp(int(color_hex[3:5], 16) + random.randint(-variance, variance))
+    b = clamp(int(color_hex[5:7], 16) + random.randint(-variance, variance))
+    return f"#{r:02x}{g:02x}{b:02x}"
+
+def clamp(x):
+    return max(0, min(x, 255))
+
 positions = {}
-colour_errors = False
+color_errors = False
 for pos in ese_positions:
     line_parts = pos.split(":")
     callsign = line_parts[0]
@@ -95,19 +82,25 @@ for pos in ese_positions:
             positions[id] = position 
         else:
             print(f"Error: no colors defined for {id} ({callsign})")
-            colour_hex = "#ffffff"
-            colour_errors = True
+            color_hex = "#ffffff"
+            color_errors = True
 
 output = {
     "positions" : positions
 }
 
-# Colousr errors
-if colour_errors:
+# Colors errors
+if color_errors:
     sys.exit(1)
 else:
     print("Was able to find colours for all positions")
 
-# Directly from dictionary
+# Save updated colors file
+print(f"Updating color file {yml_colors_file}")
+with open(yml_colors_file, "w") as file:
+    yaml.dump(colors, file)
+
+# Store output JSON
+print(f"Writing positions to {json_output_file}")
 with open(json_output_file, 'w') as outfile:
     json.dump(output, outfile, indent=2)
