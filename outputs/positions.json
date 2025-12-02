@@ -2563,7 +2563,7 @@
     },
     "LLD": {
       "callsign": "Lyon Departure",
-      "frequency": "131.315",
+      "frequency": "132.000",
       "type": "DEP",
       "pre": [
         "LFLL"
@@ -2782,7 +2782,7 @@
         }
       ]
     },
-    "NEM": {
+    "MRAE": {
       "callsign": "Marseille Control",
       "frequency": "132.490",
       "type": "CTR",
@@ -2795,7 +2795,7 @@
         }
       ]
     },
-    "MNU": {
+    "MRAW": {
       "callsign": "Marseille Control",
       "frequency": "133.430",
       "type": "CTR",
@@ -2834,7 +2834,7 @@
         }
       ]
     },
-    "MMN": {
+    "MMW": {
       "callsign": "Marseille Control",
       "frequency": "132.365",
       "type": "CTR",
