@@ -1076,7 +1076,7 @@
         "owners": [
           "MWU",
           "MUU",
-          "MNU",
+          "MRAW",
           "MM"
         ],
         "min": 245,
@@ -1181,7 +1181,7 @@
         "owners": [
           "MEU",
           "MUU",
-          "NEM",
+          "MRAE",
           "MM"
         ],
         "min": 245,
@@ -1262,7 +1262,7 @@
         "owners": [
           "MWU",
           "MUU",
-          "MNU",
+          "MRAW",
           "MM"
         ],
         "min": 245,
@@ -1363,7 +1363,7 @@
         "owners": [
           "MWU",
           "MUU",
-          "MNU",
+          "MRAW",
           "MM"
         ],
         "min": 245,
@@ -1454,9 +1454,9 @@
         "name": "K",
         "owner": "MM",
         "owners": [
-          "MME",
           "MUU",
-          "NEM",
+          "MME",
+          "MRAE",
           "MM"
         ],
         "min": 245,
@@ -1545,7 +1545,7 @@
         "owners": [
           "MEU",
           "MUU",
-          "NEM",
+          "MRAE",
           "MM"
         ],
         "min": 245,
@@ -1638,7 +1638,7 @@
         "owners": [
           "MWU",
           "MUU",
-          "MNU",
+          "MRAW",
           "MM"
         ],
         "min": 245,
@@ -1753,9 +1753,9 @@
         "name": "E",
         "owner": "MM",
         "owners": [
-          "MME",
           "MUU",
-          "NEM",
+          "MME",
+          "MRAE",
           "MM"
         ],
         "min": 245,
@@ -1848,7 +1848,7 @@
         "owners": [
           "MWU",
           "MUU",
-          "MNU",
+          "MRAW",
           "MM"
         ],
         "min": 245,
@@ -1961,7 +1961,7 @@
         "owners": [
           "MEU",
           "MUU",
-          "NEM",
+          "MRAE",
           "MM"
         ],
         "min": 245,
@@ -2074,7 +2074,7 @@
         "owners": [
           "MEU",
           "MUU",
-          "NEM",
+          "MRAE",
           "MM"
         ],
         "min": 245,

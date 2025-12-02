@@ -412,7 +412,7 @@
         "owner": "MM",
         "owners": [
           "MWU",
-          "MNU",
+          "MRAW",
           "MM"
         ],
         "min": 0,
@@ -504,7 +504,7 @@
         "owner": "MM",
         "owners": [
           "MME",
-          "NEM",
+          "MRAE",
           "MM"
         ],
         "min": 145,
@@ -579,8 +579,8 @@
         "name": "MO",
         "owner": "MM",
         "owners": [
-          "MMN",
-          "MNU",
+          "MMW",
+          "MRAW",
           "MM"
         ],
         "min": 145,
@@ -784,7 +784,7 @@
         "owner": "MM",
         "owners": [
           "MME",
-          "NEM",
+          "MRAE",
           "MM"
         ],
         "min": 145,
@@ -943,8 +943,8 @@
         "name": "ML1",
         "owner": "MM",
         "owners": [
-          "MMN",
-          "MNU",
+          "MMW",
+          "MRAW",
           "MM"
         ],
         "min": 145,
@@ -1035,8 +1035,8 @@
         "name": "LS1",
         "owner": "MM",
         "owners": [
-          "MMN",
-          "MNU",
+          "MMW",
+          "MRAW",
           "MM"
         ],
         "min": 145,
@@ -1111,8 +1111,8 @@
         "name": "LO1",
         "owner": "MM",
         "owners": [
-          "MMN",
-          "MNU",
+          "MMW",
+          "MRAW",
           "MM"
         ],
         "min": 145,
@@ -1175,8 +1175,8 @@
         "name": "LE1.5",
         "owner": "MM",
         "owners": [
-          "MMN",
-          "MNU",
+          "MMW",
+          "MRAW",
           "MM"
         ],
         "min": 155,
@@ -1439,8 +1439,8 @@
         "name": "LE1",
         "owner": "MM",
         "owners": [
-          "MMN",
-          "MNU",
+          "MMW",
+          "MRAW",
           "MM"
         ],
         "min": 145,
@@ -1536,7 +1536,7 @@
         "owner": "MM",
         "owners": [
           "MWU",
-          "MNU",
+          "MRAW",
           "MM"
         ],
         "min": 145,
@@ -1620,7 +1620,7 @@
         "owner": "MM",
         "owners": [
           "MME",
-          "NEM",
+          "MRAE",
           "MM"
         ],
         "min": 145,
@@ -1732,7 +1732,7 @@
         "owner": "MM",
         "owners": [
           "MME",
-          "NEM",
+          "MRAE",
           "MM"
         ],
         "min": 145,
@@ -4352,7 +4352,7 @@
         "owners": [
           "THA",
           "MME",
-          "NEM",
+          "MRAE",
           "MM"
         ],
         "min": 0,
@@ -4429,7 +4429,7 @@
         "owners": [
           "MNA",
           "MME",
-          "NEM",
+          "MRAE",
           "MM"
         ],
         "min": 0,
@@ -4503,7 +4503,7 @@
           "MNE",
           "MNA",
           "MME",
-          "NEM",
+          "MRAE",
           "MM"
         ],
         "min": 0,
