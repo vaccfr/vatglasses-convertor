@@ -103,16 +103,20 @@ for airspace in data["airspace"]:
                     feature_list.append(feature)
 feature_collection = FeatureCollection(feature_list)
 
-if args.output_file:
-   print(f"Write to file {args.output_file}")
-   with open(args.output_file, 'w') as outfile:
-    json.dump(feature_collection, outfile, indent=2)
+if (len(feature_list) == 0):
+    print("No matching airspace found for the given flight level and positions.")
+else:
+    print(f"Total matching airspaces: {len(feature_list)}")
+    feature_collection = FeatureCollection(feature_list)
 
+    if args.output_file:
+        print(f"Write to file {args.output_file}")
+        with open(args.output_file, 'w') as outfile:
+            json.dump(feature_collection, outfile, indent=2)
 
-# Write output file
-
-if args.show:
-    geojsonio.display(dumps(feature_collection))
+    # Write output file
+    if args.show:
+        geojsonio.display(dumps(feature_collection))
 
 
 
