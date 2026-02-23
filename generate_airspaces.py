@@ -241,7 +241,7 @@ for sector in reversed(sectordic.keys()):
                 "points" : getpoints(sectordic[sector]["borders"])
             }]
 
-            if tmp["sectors"][0]["points"] != None and "_GND" not in name and "_DEL" not in name: #and "-GND" not in name
+            if tmp["sectors"][0]["points"] != None and "_GND" not in name and "_RMP" not in name and "_DEL" not in name: #and "-GND" not in name
                 airspaces.append(tmp)
             else:
                 print(sector.ljust(30), "         is ground or delivery")

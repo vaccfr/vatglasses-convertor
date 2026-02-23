@@ -69,7 +69,7 @@ for pos in ese_positions:
     callsign = line_parts[0]
     id = line_parts[3]
 
-    if line_parts[6] not in ["ATIS", "GND", "DEL"]:
+    if line_parts[6] not in ["ATIS", "GND", "RMP", "DEL"]:
         color = get_position_color(callsign)
         if len(color) > 0:
             position = {
