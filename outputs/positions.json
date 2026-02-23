@@ -1211,7 +1211,7 @@
     },
     "SBA": {
       "callsign": "Bale Approach",
-      "frequency": "119.355",
+      "frequency": "133.510",
       "type": "APP",
       "pre": [
         "LFSB"
@@ -1224,7 +1224,7 @@
     },
     "SBC": {
       "callsign": "Bale Control",
-      "frequency": "135.850",
+      "frequency": "125.415",
       "type": "APP",
       "pre": [
         "LFSB"
@@ -1276,7 +1276,7 @@
     },
     "STA": {
       "callsign": "Strasbourg Approach",
-      "frequency": "120.700",
+      "frequency": "120.410",
       "type": "APP",
       "pre": [
         "LFST"
@@ -1314,7 +1314,7 @@
       ]
     },
     "AQ": {
-      "callsign": "Albert-Bray Tower",
+      "callsign": "Albert Tower",
       "frequency": "119.655",
       "type": "TWR",
       "pre": [
@@ -1599,7 +1599,7 @@
         }
       ]
     },
-    "PGE": {
+    "PGDS": {
       "callsign": "De Gaulle Departure",
       "frequency": "133.380",
       "type": "DEP",
@@ -2563,7 +2563,7 @@
     },
     "LLD": {
       "callsign": "Lyon Departure",
-      "frequency": "132.000",
+      "frequency": "120.430",
       "type": "DEP",
       "pre": [
         "LFLL"
