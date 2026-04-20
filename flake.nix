@@ -18,12 +18,7 @@
       devShells = forAllSystems (system:
         let
           pkgs = nixpkgs.legacyPackages.${system};
-          python = pkgs.python3.withPackages (ps: with ps; [
-            geojson
-            requests
-            pyyaml
-            pip
-          ]);
+          python = pkgs.python3.withPackages (ps: [ ps.pip ]);
         in
         {
           default = pkgs.mkShell {
@@ -33,9 +28,7 @@
               export PYTHONPATH="$PIP_PREFIX/${python.sitePackages}:$PYTHONPATH"
               export PATH="$PIP_PREFIX/bin:$PATH"
               mkdir -p "$PIP_PREFIX"
-              if [ ! -d "$PIP_PREFIX/${python.sitePackages}/geojsonio" ]; then
-                pip install --quiet geojsonio
-              fi
+              pip install --quiet -r requirements.txt
             '';
           };
         }
