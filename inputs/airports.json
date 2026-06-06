@@ -1,0 +1,1305 @@
+[
+  {
+    "icao": "LFAC",
+    "topdown": [
+      "ACI",
+      "QW",
+      "QE",
+      "TB",
+      "TNTB",
+      "AENB",
+      "RPAW",
+      "LOW",
+      "PAR"
+    ]
+  },
+  {
+    "icao": "LFAQ",
+    "topdown": [
+      "AQT",
+      "QA",
+      "QE",
+      "TB",
+      "TNTB",
+      "AENB",
+      "RPAW",
+      "LOW",
+      "PAR"
+    ]
+  },
+  {
+    "icao": "LFAT",
+    "topdown": [
+      "ATT",
+      "QW",
+      "QE",
+      "TB",
+      "TNTB",
+      "AENB",
+      "RPAW",
+      "LOW",
+      "PAR"
+    ]
+  },
+  {
+    "icao": "LFAV",
+    "topdown": [
+      "QE",
+      "TB",
+      "TNTB",
+      "AENB",
+      "RPAW",
+      "LOW",
+      "PAR"
+    ]
+  },
+  {
+    "icao": "LFBA",
+    "topdown": [
+      "BAT",
+      "WB",
+      "EB",
+      "AW",
+      "AE",
+      "BB"
+    ]
+  },
+  {
+    "icao": "LFBC",
+    "topdown": [
+      "BCT",
+      "BC",
+      "CCMC"
+    ]
+  },
+  {
+    "icao": "LFBD",
+    "topdown": [
+      "BDT",
+      "BW",
+      "BB"
+    ]
+  },
+  {
+    "icao": "LFBE",
+    "topdown": [
+      "BET",
+      "BE",
+      "BW",
+      "BB"
+    ]
+  },
+  {
+    "icao": "LFBG",
+    "topdown": [
+      "BGT",
+      "BG",
+      "CCMC"
+    ]
+  },
+  {
+    "icao": "LFBH",
+    "topdown": [
+      "BHT",
+      "BH",
+      "BB"
+    ]
+  },
+  {
+    "icao": "LFBI",
+    "topdown": [
+      "BIT",
+      "BI",
+      "BB"
+    ]
+  },
+  {
+    "icao": "LFBL",
+    "topdown": [
+      "BLT",
+      "BL",
+      "BB"
+    ]
+  },
+  {
+    "icao": "LFBM",
+    "topdown": [
+      "BMT",
+      "BM",
+      "CCMC"
+    ]
+  },
+  {
+    "icao": "LFBN",
+    "topdown": [
+      "BNI",
+      "BI",
+      "BB"
+    ]
+  },
+  {
+    "icao": "LFBO",
+    "topdown": [
+      "BOT",
+      "EB",
+      "AE",
+      "BB"
+    ]
+  },
+  {
+    "icao": "LFBP",
+    "topdown": [
+      "BPT",
+      "PY",
+      "BB"
+    ]
+  },
+  {
+    "icao": "LFBR",
+    "topdown": [
+      "BRT",
+      "WB",
+      "EB",
+      "AW",
+      "AE",
+      "BB"
+    ]
+  },
+  {
+    "icao": "LFBT",
+    "topdown": [
+      "BTT",
+      "PY",
+      "BB"
+    ]
+  },
+  {
+    "icao": "LFBU",
+    "topdown": [
+      "BUI",
+      "BLV",
+      "BL",
+      "BB"
+    ]
+  },
+  {
+    "icao": "LFBY",
+    "topdown": [
+      "BYT",
+      "BM",
+      "CCMC"
+    ]
+  },
+  {
+    "icao": "LFBZ",
+    "topdown": [
+      "BZT",
+      "BZ",
+      "PY",
+      "BB"
+    ]
+  },
+  {
+    "icao": "LFCC",
+    "topdown": [
+      "CCI",
+      "CN",
+      "CF",
+      "MMW",
+      "MRAW",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFCK",
+    "topdown": [
+      "CKI",
+      "EB",
+      "AE",
+      "BB"
+    ]
+  },
+  {
+    "icao": "LFCL",
+    "topdown": [
+      "CLT",
+      "AE",
+      "BB"
+    ]
+  },
+  {
+    "icao": "LFCR",
+    "topdown": [
+      "CRT",
+      "CN",
+      "CF",
+      "MMW",
+      "MRAW",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFDN",
+    "topdown": [
+      "DNI",
+      "BH",
+      "BB"
+    ]
+  },
+  {
+    "icao": "LFEA",
+    "topdown": [
+      "EAI",
+      "NA",
+      "RS",
+      "RRS",
+      "RR"
+    ]
+  },
+  {
+    "icao": "LFEQ",
+    "topdown": [
+      "EAI",
+      "NA",
+      "RS",
+      "RRS",
+      "RR"
+    ]
+  },
+  {
+    "icao": "LFEY",
+    "topdown": [
+      "EAI",
+      "NA",
+      "RS",
+      "RRS",
+      "RR"
+    ]
+  },
+  {
+    "icao": "LFGA",
+    "topdown": [
+      "GAT"
+    ]
+  },
+  {
+    "icao": "LFGJ",
+    "topdown": [
+      "GJT"
+    ]
+  },
+  {
+    "icao": "LFHP",
+    "topdown": [
+      "CL",
+      "CF",
+      "MMW",
+      "MRAW",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFHY",
+    "topdown": [
+      "HYI",
+      "LN",
+      "CY",
+      "CF",
+      "MMW",
+      "MRAW",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFJL",
+    "topdown": [
+      "JLT",
+      "JL",
+      "SC",
+      "SU",
+      "EE"
+    ]
+  },
+  {
+    "icao": "LFJR",
+    "topdown": [
+      "JRI",
+      "NIE",
+      "NB",
+      "RS",
+      "RRS",
+      "RR"
+    ]
+  },
+  {
+    "icao": "LFKB",
+    "topdown": [
+      "KBT",
+      "BKB",
+      "MME",
+      "MRAE",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFKC",
+    "topdown": [
+      "KCT",
+      "BKC",
+      "BKB",
+      "MME",
+      "MRAE",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFKF",
+    "topdown": [
+      "KFT",
+      "KJ",
+      "MME",
+      "MRAE",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFKJ",
+    "topdown": [
+      "KJT",
+      "KJ",
+      "MME",
+      "MRAE",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFKS",
+    "topdown": [
+      "KST",
+      "KS",
+      "CCMC"
+    ]
+  },
+  {
+    "icao": "LFLA",
+    "topdown": [
+      "LAI",
+      "SI",
+      "SJ",
+      "RPAE",
+      "LOW",
+      "PAR"
+    ]
+  },
+  {
+    "icao": "LFLB",
+    "topdown": [
+      "LBT",
+      "LB",
+      "VE",
+      "VW",
+      "MMW",
+      "MRAW",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFLC",
+    "topdown": [
+      "LCT",
+      "CF",
+      "MMW",
+      "MRAW",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFLD",
+    "topdown": [
+      "LAI",
+      "SJ",
+      "RPAE",
+      "LOW",
+      "PAR"
+    ]
+  },
+  {
+    "icao": "LFLG",
+    "topdown": [
+      "LGI",
+      "VE",
+      "VW",
+      "MMW",
+      "MRAW",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFLH",
+    "topdown": [
+      "LHI",
+      "SBC",
+      "SJ",
+      "EE"
+    ]
+  },
+  {
+    "icao": "LFLL",
+    "topdown": [
+      "LLT",
+      "VW",
+      "MMW",
+      "MRAW",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFLN",
+    "topdown": [
+      "LNT",
+      "LN",
+      "CY",
+      "CF",
+      "MMW",
+      "MRAW",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFLO",
+    "topdown": [
+      "LOI",
+      "CY",
+      "CF",
+      "MMW",
+      "MRAW",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFLP",
+    "topdown": [
+      "LPT",
+      "LB"
+    ]
+  },
+  {
+    "icao": "LFLS",
+    "topdown": [
+      "LST",
+      "VE",
+      "VW",
+      "MMW",
+      "MRAW",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFLU",
+    "topdown": [
+      "LUT",
+      "VW",
+      "MMW",
+      "MRAW",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFLV",
+    "topdown": [
+      "LVI",
+      "CF",
+      "MMW",
+      "MRAW",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFLW",
+    "topdown": [
+      "LWI",
+      "CN",
+      "CF",
+      "MMW",
+      "MRAW",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFLX",
+    "topdown": [
+      "LXT",
+      "BIV",
+      "BI",
+      "BB"
+    ]
+  },
+  {
+    "icao": "LFLY",
+    "topdown": [
+      "LYT",
+      "VW",
+      "MMW",
+      "MRAW",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFMA",
+    "topdown": [
+      "MAT",
+      "ME",
+      "MMW",
+      "MRAW",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFMC",
+    "topdown": [
+      "MCT",
+      "CCMC"
+    ]
+  },
+  {
+    "icao": "LFMD",
+    "topdown": [
+      "MDT",
+      "ND",
+      "NO",
+      "MME",
+      "MRAE",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFMH",
+    "topdown": [
+      "MHT",
+      "CK",
+      "CF",
+      "MMW",
+      "MRAW",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFMI",
+    "topdown": [
+      "MIT",
+      "MI",
+      "MIC",
+      "CCMC"
+    ]
+  },
+  {
+    "icao": "LFMK",
+    "topdown": [
+      "MKT",
+      "EB",
+      "AE",
+      "BB"
+    ]
+  },
+  {
+    "icao": "LFML",
+    "topdown": [
+      "MLT",
+      "ME",
+      "MMW",
+      "MRAW",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFMN",
+    "topdown": [
+      "MNT",
+      "ND",
+      "NO",
+      "MME",
+      "MRAE",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFMO",
+    "topdown": [
+      "MOT",
+      "MO",
+      "CCMC"
+    ]
+  },
+  {
+    "icao": "LFMP",
+    "topdown": [
+      "MPT",
+      "FA",
+      "FE",
+      "MMW",
+      "MRAW",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFMQ",
+    "topdown": [
+      "ME",
+      "MAC",
+      "MMW",
+      "MRAW",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFMT",
+    "topdown": [
+      "MTT",
+      "FE",
+      "MMW",
+      "MRAW",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFMU",
+    "topdown": [
+      "MUT",
+      "FA",
+      "FE",
+      "MMW",
+      "MRAW",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFMV",
+    "topdown": [
+      "MVT",
+      "MB",
+      "ME",
+      "MMW",
+      "MRAW",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFMY",
+    "topdown": [
+      "MYT",
+      "MY",
+      "CCMC"
+    ]
+  },
+  {
+    "icao": "LFMZ",
+    "topdown": [
+      "MZI",
+      "FA",
+      "MMW",
+      "MRAW",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFNB",
+    "topdown": [
+      "NBI",
+      "FB",
+      "FA",
+      "MMW",
+      "MRAW",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFOA",
+    "topdown": [
+      "OAT",
+      "OA",
+      "CCMC"
+    ]
+  },
+  {
+    "icao": "LFOB",
+    "topdown": [
+      "OBT",
+      "OB",
+      "PGN",
+      "DODG",
+      "DOGS",
+      "FPAE",
+      "RPAE",
+      "LOW",
+      "PAR"
+    ]
+  },
+  {
+    "icao": "LFOE",
+    "topdown": [
+      "OET",
+      "OE",
+      "CCMC"
+    ]
+  },
+  {
+    "icao": "LFOH",
+    "topdown": [
+      "OHI",
+      "JD",
+      "RN",
+      "RRW",
+      "RR"
+    ]
+  },
+  {
+    "icao": "LFOJ",
+    "topdown": [
+      "OJT",
+      "OJ",
+      "CCMC"
+    ]
+  },
+  {
+    "icao": "LFOK",
+    "topdown": [
+      "OKT",
+      "SI",
+      "SJ",
+      "RPAE",
+      "LOW",
+      "PAR"
+    ]
+  },
+  {
+    "icao": "LFOP",
+    "topdown": [
+      "OPT",
+      "QR",
+      "QE",
+      "TB",
+      "TNTB",
+      "AENB",
+      "RPAW",
+      "LOW",
+      "PAR"
+    ]
+  },
+  {
+    "icao": "LFOQ",
+    "topdown": [
+      "OQI",
+      "SJ",
+      "RPAE",
+      "LOW",
+      "PAR"
+    ]
+  },
+  {
+    "icao": "LFOT",
+    "topdown": [
+      "OTT",
+      "SK",
+      "SJ",
+      "ORGY",
+      "OPKZ",
+      "RPAW",
+      "LOW",
+      "PAR"
+    ]
+  },
+  {
+    "icao": "LFOU",
+    "topdown": [
+      "OUI",
+      "NB",
+      "RS",
+      "RRS",
+      "RR"
+    ]
+  },
+  {
+    "icao": "LFOV",
+    "topdown": [
+      "OVI",
+      "RN",
+      "RRW",
+      "RR"
+    ]
+  },
+  {
+    "icao": "LFOZ",
+    "topdown": [
+      "OZI",
+      "SJ",
+      "RPAE",
+      "LOW",
+      "PAR"
+    ]
+  },
+  {
+    "icao": "LFPB",
+    "topdown": [
+      "PBT",
+      "PGDS",
+      "PGDN",
+      "PGS",
+      "PGN",
+      "DODG",
+      "DOGS",
+      "FPAE",
+      "RPAE",
+      "LOW",
+      "PAR"
+    ]
+  },
+  {
+    "icao": "LFPG",
+    "topdown": [
+      "PGTS",
+      "PGTN",
+      "PGDS",
+      "PGDN",
+      "PGS",
+      "PGN",
+      "DODG",
+      "DOGS",
+      "FPAE",
+      "RPAE",
+      "LOW",
+      "PAR"
+    ]
+  },
+  {
+    "icao": "LFPL",
+    "topdown": [
+      "PLT"
+    ]
+  },
+  {
+    "icao": "LFPM",
+    "topdown": [
+      "PMT",
+      "SJ",
+      "RPAE",
+      "LOW",
+      "PAR"
+    ]
+  },
+  {
+    "icao": "LFPN",
+    "topdown": [
+      "PNT"
+    ]
+  },
+  {
+    "icao": "LFPO",
+    "topdown": [
+      "POT",
+      "PODD",
+      "PO",
+      "PGDS",
+      "PGS",
+      "PGDN",
+      "PGN",
+      "DODG",
+      "DOGS",
+      "FPAE",
+      "RPAE",
+      "LOW",
+      "PAR"
+    ]
+  },
+  {
+    "icao": "LFPT",
+    "topdown": [
+      "PTT",
+      "PT",
+      "PGDN",
+      "PGN",
+      "DODG",
+      "DOGS",
+      "FPAE",
+      "RPAE",
+      "LOW",
+      "PAR"
+    ]
+  },
+  {
+    "icao": "LFPV",
+    "topdown": [
+      "PVT",
+      "PV",
+      "CCMC"
+    ]
+  },
+  {
+    "icao": "LFPX",
+    "topdown": [
+      "PXT"
+    ]
+  },
+  {
+    "icao": "LFPZ",
+    "topdown": [
+      "PZT"
+    ]
+  },
+  {
+    "icao": "LFQA",
+    "topdown": [
+      "QAI",
+      "SI",
+      "SJ",
+      "RPAE",
+      "LOW",
+      "PAR"
+    ]
+  },
+  {
+    "icao": "LFQB",
+    "topdown": [
+      "QAI",
+      "SI",
+      "SJ",
+      "RPAE",
+      "LOW",
+      "PAR"
+    ]
+  },
+  {
+    "icao": "LFQE",
+    "topdown": [
+      "QET",
+      ".QE",
+      "CCMC"
+    ]
+  },
+  {
+    "icao": "LFQM",
+    "topdown": [
+      "QMI",
+      "SBC",
+      "EE"
+    ]
+  },
+  {
+    "icao": "LFQP",
+    "topdown": [
+      "QPT",
+      "QP",
+      "CCMC"
+    ]
+  },
+  {
+    "icao": "LFQQ",
+    "topdown": [
+      "QQT",
+      "QE",
+      "TB",
+      "TNTB",
+      "AENB",
+      "RPAW",
+      "LOW",
+      "PAR"
+    ]
+  },
+  {
+    "icao": "LFQT",
+    "topdown": [
+      "QTT",
+      "QW",
+      "QE",
+      "TB",
+      "TNTB",
+      "AENB",
+      "RPAW",
+      "LOW",
+      "PAR"
+    ]
+  },
+  {
+    "icao": "LFRB",
+    "topdown": [
+      "RBT",
+      "RBA",
+      "RRW",
+      "RR"
+    ]
+  },
+  {
+    "icao": "LFRC",
+    "topdown": [
+      "RCI",
+      "JC",
+      "JD",
+      "RN",
+      "RRW",
+      "RR"
+    ]
+  },
+  {
+    "icao": "LFRD",
+    "topdown": [
+      "RDT"
+    ]
+  },
+  {
+    "icao": "LFRE",
+    "topdown": [
+      "REI",
+      "NA",
+      "RS",
+      "RRS",
+      "RR"
+    ]
+  },
+  {
+    "icao": "LFRG",
+    "topdown": [
+      "RGT",
+      "JD",
+      "RN",
+      "RRW",
+      "RR"
+    ]
+  },
+  {
+    "icao": "LFRH",
+    "topdown": [
+      "RHT",
+      "RHA",
+      "RBA",
+      "CCMC",
+      "RRW",
+      "RR"
+    ]
+  },
+  {
+    "icao": "LFRI",
+    "topdown": [
+      "RII",
+      "NB",
+      "RS",
+      "RRS",
+      "RR"
+    ]
+  },
+  {
+    "icao": "LFRJ",
+    "topdown": [
+      "RJT",
+      "RLI",
+      "RBA",
+      "CCMC",
+      "RRW",
+      "RR"
+    ]
+  },
+  {
+    "icao": "LFRK",
+    "topdown": [
+      "RKT",
+      "JD",
+      "RN",
+      "RRW",
+      "RR"
+    ]
+  },
+  {
+    "icao": "LFRL",
+    "topdown": [
+      "RLT",
+      "RLA",
+      "RBA",
+      "CCMC",
+      "RRW",
+      "RR"
+    ]
+  },
+  {
+    "icao": "LFRM",
+    "topdown": [
+      "RMT",
+      "NB",
+      "RS",
+      "RRS",
+      "RR"
+    ]
+  },
+  {
+    "icao": "LFRN",
+    "topdown": [
+      "RNT",
+      "RN",
+      "RRW",
+      "RR"
+    ]
+  },
+  {
+    "icao": "LFRO",
+    "topdown": [
+      "ROI",
+      "IIN",
+      "RBA",
+      "RRW",
+      "RR"
+    ]
+  },
+  {
+    "icao": "LFRQ",
+    "topdown": [
+      "RQT",
+      "RBA",
+      "RRW",
+      "RR"
+    ]
+  },
+  {
+    "icao": "LFRS",
+    "topdown": [
+      "RST",
+      "RS",
+      "RRS",
+      "RR"
+    ]
+  },
+  {
+    "icao": "LFRU",
+    "topdown": [
+      "RUI",
+      "IIN",
+      "RBA",
+      "RRW",
+      "RR"
+    ]
+  },
+  {
+    "icao": "LFRV",
+    "topdown": [
+      "RVI",
+      "NA",
+      "RS",
+      "RRS",
+      "RR"
+    ]
+  },
+  {
+    "icao": "LFRZ",
+    "topdown": [
+      "RZT",
+      "RS",
+      "RRS",
+      "RR"
+    ]
+  },
+  {
+    "icao": "LFSB",
+    "topdown": [
+      "SBT",
+      "SB",
+      "SBC",
+      "EE",
+      "LSAA",
+      "LSAS",
+      "SZ",
+      "LSAU"
+    ]
+  },
+  {
+    "icao": "LFSD",
+    "topdown": [
+      "SDI",
+      "SBC",
+      "EE"
+    ]
+  },
+  {
+    "icao": "LFSG",
+    "topdown": [
+      "SGI",
+      "SC",
+      "SU",
+      "UE",
+      "EE"
+    ]
+  },
+  {
+    "icao": "LFSI",
+    "topdown": [
+      "SIT",
+      ".SI",
+      "CCMC"
+    ]
+  },
+  {
+    "icao": "LFSL",
+    "topdown": [
+      "SLT",
+      "BLV",
+      "BL",
+      "BB"
+    ]
+  },
+  {
+    "icao": "LFSN",
+    "topdown": [
+      "SNI",
+      "SC",
+      "SU",
+      "UE",
+      "EE"
+    ]
+  },
+  {
+    "icao": "LFSO",
+    "topdown": [
+      "SOT",
+      "SO",
+      "CCMC"
+    ]
+  },
+  {
+    "icao": "LFST",
+    "topdown": [
+      "STT",
+      "RW",
+      "SU",
+      "UE",
+      "EE"
+    ]
+  },
+  {
+    "icao": "LFSX",
+    "topdown": [
+      "SXT",
+      "SXA",
+      "CCMC"
+    ]
+  },
+  {
+    "icao": "LFTH",
+    "topdown": [
+      "THT",
+      "THA",
+      "CCMC"
+    ]
+  },
+  {
+    "icao": "LFTW",
+    "topdown": [
+      "TWT",
+      "FE",
+      "MMW",
+      "MRAW",
+      "MM"
+    ]
+  },
+  {
+    "icao": "LFTZ",
+    "topdown": [
+      "TZT",
+      "NO"
+    ]
+  }
+]

@@ -12,6 +12,18 @@
       "coord": [
         50.960933,
         1.951433
+      ],
+      "default": false,
+      "topdown": [
+        "ACI",
+        "QW",
+        "QE",
+        "TB",
+        "TNTB",
+        "AENB",
+        "RPAW",
+        "LOW",
+        "PAR"
       ]
     },
     "LFAD": {
@@ -96,6 +108,18 @@
       "coord": [
         49.970061,
         2.692617
+      ],
+      "default": false,
+      "topdown": [
+        "AQT",
+        "QA",
+        "QE",
+        "TB",
+        "TNTB",
+        "AENB",
+        "RPAW",
+        "LOW",
+        "PAR"
       ]
     },
     "LFAR": {
@@ -117,6 +141,18 @@
       "coord": [
         50.514847,
         1.627578
+      ],
+      "default": false,
+      "topdown": [
+        "ATT",
+        "QW",
+        "QE",
+        "TB",
+        "TNTB",
+        "AENB",
+        "RPAW",
+        "LOW",
+        "PAR"
       ]
     },
     "LFAU": {
@@ -131,6 +167,16 @@
       "coord": [
         50.324792,
         3.465444
+      ],
+      "default": false,
+      "topdown": [
+        "QE",
+        "TB",
+        "TNTB",
+        "AENB",
+        "RPAW",
+        "LOW",
+        "PAR"
       ]
     },
     "LFAW": {
@@ -159,6 +205,15 @@
       "coord": [
         44.174714,
         0.590619
+      ],
+      "default": false,
+      "topdown": [
+        "BAT",
+        "WB",
+        "EB",
+        "AW",
+        "AE",
+        "BB"
       ]
     },
     "LFBC": {
@@ -166,6 +221,12 @@
       "coord": [
         44.534886,
         -1.131453
+      ],
+      "default": false,
+      "topdown": [
+        "BCT",
+        "BC",
+        "CCMC"
       ]
     },
     "LFBD": {
@@ -173,6 +234,12 @@
       "coord": [
         44.828653,
         -0.715344
+      ],
+      "default": false,
+      "topdown": [
+        "BDT",
+        "BW",
+        "BB"
       ]
     },
     "LFBE": {
@@ -180,6 +247,13 @@
       "coord": [
         44.824431,
         0.520525
+      ],
+      "default": false,
+      "topdown": [
+        "BET",
+        "BE",
+        "BW",
+        "BB"
       ]
     },
     "LFBF": {
@@ -194,6 +268,12 @@
       "coord": [
         45.658231,
         -0.317567
+      ],
+      "default": false,
+      "topdown": [
+        "BGT",
+        "BG",
+        "CCMC"
       ]
     },
     "LFBH": {
@@ -201,6 +281,12 @@
       "coord": [
         46.179211,
         -1.195236
+      ],
+      "default": false,
+      "topdown": [
+        "BHT",
+        "BH",
+        "BB"
       ]
     },
     "LFBI": {
@@ -208,6 +294,12 @@
       "coord": [
         46.587397,
         0.306786
+      ],
+      "default": false,
+      "topdown": [
+        "BIT",
+        "BI",
+        "BB"
       ]
     },
     "LFBJ": {
@@ -229,6 +321,12 @@
       "coord": [
         45.860764,
         1.180306
+      ],
+      "default": false,
+      "topdown": [
+        "BLT",
+        "BL",
+        "BB"
       ]
     },
     "LFBM": {
@@ -236,6 +334,12 @@
       "coord": [
         43.911389,
         -0.51
+      ],
+      "default": false,
+      "topdown": [
+        "BMT",
+        "BM",
+        "CCMC"
       ]
     },
     "LFBN": {
@@ -243,6 +347,12 @@
       "coord": [
         46.313422,
         -0.394433
+      ],
+      "default": false,
+      "topdown": [
+        "BNI",
+        "BI",
+        "BB"
       ]
     },
     "LFBO": {
@@ -250,6 +360,13 @@
       "coord": [
         43.635128,
         1.367856
+      ],
+      "default": false,
+      "topdown": [
+        "BOT",
+        "EB",
+        "AE",
+        "BB"
       ]
     },
     "LFBP": {
@@ -257,6 +374,12 @@
       "coord": [
         43.3799,
         -0.418511
+      ],
+      "default": false,
+      "topdown": [
+        "BPT",
+        "PY",
+        "BB"
       ]
     },
     "LFBR": {
@@ -264,6 +387,15 @@
       "coord": [
         43.449156,
         1.263694
+      ],
+      "default": false,
+      "topdown": [
+        "BRT",
+        "WB",
+        "EB",
+        "AW",
+        "AE",
+        "BB"
       ]
     },
     "LFBS": {
@@ -278,6 +410,12 @@
       "coord": [
         43.18545,
         -0.002894
+      ],
+      "default": false,
+      "topdown": [
+        "BTT",
+        "PY",
+        "BB"
       ]
     },
     "LFBU": {
@@ -285,6 +423,13 @@
       "coord": [
         45.729475,
         0.219153
+      ],
+      "default": false,
+      "topdown": [
+        "BUI",
+        "BLV",
+        "BL",
+        "BB"
       ]
     },
     "LFBV": {
@@ -306,6 +451,12 @@
       "coord": [
         43.689167,
         -1.068889
+      ],
+      "default": false,
+      "topdown": [
+        "BYT",
+        "BM",
+        "CCMC"
       ]
     },
     "LFBZ": {
@@ -313,6 +464,13 @@
       "coord": [
         43.468308,
         -1.531161
+      ],
+      "default": false,
+      "topdown": [
+        "BZT",
+        "BZ",
+        "PY",
+        "BB"
       ]
     },
     "LFCA": {
@@ -334,6 +492,15 @@
       "coord": [
         44.350542,
         1.478586
+      ],
+      "default": false,
+      "topdown": [
+        "CCI",
+        "CN",
+        "CF",
+        "MMW",
+        "MRAW",
+        "MM"
       ]
     },
     "LFCD": {
@@ -390,6 +557,13 @@
       "coord": [
         43.554961,
         2.290592
+      ],
+      "default": false,
+      "topdown": [
+        "CKI",
+        "EB",
+        "AE",
+        "BB"
       ]
     },
     "LFCL": {
@@ -397,6 +571,12 @@
       "coord": [
         43.587778,
         1.498611
+      ],
+      "default": false,
+      "topdown": [
+        "CLT",
+        "AE",
+        "BB"
       ]
     },
     "LFCM": {
@@ -439,6 +619,15 @@
       "coord": [
         44.407489,
         2.483314
+      ],
+      "default": false,
+      "topdown": [
+        "CRT",
+        "CN",
+        "CF",
+        "MMW",
+        "MRAW",
+        "MM"
       ]
     },
     "LFCS": {
@@ -586,6 +775,12 @@
       "coord": [
         45.889508,
         -0.982347
+      ],
+      "default": false,
+      "topdown": [
+        "DNI",
+        "BH",
+        "BB"
       ]
     },
     "LFDP": {
@@ -663,6 +858,14 @@
       "coord": [
         47.326111,
         -3.198889
+      ],
+      "default": false,
+      "topdown": [
+        "EAI",
+        "NA",
+        "RS",
+        "RRS",
+        "RR"
       ]
     },
     "LFEB": {
@@ -761,6 +964,14 @@
       "coord": [
         47.481389,
         -3.101667
+      ],
+      "default": false,
+      "topdown": [
+        "EAI",
+        "NA",
+        "RS",
+        "RRS",
+        "RR"
       ]
     },
     "LFER": {
@@ -817,6 +1028,14 @@
       "coord": [
         46.7175,
         -2.3925
+      ],
+      "default": false,
+      "topdown": [
+        "EAI",
+        "NA",
+        "RS",
+        "RRS",
+        "RR"
       ]
     },
     "LFEZ": {
@@ -992,6 +1211,10 @@
       "coord": [
         48.11035,
         7.359147
+      ],
+      "default": false,
+      "topdown": [
+        "GAT"
       ]
     },
     "LFGB": {
@@ -1049,7 +1272,10 @@
         47.042694,
         5.434928
       ],
-      "topdown": []
+      "default": false,
+      "topdown": [
+        "GJT"
+      ]
     },
     "LFGK": {
       "callsign": "Joigny",
@@ -1259,6 +1485,14 @@
       "coord": [
         45.079656,
         3.763442
+      ],
+      "default": false,
+      "topdown": [
+        "CL",
+        "CF",
+        "MMW",
+        "MRAW",
+        "MM"
       ]
     },
     "LFHQ": {
@@ -1322,6 +1556,16 @@
       "coord": [
         46.534383,
         3.421606
+      ],
+      "default": false,
+      "topdown": [
+        "HYI",
+        "LN",
+        "CY",
+        "CF",
+        "MMW",
+        "MRAW",
+        "MM"
       ]
     },
     "LFHZ": {
@@ -1498,8 +1742,12 @@
         48.978281,
         6.246531
       ],
+      "default": false,
       "topdown": [
-        "JLA",
+        "JLT",
+        "JL",
+        "SC",
+        "SU",
         "EE"
       ]
     },
@@ -1508,6 +1756,15 @@
       "coord": [
         47.560211,
         -0.312128
+      ],
+      "default": false,
+      "topdown": [
+        "JRI",
+        "NIE",
+        "NB",
+        "RS",
+        "RRS",
+        "RR"
       ]
     },
     "LFJS": {
@@ -1558,8 +1815,10 @@
         42.55,
         9.484847
       ],
+      "default": false,
       "topdown": [
-        "KBA",
+        "KBT",
+        "BKB",
         "MME",
         "MRAE",
         "MM"
@@ -1571,8 +1830,11 @@
         42.524356,
         8.793011
       ],
+      "default": false,
       "topdown": [
-        "KBA",
+        "KCT",
+        "BKC",
+        "BKB",
         "MME",
         "MRAE",
         "MM"
@@ -1598,8 +1860,10 @@
         41.502108,
         9.096747
       ],
+      "default": false,
       "topdown": [
-        "KJA",
+        "KFT",
+        "KJ",
         "MME",
         "MRAE",
         "MM"
@@ -1625,8 +1889,10 @@
         41.923897,
         8.802436
       ],
+      "default": false,
       "topdown": [
-        "KJA",
+        "KJT",
+        "KJ",
         "MME",
         "MRAE",
         "MM"
@@ -1679,6 +1945,12 @@
       "coord": [
         41.926289,
         9.405303
+      ],
+      "default": false,
+      "topdown": [
+        "KST",
+        "KS",
+        "CCMC"
       ]
     },
     "LFKT": {
@@ -1707,6 +1979,15 @@
       "coord": [
         47.846328,
         3.496578
+      ],
+      "default": false,
+      "topdown": [
+        "LAI",
+        "SI",
+        "SJ",
+        "RPAE",
+        "LOW",
+        "PAR"
       ]
     },
     "LFLB": {
@@ -1715,10 +1996,12 @@
         45.639272,
         5.880122
       ],
+      "default": false,
       "topdown": [
-        "LBA",
-        "LLE",
-        "LLA",
+        "LBT",
+        "LB",
+        "VE",
+        "VW",
         "MMW",
         "MRAW",
         "MM"
@@ -1730,12 +2013,13 @@
         45.785972,
         3.16245
       ],
+      "default": false,
       "topdown": [
-        "LCA",
+        "LCT",
+        "CF",
         "MMW",
         "MRAW",
-        "MM",
-        "BB"
+        "MM"
       ]
     },
     "LFLD": {
@@ -1743,6 +2027,14 @@
       "coord": [
         47.060786,
         2.370083
+      ],
+      "default": false,
+      "topdown": [
+        "LAI",
+        "SJ",
+        "RPAE",
+        "LOW",
+        "PAR"
       ]
     },
     "LFLE": {
@@ -1757,6 +2049,15 @@
       "coord": [
         45.218056,
         5.848611
+      ],
+      "default": false,
+      "topdown": [
+        "LGI",
+        "VE",
+        "VW",
+        "MMW",
+        "MRAW",
+        "MM"
       ]
     },
     "LFLH": {
@@ -1764,6 +2065,13 @@
       "coord": [
         46.828275,
         4.817058
+      ],
+      "default": false,
+      "topdown": [
+        "LHI",
+        "SBC",
+        "SJ",
+        "EE"
       ]
     },
     "LFLI": {
@@ -1793,8 +2101,10 @@
         45.725639,
         5.081106
       ],
+      "default": false,
       "topdown": [
-        "LLA",
+        "LLT",
+        "VW",
         "MMW",
         "MRAW",
         "MM"
@@ -1812,6 +2122,16 @@
       "coord": [
         46.406619,
         4.020986
+      ],
+      "default": false,
+      "topdown": [
+        "LNT",
+        "LN",
+        "CY",
+        "CF",
+        "MMW",
+        "MRAW",
+        "MM"
       ]
     },
     "LFLO": {
@@ -1819,6 +2139,15 @@
       "coord": [
         46.052778,
         3.999722
+      ],
+      "default": false,
+      "topdown": [
+        "LOI",
+        "CY",
+        "CF",
+        "MMW",
+        "MRAW",
+        "MM"
       ]
     },
     "LFLP": {
@@ -1827,13 +2156,10 @@
         45.930775,
         6.106289
       ],
+      "default": false,
       "topdown": [
-        "LBA",
-        "LLE",
-        "LLA",
-        "MMW",
-        "MRAW",
-        "MM"
+        "LPT",
+        "LB"
       ]
     },
     "LFLQ": {
@@ -1856,9 +2182,11 @@
         45.362936,
         5.332664
       ],
+      "default": false,
       "topdown": [
-        "LLE",
-        "LLA",
+        "LST",
+        "VE",
+        "VW",
         "MMW",
         "MRAW",
         "MM"
@@ -1876,6 +2204,14 @@
       "coord": [
         44.915558,
         4.968744
+      ],
+      "default": false,
+      "topdown": [
+        "LUT",
+        "VW",
+        "MMW",
+        "MRAW",
+        "MM"
       ]
     },
     "LFLV": {
@@ -1883,6 +2219,14 @@
       "coord": [
         46.171783,
         3.404033
+      ],
+      "default": false,
+      "topdown": [
+        "LVI",
+        "CF",
+        "MMW",
+        "MRAW",
+        "MM"
       ]
     },
     "LFLW": {
@@ -1890,6 +2234,15 @@
       "coord": [
         44.897583,
         2.416719
+      ],
+      "default": false,
+      "topdown": [
+        "LWI",
+        "CN",
+        "CF",
+        "MMW",
+        "MRAW",
+        "MM"
       ]
     },
     "LFLX": {
@@ -1897,6 +2250,13 @@
       "coord": [
         46.860314,
         1.721125
+      ],
+      "default": false,
+      "topdown": [
+        "LXT",
+        "BIV",
+        "BI",
+        "BB"
       ]
     },
     "LFLY": {
@@ -1905,8 +2265,10 @@
         45.729519,
         4.938844
       ],
+      "default": false,
       "topdown": [
-        "LLA",
+        "LYT",
+        "VW",
         "MMW",
         "MRAW",
         "MM"
@@ -1925,9 +2287,10 @@
         43.505278,
         5.367222
       ],
+      "default": false,
       "topdown": [
-        "MLS",
-        "MLA",
+        "MAT",
+        "ME",
         "MMW",
         "MRAW",
         "MM"
@@ -1938,6 +2301,11 @@
       "coord": [
         43.384722,
         6.386944
+      ],
+      "default": false,
+      "topdown": [
+        "MCT",
+        "CCMC"
       ]
     },
     "LFMD": {
@@ -1946,10 +2314,11 @@
         43.546389,
         6.954167
       ],
+      "default": false,
       "topdown": [
-        "MND",
-        "MNAE",
-        "MNA",
+        "MDT",
+        "ND",
+        "NO",
         "MME",
         "MRAE",
         "MM"
@@ -1982,8 +2351,11 @@
         45.53405,
         4.297311
       ],
+      "default": false,
       "topdown": [
-        "LCA",
+        "MHT",
+        "CK",
+        "CF",
         "MMW",
         "MRAW",
         "MM"
@@ -1995,11 +2367,12 @@
         43.522394,
         4.924236
       ],
+      "default": false,
       "topdown": [
-        "MLS",
-        "MMW",
-        "MRAW",
-        "MM"
+        "MIT",
+        "MI",
+        "MIC",
+        "CCMC"
       ]
     },
     "LFMK": {
@@ -2007,6 +2380,13 @@
       "coord": [
         43.215817,
         2.308544
+      ],
+      "default": false,
+      "topdown": [
+        "MKT",
+        "EB",
+        "AE",
+        "BB"
       ]
     },
     "LFML": {
@@ -2015,9 +2395,10 @@
         43.436633,
         5.215119
       ],
+      "default": false,
       "topdown": [
-        "MLS",
-        "MLA",
+        "MLT",
+        "ME",
         "MMW",
         "MRAW",
         "MM"
@@ -2029,8 +2410,11 @@
         43.665406,
         7.214983
       ],
+      "default": false,
       "topdown": [
-        "MNA",
+        "MNT",
+        "ND",
+        "NO",
         "MME",
         "MRAE",
         "MM"
@@ -2042,11 +2426,11 @@
         44.140089,
         4.868581
       ],
+      "default": false,
       "topdown": [
-        "MLA",
-        "MMW",
-        "MRAW",
-        "MM"
+        "MOT",
+        "MO",
+        "CCMC"
       ]
     },
     "LFMP": {
@@ -2055,9 +2439,11 @@
         42.740833,
         2.869722
       ],
+      "default": false,
       "topdown": [
-        "MTAS",
-        "MTA",
+        "MPT",
+        "FA",
+        "FE",
         "MMW",
         "MRAW",
         "MM"
@@ -2068,6 +2454,14 @@
       "coord": [
         43.252222,
         5.786111
+      ],
+      "default": false,
+      "topdown": [
+        "ME",
+        "MAC",
+        "MMW",
+        "MRAW",
+        "MM"
       ]
     },
     "LFMR": {
@@ -2090,8 +2484,10 @@
         43.583261,
         3.961378
       ],
+      "default": false,
       "topdown": [
-        "MTA",
+        "MTT",
+        "FE",
         "MMW",
         "MRAW",
         "MM"
@@ -2103,8 +2499,11 @@
         43.323428,
         3.353397
       ],
+      "default": false,
       "topdown": [
-        "MTA",
+        "MUT",
+        "FA",
+        "FE",
         "MMW",
         "MRAW",
         "MM"
@@ -2116,8 +2515,11 @@
         43.906581,
         4.902028
       ],
+      "default": false,
       "topdown": [
-        "MLA",
+        "MVT",
+        "MB",
+        "ME",
         "MMW",
         "MRAW",
         "MM"
@@ -2142,6 +2544,12 @@
       "coord": [
         43.603056,
         5.108333
+      ],
+      "default": false,
+      "topdown": [
+        "MYT",
+        "MY",
+        "CCMC"
       ]
     },
     "LFMZ": {
@@ -2149,6 +2557,14 @@
       "coord": [
         43.175,
         2.732778
+      ],
+      "default": false,
+      "topdown": [
+        "MZI",
+        "FA",
+        "MMW",
+        "MRAW",
+        "MM"
       ]
     },
     "LFNA": {
@@ -2163,6 +2579,15 @@
       "coord": [
         44.504081,
         3.527633
+      ],
+      "default": false,
+      "topdown": [
+        "NBI",
+        "FB",
+        "FA",
+        "MMW",
+        "MRAW",
+        "MM"
       ]
     },
     "LFNC": {
@@ -2296,6 +2721,12 @@
       "coord": [
         47.056944,
         2.638889
+      ],
+      "default": false,
+      "topdown": [
+        "OAT",
+        "OA",
+        "CCMC"
       ]
     },
     "LFOB": {
@@ -2303,6 +2734,18 @@
       "coord": [
         49.454422,
         2.112814
+      ],
+      "default": false,
+      "topdown": [
+        "OBT",
+        "OB",
+        "PGN",
+        "DODG",
+        "DOGS",
+        "FPAE",
+        "RPAE",
+        "LOW",
+        "PAR"
       ]
     },
     "LFOC": {
@@ -2324,6 +2767,12 @@
       "coord": [
         49.028611,
         1.22
+      ],
+      "default": false,
+      "topdown": [
+        "OET",
+        "OE",
+        "CCMC"
       ]
     },
     "LFOF": {
@@ -2345,6 +2794,14 @@
       "coord": [
         49.533847,
         0.088119
+      ],
+      "default": false,
+      "topdown": [
+        "OHI",
+        "JD",
+        "RN",
+        "RRW",
+        "RR"
       ]
     },
     "LFOI": {
@@ -2359,6 +2816,12 @@
       "coord": [
         47.987778,
         1.760556
+      ],
+      "default": false,
+      "topdown": [
+        "OJT",
+        "OJ",
+        "CCMC"
       ]
     },
     "LFOK": {
@@ -2366,6 +2829,15 @@
       "coord": [
         48.773325,
         4.206156
+      ],
+      "default": false,
+      "topdown": [
+        "OKT",
+        "SI",
+        "SJ",
+        "RPAE",
+        "LOW",
+        "PAR"
       ]
     },
     "LFOL": {
@@ -2401,6 +2873,18 @@
       "coord": [
         49.390953,
         1.183936
+      ],
+      "default": false,
+      "topdown": [
+        "OPT",
+        "QR",
+        "QE",
+        "TB",
+        "TNTB",
+        "AENB",
+        "RPAW",
+        "LOW",
+        "PAR"
       ]
     },
     "LFOQ": {
@@ -2408,6 +2892,14 @@
       "coord": [
         47.679833,
         1.205775
+      ],
+      "default": false,
+      "topdown": [
+        "OQI",
+        "SJ",
+        "RPAE",
+        "LOW",
+        "PAR"
       ]
     },
     "LFOR": {
@@ -2429,6 +2921,17 @@
       "coord": [
         47.431944,
         0.723056
+      ],
+      "default": false,
+      "topdown": [
+        "OTT",
+        "SK",
+        "SJ",
+        "ORGY",
+        "OPKZ",
+        "RPAW",
+        "LOW",
+        "PAR"
       ]
     },
     "LFOU": {
@@ -2436,6 +2939,14 @@
       "coord": [
         47.081906,
         -0.877217
+      ],
+      "default": false,
+      "topdown": [
+        "OUI",
+        "NB",
+        "RS",
+        "RRS",
+        "RR"
       ]
     },
     "LFOV": {
@@ -2443,6 +2954,13 @@
       "coord": [
         48.03225,
         -0.742781
+      ],
+      "default": false,
+      "topdown": [
+        "OVI",
+        "RN",
+        "RRW",
+        "RR"
       ]
     },
     "LFOW": {
@@ -2471,6 +2989,14 @@
       "coord": [
         47.897617,
         2.164208
+      ],
+      "default": false,
+      "topdown": [
+        "OZI",
+        "SJ",
+        "RPAE",
+        "LOW",
+        "PAR"
       ]
     },
     "LFPA": {
@@ -2485,6 +3011,20 @@
       "coord": [
         48.969525,
         2.441492
+      ],
+      "default": false,
+      "topdown": [
+        "PBT",
+        "PGDS",
+        "PGDN",
+        "PGS",
+        "PGN",
+        "DODG",
+        "DOGS",
+        "FPAE",
+        "RPAE",
+        "LOW",
+        "PAR"
       ]
     },
     "LFPC": {
@@ -2520,6 +3060,21 @@
       "coord": [
         49.009747,
         2.547819
+      ],
+      "default": false,
+      "topdown": [
+        "PGTS",
+        "PGTN",
+        "PGDS",
+        "PGDN",
+        "PGS",
+        "PGN",
+        "DODG",
+        "DOGS",
+        "FPAE",
+        "RPAE",
+        "LOW",
+        "PAR"
       ]
     },
     "LFPH": {
@@ -2541,6 +3096,10 @@
       "coord": [
         48.821944,
         2.622778
+      ],
+      "default": false,
+      "topdown": [
+        "PLT"
       ]
     },
     "LFPM": {
@@ -2548,6 +3107,14 @@
       "coord": [
         48.605283,
         2.670781
+      ],
+      "default": false,
+      "topdown": [
+        "PMT",
+        "SJ",
+        "RPAE",
+        "LOW",
+        "PAR"
       ]
     },
     "LFPN": {
@@ -2555,6 +3122,10 @@
       "coord": [
         48.749756,
         2.111178
+      ],
+      "default": false,
+      "topdown": [
+        "PNT"
       ]
     },
     "LFPO": {
@@ -2562,6 +3133,22 @@
       "coord": [
         48.723281,
         2.379578
+      ],
+      "default": false,
+      "topdown": [
+        "POT",
+        "PODD",
+        "PO",
+        "PGDS",
+        "PGS",
+        "PGDN",
+        "PGN",
+        "DODG",
+        "DOGS",
+        "FPAE",
+        "RPAE",
+        "LOW",
+        "PAR"
       ]
     },
     "LFPP": {
@@ -2590,6 +3177,19 @@
       "coord": [
         49.096628,
         2.040722
+      ],
+      "default": false,
+      "topdown": [
+        "PTT",
+        "PT",
+        "PGDN",
+        "PGN",
+        "DODG",
+        "DOGS",
+        "FPAE",
+        "RPAE",
+        "LOW",
+        "PAR"
       ]
     },
     "LFPU": {
@@ -2604,6 +3204,12 @@
       "coord": [
         48.774172,
         2.191389
+      ],
+      "default": false,
+      "topdown": [
+        "PVT",
+        "PV",
+        "CCMC"
       ]
     },
     "LFPW": {
@@ -2618,6 +3224,10 @@
       "coord": [
         48.842222,
         1.980278
+      ],
+      "default": false,
+      "topdown": [
+        "PXT"
       ]
     },
     "LFPY": {
@@ -2632,6 +3242,10 @@
       "coord": [
         48.810278,
         2.073333
+      ],
+      "default": false,
+      "topdown": [
+        "PZT"
       ]
     },
     "LFQA": {
@@ -2639,6 +3253,15 @@
       "coord": [
         49.208689,
         4.156581
+      ],
+      "default": false,
+      "topdown": [
+        "QAI",
+        "SI",
+        "SJ",
+        "RPAE",
+        "LOW",
+        "PAR"
       ]
     },
     "LFQB": {
@@ -2646,6 +3269,15 @@
       "coord": [
         48.321619,
         4.016622
+      ],
+      "default": false,
+      "topdown": [
+        "QAI",
+        "SI",
+        "SJ",
+        "RPAE",
+        "LOW",
+        "PAR"
       ]
     },
     "LFQC": {
@@ -2667,6 +3299,12 @@
       "coord": [
         49.229089,
         5.676039
+      ],
+      "default": false,
+      "topdown": [
+        "QET",
+        ".QE",
+        "CCMC"
       ]
     },
     "LFQF": {
@@ -2723,6 +3361,12 @@
       "coord": [
         47.205308,
         6.08055
+      ],
+      "default": false,
+      "topdown": [
+        "QMI",
+        "SBC",
+        "EE"
       ]
     },
     "LFQN": {
@@ -2744,6 +3388,12 @@
       "coord": [
         48.768153,
         7.205131
+      ],
+      "default": false,
+      "topdown": [
+        "QPT",
+        "QP",
+        "CCMC"
       ]
     },
     "LFQQ": {
@@ -2751,6 +3401,17 @@
       "coord": [
         50.563425,
         3.086822
+      ],
+      "default": false,
+      "topdown": [
+        "QQT",
+        "QE",
+        "TB",
+        "TNTB",
+        "AENB",
+        "RPAW",
+        "LOW",
+        "PAR"
       ]
     },
     "LFQS": {
@@ -2765,6 +3426,18 @@
       "coord": [
         50.6166,
         2.640094
+      ],
+      "default": false,
+      "topdown": [
+        "QTT",
+        "QW",
+        "QE",
+        "TB",
+        "TNTB",
+        "AENB",
+        "RPAW",
+        "LOW",
+        "PAR"
       ]
     },
     "LFQU": {
@@ -2821,6 +3494,13 @@
       "coord": [
         48.447131,
         -4.421753
+      ],
+      "default": false,
+      "topdown": [
+        "RBT",
+        "RBA",
+        "RRW",
+        "RR"
       ]
     },
     "LFRC": {
@@ -2828,6 +3508,15 @@
       "coord": [
         49.650775,
         -1.4753
+      ],
+      "default": false,
+      "topdown": [
+        "RCI",
+        "JC",
+        "JD",
+        "RN",
+        "RRW",
+        "RR"
       ]
     },
     "LFRD": {
@@ -2835,6 +3524,10 @@
       "coord": [
         48.587706,
         -2.07995
+      ],
+      "default": false,
+      "topdown": [
+        "RDT"
       ]
     },
     "LFRE": {
@@ -2842,6 +3535,14 @@
       "coord": [
         47.288333,
         -2.346944
+      ],
+      "default": false,
+      "topdown": [
+        "REI",
+        "NA",
+        "RS",
+        "RRS",
+        "RR"
       ]
     },
     "LFRF": {
@@ -2856,6 +3557,14 @@
       "coord": [
         49.363394,
         0.159997
+      ],
+      "default": false,
+      "topdown": [
+        "RGT",
+        "JD",
+        "RN",
+        "RRW",
+        "RR"
       ]
     },
     "LFRH": {
@@ -2863,6 +3572,15 @@
       "coord": [
         47.760556,
         -3.44
+      ],
+      "default": false,
+      "topdown": [
+        "RHT",
+        "RHA",
+        "RBA",
+        "CCMC",
+        "RRW",
+        "RR"
       ]
     },
     "LFRI": {
@@ -2870,6 +3588,14 @@
       "coord": [
         46.702383,
         -1.381758
+      ],
+      "default": false,
+      "topdown": [
+        "RII",
+        "NB",
+        "RS",
+        "RRS",
+        "RR"
       ]
     },
     "LFRJ": {
@@ -2877,6 +3603,15 @@
       "coord": [
         48.530258,
         -4.151642
+      ],
+      "default": false,
+      "topdown": [
+        "RJT",
+        "RLI",
+        "RBA",
+        "CCMC",
+        "RRW",
+        "RR"
       ]
     },
     "LFRK": {
@@ -2884,6 +3619,14 @@
       "coord": [
         49.173281,
         -0.449875
+      ],
+      "default": false,
+      "topdown": [
+        "RKT",
+        "JD",
+        "RN",
+        "RRW",
+        "RR"
       ]
     },
     "LFRL": {
@@ -2891,6 +3634,15 @@
       "coord": [
         48.282531,
         -4.443692
+      ],
+      "default": false,
+      "topdown": [
+        "RLT",
+        "RLA",
+        "RBA",
+        "CCMC",
+        "RRW",
+        "RR"
       ]
     },
     "LFRM": {
@@ -2898,6 +3650,14 @@
       "coord": [
         47.948492,
         0.201647
+      ],
+      "default": false,
+      "topdown": [
+        "RMT",
+        "NB",
+        "RS",
+        "RRS",
+        "RR"
       ]
     },
     "LFRN": {
@@ -2905,6 +3665,13 @@
       "coord": [
         48.071933,
         -1.732233
+      ],
+      "default": false,
+      "topdown": [
+        "RNT",
+        "RN",
+        "RRW",
+        "RR"
       ]
     },
     "LFRO": {
@@ -2912,6 +3679,14 @@
       "coord": [
         48.754444,
         -3.471944
+      ],
+      "default": false,
+      "topdown": [
+        "ROI",
+        "IIN",
+        "RBA",
+        "RRW",
+        "RR"
       ]
     },
     "LFRP": {
@@ -2926,6 +3701,13 @@
       "coord": [
         47.974947,
         -4.167875
+      ],
+      "default": false,
+      "topdown": [
+        "RQT",
+        "RBA",
+        "RRW",
+        "RR"
       ]
     },
     "LFRR": {
@@ -2933,6 +3715,13 @@
       "coord": [
         48.447222,
         -4.421667
+      ],
+      "default": false,
+      "topdown": [
+        "RHT",
+        "RHA",
+        "RRW",
+        "RR"
       ]
     },
     "LFRS": {
@@ -2940,6 +3729,13 @@
       "coord": [
         47.157019,
         -1.607808
+      ],
+      "default": false,
+      "topdown": [
+        "RST",
+        "RS",
+        "RRS",
+        "RR"
       ]
     },
     "LFRT": {
@@ -2954,6 +3750,14 @@
       "coord": [
         48.600747,
         -3.816669
+      ],
+      "default": false,
+      "topdown": [
+        "RUI",
+        "IIN",
+        "RBA",
+        "RRW",
+        "RR"
       ]
     },
     "LFRV": {
@@ -2961,6 +3765,14 @@
       "coord": [
         47.719244,
         -2.723378
+      ],
+      "default": false,
+      "topdown": [
+        "RVI",
+        "NA",
+        "RS",
+        "RRS",
+        "RR"
       ]
     },
     "LFRW": {
@@ -2975,6 +3787,13 @@
       "coord": [
         47.31065,
         -2.156803
+      ],
+      "default": false,
+      "topdown": [
+        "RZT",
+        "RS",
+        "RRS",
+        "RR"
       ]
     },
     "LFSA": {
@@ -2990,13 +3809,15 @@
         47.589878,
         7.529222
       ],
+      "default": false,
       "topdown": [
-        "SBA",
+        "SBT",
+        "SB",
         "SBC",
         "EE",
         "LSAA",
         "LSAS",
-        "LSAV",
+        "SZ",
         "LSAU"
       ]
     },
@@ -3012,6 +3833,12 @@
       "coord": [
         47.265817,
         5.094978
+      ],
+      "default": false,
+      "topdown": [
+        "SDI",
+        "SBC",
+        "EE"
       ]
     },
     "LFSE": {
@@ -3033,6 +3860,14 @@
       "coord": [
         48.325006,
         6.066742
+      ],
+      "default": false,
+      "topdown": [
+        "SGI",
+        "SC",
+        "SU",
+        "UE",
+        "EE"
       ]
     },
     "LFSH": {
@@ -3047,6 +3882,12 @@
       "coord": [
         48.633536,
         4.908189
+      ],
+      "default": false,
+      "topdown": [
+        "SIT",
+        ".SI",
+        "CCMC"
       ]
     },
     "LFSJ": {
@@ -3064,10 +3905,17 @@
       ]
     },
     "LFSL": {
-      "callsign": "Brive\u2013Souillac",
+      "callsign": "Brive–Souillac",
       "coord": [
         45.039721,
         1.485555
+      ],
+      "default": false,
+      "topdown": [
+        "SLT",
+        "BLV",
+        "BL",
+        "BB"
       ]
     },
     "LFSM": {
@@ -3082,6 +3930,14 @@
       "coord": [
         48.692086,
         6.22605
+      ],
+      "default": false,
+      "topdown": [
+        "SNI",
+        "SC",
+        "SU",
+        "UE",
+        "EE"
       ]
     },
     "LFSO": {
@@ -3089,6 +3945,12 @@
       "coord": [
         48.583186,
         5.954525
+      ],
+      "default": false,
+      "topdown": [
+        "SOT",
+        "SO",
+        "CCMC"
       ]
     },
     "LFSP": {
@@ -3125,8 +3987,12 @@
         48.541944,
         7.634444
       ],
+      "default": false,
       "topdown": [
-        "STA",
+        "STT",
+        "RW",
+        "SU",
+        "UE",
         "EE"
       ]
     },
@@ -3156,6 +4022,12 @@
       "coord": [
         47.787222,
         6.365
+      ],
+      "default": false,
+      "topdown": [
+        "SXT",
+        "SXA",
+        "CCMC"
       ]
     },
     "LFSY": {
@@ -3192,11 +4064,11 @@
         43.097344,
         6.146031
       ],
+      "default": false,
       "topdown": [
+        "THT",
         "THA",
-        "MME",
-        "MRAE",
-        "MM"
+        "CCMC"
       ]
     },
     "LFTM": {
@@ -3240,8 +4112,10 @@
         43.757428,
         4.416344
       ],
+      "default": false,
       "topdown": [
-        "MTA",
+        "TWT",
+        "FE",
         "MMW",
         "MRAW",
         "MM"
@@ -3252,6 +4126,11 @@
       "coord": [
         43.205278,
         6.481944
+      ],
+      "default": false,
+      "topdown": [
+        "TZT",
+        "NO"
       ]
     },
     "LFXA": {

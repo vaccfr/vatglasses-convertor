@@ -2,89 +2,29 @@
   color: '#71aa71'
 - callsign: LFBB_CTR
   color: '#837285'
-- callsign: LFBB_H2_CTR
-  color: '#9f66a0'
-- callsign: LFBB_H3_CTR
-  color: '#947d9a'
-- callsign: LFBB_H4_CTR
-  color: '#927b75'
-- callsign: LFBB_H5_CTR
-  color: '#867e95'
-- callsign: LFBB_H_CTR
+- callsign: LFBB_H1_CTR
   color: '#8d6b9c'
-- callsign: LFBB_L2_CTR
-  color: '#7d6579'
-- callsign: LFBB_L3_CTR
-  color: '#90858f'
-- callsign: LFBB_L4_CTR
-  color: '#8e5b68'
-- callsign: LFBB_L5_CTR
-  color: '#9c7b9a'
-- callsign: LFBB_L_CTR
+- callsign: LFBB_L1_CTR
   color: '#666878'
-- callsign: LFBB_N2_CTR
-  color: '#8c8382'
-- callsign: LFBB_N3_CTR
-  color: '#976d98'
-- callsign: LFBB_N4_CTR
-  color: '#8e578d'
-- callsign: LFBB_N5_CTR
-  color: '#729071'
-- callsign: LFBB_N_CTR
+- callsign: LFBB_N1_CTR
   color: '#818d90'
-- callsign: LFBB_P2_CTR
-  color: '#925e73'
-- callsign: LFBB_P3_CTR
-  color: '#7d80a0'
-- callsign: LFBB_P4_CTR
-  color: '#8e8e81'
-- callsign: LFBB_P_CTR
+- callsign: LFBB_P1_CTR
   color: '#83798e'
-- callsign: LFBB_R2_CTR
-  color: '#778a6c'
-- callsign: LFBB_R3_CTR
-  color: '#8066a0'
-- callsign: LFBB_R4_CTR
-  color: '#9a619d'
-- callsign: LFBB_R5_CTR
-  color: '#6a8285'
-- callsign: LFBB_R_CTR
+- callsign: LFBB_R1_CTR
   color: '#8f866c'
-- callsign: LFBB_T2_CTR
-  color: '#7d8b73'
-- callsign: LFBB_T3_CTR
-  color: '#7373a2'
-- callsign: LFBB_T4_CTR
-  color: '#6b6875'
-- callsign: LFBB_T_CTR
+- callsign: LFBB_T1_CTR
   color: '#797292'
 - callsign: LFBB_UN_CTR
   color: '#8f6080'
 - callsign: LFBB_US_CTR
   color: '#71568a'
-- callsign: LFBB_X2_CTR
-  color: '#7358a0'
-- callsign: LFBB_X3_CTR
-  color: '#697aa1'
-- callsign: LFBB_X4_CTR
-  color: '#6e8f69'
-- callsign: LFBB_X5_CTR
-  color: '#6f5f98'
-- callsign: LFBB_X_CTR
+- callsign: LFBB_X1_CTR
   color: '#746a8a'
-- callsign: LFBB_Z2_CTR
-  color: '#9a636e'
-- callsign: LFBB_Z3_CTR
-  color: '#948679'
-- callsign: LFBB_Z4_CTR
-  color: '#747d83'
-- callsign: LFBB_Z5_CTR
-  color: '#958c9e'
-- callsign: LFBB_Z_CTR
+- callsign: LFBB_Z1_CTR
   color: '#97707a'
-- callsign: LFBD_APP
+- callsign: LFBD_BW_APP
   color: '#a24fde'
-- callsign: LFBD_E_APP
+- callsign: LFBD_BE_APP
   color: '#863deb'
 - callsign: LFBD_TWR
   color: '#71aa71'
@@ -104,10 +44,14 @@
   color: '#a24fde'
 - callsign: LFBL_TWR
   color: '#71aa71'
-- callsign: LFBO_APP
+- callsign: LFBO_AW_APP
   color: '#a24fde'
-- callsign: LFBO_E_APP
+- callsign: LFBO_AE_APP
   color: '#9738da'
+- callsign: LFBO_EB_APP
+  color: '#5d2e80'
+- callsign: LFBO_WB_APP
+  color: '#8507de'
 - callsign: LFBO_TWR
   color: '#71aa71'
 - callsign: LFBO_W_APP
@@ -774,3 +718,123 @@
   color: '#65bc5d'
 - callsign: LFRV_I_TWR
   color: '#79975a'
+- callsign: LFBB_H1_CTR
+  color: '#78726e'
+- callsign: LFBB_L1_CTR
+  color: '#706085'
+- callsign: LFBB_N1_CTR
+  color: '#867a6e'
+- callsign: LFBB_P1_CTR
+  color: '#726483'
+- callsign: LFBB_R1_CTR
+  color: '#655798'
+- callsign: LFBB_T1_CTR
+  color: '#7f8392'
+- callsign: LFBB_X1_CTR
+  color: '#9c719d'
+- callsign: LFBB_Z1_CTR
+  color: '#a06288'
+- callsign: LFBN_I_TWR
+  color: '#59b463'
+- callsign: LFBO_I_TWR
+  color: '#7fbc60'
+- callsign: LFEE_YR_CTR
+  color: '#8c987c'
+- callsign: LFST_RE_APP
+  color: '#9c68e1'
+- callsign: LFST_RW_APP
+  color: '#ba5bcd'
+- callsign: LFST_SC_APP
+  color: '#b048d4'
+- callsign: LFST_SU_APP
+  color: '#a940dc'
+- callsign: LFOQ_I_TWR
+  color: '#5ebf7e'
+- callsign: PAR_UK_CTR
+  color: '#4f4eb2'
+- callsign: LFCC_I_TWR
+  color: '#58be60'
+- callsign: LFHP_I_TWR
+  color: '#5a9564'
+- callsign: LFHY_I_TWR
+  color: '#599e8e'
+- callsign: LFKB_IN_APP
+  color: '#9451d5'
+- callsign: LFKB_IS_APP
+  color: '#8e39ca'
+- callsign: LFKB_KB_APP
+  color: '#b93fdb'
+- callsign: LFKB_KC_APP
+  color: '#963cd4'
+- callsign: LFKJ_I_APP
+  color: '#a046d2'
+- callsign: LFLC_CF_APP
+  color: '#9e53c2'
+- callsign: LFLC_CK_APP
+  color: '#9f38ed'
+- callsign: LFLC_CL_APP
+  color: '#9346d7'
+- callsign: LFLC_CN_APP
+  color: '#9246ed'
+- callsign: LFLC_CY_APP
+  color: '#a748d7'
+- callsign: LFLL_GRE_APP
+  color: '#a931f1'
+- callsign: LFLL_VE_APP
+  color: '#9548d9'
+- callsign: LFLL_VW_APP
+  color: '#9b4af1'
+- callsign: LFLN_APP
+  color: '#a24fde'
+- callsign: LFLN_TWR
+  color: '#71aa71'
+- callsign: LFLO_I_TWR
+  color: '#84ab58'
+- callsign: LFLU_I_TWR
+  color: '#70c088'
+- callsign: LFLW_I_TWR
+  color: '#8ebb69'
+- callsign: LFML_MAC_APP
+  color: '#8d3ddd'
+- callsign: LFML_MB_APP
+  color: '#bc3ce4'
+- callsign: LFML_ME_APP
+  color: '#a86ae7'
+- callsign: LFML_MZ_APP
+  color: '#ae54f3'
+- callsign: LFMN_IN_APP
+  color: '#bc45e1'
+- callsign: LFMN_IS_APP
+  color: '#b931d4'
+- callsign: LFMN_IW_APP
+  color: '#bb38d5'
+- callsign: LFMN_MD_APP
+  color: '#b334c8'
+- callsign: LFMN_ND_DEP
+  color: '#a54ff5'
+- callsign: LFMN_NE_APP
+  color: '#963ff0'
+- callsign: LFMN_NO_APP
+  color: '#bc33ee'
+- callsign: LFMQ_I_TWR
+  color: '#71b182'
+- callsign: LFMT_FA_APP
+  color: '#8c63f3'
+- callsign: LFMT_FB_APP
+  color: '#ae4fd2'
+- callsign: LFMT_FE_APP
+  color: '#8931c9'
+- callsign: LFMT_I1_APP
+  color: '#9d36ea'
+- callsign: LFMT_I2_APP
+  color: '#8f5ccf'
+- callsign: LFMT_I3_APP
+  color: '#8e51cc'
+- callsign: LFMZ_I_TWR
+  color: '#62b985'
+- callsign: LFNB_I_TWR
+  color: '#869d5e'
+- callsign: LFTZ_I_TWR
+  color: '#8aa072'
+- callsign: LFRM_TWR
+  color: '#71aa71'
