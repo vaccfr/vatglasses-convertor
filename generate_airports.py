@@ -1,3 +1,4 @@
+import argparse
 import json
 import re
 import requests
@@ -6,7 +7,14 @@ from pathlib import Path
 
 vatspy_dat_url = "https://raw.githubusercontent.com/vatsimnetwork/vatspy-data-project/refs/heads/master/VATSpy.dat"
 
-ese_input_file = Path("inputs/LFXX.ese")
+combined_ese_input_file = Path("inputs/LFXX.ese")
+default_fir_ese_files = [
+    Path("inputs/LFBB.ese"),
+    Path("inputs/LFEE.ese"),
+    Path("inputs/LFFF.ese"),
+    Path("inputs/LFMM.ese"),
+    Path("inputs/LFRR.ese"),
+]
 yml_config_file = Path("config/config.yml")
 manual_airports_file = Path("inputs/airports.json")
 
@@ -50,7 +58,9 @@ def build_position_airport_map(ese_data, valid_airport, position_regexp):
     return position_to_airport
 
 
-def build_topdown_from_ese(ese_data, valid_airport, position_regexp):
+def build_topdown_from_ese(
+    ese_data, valid_airport, position_regexp, source_fir=None
+):
     position_to_airport = build_position_airport_map(
         ese_data,
         valid_airport,
@@ -79,6 +89,10 @@ def build_topdown_from_ese(ese_data, valid_airport, position_regexp):
 
     for sector in sectors:
         lines = sector.split("\n")
+        sector_fir = lines[0].split(":", 2)[1].split("·", 1)[0]
+        if source_fir is not None and sector_fir != source_fir:
+            continue
+
         owners = splitowners(lines)
 
         if not owners:
@@ -94,6 +108,32 @@ def build_topdown_from_ese(ese_data, valid_airport, position_regexp):
 
     print(f"Found {len(topdown)} topdown chains from ESE")
     return topdown
+
+
+def get_input_files():
+    parser = argparse.ArgumentParser(
+        description="Generate airports from one or more ESE files."
+    )
+    parser.add_argument("ese_files", nargs="*", type=Path)
+    args = parser.parse_args()
+
+    if args.ese_files:
+        input_files = args.ese_files
+    elif all(path.is_file() for path in default_fir_ese_files):
+        input_files = default_fir_ese_files
+    elif combined_ese_input_file.is_file():
+        input_files = [combined_ese_input_file]
+    else:
+        parser.error(
+            "No ESE input found. Add inputs/LFXX.ese, add all five FIR "
+            "files, or pass ESE paths on the command line."
+        )
+
+    missing = [str(path) for path in input_files if not path.is_file()]
+    if missing:
+        parser.error("ESE input file(s) not found: " + ", ".join(missing))
+
+    return input_files
 
 
 def load_manual_topdown(path):
@@ -158,16 +198,25 @@ with open(yml_config_file, "r", encoding="utf-8") as file:
 valid_airport = config["config"]["valid_airport"]
 position_regexp = config["config"]["valid_callsign"]
 
-print(f"Loading {ese_input_file}")
-with open(ese_input_file, "r", encoding="cp1252") as file:
-    ese_data = file.readlines()
-
 # 1. Build topdown from ESE
-topdown_by_airport = build_topdown_from_ese(
-    ese_data,
-    valid_airport,
-    position_regexp
-)
+topdown_by_airport = {}
+
+for ese_input_file in get_input_files():
+    print(f"Loading {ese_input_file}")
+    with open(ese_input_file, "r", encoding="utf-8-sig") as file:
+        ese_data = file.readlines()
+
+    source_fir = ese_input_file.stem.upper()
+    if source_fir not in config["config"]["valid_fir"]:
+        source_fir = None
+
+    file_topdown = build_topdown_from_ese(
+        ese_data,
+        valid_airport,
+        position_regexp,
+        source_fir,
+    )
+    topdown_by_airport.update(file_topdown)
 
 # 2. Manual airports.json wins over ESE
 manual_topdown = load_manual_topdown(manual_airports_file)

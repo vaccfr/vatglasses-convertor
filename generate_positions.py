@@ -45,6 +45,28 @@ def get_input_files():
 
     return input_files
 
+
+def get_fir_owner_ids(ese_data, source_fir):
+    """Return position IDs referenced by sectors belonging to source_fir."""
+    owner_ids = set()
+    in_source_sector = False
+
+    for line in ese_data:
+        if line.startswith("SECTOR:"):
+            sector_name = line.split(":", 2)[1]
+            sector_fir = sector_name.split("·", 1)[0]
+            in_source_sector = sector_fir == source_fir
+        elif in_source_sector and line.startswith("OWNER:"):
+            owner_ids.update(
+                owner.strip()
+                for owner in line.strip().split(":")[1:]
+                if owner.strip()
+            )
+        elif in_source_sector and not line.strip():
+            in_source_sector = False
+
+    return owner_ids
+
 # Load Config file
 print(f"Loading config file {yml_config_file}")
 with open(yml_config_file, "r") as file:
@@ -68,6 +90,16 @@ for ese_input_file in get_input_files():
     with open(ese_input_file, "r", encoding="utf-8-sig") as file:
         ese_data = file.readlines()
 
+    source_fir = ese_input_file.stem.upper()
+    if source_fir in config["config"].get("valid_fir", []):
+        allowed_position_ids = get_fir_owner_ids(ese_data, source_fir)
+        print(
+            f"  Restricting positions to {len(allowed_position_ids)} "
+            f"owner IDs used by {source_fir} sectors"
+        )
+    else:
+        allowed_position_ids = None
+
     block = False
     file_count = 0
     for line in ese_data:
@@ -84,13 +116,14 @@ for ese_input_file in get_input_files():
             normalized_line = line.rstrip("\r\n")
 
             if (
-                position_id in ese_positions
-                and ese_positions[position_id] != normalized_line
+                allowed_position_ids is not None
+                and position_id not in allowed_position_ids
             ):
-                print(
-                    f"Warning: conflicting definition for position "
-                    f"{position_id} in {ese_input_file}; using the later file"
-                )
+                continue
+
+            # Some FIRs intentionally reuse short IDs such as UN, X, or Z.
+            # FIR files are processed in the configured order, matching the
+            # legacy combined ESE's last-definition-wins behavior.
             ese_positions[position_id] = normalized_line
             file_count += 1
 

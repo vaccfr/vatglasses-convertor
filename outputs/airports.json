@@ -3748,7 +3748,8 @@
       "topdown": [
         "RHT",
         "RHA",
-        "W",
+        "RRN",
+        "RRW",
         "RR"
       ]
     },
