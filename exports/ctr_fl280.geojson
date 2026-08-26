@@ -228,6 +228,7 @@
         "name": "NS UAC",
         "owner": "RR",
         "owners": [
+          "N",
           "RRW",
           "RR"
         ],
@@ -2717,7 +2718,7 @@
           "UR",
           "URMN",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 265,
         "cur": 280,
@@ -2807,9 +2808,10 @@
         "name": "UN1 UAC",
         "owner": "EE",
         "owners": [
+          "UN",
           "URMN",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 265,
         "cur": 280,
@@ -3103,7 +3105,7 @@
           "4EH",
           "URME",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 195,
         "cur": 280,
@@ -3180,7 +3182,7 @@
           "UF",
           "URME",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 265,
         "cur": 280,
@@ -3962,7 +3964,7 @@
           "4EH",
           "URME",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 245,
         "cur": 280,
@@ -4035,7 +4037,7 @@
           "UB",
           "URMN",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 265,
         "cur": 280,

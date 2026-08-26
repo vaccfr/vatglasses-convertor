@@ -62,10 +62,12 @@
         "name": "ZI UAC",
         "owner": "RR",
         "owners": [
+          "Z",
+          "MZ",
           "ZX",
           "RRE",
           "RR",
-          "PAR"
+          "FF"
         ],
         "min": 345,
         "cur": 350,
@@ -171,11 +173,12 @@
         "name": "XI UAC",
         "owner": "RR",
         "owners": [
+          "X",
           "QX",
           "ZX",
           "RRE",
           "RR",
-          "PAR"
+          "FF"
         ],
         "min": 345,
         "cur": 350,
@@ -380,7 +383,7 @@
           "QX",
           "RRE",
           "RR",
-          "PAR"
+          "FF"
         ],
         "min": 345,
         "cur": 350,
@@ -474,6 +477,7 @@
         "name": "NF UAC",
         "owner": "RR",
         "owners": [
+          "N",
           "RRW",
           "RR"
         ],
@@ -535,9 +539,10 @@
         "owners": [
           "M",
           "MQ",
+          "MZ",
           "RRE",
           "RR",
-          "PAR"
+          "FF"
         ],
         "min": 345,
         "cur": 350,
@@ -2392,7 +2397,7 @@
           "YB",
           "URMN",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 345,
         "cur": 350,
@@ -2497,7 +2502,7 @@
           "KR",
           "URMN",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 345,
         "cur": 350,
@@ -2590,7 +2595,7 @@
           "KN",
           "URMN",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 345,
         "cur": 350,
@@ -2884,7 +2889,7 @@
           "4EH",
           "URME",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 345,
         "cur": 350,
@@ -2957,7 +2962,7 @@
           "KF",
           "URME",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 345,
         "cur": 350,
@@ -3735,7 +3740,7 @@
           "4EH",
           "URME",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 345,
         "cur": 350,
@@ -3840,7 +3845,7 @@
           "KD",
           "URME",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 345,
         "cur": 350,

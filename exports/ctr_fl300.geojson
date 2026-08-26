@@ -58,10 +58,12 @@
         "name": "ZS UAC",
         "owner": "RR",
         "owners": [
+          "Z",
+          "MZ",
           "ZX",
           "RRE",
           "RR",
-          "PAR"
+          "FF"
         ],
         "min": 295,
         "cur": 300,
@@ -151,11 +153,12 @@
         "name": "XS1 UAC",
         "owner": "RR",
         "owners": [
+          "X",
           "QX",
           "ZX",
           "RRE",
           "RR",
-          "PAR"
+          "FF"
         ],
         "min": 295,
         "cur": 300,
@@ -360,7 +363,7 @@
           "QX",
           "RRE",
           "RR",
-          "PAR"
+          "FF"
         ],
         "min": 295,
         "cur": 300,
@@ -454,6 +457,7 @@
         "name": "NS UAC",
         "owner": "RR",
         "owners": [
+          "N",
           "RRW",
           "RR"
         ],
@@ -515,9 +519,10 @@
         "owners": [
           "M",
           "MQ",
+          "MZ",
           "RRE",
           "RR",
-          "PAR"
+          "FF"
         ],
         "min": 295,
         "cur": 300,
@@ -2235,6 +2240,7 @@
         "name": "US UAC",
         "owner": "PAR",
         "owners": [
+          "US",
           "AOUS",
           "AOML",
           "RPAE",
@@ -2727,7 +2733,7 @@
           "UR",
           "URMN",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 265,
         "cur": 300,
@@ -2817,9 +2823,10 @@
         "name": "UN2 UAC",
         "owner": "EE",
         "owners": [
+          "UN",
           "URMN",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 285,
         "cur": 300,
@@ -3113,7 +3120,7 @@
           "4EH",
           "URME",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 195,
         "cur": 300,
@@ -3190,7 +3197,7 @@
           "UF",
           "URME",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 265,
         "cur": 300,
@@ -3972,7 +3979,7 @@
           "4EH",
           "URME",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 245,
         "cur": 300,
@@ -4045,7 +4052,7 @@
           "UB",
           "URMN",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 265,
         "cur": 300,
