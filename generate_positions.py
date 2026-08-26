@@ -1,10 +1,49 @@
-import yaml, json, random, re, os, sys
+import argparse
+import json
+import os
+import random
+import re
+import sys
+import yaml
 from pathlib import Path
 
 yml_config_file = Path("config/config.yml")
 yml_colors_file = Path("config/colors.yml")
-ese_input_file = Path("inputs/LFXX.ese")
+combined_ese_input_file = Path("inputs/LFXX.ese")
+default_fir_ese_files = [
+    Path("inputs/LFBB.ese"),
+    Path("inputs/LFEE.ese"),
+    Path("inputs/LFFF.ese"),
+    Path("inputs/LFMM.ese"),
+    Path("inputs/LFRR.ese"),
+]
 json_output_file = Path("outputs/positions.json")
+
+
+def get_input_files():
+    parser = argparse.ArgumentParser(
+        description="Generate positions from one or more ESE files."
+    )
+    parser.add_argument("ese_files", nargs="*", type=Path)
+    args = parser.parse_args()
+
+    if args.ese_files:
+        input_files = args.ese_files
+    elif all(path.is_file() for path in default_fir_ese_files):
+        input_files = default_fir_ese_files
+    elif combined_ese_input_file.is_file():
+        input_files = [combined_ese_input_file]
+    else:
+        parser.error(
+            "No ESE input found. Add inputs/LFXX.ese, add all five FIR "
+            "files, or pass ESE paths on the command line."
+        )
+
+    missing = [str(path) for path in input_files if not path.is_file()]
+    if missing:
+        parser.error("ESE input file(s) not found: " + ", ".join(missing))
+
+    return input_files
 
 # Load Config file
 print(f"Loading config file {yml_config_file}")
@@ -20,21 +59,44 @@ else:
     print(f"Color file {yml_colors_file} does not exist, will create new one")
     colors = []
 
-# Load ESE data
-print(f"Loading ESE file {ese_input_file}")
-with open(ese_input_file, "r", encoding="cp1252") as file:
-    ese_data = file.readlines()
+# Load and merge ESE positions. Sector IDs are the output keys, so using a
+# dictionary removes shared positions repeated across multiple FIR files.
+ese_positions = {}
 
-# Extract positions
-ese_positions = []
-block = False
-for line in ese_data:
-    if line.startswith("[POSITIONS]"):
-        block = True
-    elif block and line.startswith("["):
-        block = False
-    elif block and re.search(config["config"]["valid_callsign"], line):
-        ese_positions.append(line)
+for ese_input_file in get_input_files():
+    print(f"Loading ESE file {ese_input_file}")
+    with open(ese_input_file, "r", encoding="utf-8-sig") as file:
+        ese_data = file.readlines()
+
+    block = False
+    file_count = 0
+    for line in ese_data:
+        if line.startswith("[POSITIONS]"):
+            block = True
+        elif block and line.startswith("["):
+            block = False
+        elif block and re.search(config["config"]["valid_callsign"], line):
+            parts = line.rstrip("\r\n").split(":")
+            if len(parts) <= 6:
+                continue
+
+            position_id = parts[3].strip()
+            normalized_line = line.rstrip("\r\n")
+
+            if (
+                position_id in ese_positions
+                and ese_positions[position_id] != normalized_line
+            ):
+                print(
+                    f"Warning: conflicting definition for position "
+                    f"{position_id} in {ese_input_file}; using the later file"
+                )
+            ese_positions[position_id] = normalized_line
+            file_count += 1
+
+    print(f"  Found {file_count} matching positions")
+
+print(f"Found {len(ese_positions)} unique positions across all input files")
 
 # Function to get color
 def get_position_color(position):
@@ -64,7 +126,7 @@ def clamp(x):
 
 positions = {}
 color_errors = False
-for pos in ese_positions:
+for pos in ese_positions.values():
     line_parts = pos.split(":")
     callsign = line_parts[0]
     id = line_parts[3]
