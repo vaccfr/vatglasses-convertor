@@ -1,10 +1,18 @@
+import argparse
 import json
 import re
 import yaml
 from pathlib import Path
 
 yml_config_file = Path("config/config.yml")
-ese_input_file = Path("inputs/LFXX.ese")
+combined_ese_input_file = Path("inputs/LFXX.ese")
+default_fir_ese_files = [
+    Path("inputs/LFBB.ese"),
+    Path("inputs/LFEE.ese"),
+    Path("inputs/LFFF.ese"),
+    Path("inputs/LFMM.ese"),
+    Path("inputs/LFRR.ese"),
+]
 json_output_file = Path("outputs/airspace.json")
 
 
@@ -101,7 +109,7 @@ def removesequentialduplicates(coors):
     return new_coors
 
 
-def getpoints(borders):
+def getpoints(borders, linedic):
     coordinates = []
 
     for b in borders:
@@ -146,6 +154,98 @@ def getpoints(borders):
     return removesequentialduplicates(chained)
 
 
+def get_input_files():
+    parser = argparse.ArgumentParser(
+        description="Generate vatglasses airspaces from one or more ESE files."
+    )
+    parser.add_argument(
+        "ese_files",
+        nargs="*",
+        type=Path,
+        help="ESE files to merge (for example inputs/LFBB.ese ... inputs/LFRR.ese)",
+    )
+    args = parser.parse_args()
+
+    if args.ese_files:
+        input_files = args.ese_files
+    elif all(path.is_file() for path in default_fir_ese_files):
+        input_files = default_fir_ese_files
+    elif combined_ese_input_file.is_file():
+        input_files = [combined_ese_input_file]
+    else:
+        expected = ", ".join(str(path) for path in default_fir_ese_files)
+        parser.error(
+            f"No ESE input found. Add {combined_ese_input_file}, add all of "
+            f"{expected}, or pass ESE paths on the command line."
+        )
+
+    missing = [str(path) for path in input_files if not path.is_file()]
+    if missing:
+        parser.error("ESE input file(s) not found: " + ", ".join(missing))
+
+    return input_files
+
+
+def extract_positions(ese_data):
+    positions = []
+    block = False
+
+    for line in ese_data:
+        if line.startswith("[POSITIONS]"):
+            block = True
+        elif block and line.startswith("["):
+            block = False
+        elif block and re.search(position_regexp, line):
+            parts = line.split(":")
+            if len(parts) > 3:
+                positions.append(parts[3].strip())
+
+    return positions
+
+
+def extract_sectors(ese_data):
+    sectors = []
+    sector = None
+
+    for line in ese_data:
+        if line.startswith("SECTOR:"):
+            if sector is not None and "OWNER:" in sector:
+                sectors.append(sector)
+            sector = line.strip()
+        elif sector is not None and not line.strip():
+            if "OWNER:" in sector:
+                sectors.append(sector)
+            sector = None
+        elif sector is not None and not line.strip().startswith(";"):
+            sector += "\n" + line.strip()
+
+    if sector is not None and "OWNER:" in sector:
+        sectors.append(sector)
+
+    return sectors
+
+
+def extract_sectorlines(ese_data):
+    sectorlines = []
+    sectorline = None
+
+    for line in ese_data:
+        if line.startswith("SECTORLINE:"):
+            if sectorline is not None:
+                sectorlines.append(sectorline)
+            sectorline = line.strip()
+        elif sectorline is not None and not line.strip():
+            sectorlines.append(sectorline)
+            sectorline = None
+        elif sectorline is not None and not line.strip().startswith(";"):
+            sectorline += "\n" + line.strip()
+
+    if sectorline is not None:
+        sectorlines.append(sectorline)
+
+    return sectorlines
+
+
 def get_group_name(sector):
     fir = sector.split("·")[0]
     sector_name = sector.split("·")[1]
@@ -164,132 +264,113 @@ with open(yml_config_file, "r") as file:
 
 fir_list = config["config"]["valid_fir"]
 position_regexp = config["config"]["valid_callsign"]
+ese_input_files = get_input_files()
+valid_positions = set()
+datasets = []
 
-print(f"Loading ESE file {ese_input_file}")
-with open(ese_input_file, "r", encoding="utf-8-sig") as file:
-    ese_data = file.readlines()
+for ese_input_file in ese_input_files:
+    print(f"Loading ESE file {ese_input_file}")
+    with open(ese_input_file, "r", encoding="utf-8-sig") as file:
+        ese_data = file.readlines()
 
-# Extract positions
-valid_positions = []
-block = False
+    # FIR-specific files can still contain neighbouring or shared sectors.
+    # Only retain sectors whose FIR prefix matches the input filename.
+    source_fir = ese_input_file.stem.upper()
+    if source_fir not in fir_list:
+        source_fir = None
 
-for line in ese_data:
-    if line.startswith("[POSITIONS]"):
-        block = True
-    elif block and line.startswith("["):
-        block = False
-    elif block and re.search(position_regexp, line):
-        valid_positions.append(line.split(":")[3])
+    file_positions = extract_positions(ese_data)
+    sectors = extract_sectors(ese_data)
+    if source_fir is not None:
+        sectors = [
+            sector
+            for sector in sectors
+            if sector.split("\n", 1)[0].split(":", 2)[1].split("·", 1)[0]
+            == source_fir
+        ]
+    sectorlines = extract_sectorlines(ese_data)
+    valid_positions.update(file_positions)
 
-print(f"Found {len(valid_positions)} positions to include/exclude from topdown")
+    print(
+        f"  Found {len(file_positions)} positions, "
+        f"{len(sectors)} sectors"
+        f"{' for ' + source_fir if source_fir else ''}, "
+        f"and {len(sectorlines)} sectorlines"
+    )
 
-# Extract sectors
-sectors = []
-block = False
+    # Keep a separate dictionary for every ESE file. Numeric sectorline IDs
+    # are local to an ESE and may be reused by another FIR's file.
+    linedic = {}
+    for sectorline in sectorlines:
+        lines = sectorline.split("\n")
+        coor = getcoor(lines)
+        # Declarations can contain an inline comment, for example:
+        # "SECTORLINE:1894 ; GLO18288-GLO36927".
+        name = lines[0].split(":", 1)[1].split(";", 1)[0].strip()
+        linedic[name] = {"coor": coor}
 
-for line in ese_data:
-    if line.startswith("SECTOR:"):
-        block = True
-        sector = line.strip().replace("\u00b7", "·").replace("�", "·")
-    elif block and len(line.strip()) == 0:
-        block = False
-        if "OWNER:" in sector:
-            sectors.append(sector)
-    elif block and not line.strip().startswith(";"):
-        clean_line = line.strip().replace("\u00b7", "·").replace("�", "·")
-        sector += "\n" + clean_line
+    sectordic = {}
+    for sector in sectors:
+        lines = sector.split("\n")
+        header = lines[0].split(":")
+        name = header[1]
+        sectordic[name] = {
+            "low": header[2],
+            "high": header[3],
+            "owners": splitowners(lines),
+            "borders": splitborders(lines),
+            "runways": splitactive(lines),
+        }
 
-print(f"Found {len(sectors)} SECTOR")
+    datasets.append((ese_input_file, sectordic, linedic))
 
-# Extract sectorlines
-sectorlines = []
-block = False
-
-for line in ese_data:
-    if line.startswith("SECTORLINE:"):
-        block = True
-        sectorline = line.strip()
-    elif block and len(line.strip()) == 0:
-        block = False
-        sectorlines.append(sectorline)
-    elif block and not line.strip().startswith(";"):
-        sectorline += "\n" + line.strip()
-
-print(f"Found {len(sectorlines)} SECTORLINE")
-
-# Build sector dictionary
-sectordic = {}
-
-for sector in sectors:
-    line = sector.split("\n")
-    name = line[0].split(":")[1]
-    low = line[0].split(":")[2]
-    high = line[0].split(":")[3]
-    owners = splitowners(line)
-    borders = splitborders(line)
-    runways = splitactive(line)
-
-    sectordic[name] = {
-        "low": low,
-        "high": high,
-        "owners": owners,
-        "borders": borders,
-        "runways": runways,
-    }
-
-# Build sectorline dictionary
-linedic = {}
-
-for sectorline in sectorlines:
-    lines = sectorline.split("\n")
-    coor = getcoor(lines)
-    # Sectorline declarations can contain an inline descriptive comment,
-    # e.g. "SECTORLINE:1894 ; GLO18288-GLO36927".  BORDER entries refer
-    # only to the identifier ("1894"), so discard the comment here.
-    name = lines[0].split(":", 1)[1].split(";", 1)[0].strip()
-
-    linedic[name] = {
-        "coor": coor
-    }
+print(f"Found {len(valid_positions)} unique positions across all input files")
 
 # Build output
 airspaces = []
 
-for sector in reversed(sectordic.keys()):
-    name = sector.split("·")[1]
+for ese_input_file, sectordic, linedic in reversed(datasets):
+    for sector in reversed(sectordic.keys()):
+        name = sector.split("·")[1]
 
-    if sector.split("·")[0] in fir_list:
-        if any(pos in valid_positions for pos in sectordic[sector]["owners"]):
-            tmp = {
-                "id": name,
-                "group": get_group_name(sector),
-                "owner": sectordic[sector]["owners"],
-            }
-
-            if sectordic[sector]["runways"]:
-                tmp["runways"] = sectordic[sector]["runways"]
-
-            tmp["sectors"] = [
-                {
-                    "min": int(int(sectordic[sector]["low"]) / 100),
-                    "max": int(int(sectordic[sector]["high"]) / 100) - 1,
-                    "points": getpoints(sectordic[sector]["borders"]),
+        if sector.split("·")[0] in fir_list:
+            if any(pos in valid_positions for pos in sectordic[sector]["owners"]):
+                tmp = {
+                    "id": name,
+                    "group": get_group_name(sector),
+                    "owner": sectordic[sector]["owners"],
                 }
-            ]
 
-            if (
-                tmp["sectors"][0]["points"] is not None
-                and "_GND" not in name
-                and "_RMP" not in name
-                and "_DEL" not in name
-            ):
-                airspaces.append(tmp)
+                if sectordic[sector]["runways"]:
+                    tmp["runways"] = sectordic[sector]["runways"]
+
+                tmp["sectors"] = [
+                    {
+                        "min": int(int(sectordic[sector]["low"]) / 100),
+                        "max": int(int(sectordic[sector]["high"]) / 100) - 1,
+                        "points": getpoints(
+                            sectordic[sector]["borders"], linedic
+                        ),
+                    }
+                ]
+
+                if (
+                    tmp["sectors"][0]["points"] is not None
+                    and "_GND" not in name
+                    and "_RMP" not in name
+                    and "_DEL" not in name
+                ):
+                    airspaces.append(tmp)
+                else:
+                    print(sector.ljust(30), "is ground, delivery, or invalid")
             else:
-                print(sector.ljust(30), "is ground, delivery, or invalid")
+                print(
+                    sector.ljust(30),
+                    "no owner is in this vacc",
+                    sectordic[sector]["owners"],
+                )
         else:
-            print(sector.ljust(30), "no owner is in this vacc", sectordic[sector]["owners"])
-    else:
-        print(sector.ljust(30), "not part of this vacc", fir_list)
+            print(sector.ljust(30), "not part of this vacc", fir_list)
 
 print(f"Found {len(airspaces)} airspaces")
 
