@@ -58,10 +58,12 @@
         "name": "ZU UAC",
         "owner": "RR",
         "owners": [
+          "Z",
+          "MZ",
           "ZX",
           "RRE",
           "RR",
-          "PAR"
+          "FF"
         ],
         "min": 365,
         "cur": 380,
@@ -167,11 +169,12 @@
         "name": "XU UAC",
         "owner": "RR",
         "owners": [
+          "X",
           "QX",
           "ZX",
           "RRE",
           "RR",
-          "PAR"
+          "FF"
         ],
         "min": 365,
         "cur": 380,
@@ -376,7 +379,7 @@
           "QX",
           "RRE",
           "RR",
-          "PAR"
+          "FF"
         ],
         "min": 365,
         "cur": 380,
@@ -470,6 +473,7 @@
         "name": "NU UAC",
         "owner": "RR",
         "owners": [
+          "N",
           "RRW",
           "RR"
         ],
@@ -531,9 +535,10 @@
         "owners": [
           "M",
           "MQ",
+          "MZ",
           "RRE",
           "RR",
-          "PAR"
+          "FF"
         ],
         "min": 365,
         "cur": 380,
@@ -2333,7 +2338,7 @@
           "KF",
           "URME",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 345,
         "cur": 380,
@@ -2458,7 +2463,7 @@
           "KD",
           "URME",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 355,
         "cur": 380,
@@ -2555,7 +2560,7 @@
           "HR",
           "URMN",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 375,
         "cur": 380,
@@ -2668,7 +2673,7 @@
           "HN",
           "URMN",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 365,
         "cur": 380,
@@ -2962,7 +2967,7 @@
           "4EH",
           "URME",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 365,
         "cur": 380,
@@ -3740,7 +3745,7 @@
           "4EH",
           "URME",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 365,
         "cur": 380,

@@ -228,6 +228,7 @@
         "name": "NS UAC",
         "owner": "RR",
         "owners": [
+          "N",
           "RRW",
           "RR"
         ],
@@ -4066,7 +4067,7 @@
           "4EH",
           "URME",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 195,
         "cur": 210,
@@ -4123,7 +4124,7 @@
           "UF",
           "URME",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 195,
         "cur": 210,
@@ -5045,7 +5046,7 @@
           "4EH",
           "URME",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 195,
         "cur": 210,
@@ -5102,8 +5103,8 @@
           "TNTB",
           "AENB",
           "RPAW",
-          "LOW",
-          "PAR"
+          "PLOW",
+          "P"
         ],
         "min": 195,
         "cur": 210,
