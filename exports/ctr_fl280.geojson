@@ -2718,7 +2718,7 @@
           "UR",
           "URMN",
           "EE",
-          "P"
+          "PAR"
         ],
         "min": 265,
         "cur": 280,
@@ -2811,7 +2811,7 @@
           "UN",
           "URMN",
           "EE",
-          "P"
+          "PAR"
         ],
         "min": 265,
         "cur": 280,
@@ -3105,7 +3105,7 @@
           "4EH",
           "URME",
           "EE",
-          "P"
+          "PAR"
         ],
         "min": 195,
         "cur": 280,
@@ -3182,7 +3182,7 @@
           "UF",
           "URME",
           "EE",
-          "P"
+          "PAR"
         ],
         "min": 265,
         "cur": 280,
@@ -3964,7 +3964,7 @@
           "4EH",
           "URME",
           "EE",
-          "P"
+          "PAR"
         ],
         "min": 245,
         "cur": 280,
@@ -4037,7 +4037,7 @@
           "UB",
           "URMN",
           "EE",
-          "P"
+          "PAR"
         ],
         "min": 265,
         "cur": 280,
@@ -4609,20 +4609,20 @@
       },
       "properties": {
         "name": "P1 2 UAC",
-        "owner": "BB",
+        "owner": "PAR",
         "owners": [
-          "P",
+          "PAR",
           "UN",
           "BB"
         ],
         "min": 265,
         "cur": 280,
         "max": 294,
-        "color_hex": "#837285",
-        "stroke": "#837285",
+        "color_hex": "#4067a9",
+        "stroke": "#4067a9",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#837285",
+        "fill": "#4067a9",
         "fill-opacity": 0.3
       }
     },

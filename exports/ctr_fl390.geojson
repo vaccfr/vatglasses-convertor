@@ -63,7 +63,7 @@
           "ZX",
           "RRE",
           "RR",
-          "FF"
+          "PAR"
         ],
         "min": 365,
         "cur": 390,
@@ -174,7 +174,7 @@
           "ZX",
           "RRE",
           "RR",
-          "FF"
+          "PAR"
         ],
         "min": 365,
         "cur": 390,
@@ -379,7 +379,7 @@
           "QX",
           "RRE",
           "RR",
-          "FF"
+          "PAR"
         ],
         "min": 365,
         "cur": 390,
@@ -538,7 +538,7 @@
           "MZ",
           "RRE",
           "RR",
-          "FF"
+          "PAR"
         ],
         "min": 365,
         "cur": 390,
@@ -2267,7 +2267,7 @@
           "KF",
           "URME",
           "EE",
-          "P"
+          "PAR"
         ],
         "min": 345,
         "cur": 390,
@@ -2396,7 +2396,7 @@
           "KD",
           "URME",
           "EE",
-          "P"
+          "PAR"
         ],
         "min": 385,
         "cur": 390,
@@ -2493,7 +2493,7 @@
           "HR",
           "URMN",
           "EE",
-          "P"
+          "PAR"
         ],
         "min": 375,
         "cur": 390,
@@ -2606,7 +2606,7 @@
           "HN",
           "URMN",
           "EE",
-          "P"
+          "PAR"
         ],
         "min": 365,
         "cur": 390,
@@ -2900,7 +2900,7 @@
           "4EH",
           "URME",
           "EE",
-          "P"
+          "PAR"
         ],
         "min": 365,
         "cur": 390,
@@ -3678,7 +3678,7 @@
           "4EH",
           "URME",
           "EE",
-          "P"
+          "PAR"
         ],
         "min": 365,
         "cur": 390,
@@ -4250,20 +4250,20 @@
       },
       "properties": {
         "name": "P4 UAC",
-        "owner": "BB",
+        "owner": "PAR",
         "owners": [
-          "P",
+          "PAR",
           "UN",
           "BB"
         ],
         "min": 365,
         "cur": 390,
         "max": 659,
-        "color_hex": "#837285",
-        "stroke": "#837285",
+        "color_hex": "#4067a9",
+        "stroke": "#4067a9",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#837285",
+        "fill": "#4067a9",
         "fill-opacity": 0.3
       }
     },

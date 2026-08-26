@@ -67,7 +67,7 @@
           "ZX",
           "RRE",
           "RR",
-          "FF"
+          "PAR"
         ],
         "min": 345,
         "cur": 360,
@@ -178,7 +178,7 @@
           "ZX",
           "RRE",
           "RR",
-          "FF"
+          "PAR"
         ],
         "min": 345,
         "cur": 360,
@@ -381,7 +381,7 @@
           "QX",
           "RRE",
           "RR",
-          "FF"
+          "PAR"
         ],
         "min": 345,
         "cur": 360,
@@ -540,7 +540,7 @@
           "MZ",
           "RRE",
           "RR",
-          "FF"
+          "PAR"
         ],
         "min": 345,
         "cur": 360,
@@ -2337,7 +2337,7 @@
           "YB",
           "URMN",
           "EE",
-          "P"
+          "PAR"
         ],
         "min": 345,
         "cur": 360,
@@ -2442,7 +2442,7 @@
           "KR",
           "URMN",
           "EE",
-          "P"
+          "PAR"
         ],
         "min": 345,
         "cur": 360,
@@ -2535,7 +2535,7 @@
           "KN",
           "URMN",
           "EE",
-          "P"
+          "PAR"
         ],
         "min": 345,
         "cur": 360,
@@ -2829,7 +2829,7 @@
           "4EH",
           "URME",
           "EE",
-          "P"
+          "PAR"
         ],
         "min": 345,
         "cur": 360,
@@ -2902,7 +2902,7 @@
           "KF",
           "URME",
           "EE",
-          "P"
+          "PAR"
         ],
         "min": 345,
         "cur": 360,
@@ -3680,7 +3680,7 @@
           "4EH",
           "URME",
           "EE",
-          "P"
+          "PAR"
         ],
         "min": 345,
         "cur": 360,
@@ -3805,7 +3805,7 @@
           "KD",
           "URME",
           "EE",
-          "P"
+          "PAR"
         ],
         "min": 355,
         "cur": 360,
@@ -4377,20 +4377,20 @@
       },
       "properties": {
         "name": "P3 UAC",
-        "owner": "BB",
+        "owner": "PAR",
         "owners": [
-          "P",
+          "PAR",
           "UN",
           "BB"
         ],
         "min": 345,
         "cur": 360,
         "max": 364,
-        "color_hex": "#837285",
-        "stroke": "#837285",
+        "color_hex": "#4067a9",
+        "stroke": "#4067a9",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#837285",
+        "fill": "#4067a9",
         "fill-opacity": 0.3
       }
     },
