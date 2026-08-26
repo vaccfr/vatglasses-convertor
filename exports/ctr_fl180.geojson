@@ -52,7 +52,7 @@
       },
       "properties": {
         "name": "WS2 UAC",
-        "owner": "RR",
+        "owner": "RRW",
         "owners": [
           "RRW",
           "RR"
@@ -60,11 +60,11 @@
         "min": 55,
         "cur": 180,
         "max": 194,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#0055a1",
+        "stroke": "#0055a1",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#0055a1",
         "fill-opacity": 0.3
       }
     },
@@ -151,7 +151,7 @@
       },
       "properties": {
         "name": "GS1 UAC",
-        "owner": "RR",
+        "owner": "RRG",
         "owners": [
           "RRG",
           "RRS",
@@ -160,11 +160,11 @@
         "min": 0,
         "cur": 180,
         "max": 194,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#2a5692",
+        "stroke": "#2a5692",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#2a5692",
         "fill-opacity": 0.3
       }
     },
@@ -199,7 +199,7 @@
       },
       "properties": {
         "name": "BOTA LOW SOUTH",
-        "owner": "RR",
+        "owner": "RRS",
         "owners": [
           "RRS",
           "RR"
@@ -207,11 +207,11 @@
         "min": 0,
         "cur": 180,
         "max": 344,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#095e92",
+        "stroke": "#095e92",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#095e92",
         "fill-opacity": 0.3
       }
     },
@@ -250,7 +250,7 @@
       },
       "properties": {
         "name": "BOTA LOW NORTH",
-        "owner": "RR",
+        "owner": "RRW",
         "owners": [
           "RRW",
           "RR"
@@ -258,11 +258,11 @@
         "min": 0,
         "cur": 180,
         "max": 254,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#0055a1",
+        "stroke": "#0055a1",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#0055a1",
         "fill-opacity": 0.3
       }
     },
@@ -333,7 +333,7 @@
       },
       "properties": {
         "name": "AS2 UAC",
-        "owner": "RR",
+        "owner": "RRA",
         "owners": [
           "RRA",
           "RRS",
@@ -342,11 +342,11 @@
         "min": 55,
         "cur": 180,
         "max": 194,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#005b88",
+        "stroke": "#005b88",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#005b88",
         "fill-opacity": 0.3
       }
     },
@@ -417,7 +417,7 @@
       },
       "properties": {
         "name": "ZL1 UAC",
-        "owner": "MM",
+        "owner": "MWU",
         "owners": [
           "MWU",
           "MUU",
@@ -427,11 +427,11 @@
         "min": 0,
         "cur": 180,
         "max": 194,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a88b61",
+        "stroke": "#a88b61",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a88b61",
         "fill-opacity": 0.3
       }
     },
@@ -510,7 +510,7 @@
       },
       "properties": {
         "name": "ST1 UAC",
-        "owner": "MM",
+        "owner": "MME",
         "owners": [
           "MME",
           "MRAE",
@@ -519,11 +519,11 @@
         "min": 145,
         "cur": 180,
         "max": 194,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#ac824b",
+        "stroke": "#ac824b",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#ac824b",
         "fill-opacity": 0.3
       }
     },
@@ -590,7 +590,7 @@
       },
       "properties": {
         "name": "MO UAC",
-        "owner": "MM",
+        "owner": "MMW",
         "owners": [
           "MMW",
           "MRAW",
@@ -599,11 +599,11 @@
         "min": 145,
         "cur": 180,
         "max": 194,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#8fa853",
+        "stroke": "#8fa853",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#8fa853",
         "fill-opacity": 0.3
       }
     },
@@ -818,7 +818,7 @@
       },
       "properties": {
         "name": "MN1 UAC",
-        "owner": "MM",
+        "owner": "MME",
         "owners": [
           "MME",
           "MRAE",
@@ -827,11 +827,11 @@
         "min": 175,
         "cur": 180,
         "max": 194,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#ac824b",
+        "stroke": "#ac824b",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#ac824b",
         "fill-opacity": 0.3
       }
     },
@@ -982,7 +982,7 @@
       },
       "properties": {
         "name": "ML1 UAC",
-        "owner": "MM",
+        "owner": "MMW",
         "owners": [
           "MMW",
           "MRAW",
@@ -991,11 +991,11 @@
         "min": 145,
         "cur": 180,
         "max": 194,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#8fa853",
+        "stroke": "#8fa853",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#8fa853",
         "fill-opacity": 0.3
       }
     },
@@ -1074,7 +1074,7 @@
       },
       "properties": {
         "name": "LS1 UAC",
-        "owner": "MM",
+        "owner": "MMW",
         "owners": [
           "MMW",
           "MRAW",
@@ -1083,11 +1083,11 @@
         "min": 145,
         "cur": 180,
         "max": 194,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#8fa853",
+        "stroke": "#8fa853",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#8fa853",
         "fill-opacity": 0.3
       }
     },
@@ -1150,7 +1150,7 @@
       },
       "properties": {
         "name": "LO1 UAC",
-        "owner": "MM",
+        "owner": "MMW",
         "owners": [
           "MMW",
           "MRAW",
@@ -1159,11 +1159,11 @@
         "min": 145,
         "cur": 180,
         "max": 194,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#8fa853",
+        "stroke": "#8fa853",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#8fa853",
         "fill-opacity": 0.3
       }
     },
@@ -1402,7 +1402,7 @@
       },
       "properties": {
         "name": "LE1 2 UAC",
-        "owner": "MM",
+        "owner": "MMW",
         "owners": [
           "MMW",
           "MRAW",
@@ -1411,11 +1411,11 @@
         "min": 175,
         "cur": 180,
         "max": 194,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#8fa853",
+        "stroke": "#8fa853",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#8fa853",
         "fill-opacity": 0.3
       }
     },
@@ -1494,7 +1494,7 @@
       },
       "properties": {
         "name": "D1 1 UAC",
-        "owner": "MM",
+        "owner": "MWU",
         "owners": [
           "MWU",
           "MUU",
@@ -1504,11 +1504,11 @@
         "min": 145,
         "cur": 180,
         "max": 194,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a88b61",
+        "stroke": "#a88b61",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a88b61",
         "fill-opacity": 0.3
       }
     },
@@ -1587,7 +1587,7 @@
       },
       "properties": {
         "name": "BT1 UAC",
-        "owner": "MM",
+        "owner": "MME",
         "owners": [
           "MME",
           "MRAE",
@@ -1596,11 +1596,11 @@
         "min": 145,
         "cur": 180,
         "max": 194,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#ac824b",
+        "stroke": "#ac824b",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#ac824b",
         "fill-opacity": 0.3
       }
     },
@@ -1711,7 +1711,7 @@
       },
       "properties": {
         "name": "AJ 1 UAC",
-        "owner": "MM",
+        "owner": "MME",
         "owners": [
           "MME",
           "MRAE",
@@ -1720,11 +1720,11 @@
         "min": 145,
         "cur": 180,
         "max": 194,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#ac824b",
+        "stroke": "#ac824b",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#ac824b",
         "fill-opacity": 0.3
       }
     },
@@ -1843,7 +1843,7 @@
       },
       "properties": {
         "name": "TP1 UAC",
-        "owner": "PAR",
+        "owner": "TP",
         "owners": [
           "TP",
           "HPKZ",
@@ -1855,11 +1855,11 @@
         "min": 115,
         "cur": 180,
         "max": 194,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#2c84b4",
+        "stroke": "#2c84b4",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#2c84b4",
         "fill-opacity": 0.3
       }
     },
@@ -1958,7 +1958,7 @@
       },
       "properties": {
         "name": "TN UAC",
-        "owner": "PAR",
+        "owner": "TN",
         "owners": [
           "TN",
           "TNTB",
@@ -1970,11 +1970,11 @@
         "min": 115,
         "cur": 180,
         "max": 194,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#235b91",
+        "stroke": "#235b91",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#235b91",
         "fill-opacity": 0.3
       }
     },
@@ -2081,7 +2081,7 @@
       },
       "properties": {
         "name": "TM UAC",
-        "owner": "PAR",
+        "owner": "TM",
         "owners": [
           "TM",
           "TML",
@@ -2094,11 +2094,11 @@
         "min": 115,
         "cur": 180,
         "max": 194,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#3582a2",
+        "stroke": "#3582a2",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#3582a2",
         "fill-opacity": 0.3
       }
     },
@@ -2181,7 +2181,7 @@
       },
       "properties": {
         "name": "TL UAC",
-        "owner": "PAR",
+        "owner": "TL",
         "owners": [
           "TL",
           "TML",
@@ -2194,11 +2194,11 @@
         "min": 115,
         "cur": 180,
         "max": 194,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#365fc4",
+        "stroke": "#365fc4",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#365fc4",
         "fill-opacity": 0.3
       }
     },
@@ -2305,7 +2305,7 @@
       },
       "properties": {
         "name": "TH UAC",
-        "owner": "PAR",
+        "owner": "TH",
         "owners": [
           "TH",
           "THUZ",
@@ -2318,11 +2318,11 @@
         "min": 115,
         "cur": 180,
         "max": 194,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#246094",
+        "stroke": "#246094",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#246094",
         "fill-opacity": 0.3
       }
     },
@@ -2477,7 +2477,7 @@
       },
       "properties": {
         "name": "TE UAC",
-        "owner": "PAR",
+        "owner": "TE",
         "owners": [
           "TE",
           "APTE",
@@ -2489,11 +2489,11 @@
         "min": 115,
         "cur": 180,
         "max": 194,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#3c6bbf",
+        "stroke": "#3c6bbf",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#3c6bbf",
         "fill-opacity": 0.3
       }
     },
@@ -2660,7 +2660,7 @@
       },
       "properties": {
         "name": "TB UAC",
-        "owner": "PAR",
+        "owner": "TB",
         "owners": [
           "TB",
           "TNTB",
@@ -2672,11 +2672,11 @@
         "min": 115,
         "cur": 180,
         "max": 194,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#4c719a",
+        "stroke": "#4c719a",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#4c719a",
         "fill-opacity": 0.3
       }
     },
@@ -2711,7 +2711,7 @@
       },
       "properties": {
         "name": "TB UAC",
-        "owner": "PAR",
+        "owner": "TB",
         "owners": [
           "TB",
           "TNTB",
@@ -2723,11 +2723,11 @@
         "min": 95,
         "cur": 180,
         "max": 194,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#4c719a",
+        "stroke": "#4c719a",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#4c719a",
         "fill-opacity": 0.3
       }
     },
@@ -2846,7 +2846,7 @@
       },
       "properties": {
         "name": "S UAC",
-        "owner": "PAR",
+        "owner": "DODG",
         "owners": [
           "DODG",
           "DOGS",
@@ -2859,11 +2859,11 @@
         "min": 115,
         "cur": 180,
         "max": 194,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#426ec3",
+        "stroke": "#426ec3",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#426ec3",
         "fill-opacity": 0.3
       }
     },
@@ -2966,7 +2966,7 @@
       },
       "properties": {
         "name": "RT1 UAC",
-        "owner": "PAR",
+        "owner": "RT",
         "owners": [
           "RT",
           "ORGY",
@@ -2978,11 +2978,11 @@
         "min": 145,
         "cur": 180,
         "max": 194,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#3d57a0",
+        "stroke": "#3d57a0",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#3d57a0",
         "fill-opacity": 0.3
       }
     },
@@ -3073,7 +3073,7 @@
       },
       "properties": {
         "name": "OT1 UAC",
-        "owner": "PAR",
+        "owner": "LOT",
         "owners": [
           "LOT",
           "ORGY",
@@ -3085,11 +3085,11 @@
         "min": 115,
         "cur": 180,
         "max": 194,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#3d6fc4",
+        "stroke": "#3d6fc4",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#3d6fc4",
         "fill-opacity": 0.3
       }
     },
@@ -3168,7 +3168,7 @@
       },
       "properties": {
         "name": "DO1 UAC",
-        "owner": "PAR",
+        "owner": "DG",
         "owners": [
           "DG",
           "DODG",
@@ -3182,11 +3182,11 @@
         "min": 115,
         "cur": 180,
         "max": 194,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#59538f",
+        "stroke": "#59538f",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#59538f",
         "fill-opacity": 0.3
       }
     },
@@ -3249,7 +3249,7 @@
       },
       "properties": {
         "name": "AR1 UAC",
-        "owner": "PAR",
+        "owner": "AR",
         "owners": [
           "AR",
           "ARML",
@@ -3261,11 +3261,11 @@
         "min": 115,
         "cur": 180,
         "max": 194,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#4e74c4",
+        "stroke": "#4e74c4",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#4e74c4",
         "fill-opacity": 0.3
       }
     },
@@ -3332,7 +3332,7 @@
       },
       "properties": {
         "name": "AO1 UAC",
-        "owner": "PAR",
+        "owner": "AO",
         "owners": [
           "AO",
           "AOUS",
@@ -3344,11 +3344,11 @@
         "min": 115,
         "cur": 180,
         "max": 194,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#3655ab",
+        "stroke": "#3655ab",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#3655ab",
         "fill-opacity": 0.3
       }
     },
@@ -4011,7 +4011,7 @@
       },
       "properties": {
         "name": "RENNES RN3",
-        "owner": "RR",
+        "owner": "RN",
         "owners": [
           "RN",
           "RRW",
@@ -4020,11 +4020,11 @@
         "min": 115,
         "cur": 180,
         "max": 194,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#9c4dec",
+        "stroke": "#9c4dec",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#9c4dec",
         "fill-opacity": 0.3
       }
     },
@@ -4123,7 +4123,7 @@
       },
       "properties": {
         "name": "RENNES JC4",
-        "owner": "RR",
+        "owner": "JC",
         "owners": [
           "JC",
           "JD",
@@ -4134,11 +4134,11 @@
         "min": 115,
         "cur": 180,
         "max": 194,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#9566f0",
+        "stroke": "#9566f0",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#9566f0",
         "fill-opacity": 0.3
       }
     },
@@ -4649,7 +4649,7 @@
       },
       "properties": {
         "name": "NANTES LU",
-        "owner": "RR",
+        "owner": "LU",
         "owners": [
           "LU",
           "RS",
@@ -4659,11 +4659,11 @@
         "min": 115,
         "cur": 180,
         "max": 194,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#9a67e9",
+        "stroke": "#9a67e9",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#9a67e9",
         "fill-opacity": 0.3
       }
     },
@@ -4714,7 +4714,7 @@
       },
       "properties": {
         "name": "LANVEOC TMA",
-        "owner": "RR",
+        "owner": "RLA",
         "owners": [
           "RLA",
           "RBA",
@@ -4725,11 +4725,11 @@
         "min": 25,
         "cur": 180,
         "max": 194,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -5644,7 +5644,7 @@
       },
       "properties": {
         "name": "IROISE RH3",
-        "owner": "RR",
+        "owner": "RHA",
         "owners": [
           "RHA",
           "RBA",
@@ -5654,11 +5654,11 @@
         "min": 115,
         "cur": 180,
         "max": 194,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -5753,7 +5753,7 @@
       },
       "properties": {
         "name": "IROISE IX2",
-        "owner": "RR",
+        "owner": "RBA",
         "owners": [
           "RBA",
           "RRW",
@@ -5762,11 +5762,11 @@
         "min": 45,
         "cur": 180,
         "max": 194,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -5821,7 +5821,7 @@
       },
       "properties": {
         "name": "IROISE IQ3-E",
-        "owner": "RR",
+        "owner": "RBA",
         "owners": [
           "RBA",
           "RRW",
@@ -5830,11 +5830,11 @@
         "min": 115,
         "cur": 180,
         "max": 194,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -5897,7 +5897,7 @@
       },
       "properties": {
         "name": "IROISE IQ3-C",
-        "owner": "RR",
+        "owner": "RBA",
         "owners": [
           "RBA",
           "RRW",
@@ -5906,11 +5906,11 @@
         "min": 115,
         "cur": 180,
         "max": 194,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -6357,7 +6357,7 @@
       },
       "properties": {
         "name": "IROISE IQ3",
-        "owner": "RR",
+        "owner": "RBA",
         "owners": [
           "RBA",
           "RRW",
@@ -6366,11 +6366,11 @@
         "min": 115,
         "cur": 180,
         "max": 194,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -6565,7 +6565,7 @@
       },
       "properties": {
         "name": "IROISE IQ3",
-        "owner": "RR",
+        "owner": "RBA",
         "owners": [
           "RBA",
           "RRW",
@@ -6574,11 +6574,98 @@
         "min": 0,
         "cur": 180,
         "max": 194,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#a24fde",
+        "fill-opacity": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.866667,
+              43.175
+            ],
+            [
+              6.020833,
+              43.175
+            ],
+            [
+              6.043056,
+              43.175
+            ],
+            [
+              6.2475,
+              43.175278
+            ],
+            [
+              6.266667,
+              43.175
+            ],
+            [
+              6.487778,
+              43.148056
+            ],
+            [
+              6.541667,
+              43.141667
+            ],
+            [
+              6.55,
+              43.136667
+            ],
+            [
+              6.666667,
+              43.066667
+            ],
+            [
+              6.666667,
+              42.833056
+            ],
+            [
+              6.666667,
+              42.666667
+            ],
+            [
+              6.253611,
+              42.668611
+            ],
+            [
+              5.633056,
+              42.666667
+            ],
+            [
+              5.633056,
+              43.033056
+            ],
+            [
+              5.866667,
+              43.175
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "TOULON CTA 1.3",
+        "owner": "THA",
+        "owners": [
+          "THA",
+          "CCMC"
+        ],
+        "min": 125,
+        "cur": 180,
+        "max": 194,
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
+        "stroke-width": 1,
+        "stroke-opacity": 0.7,
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -6785,7 +6872,7 @@
       },
       "properties": {
         "name": "EGA ORLY-CDG",
-        "owner": "PAR",
+        "owner": "PGS",
         "owners": [
           "PGS",
           "PGN",
@@ -6799,11 +6886,11 @@
         "min": 165,
         "cur": 180,
         "max": 194,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#b251d7",
+        "stroke": "#b251d7",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#b251d7",
         "fill-opacity": 0.3
       }
     },
@@ -7118,7 +7205,7 @@
       },
       "properties": {
         "name": "EGA CDG-S",
-        "owner": "PAR",
+        "owner": "PGS",
         "owners": [
           "PGS",
           "PGN",
@@ -7132,11 +7219,11 @@
         "min": 115,
         "cur": 180,
         "max": 194,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#b251d7",
+        "stroke": "#b251d7",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#b251d7",
         "fill-opacity": 0.3
       }
     },
@@ -7355,7 +7442,7 @@
       },
       "properties": {
         "name": "EGA CDG-N",
-        "owner": "PAR",
+        "owner": "PGN",
         "owners": [
           "PGN",
           "DODG",
@@ -7368,11 +7455,11 @@
         "min": 115,
         "cur": 180,
         "max": 194,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#934ce1",
+        "stroke": "#934ce1",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#934ce1",
         "fill-opacity": 0.3
       }
     },
@@ -7827,7 +7914,7 @@
       },
       "properties": {
         "name": "STRASBOURG SU2",
-        "owner": "EE",
+        "owner": "SU",
         "owners": [
           "SU",
           "UE",
@@ -7836,11 +7923,11 @@
         "min": 75,
         "cur": 180,
         "max": 194,
-        "color_hex": "#71aa71",
-        "stroke": "#71aa71",
+        "color_hex": "#a940dc",
+        "stroke": "#a940dc",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#71aa71",
+        "fill": "#a940dc",
         "fill-opacity": 0.3
       }
     },
@@ -8491,7 +8578,7 @@
       },
       "properties": {
         "name": "STRASBOURG SU1",
-        "owner": "EE",
+        "owner": "SU",
         "owners": [
           "SU",
           "UE",
@@ -8500,11 +8587,11 @@
         "min": 115,
         "cur": 180,
         "max": 194,
-        "color_hex": "#71aa71",
-        "stroke": "#71aa71",
+        "color_hex": "#a940dc",
+        "stroke": "#a940dc",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#71aa71",
+        "fill": "#a940dc",
         "fill-opacity": 0.3
       }
     },
@@ -8635,7 +8722,7 @@
       },
       "properties": {
         "name": "BALE BU1",
-        "owner": "EE",
+        "owner": "SBC",
         "owners": [
           "SBC",
           "UH",
@@ -8644,11 +8731,11 @@
         "min": 115,
         "cur": 180,
         "max": 194,
-        "color_hex": "#71aa71",
-        "stroke": "#71aa71",
+        "color_hex": "#be55ec",
+        "stroke": "#be55ec",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#71aa71",
+        "fill": "#be55ec",
         "fill-opacity": 0.3
       }
     },
@@ -8691,7 +8778,7 @@
       },
       "properties": {
         "name": "BALE BO2",
-        "owner": "EE",
+        "owner": "SBC",
         "owners": [
           "SBC",
           "EE",
@@ -8703,11 +8790,11 @@
         "min": 155,
         "cur": 180,
         "max": 194,
-        "color_hex": "#71aa71",
-        "stroke": "#71aa71",
+        "color_hex": "#be55ec",
+        "stroke": "#be55ec",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#71aa71",
+        "fill": "#be55ec",
         "fill-opacity": 0.3
       }
     },
@@ -9386,7 +9473,7 @@
       },
       "properties": {
         "name": "BALE BO1",
-        "owner": "EE",
+        "owner": "SB",
         "owners": [
           "SB",
           "SBC",
@@ -9399,11 +9486,11 @@
         "min": 145,
         "cur": 180,
         "max": 194,
-        "color_hex": "#71aa71",
-        "stroke": "#71aa71",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#71aa71",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -9550,7 +9637,7 @@
       },
       "properties": {
         "name": "MARSAN CTA",
-        "owner": "BB",
+        "owner": "BM",
         "owners": [
           "BM",
           "CCMC",
@@ -9559,11 +9646,11 @@
         "min": 145,
         "cur": 180,
         "max": 194,
-        "color_hex": "#837285",
-        "stroke": "#837285",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#837285",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     }

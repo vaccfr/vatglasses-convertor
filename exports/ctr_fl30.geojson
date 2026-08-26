@@ -52,7 +52,7 @@
       },
       "properties": {
         "name": "WS1 UAC",
-        "owner": "RR",
+        "owner": "RRW",
         "owners": [
           "RRW",
           "RR"
@@ -60,11 +60,11 @@
         "min": 0,
         "cur": 30,
         "max": 54,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#0055a1",
+        "stroke": "#0055a1",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#0055a1",
         "fill-opacity": 0.3
       }
     },
@@ -151,7 +151,7 @@
       },
       "properties": {
         "name": "GS1 UAC",
-        "owner": "RR",
+        "owner": "RRG",
         "owners": [
           "RRG",
           "RRS",
@@ -160,11 +160,11 @@
         "min": 0,
         "cur": 30,
         "max": 194,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#2a5692",
+        "stroke": "#2a5692",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#2a5692",
         "fill-opacity": 0.3
       }
     },
@@ -199,7 +199,7 @@
       },
       "properties": {
         "name": "BOTA LOW SOUTH",
-        "owner": "RR",
+        "owner": "RRS",
         "owners": [
           "RRS",
           "RR"
@@ -207,11 +207,11 @@
         "min": 0,
         "cur": 30,
         "max": 344,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#095e92",
+        "stroke": "#095e92",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#095e92",
         "fill-opacity": 0.3
       }
     },
@@ -250,7 +250,7 @@
       },
       "properties": {
         "name": "BOTA LOW NORTH",
-        "owner": "RR",
+        "owner": "RRW",
         "owners": [
           "RRW",
           "RR"
@@ -258,11 +258,11 @@
         "min": 0,
         "cur": 30,
         "max": 254,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#0055a1",
+        "stroke": "#0055a1",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#0055a1",
         "fill-opacity": 0.3
       }
     },
@@ -333,7 +333,7 @@
       },
       "properties": {
         "name": "AS1 UAC",
-        "owner": "RR",
+        "owner": "RRA",
         "owners": [
           "RRA",
           "RRS",
@@ -342,11 +342,11 @@
         "min": 0,
         "cur": 30,
         "max": 54,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#005b88",
+        "stroke": "#005b88",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#005b88",
         "fill-opacity": 0.3
       }
     },
@@ -417,7 +417,7 @@
       },
       "properties": {
         "name": "ZL1 UAC",
-        "owner": "MM",
+        "owner": "MWU",
         "owners": [
           "MWU",
           "MUU",
@@ -427,11 +427,11 @@
         "min": 0,
         "cur": 30,
         "max": 194,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a88b61",
+        "stroke": "#a88b61",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a88b61",
         "fill-opacity": 0.3
       }
     },
@@ -514,7 +514,7 @@
       },
       "properties": {
         "name": "ST1 UAC",
-        "owner": "MM",
+        "owner": "MME",
         "owners": [
           "MME",
           "MRAE",
@@ -523,11 +523,11 @@
         "min": 0,
         "cur": 30,
         "max": 114,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#ac824b",
+        "stroke": "#ac824b",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#ac824b",
         "fill-opacity": 0.3
       }
     },
@@ -570,7 +570,7 @@
       },
       "properties": {
         "name": "MO-W UAC",
-        "owner": "MM",
+        "owner": "MMW",
         "owners": [
           "MMW",
           "MRAW",
@@ -579,11 +579,11 @@
         "min": 0,
         "cur": 30,
         "max": 144,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#8fa853",
+        "stroke": "#8fa853",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#8fa853",
         "fill-opacity": 0.3
       }
     },
@@ -622,7 +622,7 @@
       },
       "properties": {
         "name": "MO-E UAC",
-        "owner": "MM",
+        "owner": "MMW",
         "owners": [
           "MMW",
           "MRAW",
@@ -631,11 +631,11 @@
         "min": 0,
         "cur": 30,
         "max": 144,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#8fa853",
+        "stroke": "#8fa853",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#8fa853",
         "fill-opacity": 0.3
       }
     },
@@ -1562,7 +1562,7 @@
       },
       "properties": {
         "name": "MN1 UAC",
-        "owner": "MM",
+        "owner": "MME",
         "owners": [
           "MME",
           "MRAE",
@@ -1571,11 +1571,11 @@
         "min": 0,
         "cur": 30,
         "max": 144,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#ac824b",
+        "stroke": "#ac824b",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#ac824b",
         "fill-opacity": 0.3
       }
     },
@@ -1674,7 +1674,7 @@
       },
       "properties": {
         "name": "ML1 UAC",
-        "owner": "MM",
+        "owner": "MMW",
         "owners": [
           "MMW",
           "MRAW",
@@ -1683,11 +1683,11 @@
         "min": 0,
         "cur": 30,
         "max": 144,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#8fa853",
+        "stroke": "#8fa853",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#8fa853",
         "fill-opacity": 0.3
       }
     },
@@ -1726,7 +1726,7 @@
       },
       "properties": {
         "name": "LS1 UAC",
-        "owner": "MM",
+        "owner": "MMW",
         "owners": [
           "MMW",
           "MRAW",
@@ -1735,11 +1735,11 @@
         "min": 0,
         "cur": 30,
         "max": 144,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#8fa853",
+        "stroke": "#8fa853",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#8fa853",
         "fill-opacity": 0.3
       }
     },
@@ -1886,7 +1886,7 @@
       },
       "properties": {
         "name": "LE1 1-SE UAC",
-        "owner": "MM",
+        "owner": "MMW",
         "owners": [
           "MMW",
           "MRAW",
@@ -1895,11 +1895,11 @@
         "min": 0,
         "cur": 30,
         "max": 39,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#8fa853",
+        "stroke": "#8fa853",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#8fa853",
         "fill-opacity": 0.3
       }
     },
@@ -1970,7 +1970,7 @@
       },
       "properties": {
         "name": "D1 1 UAC",
-        "owner": "MM",
+        "owner": "MWU",
         "owners": [
           "MWU",
           "MUU",
@@ -1980,11 +1980,11 @@
         "min": 0,
         "cur": 30,
         "max": 144,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a88b61",
+        "stroke": "#a88b61",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a88b61",
         "fill-opacity": 0.3
       }
     },
@@ -2043,7 +2043,7 @@
       },
       "properties": {
         "name": "AJ 1 UAC",
-        "owner": "MM",
+        "owner": "MME",
         "owners": [
           "MME",
           "MRAE",
@@ -2052,11 +2052,11 @@
         "min": 0,
         "cur": 30,
         "max": 144,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#ac824b",
+        "stroke": "#ac824b",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#ac824b",
         "fill-opacity": 0.3
       }
     },
@@ -2135,7 +2135,7 @@
       },
       "properties": {
         "name": "TM UAC",
-        "owner": "PAR",
+        "owner": "TM",
         "owners": [
           "TM",
           "TML",
@@ -2148,11 +2148,11 @@
         "min": 0,
         "cur": 30,
         "max": 54,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#3582a2",
+        "stroke": "#3582a2",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#3582a2",
         "fill-opacity": 0.3
       }
     },
@@ -2283,7 +2283,7 @@
       },
       "properties": {
         "name": "TE UAC",
-        "owner": "PAR",
+        "owner": "TE",
         "owners": [
           "TE",
           "APTE",
@@ -2295,11 +2295,11 @@
         "min": 0,
         "cur": 30,
         "max": 64,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#3c6bbf",
+        "stroke": "#3c6bbf",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#3c6bbf",
         "fill-opacity": 0.3
       }
     },
@@ -2386,7 +2386,7 @@
       },
       "properties": {
         "name": "S UAC",
-        "owner": "PAR",
+        "owner": "DODG",
         "owners": [
           "DODG",
           "DOGS",
@@ -2399,11 +2399,137 @@
         "min": 0,
         "cur": 30,
         "max": 114,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#426ec3",
+        "stroke": "#426ec3",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#426ec3",
+        "fill-opacity": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.591667,
+              49.144722
+            ],
+            [
+              0.609444,
+              49.185556
+            ],
+            [
+              0.666389,
+              49.278056
+            ],
+            [
+              0.616667,
+              49.833333
+            ],
+            [
+              0.096111,
+              50.137778
+            ],
+            [
+              -0.25,
+              50.0
+            ],
+            [
+              -0.25,
+              49.816667
+            ],
+            [
+              -0.25,
+              49.566667
+            ],
+            [
+              -0.253889,
+              49.564722
+            ],
+            [
+              -0.261944,
+              49.561111
+            ],
+            [
+              -0.271944,
+              49.556389
+            ],
+            [
+              -0.283056,
+              49.551389
+            ],
+            [
+              -0.291944,
+              49.547222
+            ],
+            [
+              -0.310278,
+              49.538889
+            ],
+            [
+              -0.781667,
+              49.354167
+            ],
+            [
+              -0.803889,
+              49.168056
+            ],
+            [
+              -0.783889,
+              49.135
+            ],
+            [
+              -0.683056,
+              49.063611
+            ],
+            [
+              -0.636667,
+              49.051667
+            ],
+            [
+              -0.25,
+              48.9525
+            ],
+            [
+              -0.25,
+              48.941667
+            ],
+            [
+              -0.25,
+              48.883889
+            ],
+            [
+              0.1525,
+              48.836944
+            ],
+            [
+              0.382778,
+              48.998056
+            ],
+            [
+              0.591667,
+              49.144722
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "RENNRES JD2",
+        "owner": "JD",
+        "owners": [
+          "JD"
+        ],
+        "min": 25,
+        "cur": 30,
+        "max": 64,
+        "color_hex": "#8447df",
+        "stroke": "#8447df",
+        "stroke-width": 1,
+        "stroke-opacity": 0.7,
+        "fill": "#8447df",
         "fill-opacity": 0.3
       }
     },
@@ -2534,7 +2660,7 @@
       },
       "properties": {
         "name": "RENNES RN1",
-        "owner": "RR",
+        "owner": "RN",
         "owners": [
           "RN",
           "RRW",
@@ -2543,11 +2669,11 @@
         "min": 15,
         "cur": 30,
         "max": 64,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#9c4dec",
+        "stroke": "#9c4dec",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#9c4dec",
         "fill-opacity": 0.3
       }
     },
@@ -2678,7 +2804,7 @@
       },
       "properties": {
         "name": "RENNES JC2",
-        "owner": "RR",
+        "owner": "JC",
         "owners": [
           "JC",
           "JD",
@@ -2689,11 +2815,11 @@
         "min": 25,
         "cur": 30,
         "max": 54,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#9566f0",
+        "stroke": "#9566f0",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#9566f0",
         "fill-opacity": 0.3
       }
     },
@@ -2788,7 +2914,7 @@
       },
       "properties": {
         "name": "RENNES DD",
-        "owner": "RR",
+        "owner": "DD",
         "owners": [
           "DD",
           "RN",
@@ -2798,11 +2924,11 @@
         "min": 25,
         "cur": 30,
         "max": 114,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#944dc5",
+        "stroke": "#944dc5",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#944dc5",
         "fill-opacity": 0.3
       }
     },
@@ -2893,7 +3019,7 @@
       },
       "properties": {
         "name": "NANTES RS1",
-        "owner": "RR",
+        "owner": "RS",
         "owners": [
           "RS",
           "RRS",
@@ -2902,11 +3028,11 @@
         "min": 25,
         "cur": 30,
         "max": 34,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#b244de",
+        "stroke": "#b244de",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#b244de",
         "fill-opacity": 0.3
       }
     },
@@ -2981,7 +3107,7 @@
       },
       "properties": {
         "name": "NANTES NB2-W",
-        "owner": "RR",
+        "owner": "NIE",
         "owners": [
           "NIE",
           "NB",
@@ -2992,11 +3118,11 @@
         "min": 25,
         "cur": 30,
         "max": 34,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#a13eed",
+        "stroke": "#a13eed",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#a13eed",
         "fill-opacity": 0.3
       }
     },
@@ -3131,7 +3257,7 @@
       },
       "properties": {
         "name": "NANTES NB2-E",
-        "owner": "RR",
+        "owner": "NIE",
         "owners": [
           "NIE",
           "NB",
@@ -3142,11 +3268,11 @@
         "min": 25,
         "cur": 30,
         "max": 34,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#a13eed",
+        "stroke": "#a13eed",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#a13eed",
         "fill-opacity": 0.3
       }
     },
@@ -3605,7 +3731,7 @@
       },
       "properties": {
         "name": "NANTES NA2",
-        "owner": "RR",
+        "owner": "NIE",
         "owners": [
           "NIE",
           "NA",
@@ -3617,11 +3743,11 @@
         "min": 25,
         "cur": 30,
         "max": 34,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#a13eed",
+        "stroke": "#a13eed",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#a13eed",
         "fill-opacity": 0.3
       }
     },
@@ -3684,7 +3810,7 @@
       },
       "properties": {
         "name": "LE MANS TMA1 TEMP",
-        "owner": "RR",
+        "owner": "NB",
         "owners": [
           "NB",
           "RS",
@@ -3694,11 +3820,11 @@
         "min": 25,
         "cur": 30,
         "max": 114,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#9d3cf4",
+        "stroke": "#9d3cf4",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#9d3cf4",
         "fill-opacity": 0.3
       }
     },
@@ -3749,7 +3875,7 @@
       },
       "properties": {
         "name": "LANVEOC TMA",
-        "owner": "RR",
+        "owner": "RLA",
         "owners": [
           "RLA",
           "RBA",
@@ -3760,11 +3886,11 @@
         "min": 25,
         "cur": 30,
         "max": 194,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -4679,7 +4805,7 @@
       },
       "properties": {
         "name": "IROISE RH2",
-        "owner": "RR",
+        "owner": "RHA",
         "owners": [
           "RHA",
           "RBA",
@@ -4689,11 +4815,11 @@
         "min": 25,
         "cur": 30,
         "max": 114,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -4736,7 +4862,7 @@
       },
       "properties": {
         "name": "IROISE IX2",
-        "owner": "RR",
+        "owner": "RBA",
         "owners": [
           "RBA",
           "RRW",
@@ -4745,11 +4871,11 @@
         "min": 0,
         "cur": 30,
         "max": 44,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -4796,7 +4922,7 @@
       },
       "properties": {
         "name": "IROISE IX1",
-        "owner": "RR",
+        "owner": "RBA",
         "owners": [
           "RBA",
           "RRW",
@@ -4805,11 +4931,11 @@
         "min": 25,
         "cur": 30,
         "max": 44,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -4892,7 +5018,7 @@
       },
       "properties": {
         "name": "IROISE IX1",
-        "owner": "RR",
+        "owner": "RBA",
         "owners": [
           "RBA",
           "RRW",
@@ -4901,11 +5027,11 @@
         "min": 20,
         "cur": 30,
         "max": 44,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -5100,7 +5226,7 @@
       },
       "properties": {
         "name": "IROISE IQ3",
-        "owner": "RR",
+        "owner": "RBA",
         "owners": [
           "RBA",
           "RRW",
@@ -5109,11 +5235,11 @@
         "min": 0,
         "cur": 30,
         "max": 194,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -5184,7 +5310,7 @@
       },
       "properties": {
         "name": "IROISE IQ1-C",
-        "owner": "RR",
+        "owner": "RBA",
         "owners": [
           "RBA",
           "RRW",
@@ -5193,11 +5319,11 @@
         "min": 25,
         "cur": 30,
         "max": 54,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -5644,7 +5770,7 @@
       },
       "properties": {
         "name": "IROISE IQ1",
-        "owner": "RR",
+        "owner": "RBA",
         "owners": [
           "RBA",
           "RRW",
@@ -5653,11 +5779,588 @@
         "min": 0,
         "cur": 30,
         "max": 54,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#a24fde",
+        "fill-opacity": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.043056,
+              43.175
+            ],
+            [
+              6.041111,
+              43.173889
+            ],
+            [
+              6.039722,
+              43.172778
+            ],
+            [
+              6.038333,
+              43.171667
+            ],
+            [
+              6.036667,
+              43.170556
+            ],
+            [
+              6.035278,
+              43.169444
+            ],
+            [
+              6.033889,
+              43.168056
+            ],
+            [
+              6.0325,
+              43.166944
+            ],
+            [
+              6.031111,
+              43.165833
+            ],
+            [
+              6.029722,
+              43.164722
+            ],
+            [
+              6.028333,
+              43.163333
+            ],
+            [
+              6.027222,
+              43.162222
+            ],
+            [
+              6.025833,
+              43.160833
+            ],
+            [
+              6.024444,
+              43.159722
+            ],
+            [
+              6.023056,
+              43.158056
+            ],
+            [
+              6.022222,
+              43.157222
+            ],
+            [
+              6.020833,
+              43.155833
+            ],
+            [
+              6.019722,
+              43.154444
+            ],
+            [
+              6.018611,
+              43.153056
+            ],
+            [
+              6.0175,
+              43.151944
+            ],
+            [
+              6.016389,
+              43.150556
+            ],
+            [
+              6.015278,
+              43.149167
+            ],
+            [
+              6.014444,
+              43.147778
+            ],
+            [
+              6.013333,
+              43.146389
+            ],
+            [
+              6.0125,
+              43.145
+            ],
+            [
+              6.011389,
+              43.143611
+            ],
+            [
+              6.010556,
+              43.142222
+            ],
+            [
+              6.009722,
+              43.140833
+            ],
+            [
+              6.008889,
+              43.139444
+            ],
+            [
+              6.008056,
+              43.138056
+            ],
+            [
+              6.007222,
+              43.136389
+            ],
+            [
+              6.006389,
+              43.135
+            ],
+            [
+              6.005556,
+              43.133611
+            ],
+            [
+              6.005,
+              43.132222
+            ],
+            [
+              6.004167,
+              43.130556
+            ],
+            [
+              6.003611,
+              43.129167
+            ],
+            [
+              6.002778,
+              43.127778
+            ],
+            [
+              6.002222,
+              43.126111
+            ],
+            [
+              6.001667,
+              43.124722
+            ],
+            [
+              6.001111,
+              43.123056
+            ],
+            [
+              6.000556,
+              43.121667
+            ],
+            [
+              6.000278,
+              43.120278
+            ],
+            [
+              5.999722,
+              43.118611
+            ],
+            [
+              5.999167,
+              43.117222
+            ],
+            [
+              5.998889,
+              43.115556
+            ],
+            [
+              5.998611,
+              43.114167
+            ],
+            [
+              5.998056,
+              43.1125
+            ],
+            [
+              5.997778,
+              43.110833
+            ],
+            [
+              5.9975,
+              43.109444
+            ],
+            [
+              5.997222,
+              43.107778
+            ],
+            [
+              5.997222,
+              43.106389
+            ],
+            [
+              5.996944,
+              43.104722
+            ],
+            [
+              5.996667,
+              43.103333
+            ],
+            [
+              5.996667,
+              43.101667
+            ],
+            [
+              5.996667,
+              43.1
+            ],
+            [
+              5.996667,
+              43.098611
+            ],
+            [
+              5.996389,
+              43.096944
+            ],
+            [
+              5.996389,
+              43.095556
+            ],
+            [
+              5.996389,
+              43.093889
+            ],
+            [
+              5.996667,
+              43.092222
+            ],
+            [
+              5.996667,
+              43.090833
+            ],
+            [
+              5.996667,
+              43.089167
+            ],
+            [
+              5.996944,
+              43.0875
+            ],
+            [
+              5.997222,
+              43.086111
+            ],
+            [
+              5.997222,
+              43.084444
+            ],
+            [
+              5.9975,
+              43.083056
+            ],
+            [
+              5.997778,
+              43.081389
+            ],
+            [
+              5.998056,
+              43.08
+            ],
+            [
+              5.998333,
+              43.078333
+            ],
+            [
+              5.998889,
+              43.076944
+            ],
+            [
+              5.999167,
+              43.075278
+            ],
+            [
+              5.999722,
+              43.073889
+            ],
+            [
+              6.0,
+              43.072222
+            ],
+            [
+              6.000556,
+              43.070833
+            ],
+            [
+              6.001111,
+              43.069167
+            ],
+            [
+              6.001667,
+              43.067778
+            ],
+            [
+              5.906667,
+              43.000556
+            ],
+            [
+              5.961389,
+              42.946111
+            ],
+            [
+              6.249167,
+              42.946389
+            ],
+            [
+              6.395556,
+              43.08
+            ],
+            [
+              6.368611,
+              43.106111
+            ],
+            [
+              6.309167,
+              43.139722
+            ],
+            [
+              6.2475,
+              43.175278
+            ],
+            [
+              6.266667,
+              43.175
+            ],
+            [
+              6.487778,
+              43.148056
+            ],
+            [
+              6.487778,
+              43.1375
+            ],
+            [
+              6.55,
+              43.136667
+            ],
+            [
+              6.666667,
+              43.066667
+            ],
+            [
+              6.666667,
+              42.833056
+            ],
+            [
+              6.666667,
+              42.666667
+            ],
+            [
+              6.253611,
+              42.668611
+            ],
+            [
+              5.633056,
+              42.666667
+            ],
+            [
+              5.633056,
+              43.033056
+            ],
+            [
+              5.866667,
+              43.175
+            ],
+            [
+              6.020833,
+              43.175
+            ],
+            [
+              6.043056,
+              43.175
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "TOULON CTA 1.1",
+        "owner": "THA",
+        "owners": [
+          "THA",
+          "CCMC"
+        ],
+        "min": 0,
+        "cur": 30,
+        "max": 34,
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
+        "stroke-width": 1,
+        "stroke-opacity": 0.7,
+        "fill": "#a24fde",
+        "fill-opacity": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.038889,
+              43.938889
+            ],
+            [
+              5.210833,
+              43.889167
+            ],
+            [
+              5.325,
+              43.563889
+            ],
+            [
+              5.336389,
+              43.562222
+            ],
+            [
+              5.423056,
+              43.586667
+            ],
+            [
+              5.482778,
+              43.581667
+            ],
+            [
+              5.321111,
+              43.980833
+            ],
+            [
+              5.040278,
+              43.995833
+            ],
+            [
+              5.038889,
+              43.938889
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "SALON CTA 2",
+        "owner": "MY",
+        "owners": [
+          "MY",
+          "CCMC"
+        ],
+        "min": 30,
+        "cur": 30,
+        "max": 74,
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
+        "stroke-width": 1,
+        "stroke-opacity": 0.7,
+        "fill": "#a24fde",
+        "fill-opacity": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.325,
+              43.563889
+            ],
+            [
+              5.273889,
+              43.710278
+            ],
+            [
+              5.210833,
+              43.889167
+            ],
+            [
+              5.038889,
+              43.938889
+            ],
+            [
+              4.993056,
+              43.913889
+            ],
+            [
+              4.966667,
+              43.772222
+            ],
+            [
+              5.033333,
+              43.65
+            ],
+            [
+              5.054167,
+              43.581944
+            ],
+            [
+              5.120556,
+              43.5225
+            ],
+            [
+              5.125278,
+              43.522778
+            ],
+            [
+              5.1425,
+              43.525556
+            ],
+            [
+              5.158611,
+              43.530556
+            ],
+            [
+              5.173611,
+              43.537222
+            ],
+            [
+              5.186944,
+              43.545278
+            ],
+            [
+              5.198333,
+              43.555
+            ],
+            [
+              5.2075,
+              43.565833
+            ],
+            [
+              5.214167,
+              43.5775
+            ],
+            [
+              5.216944,
+              43.584167
+            ],
+            [
+              5.325,
+              43.563889
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "SALON CTA 1",
+        "owner": "MY",
+        "owners": [
+          "MY",
+          "CCMC"
+        ],
+        "min": 17,
+        "cur": 30,
+        "max": 44,
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
+        "stroke-width": 1,
+        "stroke-opacity": 0.7,
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -5716,7 +6419,7 @@
       },
       "properties": {
         "name": "PROVENCE ME2-W QFU31",
-        "owner": "MM",
+        "owner": "ME",
         "owners": [
           "ME",
           "MMW",
@@ -5726,11 +6429,11 @@
         "min": 25,
         "cur": 30,
         "max": 144,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a86ae7",
+        "stroke": "#a86ae7",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a86ae7",
         "fill-opacity": 0.3
       }
     },
@@ -5797,7 +6500,7 @@
       },
       "properties": {
         "name": "PROVENCE ME2-E QFU31",
-        "owner": "MM",
+        "owner": "ME",
         "owners": [
           "ME",
           "MMW",
@@ -5807,11 +6510,11 @@
         "min": 25,
         "cur": 30,
         "max": 144,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a86ae7",
+        "stroke": "#a86ae7",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a86ae7",
         "fill-opacity": 0.3
       }
     },
@@ -5862,7 +6565,7 @@
       },
       "properties": {
         "name": "PROVENCE ME2 QFU31",
-        "owner": "MM",
+        "owner": "ME",
         "owners": [
           "ME",
           "MMW",
@@ -5872,11 +6575,11 @@
         "min": 25,
         "cur": 30,
         "max": 104,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a86ae7",
+        "stroke": "#a86ae7",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a86ae7",
         "fill-opacity": 0.3
       }
     },
@@ -5931,7 +6634,7 @@
       },
       "properties": {
         "name": "PROVENCE ME2 QFU31",
-        "owner": "MM",
+        "owner": "ME",
         "owners": [
           "ME",
           "MMW",
@@ -5941,11 +6644,11 @@
         "min": 25,
         "cur": 30,
         "max": 74,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a86ae7",
+        "stroke": "#a86ae7",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a86ae7",
         "fill-opacity": 0.3
       }
     },
@@ -6040,7 +6743,7 @@
       },
       "properties": {
         "name": "PROVENCE ME2 QFU13",
-        "owner": "MM",
+        "owner": "ME",
         "owners": [
           "ME",
           "MMW",
@@ -6050,11 +6753,11 @@
         "min": 25,
         "cur": 30,
         "max": 144,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a86ae7",
+        "stroke": "#a86ae7",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a86ae7",
         "fill-opacity": 0.3
       }
     },
@@ -6105,7 +6808,7 @@
       },
       "properties": {
         "name": "PROVENCE ME2 QFU13",
-        "owner": "MM",
+        "owner": "ME",
         "owners": [
           "ME",
           "MMW",
@@ -6115,11 +6818,11 @@
         "min": 25,
         "cur": 30,
         "max": 44,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a86ae7",
+        "stroke": "#a86ae7",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a86ae7",
         "fill-opacity": 0.3
       }
     },
@@ -6170,7 +6873,7 @@
       },
       "properties": {
         "name": "PROVENCE ME1",
-        "owner": "MM",
+        "owner": "ME",
         "owners": [
           "ME",
           "MMW",
@@ -6180,11 +6883,11 @@
         "min": 0,
         "cur": 30,
         "max": 114,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a86ae7",
+        "stroke": "#a86ae7",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a86ae7",
         "fill-opacity": 0.3
       }
     },
@@ -6239,7 +6942,7 @@
       },
       "properties": {
         "name": "PROVENCE ME1",
-        "owner": "MM",
+        "owner": "ME",
         "owners": [
           "ME",
           "MMW",
@@ -6249,11 +6952,11 @@
         "min": 0,
         "cur": 30,
         "max": 74,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a86ae7",
+        "stroke": "#a86ae7",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a86ae7",
         "fill-opacity": 0.3
       }
     },
@@ -6288,7 +6991,7 @@
       },
       "properties": {
         "name": "PROVENCE ME1",
-        "owner": "MM",
+        "owner": "ME",
         "owners": [
           "ME",
           "MMW",
@@ -6298,11 +7001,11 @@
         "min": 0,
         "cur": 30,
         "max": 44,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a86ae7",
+        "stroke": "#a86ae7",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a86ae7",
         "fill-opacity": 0.3
       }
     },
@@ -6361,7 +7064,7 @@
       },
       "properties": {
         "name": "PROVENCE MB-S QFU13",
-        "owner": "MM",
+        "owner": "MB",
         "owners": [
           "MB",
           "ME",
@@ -6372,11 +7075,11 @@
         "min": 25,
         "cur": 30,
         "max": 44,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#bc3ce4",
+        "stroke": "#bc3ce4",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#bc3ce4",
         "fill-opacity": 0.3
       }
     },
@@ -6451,7 +7154,7 @@
       },
       "properties": {
         "name": "PROVENCE MB-N QFU13",
-        "owner": "MM",
+        "owner": "MB",
         "owners": [
           "MB",
           "ME",
@@ -6462,11 +7165,11 @@
         "min": 25,
         "cur": 30,
         "max": 64,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#bc3ce4",
+        "stroke": "#bc3ce4",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#bc3ce4",
         "fill-opacity": 0.3
       }
     },
@@ -6513,7 +7216,7 @@
       },
       "properties": {
         "name": "PROVENCE MB QFU31",
-        "owner": "MM",
+        "owner": "MB",
         "owners": [
           "MB",
           "ME",
@@ -6524,11 +7227,11 @@
         "min": 25,
         "cur": 30,
         "max": 104,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#bc3ce4",
+        "stroke": "#bc3ce4",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#bc3ce4",
         "fill-opacity": 0.3
       }
     },
@@ -6651,7 +7354,7 @@
       },
       "properties": {
         "name": "PROVENCE MB QFU31",
-        "owner": "MM",
+        "owner": "MB",
         "owners": [
           "MB",
           "ME",
@@ -6662,11 +7365,11 @@
         "min": 25,
         "cur": 30,
         "max": 64,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#bc3ce4",
+        "stroke": "#bc3ce4",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#bc3ce4",
         "fill-opacity": 0.3
       }
     },
@@ -6789,7 +7492,7 @@
       },
       "properties": {
         "name": "PROVENCE MB QFU13",
-        "owner": "MM",
+        "owner": "MB",
         "owners": [
           "MB",
           "ME",
@@ -6800,11 +7503,11 @@
         "min": 25,
         "cur": 30,
         "max": 64,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#bc3ce4",
+        "stroke": "#bc3ce4",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#bc3ce4",
         "fill-opacity": 0.3
       }
     },
@@ -6899,7 +7602,7 @@
       },
       "properties": {
         "name": "PROVENCE MAC1 QFU31",
-        "owner": "MM",
+        "owner": "MAC",
         "owners": [
           "MAC",
           "ME",
@@ -6910,11 +7613,11 @@
         "min": 25,
         "cur": 30,
         "max": 144,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#8d3ddd",
+        "stroke": "#8d3ddd",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#8d3ddd",
         "fill-opacity": 0.3
       }
     },
@@ -7001,7 +7704,7 @@
       },
       "properties": {
         "name": "PROVENCE MAC1 QFU13",
-        "owner": "MM",
+        "owner": "MAC",
         "owners": [
           "MAC",
           "ME",
@@ -7012,11 +7715,11 @@
         "min": 25,
         "cur": 30,
         "max": 144,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#8d3ddd",
+        "stroke": "#8d3ddd",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#8d3ddd",
         "fill-opacity": 0.3
       }
     },
@@ -7059,7 +7762,7 @@
       },
       "properties": {
         "name": "NICE NO2",
-        "owner": "MM",
+        "owner": "NO",
         "owners": [
           "NO",
           "MME",
@@ -7069,11 +7772,11 @@
         "min": 21,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#bc33ee",
+        "stroke": "#bc33ee",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#bc33ee",
         "fill-opacity": 0.3
       }
     },
@@ -7168,7 +7871,7 @@
       },
       "properties": {
         "name": "NICE NO2",
-        "owner": "MM",
+        "owner": "NO",
         "owners": [
           "NO",
           "MME",
@@ -7178,11 +7881,11 @@
         "min": 0,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#bc33ee",
+        "stroke": "#bc33ee",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#bc33ee",
         "fill-opacity": 0.3
       }
     },
@@ -7245,7 +7948,7 @@
       },
       "properties": {
         "name": "NICE NO1",
-        "owner": "MM",
+        "owner": "NO",
         "owners": [
           "NO",
           "MME",
@@ -7255,11 +7958,11 @@
         "min": 0,
         "cur": 30,
         "max": 144,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#bc33ee",
+        "stroke": "#bc33ee",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#bc33ee",
         "fill-opacity": 0.3
       }
     },
@@ -7330,7 +8033,7 @@
       },
       "properties": {
         "name": "NICE NE2",
-        "owner": "MM",
+        "owner": "NE",
         "owners": [
           "NE",
           "NO",
@@ -7341,11 +8044,11 @@
         "min": 0,
         "cur": 30,
         "max": 144,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#963ff0",
+        "stroke": "#963ff0",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#963ff0",
         "fill-opacity": 0.3
       }
     },
@@ -7388,7 +8091,7 @@
       },
       "properties": {
         "name": "NICE NE1-SE",
-        "owner": "MM",
+        "owner": "NE",
         "owners": [
           "NE",
           "NO",
@@ -7399,11 +8102,11 @@
         "min": 0,
         "cur": 30,
         "max": 174,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#963ff0",
+        "stroke": "#963ff0",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#963ff0",
         "fill-opacity": 0.3
       }
     },
@@ -8238,7 +8941,7 @@
       },
       "properties": {
         "name": "NICE NE1",
-        "owner": "MM",
+        "owner": "NE",
         "owners": [
           "NE",
           "NO",
@@ -8249,11 +8952,11 @@
         "min": 0,
         "cur": 30,
         "max": 174,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#963ff0",
+        "stroke": "#963ff0",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#963ff0",
         "fill-opacity": 0.3
       }
     },
@@ -8304,7 +9007,7 @@
       },
       "properties": {
         "name": "NICE ND2",
-        "owner": "MM",
+        "owner": "ND",
         "owners": [
           "ND",
           "NO",
@@ -8315,11 +9018,11 @@
         "min": 21,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a54ff5",
+        "stroke": "#a54ff5",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a54ff5",
         "fill-opacity": 0.3
       }
     },
@@ -8434,7 +9137,7 @@
       },
       "properties": {
         "name": "NICE ND2",
-        "owner": "MM",
+        "owner": "ND",
         "owners": [
           "ND",
           "NO",
@@ -8445,11 +9148,11 @@
         "min": 0,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a54ff5",
+        "stroke": "#a54ff5",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a54ff5",
         "fill-opacity": 0.3
       }
     },
@@ -8980,7 +9683,7 @@
       },
       "properties": {
         "name": "NICE ND1-W",
-        "owner": "MM",
+        "owner": "ND",
         "owners": [
           "ND",
           "NO",
@@ -8991,11 +9694,11 @@
         "min": 0,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a54ff5",
+        "stroke": "#a54ff5",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a54ff5",
         "fill-opacity": 0.3
       }
     },
@@ -9090,7 +9793,7 @@
       },
       "properties": {
         "name": "NICE ND1-E",
-        "owner": "MM",
+        "owner": "ND",
         "owners": [
           "ND",
           "NE",
@@ -9102,11 +9805,11 @@
         "min": 0,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a54ff5",
+        "stroke": "#a54ff5",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a54ff5",
         "fill-opacity": 0.3
       }
     },
@@ -9305,7 +10008,7 @@
       },
       "properties": {
         "name": "NICE ND1-CTR",
-        "owner": "MM",
+        "owner": "ND",
         "owners": [
           "ND",
           "NO",
@@ -9316,11 +10019,11 @@
         "min": 0,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a54ff5",
+        "stroke": "#a54ff5",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a54ff5",
         "fill-opacity": 0.3
       }
     },
@@ -9607,7 +10310,7 @@
       },
       "properties": {
         "name": "NICE ND1",
-        "owner": "MM",
+        "owner": "ND",
         "owners": [
           "ND",
           "NO",
@@ -9618,11 +10321,11 @@
         "min": 25,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a54ff5",
+        "stroke": "#a54ff5",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a54ff5",
         "fill-opacity": 0.3
       }
     },
@@ -9665,7 +10368,7 @@
       },
       "properties": {
         "name": "MONTPELLIER FE4",
-        "owner": "MM",
+        "owner": "FE",
         "owners": [
           "FE",
           "MMW",
@@ -9675,11 +10378,11 @@
         "min": 25,
         "cur": 30,
         "max": 94,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#8931c9",
+        "stroke": "#8931c9",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#8931c9",
         "fill-opacity": 0.3
       }
     },
@@ -9730,7 +10433,7 @@
       },
       "properties": {
         "name": "MONTPELLIER FE3",
-        "owner": "MM",
+        "owner": "FE",
         "owners": [
           "FE",
           "MMW",
@@ -9740,11 +10443,11 @@
         "min": 25,
         "cur": 30,
         "max": 114,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#8931c9",
+        "stroke": "#8931c9",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#8931c9",
         "fill-opacity": 0.3
       }
     },
@@ -9787,7 +10490,7 @@
       },
       "properties": {
         "name": "MONTPELLIER FE2",
-        "owner": "MM",
+        "owner": "FE",
         "owners": [
           "FE",
           "MMW",
@@ -9797,11 +10500,11 @@
         "min": 25,
         "cur": 30,
         "max": 74,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#8931c9",
+        "stroke": "#8931c9",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#8931c9",
         "fill-opacity": 0.3
       }
     },
@@ -9932,7 +10635,7 @@
       },
       "properties": {
         "name": "MONTPELLIER FE1",
-        "owner": "MM",
+        "owner": "FE",
         "owners": [
           "FE",
           "MMW",
@@ -9942,11 +10645,11 @@
         "min": 25,
         "cur": 30,
         "max": 144,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#8931c9",
+        "stroke": "#8931c9",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#8931c9",
         "fill-opacity": 0.3
       }
     },
@@ -9997,7 +10700,7 @@
       },
       "properties": {
         "name": "MONTPELLIER FB",
-        "owner": "MM",
+        "owner": "FB",
         "owners": [
           "FB",
           "FE",
@@ -10008,11 +10711,11 @@
         "min": 0,
         "cur": 30,
         "max": 144,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#ae4fd2",
+        "stroke": "#ae4fd2",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#ae4fd2",
         "fill-opacity": 0.3
       }
     },
@@ -10119,7 +10822,7 @@
       },
       "properties": {
         "name": "MONTPELLIER FA3",
-        "owner": "MM",
+        "owner": "FA",
         "owners": [
           "FA",
           "FE",
@@ -10130,11 +10833,11 @@
         "min": 20,
         "cur": 30,
         "max": 114,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#8c63f3",
+        "stroke": "#8c63f3",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#8c63f3",
         "fill-opacity": 0.3
       }
     },
@@ -10245,7 +10948,7 @@
       },
       "properties": {
         "name": "MONTPELLIER FA1",
-        "owner": "MM",
+        "owner": "FA",
         "owners": [
           "FA",
           "FE",
@@ -10256,11 +10959,11 @@
         "min": 20,
         "cur": 30,
         "max": 144,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#8c63f3",
+        "stroke": "#8c63f3",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#8c63f3",
         "fill-opacity": 0.3
       }
     },
@@ -10455,7 +11158,7 @@
       },
       "properties": {
         "name": "LYON VW1-S QFU35",
-        "owner": "MM",
+        "owner": "VW",
         "owners": [
           "VW",
           "MMW",
@@ -10465,11 +11168,11 @@
         "min": 0,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#9b4af1",
+        "stroke": "#9b4af1",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#9b4af1",
         "fill-opacity": 0.3
       }
     },
@@ -10664,7 +11367,7 @@
       },
       "properties": {
         "name": "LYON VW1-S QFU17",
-        "owner": "MM",
+        "owner": "VW",
         "owners": [
           "VW",
           "MMW",
@@ -10674,11 +11377,11 @@
         "min": 0,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#9b4af1",
+        "stroke": "#9b4af1",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#9b4af1",
         "fill-opacity": 0.3
       }
     },
@@ -11869,7 +12572,7 @@
       },
       "properties": {
         "name": "LYON VW1-N QFU35",
-        "owner": "MM",
+        "owner": "VW",
         "owners": [
           "VW",
           "MMW",
@@ -11879,11 +12582,11 @@
         "min": 0,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#9b4af1",
+        "stroke": "#9b4af1",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#9b4af1",
         "fill-opacity": 0.3
       }
     },
@@ -12958,7 +13661,7 @@
       },
       "properties": {
         "name": "LYON VW1-N QFU17",
-        "owner": "MM",
+        "owner": "VW",
         "owners": [
           "VW",
           "MMW",
@@ -12968,11 +13671,11 @@
         "min": 0,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#9b4af1",
+        "stroke": "#9b4af1",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#9b4af1",
         "fill-opacity": 0.3
       }
     },
@@ -13323,7 +14026,7 @@
       },
       "properties": {
         "name": "LYON VW1-LU",
-        "owner": "MM",
+        "owner": "VW",
         "owners": [
           "VW",
           "MMW",
@@ -13333,11 +14036,11 @@
         "min": 25,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#9b4af1",
+        "stroke": "#9b4af1",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#9b4af1",
         "fill-opacity": 0.3
       }
     },
@@ -14256,7 +14959,7 @@
       },
       "properties": {
         "name": "LYON VW1 QFU35",
-        "owner": "MM",
+        "owner": "VW",
         "owners": [
           "VW",
           "MMW",
@@ -14266,11 +14969,11 @@
         "min": 25,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#9b4af1",
+        "stroke": "#9b4af1",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#9b4af1",
         "fill-opacity": 0.3
       }
     },
@@ -15105,7 +15808,7 @@
       },
       "properties": {
         "name": "LYON VW1 QFU17",
-        "owner": "MM",
+        "owner": "VW",
         "owners": [
           "VW",
           "MMW",
@@ -15115,11 +15818,11 @@
         "min": 25,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#9b4af1",
+        "stroke": "#9b4af1",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#9b4af1",
         "fill-opacity": 0.3
       }
     },
@@ -15190,7 +15893,7 @@
       },
       "properties": {
         "name": "LYON VE2",
-        "owner": "MM",
+        "owner": "VE",
         "owners": [
           "VE",
           "VW",
@@ -15201,11 +15904,11 @@
         "min": 0,
         "cur": 30,
         "max": 74,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#9548d9",
+        "stroke": "#9548d9",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#9548d9",
         "fill-opacity": 0.3
       }
     },
@@ -15296,7 +15999,7 @@
       },
       "properties": {
         "name": "LYON VE1-SW QFU35",
-        "owner": "MM",
+        "owner": "VE",
         "owners": [
           "VE",
           "VW",
@@ -15307,11 +16010,11 @@
         "min": 0,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#9548d9",
+        "stroke": "#9548d9",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#9548d9",
         "fill-opacity": 0.3
       }
     },
@@ -15378,7 +16081,7 @@
       },
       "properties": {
         "name": "LYON VE1-SW QFU17",
-        "owner": "MM",
+        "owner": "VE",
         "owners": [
           "VE",
           "VW",
@@ -15389,11 +16092,11 @@
         "min": 0,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#9548d9",
+        "stroke": "#9548d9",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#9548d9",
         "fill-opacity": 0.3
       }
     },
@@ -15432,7 +16135,7 @@
       },
       "properties": {
         "name": "LYON VE1-SE QFU35",
-        "owner": "MM",
+        "owner": "VE",
         "owners": [
           "VE",
           "VW",
@@ -15443,11 +16146,11 @@
         "min": 0,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#9548d9",
+        "stroke": "#9548d9",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#9548d9",
         "fill-opacity": 0.3
       }
     },
@@ -15498,7 +16201,7 @@
       },
       "properties": {
         "name": "LYON VE1-SE QFU17",
-        "owner": "MM",
+        "owner": "VE",
         "owners": [
           "VE",
           "VW",
@@ -15509,11 +16212,11 @@
         "min": 0,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#9548d9",
+        "stroke": "#9548d9",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#9548d9",
         "fill-opacity": 0.3
       }
     },
@@ -15868,7 +16571,7 @@
       },
       "properties": {
         "name": "LYON VE1-N QFU35",
-        "owner": "MM",
+        "owner": "VE",
         "owners": [
           "VE",
           "VW",
@@ -15879,11 +16582,11 @@
         "min": 0,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#9548d9",
+        "stroke": "#9548d9",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#9548d9",
         "fill-opacity": 0.3
       }
     },
@@ -16370,7 +17073,7 @@
       },
       "properties": {
         "name": "LYON VE1-N QFU17",
-        "owner": "MM",
+        "owner": "VE",
         "owners": [
           "VE",
           "VW",
@@ -16381,11 +17084,11 @@
         "min": 0,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#9548d9",
+        "stroke": "#9548d9",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#9548d9",
         "fill-opacity": 0.3
       }
     },
@@ -16668,7 +17371,7 @@
       },
       "properties": {
         "name": "LYON VE1 QFU35",
-        "owner": "MM",
+        "owner": "VE",
         "owners": [
           "VE",
           "VW",
@@ -16679,11 +17382,11 @@
         "min": 25,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#9548d9",
+        "stroke": "#9548d9",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#9548d9",
         "fill-opacity": 0.3
       }
     },
@@ -17050,7 +17753,7 @@
       },
       "properties": {
         "name": "LYON VE1 QFU17",
-        "owner": "MM",
+        "owner": "VE",
         "owners": [
           "VE",
           "VW",
@@ -17061,11 +17764,11 @@
         "min": 25,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#9548d9",
+        "stroke": "#9548d9",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#9548d9",
         "fill-opacity": 0.3
       }
     },
@@ -17108,7 +17811,7 @@
       },
       "properties": {
         "name": "LYON VE1",
-        "owner": "MM",
+        "owner": "VE",
         "owners": [
           "VE",
           "VW",
@@ -17119,11 +17822,11 @@
         "min": 27,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#9548d9",
+        "stroke": "#9548d9",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#9548d9",
         "fill-opacity": 0.3
       }
     },
@@ -17234,7 +17937,7 @@
       },
       "properties": {
         "name": "LYON LB1-W",
-        "owner": "MM",
+        "owner": "LB",
         "owners": [
           "LB",
           "VE",
@@ -17246,11 +17949,11 @@
         "min": 0,
         "cur": 30,
         "max": 39,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -17721,7 +18424,7 @@
       },
       "properties": {
         "name": "LYON LB1-E",
-        "owner": "MM",
+        "owner": "LB",
         "owners": [
           "LB",
           "VE",
@@ -17733,11 +18436,11 @@
         "min": 0,
         "cur": 30,
         "max": 39,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -17784,7 +18487,7 @@
       },
       "properties": {
         "name": "LYON LB1",
-        "owner": "MM",
+        "owner": "LB",
         "owners": [
           "LB",
           "VE",
@@ -17796,11 +18499,11 @@
         "min": 18,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -17859,7 +18562,7 @@
       },
       "properties": {
         "name": "CLERMONT CY2-QFU35",
-        "owner": "MM",
+        "owner": "LN",
         "owners": [
           "LN",
           "CY",
@@ -17871,11 +18574,11 @@
         "min": 0,
         "cur": 30,
         "max": 84,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -17938,7 +18641,7 @@
       },
       "properties": {
         "name": "CLERMONT CY2-QFU17",
-        "owner": "MM",
+        "owner": "LN",
         "owners": [
           "LN",
           "CY",
@@ -17950,11 +18653,11 @@
         "min": 0,
         "cur": 30,
         "max": 84,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -18037,7 +18740,7 @@
       },
       "properties": {
         "name": "CLERMONT CY1",
-        "owner": "MM",
+        "owner": "LN",
         "owners": [
           "LN",
           "CY",
@@ -18049,11 +18752,11 @@
         "min": 20,
         "cur": 30,
         "max": 114,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -18108,7 +18811,7 @@
       },
       "properties": {
         "name": "CLERMONT CN2",
-        "owner": "MM",
+        "owner": "CN",
         "owners": [
           "CN",
           "CF",
@@ -18119,11 +18822,11 @@
         "min": 0,
         "cur": 30,
         "max": 114,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#9246ed",
+        "stroke": "#9246ed",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#9246ed",
         "fill-opacity": 0.3
       }
     },
@@ -18742,7 +19445,7 @@
       },
       "properties": {
         "name": "CLERMONT CN1-S",
-        "owner": "MM",
+        "owner": "CN",
         "owners": [
           "CN",
           "CF",
@@ -18753,11 +19456,11 @@
         "min": 0,
         "cur": 30,
         "max": 39,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#9246ed",
+        "stroke": "#9246ed",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#9246ed",
         "fill-opacity": 0.3
       }
     },
@@ -18820,7 +19523,7 @@
       },
       "properties": {
         "name": "CLERMONT CN1-N",
-        "owner": "MM",
+        "owner": "CN",
         "owners": [
           "CN",
           "CF",
@@ -18831,11 +19534,11 @@
         "min": 0,
         "cur": 30,
         "max": 39,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#9246ed",
+        "stroke": "#9246ed",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#9246ed",
         "fill-opacity": 0.3
       }
     },
@@ -18886,7 +19589,7 @@
       },
       "properties": {
         "name": "CLERMONT CL2",
-        "owner": "MM",
+        "owner": "CL",
         "owners": [
           "CL",
           "CF",
@@ -18897,11 +19600,11 @@
         "min": 0,
         "cur": 30,
         "max": 84,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#9346d7",
+        "stroke": "#9346d7",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#9346d7",
         "fill-opacity": 0.3
       }
     },
@@ -18968,7 +19671,7 @@
       },
       "properties": {
         "name": "CLERMONT CL1",
-        "owner": "MM",
+        "owner": "CL",
         "owners": [
           "CL",
           "CF",
@@ -18979,11 +19682,11 @@
         "min": 0,
         "cur": 30,
         "max": 144,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#9346d7",
+        "stroke": "#9346d7",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#9346d7",
         "fill-opacity": 0.3
       }
     },
@@ -19650,7 +20353,7 @@
       },
       "properties": {
         "name": "CLERMONT CK",
-        "owner": "MM",
+        "owner": "CK",
         "owners": [
           "CK",
           "CF",
@@ -19661,11 +20364,11 @@
         "min": 0,
         "cur": 30,
         "max": 44,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#9f38ed",
+        "stroke": "#9f38ed",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#9f38ed",
         "fill-opacity": 0.3
       }
     },
@@ -19756,7 +20459,7 @@
       },
       "properties": {
         "name": "CLERMONT CF1",
-        "owner": "MM",
+        "owner": "CF",
         "owners": [
           "CF",
           "MMW",
@@ -19766,11 +20469,11 @@
         "min": 27,
         "cur": 30,
         "max": 144,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#9e53c2",
+        "stroke": "#9e53c2",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#9e53c2",
         "fill-opacity": 0.3
       }
     },
@@ -19817,7 +20520,7 @@
       },
       "properties": {
         "name": "BASTIA KC",
-        "owner": "MM",
+        "owner": "BKC",
         "owners": [
           "BKC",
           "BKB",
@@ -19828,11 +20531,11 @@
         "min": 22,
         "cur": 30,
         "max": 84,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#963cd4",
+        "stroke": "#963cd4",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#963cd4",
         "fill-opacity": 0.3
       }
     },
@@ -19923,7 +20626,7 @@
       },
       "properties": {
         "name": "BASTIA KB",
-        "owner": "MM",
+        "owner": "BKB",
         "owners": [
           "BKB",
           "MME",
@@ -19933,11 +20636,11 @@
         "min": 15,
         "cur": 30,
         "max": 84,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#b93fdb",
+        "stroke": "#b93fdb",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#b93fdb",
         "fill-opacity": 0.3
       }
     },
@@ -20000,7 +20703,7 @@
       },
       "properties": {
         "name": "AJACCIO KJ-W",
-        "owner": "MM",
+        "owner": "KJ",
         "owners": [
           "KJ",
           "MME",
@@ -20010,11 +20713,11 @@
         "min": 0,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -20137,7 +20840,7 @@
       },
       "properties": {
         "name": "AJACCIO KJ-E",
-        "owner": "MM",
+        "owner": "KJ",
         "owners": [
           "KJ",
           "MME",
@@ -20147,11 +20850,11 @@
         "min": 0,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -20194,7 +20897,7 @@
       },
       "properties": {
         "name": "AJACCIO KJ",
-        "owner": "MM",
+        "owner": "KJ",
         "owners": [
           "KJ",
           "MME",
@@ -20204,11 +20907,11 @@
         "min": 25,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -20343,7 +21046,7 @@
       },
       "properties": {
         "name": "SEINE SK",
-        "owner": "PAR",
+        "owner": "SK",
         "owners": [
           "SK",
           "SJ",
@@ -20357,11 +21060,11 @@
         "min": 25,
         "cur": 30,
         "max": 34,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#a167c1",
+        "stroke": "#a167c1",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#a167c1",
         "fill-opacity": 0.3
       }
     },
@@ -20520,7 +21223,7 @@
       },
       "properties": {
         "name": "SEINE SJ",
-        "owner": "PAR",
+        "owner": "SJ",
         "owners": [
           "SJ",
           "RPAE",
@@ -20530,11 +21233,11 @@
         "min": 25,
         "cur": 30,
         "max": 34,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#983ce5",
+        "stroke": "#983ce5",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#983ce5",
         "fill-opacity": 0.3
       }
     },
@@ -20701,7 +21404,7 @@
       },
       "properties": {
         "name": "SEINE SI",
-        "owner": "PAR",
+        "owner": "SI",
         "owners": [
           "SI",
           "SJ",
@@ -20712,11 +21415,11 @@
         "min": 25,
         "cur": 30,
         "max": 44,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#a46dd7",
+        "stroke": "#a46dd7",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#a46dd7",
         "fill-opacity": 0.3
       }
     },
@@ -20843,7 +21546,7 @@
       },
       "properties": {
         "name": "LILLE QW",
-        "owner": "PAR",
+        "owner": "QW",
         "owners": [
           "QW",
           "QE",
@@ -20857,11 +21560,11 @@
         "min": 20,
         "cur": 30,
         "max": 44,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#8745c9",
+        "stroke": "#8745c9",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#8745c9",
         "fill-opacity": 0.3
       }
     },
@@ -20992,7 +21695,7 @@
       },
       "properties": {
         "name": "LILLE QR",
-        "owner": "PAR",
+        "owner": "QR",
         "owners": [
           "QR",
           "QE",
@@ -21006,11 +21709,11 @@
         "min": 20,
         "cur": 30,
         "max": 64,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#a031d7",
+        "stroke": "#a031d7",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#a031d7",
         "fill-opacity": 0.3
       }
     },
@@ -21165,7 +21868,7 @@
       },
       "properties": {
         "name": "LILLE QE",
-        "owner": "PAR",
+        "owner": "QE",
         "owners": [
           "QE",
           "TB",
@@ -21178,11 +21881,11 @@
         "min": 20,
         "cur": 30,
         "max": 44,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#9d31d5",
+        "stroke": "#9d31d5",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#9d31d5",
         "fill-opacity": 0.3
       }
     },
@@ -21269,7 +21972,7 @@
       },
       "properties": {
         "name": "LILLE QD",
-        "owner": "PAR",
+        "owner": "QD",
         "owners": [
           "QD",
           "QE",
@@ -21283,11 +21986,11 @@
         "min": 0,
         "cur": 30,
         "max": 114,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#9f56c4",
+        "stroke": "#9f56c4",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#9f56c4",
         "fill-opacity": 0.3
       }
     },
@@ -21378,7 +22081,7 @@
       },
       "properties": {
         "name": "LILLE QA",
-        "owner": "PAR",
+        "owner": "QA",
         "owners": [
           "QA",
           "QE",
@@ -21392,11 +22095,11 @@
         "min": 20,
         "cur": 30,
         "max": 114,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#a969f1",
+        "stroke": "#a969f1",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#a969f1",
         "fill-opacity": 0.3
       }
     },
@@ -21587,7 +22290,7 @@
       },
       "properties": {
         "name": "EGA ORLY",
-        "owner": "PAR",
+        "owner": "PODD",
         "owners": [
           "PODD",
           "PO",
@@ -21605,11 +22308,11 @@
         "min": 25,
         "cur": 30,
         "max": 34,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -21880,7 +22583,7 @@
       },
       "properties": {
         "name": "EGA CDG-S",
-        "owner": "PAR",
+        "owner": "PGDS",
         "owners": [
           "PGDS",
           "PGDN",
@@ -21896,11 +22599,11 @@
         "min": 25,
         "cur": 30,
         "max": 34,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#9354f6",
+        "stroke": "#9354f6",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#9354f6",
         "fill-opacity": 0.3
       }
     },
@@ -22083,7 +22786,7 @@
       },
       "properties": {
         "name": "EGA CDG-N",
-        "owner": "PAR",
+        "owner": "PGDN",
         "owners": [
           "PGDN",
           "PGN",
@@ -22097,11 +22800,11 @@
         "min": 25,
         "cur": 30,
         "max": 34,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#8c6cca",
+        "stroke": "#8c6cca",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#8c6cca",
         "fill-opacity": 0.3
       }
     },
@@ -22220,7 +22923,7 @@
       },
       "properties": {
         "name": "BEAUVAIS WEST 1 WL",
-        "owner": "PAR",
+        "owner": "OB",
         "owners": [
           "OB",
           "PGDN",
@@ -22235,11 +22938,11 @@
         "min": 25,
         "cur": 30,
         "max": 34,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -22358,7 +23061,7 @@
       },
       "properties": {
         "name": "BEAUVAIS WEST 1 EL",
-        "owner": "PAR",
+        "owner": "OB",
         "owners": [
           "OB",
           "PGN",
@@ -22372,11 +23075,11 @@
         "min": 25,
         "cur": 30,
         "max": 34,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -22475,7 +23178,7 @@
       },
       "properties": {
         "name": "BEAUVAIS EAST 1 WL",
-        "owner": "PAR",
+        "owner": "OB",
         "owners": [
           "OB",
           "PGDN",
@@ -22490,11 +23193,11 @@
         "min": 25,
         "cur": 30,
         "max": 34,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -22593,7 +23296,7 @@
       },
       "properties": {
         "name": "BEAUVAIS EAST 1 EL",
-        "owner": "PAR",
+        "owner": "OB",
         "owners": [
           "OB",
           "PGN",
@@ -22607,11 +23310,11 @@
         "min": 25,
         "cur": 30,
         "max": 34,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -23030,7 +23733,7 @@
       },
       "properties": {
         "name": "STRASBOURG SC2",
-        "owner": "EE",
+        "owner": "SC",
         "owners": [
           "SC",
           "SU",
@@ -23040,11 +23743,11 @@
         "min": 30,
         "cur": 30,
         "max": 74,
-        "color_hex": "#71aa71",
-        "stroke": "#71aa71",
+        "color_hex": "#b048d4",
+        "stroke": "#b048d4",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#71aa71",
+        "fill": "#b048d4",
         "fill-opacity": 0.3
       }
     },
@@ -23367,7 +24070,7 @@
       },
       "properties": {
         "name": "STRASBOURG SC1",
-        "owner": "EE",
+        "owner": "SC",
         "owners": [
           "SC",
           "SU",
@@ -23377,11 +24080,11 @@
         "min": 30,
         "cur": 30,
         "max": 114,
-        "color_hex": "#71aa71",
-        "stroke": "#71aa71",
+        "color_hex": "#b048d4",
+        "stroke": "#b048d4",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#71aa71",
+        "fill": "#b048d4",
         "fill-opacity": 0.3
       }
     },
@@ -23624,7 +24327,7 @@
       },
       "properties": {
         "name": "STRASBOURG RW1",
-        "owner": "EE",
+        "owner": "RW",
         "owners": [
           "RW",
           "SU",
@@ -23634,11 +24337,11 @@
         "min": 25,
         "cur": 30,
         "max": 74,
-        "color_hex": "#71aa71",
-        "stroke": "#71aa71",
+        "color_hex": "#ba5bcd",
+        "stroke": "#ba5bcd",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#71aa71",
+        "fill": "#ba5bcd",
         "fill-opacity": 0.3
       }
     },
@@ -23793,7 +24496,7 @@
       },
       "properties": {
         "name": "STRASBOURG RE3",
-        "owner": "EE",
+        "owner": "RE",
         "owners": [
           "RE",
           "RW",
@@ -23804,11 +24507,11 @@
         "min": 0,
         "cur": 30,
         "max": 114,
-        "color_hex": "#71aa71",
-        "stroke": "#71aa71",
+        "color_hex": "#9c68e1",
+        "stroke": "#9c68e1",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#71aa71",
+        "fill": "#9c68e1",
         "fill-opacity": 0.3
       }
     },
@@ -24043,7 +24746,7 @@
       },
       "properties": {
         "name": "STRASBOURG RE2",
-        "owner": "EE",
+        "owner": "RE",
         "owners": [
           "RE",
           "RW",
@@ -24054,11 +24757,11 @@
         "min": 0,
         "cur": 30,
         "max": 94,
-        "color_hex": "#71aa71",
-        "stroke": "#71aa71",
+        "color_hex": "#9c68e1",
+        "stroke": "#9c68e1",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#71aa71",
+        "fill": "#9c68e1",
         "fill-opacity": 0.3
       }
     },
@@ -24153,7 +24856,7 @@
       },
       "properties": {
         "name": "STRASBOURG RE1",
-        "owner": "EE",
+        "owner": "RE",
         "owners": [
           "RE",
           "RW",
@@ -24164,11 +24867,11 @@
         "min": 0,
         "cur": 30,
         "max": 74,
-        "color_hex": "#71aa71",
-        "stroke": "#71aa71",
+        "color_hex": "#9c68e1",
+        "stroke": "#9c68e1",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#71aa71",
+        "fill": "#9c68e1",
         "fill-opacity": 0.3
       }
     },
@@ -24255,7 +24958,7 @@
       },
       "properties": {
         "name": "BALE BM2",
-        "owner": "EE",
+        "owner": "SBC",
         "owners": [
           "SBC",
           "UH",
@@ -24264,11 +24967,11 @@
         "min": 0,
         "cur": 30,
         "max": 64,
-        "color_hex": "#71aa71",
-        "stroke": "#71aa71",
+        "color_hex": "#be55ec",
+        "stroke": "#be55ec",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#71aa71",
+        "fill": "#be55ec",
         "fill-opacity": 0.3
       }
     },
@@ -24703,7 +25406,7 @@
       },
       "properties": {
         "name": "BALE BM1",
-        "owner": "EE",
+        "owner": "SBC",
         "owners": [
           "SBC",
           "UH",
@@ -24712,11 +25415,11 @@
         "min": 25,
         "cur": 30,
         "max": 114,
-        "color_hex": "#71aa71",
-        "stroke": "#71aa71",
+        "color_hex": "#be55ec",
+        "stroke": "#be55ec",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#71aa71",
+        "fill": "#be55ec",
         "fill-opacity": 0.3
       }
     },
@@ -24907,7 +25610,7 @@
       },
       "properties": {
         "name": "BALE BA3",
-        "owner": "EE",
+        "owner": "SB",
         "owners": [
           "SB",
           "SBC",
@@ -24920,11 +25623,11 @@
         "min": 20,
         "cur": 30,
         "max": 144,
-        "color_hex": "#71aa71",
-        "stroke": "#71aa71",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#71aa71",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -25023,7 +25726,7 @@
       },
       "properties": {
         "name": "BALE BA3",
-        "owner": "EE",
+        "owner": "SB",
         "owners": [
           "SB",
           "SBC",
@@ -25036,11 +25739,11 @@
         "min": 20,
         "cur": 30,
         "max": 49,
-        "color_hex": "#71aa71",
-        "stroke": "#71aa71",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#71aa71",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -25111,7 +25814,7 @@
       },
       "properties": {
         "name": "BALE BA2",
-        "owner": "EE",
+        "owner": "SB",
         "owners": [
           "SB",
           "SBC",
@@ -25124,11 +25827,11 @@
         "min": 20,
         "cur": 30,
         "max": 104,
-        "color_hex": "#71aa71",
-        "stroke": "#71aa71",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#71aa71",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -25375,7 +26078,7 @@
       },
       "properties": {
         "name": "BALE BA1",
-        "owner": "EE",
+        "owner": "SB",
         "owners": [
           "SB",
           "SBC",
@@ -25388,11 +26091,11 @@
         "min": 20,
         "cur": 30,
         "max": 114,
-        "color_hex": "#71aa71",
-        "stroke": "#71aa71",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#71aa71",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -25547,7 +26250,7 @@
       },
       "properties": {
         "name": "TOULOUSE WB",
-        "owner": "BB",
+        "owner": "WB",
         "owners": [
           "WB",
           "EB",
@@ -25558,11 +26261,11 @@
         "min": 20,
         "cur": 30,
         "max": 74,
-        "color_hex": "#837285",
-        "stroke": "#837285",
+        "color_hex": "#aa5dd7",
+        "stroke": "#aa5dd7",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#837285",
+        "fill": "#aa5dd7",
         "fill-opacity": 0.3
       }
     },
@@ -25697,7 +26400,7 @@
       },
       "properties": {
         "name": "TOULOUSE EB",
-        "owner": "BB",
+        "owner": "EB",
         "owners": [
           "EB",
           "AE",
@@ -25706,11 +26409,11 @@
         "min": 30,
         "cur": 30,
         "max": 74,
-        "color_hex": "#837285",
-        "stroke": "#837285",
+        "color_hex": "#a865dc",
+        "stroke": "#a865dc",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#837285",
+        "fill": "#a865dc",
         "fill-opacity": 0.3
       }
     },
@@ -25789,7 +26492,7 @@
       },
       "properties": {
         "name": "TOULOUSE AW2",
-        "owner": "BB",
+        "owner": "AW",
         "owners": [
           "AW",
           "AE",
@@ -25798,11 +26501,11 @@
         "min": 0,
         "cur": 30,
         "max": 144,
-        "color_hex": "#837285",
-        "stroke": "#837285",
+        "color_hex": "#904bc7",
+        "stroke": "#904bc7",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#837285",
+        "fill": "#904bc7",
         "fill-opacity": 0.3
       }
     },
@@ -25889,7 +26592,7 @@
       },
       "properties": {
         "name": "TOULOUSE AW1",
-        "owner": "BB",
+        "owner": "AW",
         "owners": [
           "AW",
           "AE",
@@ -25898,11 +26601,11 @@
         "min": 20,
         "cur": 30,
         "max": 74,
-        "color_hex": "#837285",
-        "stroke": "#837285",
+        "color_hex": "#904bc7",
+        "stroke": "#904bc7",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#837285",
+        "fill": "#904bc7",
         "fill-opacity": 0.3
       }
     },
@@ -25977,7 +26680,7 @@
       },
       "properties": {
         "name": "TOULOUSE AE2",
-        "owner": "BB",
+        "owner": "AE",
         "owners": [
           "AE",
           "BB"
@@ -25985,11 +26688,11 @@
         "min": 0,
         "cur": 30,
         "max": 144,
-        "color_hex": "#837285",
-        "stroke": "#837285",
+        "color_hex": "#b76cf2",
+        "stroke": "#b76cf2",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#837285",
+        "fill": "#b76cf2",
         "fill-opacity": 0.3
       }
     },
@@ -26060,7 +26763,7 @@
       },
       "properties": {
         "name": "TOULOUSE AE1",
-        "owner": "BB",
+        "owner": "AE",
         "owners": [
           "AE",
           "BB"
@@ -26068,11 +26771,11 @@
         "min": 20,
         "cur": 30,
         "max": 74,
-        "color_hex": "#837285",
-        "stroke": "#837285",
+        "color_hex": "#b76cf2",
+        "stroke": "#b76cf2",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#837285",
+        "fill": "#b76cf2",
         "fill-opacity": 0.3
       }
     },
@@ -26195,7 +26898,7 @@
       },
       "properties": {
         "name": "PYRENEES PY",
-        "owner": "BB",
+        "owner": "PY",
         "owners": [
           "PY",
           "BB"
@@ -26203,11 +26906,11 @@
         "min": 25,
         "cur": 30,
         "max": 144,
-        "color_hex": "#837285",
-        "stroke": "#837285",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#837285",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -26702,7 +27405,7 @@
       },
       "properties": {
         "name": "POITIERS BI",
-        "owner": "BB",
+        "owner": "BI",
         "owners": [
           "BI",
           "BB"
@@ -26710,11 +27413,378 @@
         "min": 25,
         "cur": 30,
         "max": 144,
-        "color_hex": "#837285",
-        "stroke": "#837285",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#837285",
+        "fill": "#a24fde",
+        "fill-opacity": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.869444,
+              43.563333
+            ],
+            [
+              -0.608056,
+              43.683056
+            ],
+            [
+              0.375,
+              43.683056
+            ],
+            [
+              0.38,
+              43.685
+            ],
+            [
+              0.553333,
+              44.010556
+            ],
+            [
+              0.279444,
+              44.212222
+            ],
+            [
+              0.133056,
+              44.116667
+            ],
+            [
+              -0.434444,
+              44.094167
+            ],
+            [
+              -0.515278,
+              44.090833
+            ],
+            [
+              -0.520278,
+              44.090556
+            ],
+            [
+              -0.525278,
+              44.09
+            ],
+            [
+              -0.530556,
+              44.089444
+            ],
+            [
+              -0.535556,
+              44.088889
+            ],
+            [
+              -0.540556,
+              44.088333
+            ],
+            [
+              -0.545556,
+              44.0875
+            ],
+            [
+              -0.550556,
+              44.086667
+            ],
+            [
+              -0.555556,
+              44.085833
+            ],
+            [
+              -0.560556,
+              44.085
+            ],
+            [
+              -0.565556,
+              44.083889
+            ],
+            [
+              -0.570556,
+              44.082778
+            ],
+            [
+              -0.575278,
+              44.081667
+            ],
+            [
+              -0.580278,
+              44.080556
+            ],
+            [
+              -0.585,
+              44.079444
+            ],
+            [
+              -0.59,
+              44.078056
+            ],
+            [
+              -0.594722,
+              44.076944
+            ],
+            [
+              -0.599444,
+              44.075556
+            ],
+            [
+              -0.604167,
+              44.073889
+            ],
+            [
+              -0.608889,
+              44.0725
+            ],
+            [
+              -0.613611,
+              44.070833
+            ],
+            [
+              -0.618333,
+              44.069167
+            ],
+            [
+              -0.622778,
+              44.0675
+            ],
+            [
+              -0.627222,
+              44.065833
+            ],
+            [
+              -0.631944,
+              44.064167
+            ],
+            [
+              -0.636389,
+              44.062222
+            ],
+            [
+              -0.640833,
+              44.060278
+            ],
+            [
+              -0.645,
+              44.058333
+            ],
+            [
+              -0.649444,
+              44.056389
+            ],
+            [
+              -0.653056,
+              44.054167
+            ],
+            [
+              -0.656944,
+              44.051667
+            ],
+            [
+              -0.660556,
+              44.049444
+            ],
+            [
+              -0.664167,
+              44.046944
+            ],
+            [
+              -0.667778,
+              44.044444
+            ],
+            [
+              -0.671111,
+              44.041944
+            ],
+            [
+              -0.674722,
+              44.039444
+            ],
+            [
+              -0.678056,
+              44.036944
+            ],
+            [
+              -0.681389,
+              44.034167
+            ],
+            [
+              -0.684444,
+              44.031667
+            ],
+            [
+              -0.687778,
+              44.028889
+            ],
+            [
+              -0.690833,
+              44.026111
+            ],
+            [
+              -0.693889,
+              44.023333
+            ],
+            [
+              -0.696667,
+              44.020556
+            ],
+            [
+              -0.699722,
+              44.017778
+            ],
+            [
+              -0.7025,
+              44.014722
+            ],
+            [
+              -0.705278,
+              44.011944
+            ],
+            [
+              -0.708056,
+              44.008889
+            ],
+            [
+              -0.710556,
+              44.005833
+            ],
+            [
+              -0.713056,
+              44.002778
+            ],
+            [
+              -0.715556,
+              43.999722
+            ],
+            [
+              -0.718056,
+              43.996667
+            ],
+            [
+              -0.720278,
+              43.993611
+            ],
+            [
+              -0.722778,
+              43.990556
+            ],
+            [
+              -0.724722,
+              43.987222
+            ],
+            [
+              -0.726944,
+              43.984167
+            ],
+            [
+              -0.728889,
+              43.980833
+            ],
+            [
+              -0.730833,
+              43.9775
+            ],
+            [
+              -0.732778,
+              43.974444
+            ],
+            [
+              -0.734722,
+              43.971111
+            ],
+            [
+              -0.736389,
+              43.967778
+            ],
+            [
+              -0.738056,
+              43.964444
+            ],
+            [
+              -0.739444,
+              43.961111
+            ],
+            [
+              -0.741111,
+              43.957778
+            ],
+            [
+              -0.7425,
+              43.954167
+            ],
+            [
+              -0.743611,
+              43.950833
+            ],
+            [
+              -0.745,
+              43.9475
+            ],
+            [
+              -0.746111,
+              43.943889
+            ],
+            [
+              -0.747222,
+              43.940556
+            ],
+            [
+              -0.748056,
+              43.936944
+            ],
+            [
+              -0.749167,
+              43.933611
+            ],
+            [
+              -0.75,
+              43.93
+            ],
+            [
+              -0.750556,
+              43.926667
+            ],
+            [
+              -0.751389,
+              43.923056
+            ],
+            [
+              -0.751944,
+              43.919444
+            ],
+            [
+              -0.752222,
+              43.915833
+            ],
+            [
+              -0.803333,
+              43.7625
+            ],
+            [
+              -0.869444,
+              43.563333
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "MARSAN CTA",
+        "owner": "BM",
+        "owners": [
+          "BM",
+          "CCMC"
+        ],
+        "min": 30,
+        "cur": 30,
+        "max": 144,
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
+        "stroke-width": 1,
+        "stroke-opacity": 0.7,
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -26921,7 +27991,7 @@
       },
       "properties": {
         "name": "LIMOGES BL",
-        "owner": "BB",
+        "owner": "BL",
         "owners": [
           "BL",
           "BB"
@@ -26929,11 +27999,11 @@
         "min": 25,
         "cur": 30,
         "max": 144,
-        "color_hex": "#837285",
-        "stroke": "#837285",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#837285",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -27272,7 +28342,7 @@
       },
       "properties": {
         "name": "LA ROCHELLE BH1",
-        "owner": "BB",
+        "owner": "BH",
         "owners": [
           "BH",
           "BW",
@@ -27281,11 +28351,11 @@
         "min": 20,
         "cur": 30,
         "max": 114,
-        "color_hex": "#837285",
-        "stroke": "#837285",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#837285",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -27628,7 +28698,7 @@
       },
       "properties": {
         "name": "BIARRITZ BZ",
-        "owner": "BB",
+        "owner": "BZ",
         "owners": [
           "BZ",
           "PY",
@@ -27637,11 +28707,11 @@
         "min": 20,
         "cur": 30,
         "max": 144,
-        "color_hex": "#837285",
-        "stroke": "#837285",
+        "color_hex": "#a24fde",
+        "stroke": "#a24fde",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#837285",
+        "fill": "#a24fde",
         "fill-opacity": 0.3
       }
     },
@@ -28116,7 +29186,7 @@
       },
       "properties": {
         "name": "AQUITAINE BW1",
-        "owner": "BB",
+        "owner": "BW",
         "owners": [
           "BW",
           "BB"
@@ -28124,11 +29194,11 @@
         "min": 20,
         "cur": 30,
         "max": 74,
-        "color_hex": "#837285",
-        "stroke": "#837285",
+        "color_hex": "#a746e9",
+        "stroke": "#a746e9",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#837285",
+        "fill": "#a746e9",
         "fill-opacity": 0.3
       }
     },
@@ -29459,7 +30529,7 @@
       },
       "properties": {
         "name": "AQUITAINE BE1",
-        "owner": "BB",
+        "owner": "BE",
         "owners": [
           "BE",
           "BW",
@@ -29468,11 +30538,11 @@
         "min": 20,
         "cur": 30,
         "max": 74,
-        "color_hex": "#837285",
-        "stroke": "#837285",
+        "color_hex": "#b053cc",
+        "stroke": "#b053cc",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#837285",
+        "fill": "#b053cc",
         "fill-opacity": 0.3
       }
     },
@@ -29551,7 +30621,7 @@
       },
       "properties": {
         "name": "NICE ITM MN",
-        "owner": "MM",
+        "owner": "MNF",
         "owners": [
           "MNF",
           "NO",
@@ -29562,11 +30632,11 @@
         "min": 0,
         "cur": 30,
         "max": 59,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#9d4ddc",
+        "stroke": "#9d4ddc",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#9d4ddc",
         "fill-opacity": 0.3
       }
     },
@@ -29645,7 +30715,7 @@
       },
       "properties": {
         "name": "LYON ITM QFU35",
-        "owner": "MM",
+        "owner": "LLF",
         "owners": [
           "LLF",
           "VW",
@@ -29656,11 +30726,11 @@
         "min": 0,
         "cur": 30,
         "max": 74,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#b345c5",
+        "stroke": "#b345c5",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#b345c5",
         "fill-opacity": 0.3
       }
     },
@@ -29755,7 +30825,7 @@
       },
       "properties": {
         "name": "LYON ITM QFU17",
-        "owner": "MM",
+        "owner": "LLF",
         "owners": [
           "LLF",
           "VE",
@@ -29767,11 +30837,11 @@
         "min": 0,
         "cur": 30,
         "max": 74,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#b345c5",
+        "stroke": "#b345c5",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#b345c5",
         "fill-opacity": 0.3
       }
     },
@@ -29858,7 +30928,7 @@
       },
       "properties": {
         "name": "LYON ITM GRE",
-        "owner": "MM",
+        "owner": "GRE",
         "owners": [
           "GRE",
           "VE",
@@ -29870,11 +30940,11 @@
         "min": 0,
         "cur": 30,
         "max": 64,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a931f1",
+        "stroke": "#a931f1",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a931f1",
         "fill-opacity": 0.3
       }
     },
@@ -29945,7 +31015,7 @@
       },
       "properties": {
         "name": "ORLY ITM WL",
-        "owner": "PAR",
+        "owner": "POF",
         "owners": [
           "POF",
           "PO",
@@ -29961,11 +31031,11 @@
         "min": 15,
         "cur": 30,
         "max": 84,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#854bdf",
+        "stroke": "#854bdf",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#854bdf",
         "fill-opacity": 0.3
       }
     },
@@ -30088,7 +31158,7 @@
       },
       "properties": {
         "name": "CDG WL ITM S",
-        "owner": "PAR",
+        "owner": "PGFS",
         "owners": [
           "PGFS",
           "PGFN",
@@ -30104,11 +31174,11 @@
         "min": 15,
         "cur": 30,
         "max": 84,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#886deb",
+        "stroke": "#886deb",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#886deb",
         "fill-opacity": 0.3
       }
     },
@@ -30191,7 +31261,7 @@
       },
       "properties": {
         "name": "CDG WL ITM N",
-        "owner": "PAR",
+        "owner": "PGFN",
         "owners": [
           "PGFN",
           "PGN",
@@ -30205,11 +31275,11 @@
         "min": 15,
         "cur": 30,
         "max": 84,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#b63cf5",
+        "stroke": "#b63cf5",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#b63cf5",
         "fill-opacity": 0.3
       }
     },
@@ -30348,7 +31418,7 @@
       },
       "properties": {
         "name": "CDG EL ITM S",
-        "owner": "PAR",
+        "owner": "PGFS",
         "owners": [
           "PGFS",
           "PGFN",
@@ -30364,11 +31434,11 @@
         "min": 15,
         "cur": 30,
         "max": 84,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#886deb",
+        "stroke": "#886deb",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#886deb",
         "fill-opacity": 0.3
       }
     },
@@ -30439,7 +31509,7 @@
       },
       "properties": {
         "name": "CDG EL ITM N",
-        "owner": "PAR",
+        "owner": "PGFN",
         "owners": [
           "PGFN",
           "PGN",
@@ -30453,11 +31523,11 @@
         "min": 15,
         "cur": 30,
         "max": 84,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#b63cf5",
+        "stroke": "#b63cf5",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#b63cf5",
         "fill-opacity": 0.3
       }
     },
@@ -31040,7 +32110,7 @@
       },
       "properties": {
         "name": "BLAGNAC ITM QFU 32",
-        "owner": "BB",
+        "owner": "BOF",
         "owners": [
           "BOF",
           "AW",
@@ -31050,11 +32120,11 @@
         "min": 0,
         "cur": 30,
         "max": 59,
-        "color_hex": "#837285",
-        "stroke": "#837285",
+        "color_hex": "#9e48c6",
+        "stroke": "#9e48c6",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#837285",
+        "fill": "#9e48c6",
         "fill-opacity": 0.3
       }
     },
@@ -31813,7 +32883,7 @@
       },
       "properties": {
         "name": "BLAGNAC ITM QFU 14",
-        "owner": "BB",
+        "owner": "BOF",
         "owners": [
           "BOF",
           "AW",
@@ -31823,11 +32893,11 @@
         "min": 0,
         "cur": 30,
         "max": 59,
-        "color_hex": "#837285",
-        "stroke": "#837285",
+        "color_hex": "#9e48c6",
+        "stroke": "#9e48c6",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#837285",
+        "fill": "#9e48c6",
         "fill-opacity": 0.3
       }
     },
@@ -31862,7 +32932,7 @@
       },
       "properties": {
         "name": "LA ROCHE SUR YON RMZ",
-        "owner": "RR",
+        "owner": "RII",
         "owners": [
           "RII",
           "NB",
@@ -31873,11 +32943,11 @@
         "min": 0,
         "cur": 30,
         "max": 34,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#70b669",
+        "stroke": "#70b669",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#70b669",
         "fill-opacity": 0.3
       }
     },
@@ -32276,7 +33346,7 @@
       },
       "properties": {
         "name": "SAINT ETIENNE CTR 2",
-        "owner": "MM",
+        "owner": "MHT",
         "owners": [
           "MHT",
           "CK",
@@ -32288,11 +33358,11 @@
         "min": 0,
         "cur": 30,
         "max": 44,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#71aa71",
+        "stroke": "#71aa71",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#71aa71",
         "fill-opacity": 0.3
       }
     },
@@ -32551,7 +33621,7 @@
       },
       "properties": {
         "name": "SAINT ETIENNE CTR 1",
-        "owner": "MM",
+        "owner": "MHT",
         "owners": [
           "MHT",
           "CK",
@@ -32563,11 +33633,11 @@
         "min": 0,
         "cur": 30,
         "max": 31,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#71aa71",
+        "stroke": "#71aa71",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#71aa71",
         "fill-opacity": 0.3
       }
     },
@@ -33142,7 +34212,7 @@
       },
       "properties": {
         "name": "RODEZ CTR",
-        "owner": "MM",
+        "owner": "CRT",
         "owners": [
           "CRT",
           "CN",
@@ -33154,11 +34224,307 @@
         "min": 0,
         "cur": 30,
         "max": 39,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#71aa71",
+        "stroke": "#71aa71",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#71aa71",
+        "fill-opacity": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.799167,
+              43.970556
+            ],
+            [
+              4.894167,
+              43.970556
+            ],
+            [
+              4.993056,
+              43.913889
+            ],
+            [
+              5.038889,
+              43.938889
+            ],
+            [
+              5.046667,
+              44.238056
+            ],
+            [
+              5.044444,
+              44.240278
+            ],
+            [
+              5.041667,
+              44.2425
+            ],
+            [
+              5.038889,
+              44.244722
+            ],
+            [
+              5.036111,
+              44.246944
+            ],
+            [
+              5.033056,
+              44.249167
+            ],
+            [
+              5.03,
+              44.251389
+            ],
+            [
+              5.026944,
+              44.253611
+            ],
+            [
+              5.023889,
+              44.255556
+            ],
+            [
+              5.020556,
+              44.257778
+            ],
+            [
+              5.0175,
+              44.259722
+            ],
+            [
+              5.014167,
+              44.261667
+            ],
+            [
+              5.010833,
+              44.263611
+            ],
+            [
+              5.0075,
+              44.265556
+            ],
+            [
+              5.004167,
+              44.2675
+            ],
+            [
+              5.000556,
+              44.269167
+            ],
+            [
+              4.996944,
+              44.270833
+            ],
+            [
+              4.993611,
+              44.2725
+            ],
+            [
+              4.99,
+              44.274167
+            ],
+            [
+              4.986111,
+              44.275833
+            ],
+            [
+              4.9825,
+              44.2775
+            ],
+            [
+              4.978889,
+              44.278889
+            ],
+            [
+              4.975,
+              44.280278
+            ],
+            [
+              4.971389,
+              44.281944
+            ],
+            [
+              4.9675,
+              44.283056
+            ],
+            [
+              4.963611,
+              44.284444
+            ],
+            [
+              4.959722,
+              44.285833
+            ],
+            [
+              4.955833,
+              44.286944
+            ],
+            [
+              4.951667,
+              44.288056
+            ],
+            [
+              4.947778,
+              44.289167
+            ],
+            [
+              4.943611,
+              44.290278
+            ],
+            [
+              4.939722,
+              44.291111
+            ],
+            [
+              4.935556,
+              44.292222
+            ],
+            [
+              4.931389,
+              44.293056
+            ],
+            [
+              4.9275,
+              44.293889
+            ],
+            [
+              4.923333,
+              44.294722
+            ],
+            [
+              4.919167,
+              44.295278
+            ],
+            [
+              4.915,
+              44.296111
+            ],
+            [
+              4.910556,
+              44.296667
+            ],
+            [
+              4.906389,
+              44.297222
+            ],
+            [
+              4.902222,
+              44.297778
+            ],
+            [
+              4.898056,
+              44.298056
+            ],
+            [
+              4.893889,
+              44.298611
+            ],
+            [
+              4.889444,
+              44.298889
+            ],
+            [
+              4.885278,
+              44.299167
+            ],
+            [
+              4.881111,
+              44.299444
+            ],
+            [
+              4.876667,
+              44.299444
+            ],
+            [
+              4.8725,
+              44.299722
+            ],
+            [
+              4.868056,
+              44.299722
+            ],
+            [
+              4.863889,
+              44.299722
+            ],
+            [
+              4.859444,
+              44.299722
+            ],
+            [
+              4.855278,
+              44.299444
+            ],
+            [
+              4.851111,
+              44.299444
+            ],
+            [
+              4.846667,
+              44.299167
+            ],
+            [
+              4.8425,
+              44.298889
+            ],
+            [
+              4.838333,
+              44.298333
+            ],
+            [
+              4.833889,
+              44.298056
+            ],
+            [
+              4.83,
+              44.297778
+            ],
+            [
+              4.678056,
+              44.383056
+            ],
+            [
+              4.65,
+              44.416667
+            ],
+            [
+              4.6,
+              44.125
+            ],
+            [
+              4.765,
+              44.0125
+            ],
+            [
+              4.799167,
+              43.970556
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "ORANGE CTR",
+        "owner": "MOT",
+        "owners": [
+          "MOT",
+          "MO",
+          "CCMC"
+        ],
+        "min": 0,
+        "cur": 30,
+        "max": 64,
+        "color_hex": "#71aa71",
+        "stroke": "#71aa71",
+        "stroke-width": 1,
+        "stroke-opacity": 0.7,
+        "fill": "#71aa71",
         "fill-opacity": 0.3
       }
     },
@@ -33393,7 +34759,7 @@
       },
       "properties": {
         "name": "NICE CTR",
-        "owner": "MM",
+        "owner": "MNT",
         "owners": [
           "MNT",
           "ND",
@@ -33405,11 +34771,688 @@
         "min": 0,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#71aa71",
+        "stroke": "#71aa71",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#71aa71",
+        "fill-opacity": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.643889,
+              43.8
+            ],
+            [
+              4.787778,
+              43.710278
+            ],
+            [
+              4.930556,
+              43.618056
+            ],
+            [
+              5.003611,
+              43.571111
+            ],
+            [
+              5.004444,
+              43.570556
+            ],
+            [
+              5.005,
+              43.569722
+            ],
+            [
+              5.005833,
+              43.569167
+            ],
+            [
+              5.006667,
+              43.568333
+            ],
+            [
+              5.0075,
+              43.567778
+            ],
+            [
+              5.008333,
+              43.566944
+            ],
+            [
+              5.009167,
+              43.566111
+            ],
+            [
+              5.009722,
+              43.565556
+            ],
+            [
+              5.010556,
+              43.564722
+            ],
+            [
+              5.011389,
+              43.563889
+            ],
+            [
+              5.011944,
+              43.563056
+            ],
+            [
+              5.012778,
+              43.5625
+            ],
+            [
+              5.013333,
+              43.561667
+            ],
+            [
+              5.014167,
+              43.560833
+            ],
+            [
+              5.014722,
+              43.56
+            ],
+            [
+              5.015556,
+              43.559167
+            ],
+            [
+              5.016111,
+              43.558333
+            ],
+            [
+              5.016667,
+              43.557778
+            ],
+            [
+              5.017222,
+              43.556944
+            ],
+            [
+              5.018056,
+              43.556111
+            ],
+            [
+              5.018611,
+              43.555278
+            ],
+            [
+              5.019167,
+              43.554444
+            ],
+            [
+              5.019722,
+              43.553611
+            ],
+            [
+              5.020278,
+              43.552778
+            ],
+            [
+              5.020833,
+              43.551944
+            ],
+            [
+              5.021389,
+              43.551111
+            ],
+            [
+              5.021944,
+              43.550278
+            ],
+            [
+              5.021944,
+              43.549722
+            ],
+            [
+              5.022222,
+              43.549444
+            ],
+            [
+              5.022778,
+              43.548611
+            ],
+            [
+              5.023333,
+              43.547778
+            ],
+            [
+              5.023889,
+              43.546944
+            ],
+            [
+              5.024167,
+              43.545833
+            ],
+            [
+              5.024722,
+              43.545
+            ],
+            [
+              5.025,
+              43.544167
+            ],
+            [
+              5.025556,
+              43.543333
+            ],
+            [
+              5.025833,
+              43.5425
+            ],
+            [
+              5.026389,
+              43.541667
+            ],
+            [
+              5.026667,
+              43.540556
+            ],
+            [
+              5.026944,
+              43.539722
+            ],
+            [
+              5.0275,
+              43.538889
+            ],
+            [
+              5.027778,
+              43.538056
+            ],
+            [
+              5.028056,
+              43.537222
+            ],
+            [
+              5.028333,
+              43.536111
+            ],
+            [
+              5.028611,
+              43.535278
+            ],
+            [
+              5.028889,
+              43.534444
+            ],
+            [
+              5.029167,
+              43.533611
+            ],
+            [
+              5.029444,
+              43.5325
+            ],
+            [
+              5.029722,
+              43.531667
+            ],
+            [
+              5.03,
+              43.530833
+            ],
+            [
+              5.030278,
+              43.53
+            ],
+            [
+              5.030278,
+              43.528889
+            ],
+            [
+              5.030556,
+              43.528056
+            ],
+            [
+              5.030556,
+              43.527222
+            ],
+            [
+              5.030833,
+              43.526111
+            ],
+            [
+              5.031111,
+              43.525278
+            ],
+            [
+              5.031111,
+              43.524444
+            ],
+            [
+              5.031111,
+              43.523611
+            ],
+            [
+              5.030556,
+              43.4125
+            ],
+            [
+              5.0525,
+              43.386944
+            ],
+            [
+              5.036389,
+              43.252778
+            ],
+            [
+              4.688056,
+              43.252778
+            ],
+            [
+              4.486111,
+              43.252778
+            ],
+            [
+              4.494167,
+              43.433889
+            ],
+            [
+              4.496111,
+              43.47
+            ],
+            [
+              4.500278,
+              43.561389
+            ],
+            [
+              4.643889,
+              43.8
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "ISTRES CTR 1.1",
+        "owner": "MIT",
+        "owners": [
+          "MIT",
+          "MI",
+          "MIC",
+          "CCMC"
+        ],
+        "min": 0,
+        "cur": 30,
+        "max": 34,
+        "color_hex": "#71aa71",
+        "stroke": "#71aa71",
+        "stroke-width": 1,
+        "stroke-opacity": 0.7,
+        "fill": "#71aa71",
+        "fill-opacity": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.043056,
+              43.175
+            ],
+            [
+              6.2475,
+              43.175278
+            ],
+            [
+              6.309167,
+              43.139722
+            ],
+            [
+              6.368611,
+              43.106111
+            ],
+            [
+              6.395556,
+              43.08
+            ],
+            [
+              6.249167,
+              42.946389
+            ],
+            [
+              5.961389,
+              42.946111
+            ],
+            [
+              5.906667,
+              43.000556
+            ],
+            [
+              6.001667,
+              43.067778
+            ],
+            [
+              6.001111,
+              43.069167
+            ],
+            [
+              6.000556,
+              43.070833
+            ],
+            [
+              6.0,
+              43.072222
+            ],
+            [
+              5.999722,
+              43.073889
+            ],
+            [
+              5.999167,
+              43.075278
+            ],
+            [
+              5.998889,
+              43.076944
+            ],
+            [
+              5.998333,
+              43.078333
+            ],
+            [
+              5.998056,
+              43.08
+            ],
+            [
+              5.997778,
+              43.081389
+            ],
+            [
+              5.9975,
+              43.083056
+            ],
+            [
+              5.997222,
+              43.084444
+            ],
+            [
+              5.997222,
+              43.086111
+            ],
+            [
+              5.996944,
+              43.0875
+            ],
+            [
+              5.996667,
+              43.089167
+            ],
+            [
+              5.996667,
+              43.090833
+            ],
+            [
+              5.996667,
+              43.092222
+            ],
+            [
+              5.996389,
+              43.093889
+            ],
+            [
+              5.996389,
+              43.095556
+            ],
+            [
+              5.996389,
+              43.096944
+            ],
+            [
+              5.996667,
+              43.098611
+            ],
+            [
+              5.996667,
+              43.1
+            ],
+            [
+              5.996667,
+              43.101667
+            ],
+            [
+              5.996667,
+              43.103333
+            ],
+            [
+              5.996944,
+              43.104722
+            ],
+            [
+              5.997222,
+              43.106389
+            ],
+            [
+              5.997222,
+              43.107778
+            ],
+            [
+              5.9975,
+              43.109444
+            ],
+            [
+              5.997778,
+              43.110833
+            ],
+            [
+              5.998056,
+              43.1125
+            ],
+            [
+              5.998611,
+              43.114167
+            ],
+            [
+              5.998889,
+              43.115556
+            ],
+            [
+              5.999167,
+              43.117222
+            ],
+            [
+              5.999722,
+              43.118611
+            ],
+            [
+              6.000278,
+              43.120278
+            ],
+            [
+              6.000556,
+              43.121667
+            ],
+            [
+              6.001111,
+              43.123056
+            ],
+            [
+              6.001667,
+              43.124722
+            ],
+            [
+              6.002222,
+              43.126111
+            ],
+            [
+              6.002778,
+              43.127778
+            ],
+            [
+              6.003611,
+              43.129167
+            ],
+            [
+              6.004167,
+              43.130556
+            ],
+            [
+              6.005,
+              43.132222
+            ],
+            [
+              6.005556,
+              43.133611
+            ],
+            [
+              6.006389,
+              43.135
+            ],
+            [
+              6.007222,
+              43.136389
+            ],
+            [
+              6.008056,
+              43.138056
+            ],
+            [
+              6.008889,
+              43.139444
+            ],
+            [
+              6.009722,
+              43.140833
+            ],
+            [
+              6.010556,
+              43.142222
+            ],
+            [
+              6.011389,
+              43.143611
+            ],
+            [
+              6.0125,
+              43.145
+            ],
+            [
+              6.013333,
+              43.146389
+            ],
+            [
+              6.014444,
+              43.147778
+            ],
+            [
+              6.015278,
+              43.149167
+            ],
+            [
+              6.016389,
+              43.150556
+            ],
+            [
+              6.0175,
+              43.151944
+            ],
+            [
+              6.018611,
+              43.153056
+            ],
+            [
+              6.019722,
+              43.154444
+            ],
+            [
+              6.020833,
+              43.155833
+            ],
+            [
+              6.022222,
+              43.157222
+            ],
+            [
+              6.023056,
+              43.158056
+            ],
+            [
+              6.024444,
+              43.159722
+            ],
+            [
+              6.025833,
+              43.160833
+            ],
+            [
+              6.027222,
+              43.162222
+            ],
+            [
+              6.028333,
+              43.163333
+            ],
+            [
+              6.029722,
+              43.164722
+            ],
+            [
+              6.031111,
+              43.165833
+            ],
+            [
+              6.0325,
+              43.166944
+            ],
+            [
+              6.033889,
+              43.168056
+            ],
+            [
+              6.035278,
+              43.169444
+            ],
+            [
+              6.036667,
+              43.170556
+            ],
+            [
+              6.038333,
+              43.171667
+            ],
+            [
+              6.039722,
+              43.172778
+            ],
+            [
+              6.041111,
+              43.173889
+            ],
+            [
+              6.043056,
+              43.175
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "HYERES CTR",
+        "owner": "THT",
+        "owners": [
+          "THT",
+          "THA",
+          "CCMC"
+        ],
+        "min": 0,
+        "cur": 30,
+        "max": 34,
+        "color_hex": "#71aa71",
+        "stroke": "#71aa71",
+        "stroke-width": 1,
+        "stroke-opacity": 0.7,
+        "fill": "#71aa71",
         "fill-opacity": 0.3
       }
     },
@@ -33472,7 +35515,7 @@
       },
       "properties": {
         "name": "GRENOBLE CTR",
-        "owner": "MM",
+        "owner": "LST",
         "owners": [
           "LST",
           "VE",
@@ -33484,11 +35527,11 @@
         "min": 0,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#71aa71",
+        "stroke": "#71aa71",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#71aa71",
         "fill-opacity": 0.3
       }
     },
@@ -33535,7 +35578,7 @@
       },
       "properties": {
         "name": "FIGARI CTR",
-        "owner": "MM",
+        "owner": "KFT",
         "owners": [
           "KFT",
           "KJ",
@@ -33546,11 +35589,11 @@
         "min": 0,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#71aa71",
+        "stroke": "#71aa71",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#71aa71",
         "fill-opacity": 0.3
       }
     },
@@ -33613,7 +35656,7 @@
       },
       "properties": {
         "name": "CHAMBERY CTR 1",
-        "owner": "MM",
+        "owner": "LBT",
         "owners": [
           "LBT",
           "LB",
@@ -33626,11 +35669,534 @@
         "min": 0,
         "cur": 30,
         "max": 34,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#71aa71",
+        "stroke": "#71aa71",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#71aa71",
+        "fill-opacity": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.918056,
+              45.9325
+            ],
+            [
+              6.159167,
+              46.048889
+            ],
+            [
+              6.238333,
+              45.987778
+            ],
+            [
+              6.242222,
+              45.985
+            ],
+            [
+              6.041667,
+              45.81
+            ],
+            [
+              6.038889,
+              45.810556
+            ],
+            [
+              6.036111,
+              45.811111
+            ],
+            [
+              6.033611,
+              45.811667
+            ],
+            [
+              6.031111,
+              45.8125
+            ],
+            [
+              6.028611,
+              45.813056
+            ],
+            [
+              6.026111,
+              45.813889
+            ],
+            [
+              6.023611,
+              45.814444
+            ],
+            [
+              6.021111,
+              45.815278
+            ],
+            [
+              6.018611,
+              45.816111
+            ],
+            [
+              6.016111,
+              45.816944
+            ],
+            [
+              6.013889,
+              45.817778
+            ],
+            [
+              6.011389,
+              45.818611
+            ],
+            [
+              6.008889,
+              45.819722
+            ],
+            [
+              6.006667,
+              45.820556
+            ],
+            [
+              6.004167,
+              45.821389
+            ],
+            [
+              6.001944,
+              45.8225
+            ],
+            [
+              5.999722,
+              45.823333
+            ],
+            [
+              5.997222,
+              45.824444
+            ],
+            [
+              5.995,
+              45.825556
+            ],
+            [
+              5.992778,
+              45.826667
+            ],
+            [
+              5.990556,
+              45.827778
+            ],
+            [
+              5.988333,
+              45.828889
+            ],
+            [
+              5.986111,
+              45.83
+            ],
+            [
+              5.984167,
+              45.831111
+            ],
+            [
+              5.981944,
+              45.832222
+            ],
+            [
+              5.98,
+              45.833611
+            ],
+            [
+              5.977778,
+              45.834722
+            ],
+            [
+              5.975833,
+              45.836111
+            ],
+            [
+              5.973889,
+              45.837222
+            ],
+            [
+              5.971944,
+              45.838611
+            ],
+            [
+              5.97,
+              45.84
+            ],
+            [
+              5.968056,
+              45.841389
+            ],
+            [
+              5.966111,
+              45.842778
+            ],
+            [
+              5.964167,
+              45.844167
+            ],
+            [
+              5.9625,
+              45.845556
+            ],
+            [
+              5.960556,
+              45.846944
+            ],
+            [
+              5.958889,
+              45.848333
+            ],
+            [
+              5.957222,
+              45.849722
+            ],
+            [
+              5.955278,
+              45.851111
+            ],
+            [
+              5.953611,
+              45.852778
+            ],
+            [
+              5.951944,
+              45.854167
+            ],
+            [
+              5.950556,
+              45.855833
+            ],
+            [
+              5.948889,
+              45.857222
+            ],
+            [
+              5.9475,
+              45.858889
+            ],
+            [
+              5.945833,
+              45.860556
+            ],
+            [
+              5.944444,
+              45.861944
+            ],
+            [
+              5.943056,
+              45.863611
+            ],
+            [
+              5.941667,
+              45.865278
+            ],
+            [
+              5.940278,
+              45.866944
+            ],
+            [
+              5.938889,
+              45.868611
+            ],
+            [
+              5.9375,
+              45.870278
+            ],
+            [
+              5.936389,
+              45.871944
+            ],
+            [
+              5.935278,
+              45.873611
+            ],
+            [
+              5.933889,
+              45.875278
+            ],
+            [
+              5.932778,
+              45.876944
+            ],
+            [
+              5.931667,
+              45.878889
+            ],
+            [
+              5.930833,
+              45.880556
+            ],
+            [
+              5.929722,
+              45.882222
+            ],
+            [
+              5.928611,
+              45.884167
+            ],
+            [
+              5.927778,
+              45.885833
+            ],
+            [
+              5.926944,
+              45.887778
+            ],
+            [
+              5.926111,
+              45.889444
+            ],
+            [
+              5.925278,
+              45.891111
+            ],
+            [
+              5.924444,
+              45.893056
+            ],
+            [
+              5.923611,
+              45.895
+            ],
+            [
+              5.923056,
+              45.896667
+            ],
+            [
+              5.922222,
+              45.898611
+            ],
+            [
+              5.921667,
+              45.900278
+            ],
+            [
+              5.921111,
+              45.902222
+            ],
+            [
+              5.920556,
+              45.904167
+            ],
+            [
+              5.92,
+              45.905833
+            ],
+            [
+              5.919444,
+              45.907778
+            ],
+            [
+              5.919167,
+              45.909722
+            ],
+            [
+              5.918889,
+              45.911667
+            ],
+            [
+              5.918333,
+              45.913333
+            ],
+            [
+              5.918056,
+              45.915278
+            ],
+            [
+              5.917778,
+              45.917222
+            ],
+            [
+              5.917778,
+              45.919167
+            ],
+            [
+              5.9175,
+              45.921111
+            ],
+            [
+              5.9175,
+              45.922778
+            ],
+            [
+              5.917222,
+              45.924722
+            ],
+            [
+              5.917222,
+              45.926667
+            ],
+            [
+              5.917222,
+              45.928611
+            ],
+            [
+              5.917222,
+              45.930556
+            ],
+            [
+              5.917222,
+              45.931111
+            ],
+            [
+              5.918056,
+              45.9325
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "ANNECY CTR",
+        "owner": "LPT",
+        "owners": [
+          "LPT",
+          "LB"
+        ],
+        "min": 0,
+        "cur": 30,
+        "max": 39,
+        "color_hex": "#71aa71",
+        "stroke": "#71aa71",
+        "stroke-width": 1,
+        "stroke-opacity": 0.7,
+        "fill": "#71aa71",
+        "fill-opacity": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.814167,
+              48.823889
+            ],
+            [
+              5.210278,
+              48.717778
+            ],
+            [
+              5.219444,
+              48.7
+            ],
+            [
+              5.231389,
+              48.666944
+            ],
+            [
+              5.235556,
+              48.633056
+            ],
+            [
+              5.231389,
+              48.599167
+            ],
+            [
+              5.219444,
+              48.566111
+            ],
+            [
+              5.199722,
+              48.534722
+            ],
+            [
+              5.173056,
+              48.505833
+            ],
+            [
+              5.139722,
+              48.48
+            ],
+            [
+              5.100556,
+              48.458056
+            ],
+            [
+              5.056667,
+              48.440556
+            ],
+            [
+              5.035556,
+              48.434167
+            ],
+            [
+              4.634167,
+              48.548611
+            ],
+            [
+              4.620278,
+              48.571389
+            ],
+            [
+              4.609167,
+              48.601944
+            ],
+            [
+              4.605556,
+              48.633056
+            ],
+            [
+              4.609167,
+              48.664444
+            ],
+            [
+              4.620278,
+              48.695
+            ],
+            [
+              4.638333,
+              48.723889
+            ],
+            [
+              4.663333,
+              48.750556
+            ],
+            [
+              4.694167,
+              48.774722
+            ],
+            [
+              4.730278,
+              48.795
+            ],
+            [
+              4.770556,
+              48.811389
+            ],
+            [
+              4.814444,
+              48.823611
+            ],
+            [
+              4.814167,
+              48.823889
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "SAINT DIZIER CTR",
+        "owner": "SIT",
+        "owners": [
+          "SIT",
+          ".SI",
+          "CCMC"
+        ],
+        "min": 0,
+        "cur": 30,
+        "max": 54,
+        "color_hex": "#71aa71",
+        "stroke": "#71aa71",
+        "stroke-width": 1,
+        "stroke-opacity": 0.7,
+        "fill": "#71aa71",
         "fill-opacity": 0.3
       }
     }

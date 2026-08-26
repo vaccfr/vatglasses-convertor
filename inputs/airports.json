@@ -252,7 +252,7 @@
       "EAI",
       "NA",
       "RS",
-      "RRS",
+      "WST",
       "RR"
     ]
   },
@@ -262,7 +262,7 @@
       "EAI",
       "NA",
       "RS",
-      "RRS",
+      "WST",
       "RR"
     ]
   },
@@ -272,20 +272,28 @@
       "EAI",
       "NA",
       "RS",
-      "RRS",
+      "WST",
       "RR"
     ]
   },
   {
     "icao": "LFGA",
     "topdown": [
-      "GAT"
+      "GAT",
+      "SBC",
+      "4EH",
+      "RME",
+      "EE"
     ]
   },
   {
     "icao": "LFGJ",
     "topdown": [
-      "GJT"
+      "GJT",
+      "SBC",
+      "4EH",
+      "RME",
+      "EE"
     ]
   },
   {
@@ -317,6 +325,8 @@
       "JL",
       "SC",
       "SU",
+      "4EH",
+      "RME",
       "EE"
     ]
   },
@@ -327,7 +337,7 @@
       "NIE",
       "NB",
       "RS",
-      "RRS",
+      "WST",
       "RR"
     ]
   },
@@ -814,7 +824,7 @@
       "OUI",
       "NB",
       "RS",
-      "RRS",
+      "WST",
       "RR"
     ]
   },
@@ -980,6 +990,8 @@
     "topdown": [
       "QMI",
       "SBC",
+      "4EH",
+      "RME",
       "EE"
     ]
   },
@@ -1023,6 +1035,7 @@
     "topdown": [
       "RBT",
       "RBA",
+      "RRN",
       "RRW",
       "RR"
     ]
@@ -1034,6 +1047,7 @@
       "JC",
       "JD",
       "RN",
+      "RRN",
       "RRW",
       "RR"
     ]
@@ -1041,7 +1055,13 @@
   {
     "icao": "LFRD",
     "topdown": [
-      "RDT"
+      "RDT",
+      "DD",
+      "JD",
+      "RN",
+      "RRN",
+      "RRW",
+      "RR"
     ]
   },
   {
@@ -1050,7 +1070,7 @@
       "REI",
       "NA",
       "RS",
-      "RRS",
+      "WST",
       "RR"
     ]
   },
@@ -1060,6 +1080,7 @@
       "RGT",
       "JD",
       "RN",
+      "RRN",
       "RRW",
       "RR"
     ]
@@ -1071,6 +1092,7 @@
       "RHA",
       "RBA",
       "CCMC",
+      "RRN",
       "RRW",
       "RR"
     ]
@@ -1081,7 +1103,7 @@
       "RII",
       "NB",
       "RS",
-      "RRS",
+      "WST",
       "RR"
     ]
   },
@@ -1092,6 +1114,7 @@
       "RLI",
       "RBA",
       "CCMC",
+      "RRN",
       "RRW",
       "RR"
     ]
@@ -1102,6 +1125,7 @@
       "RKT",
       "JD",
       "RN",
+      "RRN",
       "RRW",
       "RR"
     ]
@@ -1113,6 +1137,7 @@
       "RLA",
       "RBA",
       "CCMC",
+      "RRN",
       "RRW",
       "RR"
     ]
@@ -1123,7 +1148,7 @@
       "RMT",
       "NB",
       "RS",
-      "RRS",
+      "WST",
       "RR"
     ]
   },
@@ -1132,6 +1157,7 @@
     "topdown": [
       "RNT",
       "RN",
+      "RRN",
       "RRW",
       "RR"
     ]
@@ -1142,6 +1168,7 @@
       "ROI",
       "IIN",
       "RBA",
+      "RRN",
       "RRW",
       "RR"
     ]
@@ -1151,6 +1178,7 @@
     "topdown": [
       "RQT",
       "RBA",
+      "RRN",
       "RRW",
       "RR"
     ]
@@ -1160,7 +1188,7 @@
     "topdown": [
       "RST",
       "RS",
-      "RRS",
+      "WST",
       "RR"
     ]
   },
@@ -1170,6 +1198,7 @@
       "RUI",
       "IIN",
       "RBA",
+      "RRN",
       "RRW",
       "RR"
     ]
@@ -1180,7 +1209,7 @@
       "RVI",
       "NA",
       "RS",
-      "RRS",
+      "WST",
       "RR"
     ]
   },
@@ -1189,7 +1218,7 @@
     "topdown": [
       "RZT",
       "RS",
-      "RRS",
+      "WST",
       "RR"
     ]
   },
@@ -1199,6 +1228,8 @@
       "SBT",
       "SB",
       "SBC",
+      "4EH",
+      "RME",
       "EE",
       "LSAA",
       "LSAS",
@@ -1211,6 +1242,8 @@
     "topdown": [
       "SDI",
       "SBC",
+      "4EH",
+      "RME",
       "EE"
     ]
   },
@@ -1221,6 +1254,8 @@
       "SC",
       "SU",
       "UE",
+      "4EH",
+      "RME",
       "EE"
     ]
   },
@@ -1248,6 +1283,8 @@
       "SC",
       "SU",
       "UE",
+      "4EH",
+      "RME",
       "EE"
     ]
   },
@@ -1266,6 +1303,8 @@
       "RW",
       "SU",
       "UE",
+      "4EH",
+      "RME",
       "EE"
     ]
   },

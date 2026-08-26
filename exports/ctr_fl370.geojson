@@ -56,7 +56,7 @@
       },
       "properties": {
         "name": "ZU UAC",
-        "owner": "RR",
+        "owner": "RRZ",
         "owners": [
           "RRZ",
           "RUE",
@@ -67,11 +67,11 @@
         "min": 365,
         "cur": 370,
         "max": 659,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#10407a",
+        "stroke": "#10407a",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#10407a",
         "fill-opacity": 0.3
       }
     },
@@ -166,7 +166,7 @@
       },
       "properties": {
         "name": "XU UAC",
-        "owner": "RR",
+        "owner": "RRX",
         "owners": [
           "RRX",
           "RUE",
@@ -177,11 +177,11 @@
         "min": 365,
         "cur": 370,
         "max": 659,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#003f8d",
+        "stroke": "#003f8d",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#003f8d",
         "fill-opacity": 0.3
       }
     },
@@ -240,7 +240,7 @@
       },
       "properties": {
         "name": "WI UAC",
-        "owner": "RR",
+        "owner": "RWU",
         "owners": [
           "RWU",
           "RWI",
@@ -250,11 +250,11 @@
         "min": 355,
         "cur": 370,
         "max": 374,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#005192",
+        "stroke": "#005192",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#005192",
         "fill-opacity": 0.3
       }
     },
@@ -309,7 +309,7 @@
       },
       "properties": {
         "name": "VI UAC",
-        "owner": "RR",
+        "owner": "RRV",
         "owners": [
           "RRV",
           "RVK",
@@ -319,11 +319,11 @@
         "min": 355,
         "cur": 370,
         "max": 374,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#344380",
+        "stroke": "#344380",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#344380",
         "fill-opacity": 0.3
       }
     },
@@ -366,7 +366,7 @@
       },
       "properties": {
         "name": "QU UAC",
-        "owner": "RR",
+        "owner": "RRQ",
         "owners": [
           "RRQ",
           "RUE",
@@ -377,11 +377,11 @@
         "min": 365,
         "cur": 370,
         "max": 659,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#004993",
+        "stroke": "#004993",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#004993",
         "fill-opacity": 0.3
       }
     },
@@ -464,7 +464,7 @@
       },
       "properties": {
         "name": "NI UAC",
-        "owner": "RR",
+        "owner": "RRN",
         "owners": [
           "RRN",
           "RUS",
@@ -474,11 +474,11 @@
         "min": 355,
         "cur": 370,
         "max": 374,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#19688f",
+        "stroke": "#19688f",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#19688f",
         "fill-opacity": 0.3
       }
     },
@@ -525,7 +525,7 @@
       },
       "properties": {
         "name": "MU UAC",
-        "owner": "RR",
+        "owner": "RRM",
         "owners": [
           "RRM",
           "RUE",
@@ -536,11 +536,11 @@
         "min": 365,
         "cur": 370,
         "max": 659,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#2f52a3",
+        "stroke": "#2f52a3",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#2f52a3",
         "fill-opacity": 0.3
       }
     },
@@ -595,7 +595,7 @@
       },
       "properties": {
         "name": "KI UAC",
-        "owner": "RR",
+        "owner": "RRK",
         "owners": [
           "RRK",
           "RVK",
@@ -605,11 +605,11 @@
         "min": 355,
         "cur": 370,
         "max": 374,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#005b9f",
+        "stroke": "#005b9f",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#005b9f",
         "fill-opacity": 0.3
       }
     },
@@ -688,7 +688,7 @@
       },
       "properties": {
         "name": "JI UAC",
-        "owner": "RR",
+        "owner": "RRJ",
         "owners": [
           "RRJ",
           "RRW",
@@ -697,11 +697,11 @@
         "min": 355,
         "cur": 370,
         "max": 374,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#003f8e",
+        "stroke": "#003f8e",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#003f8e",
         "fill-opacity": 0.3
       }
     },
@@ -776,7 +776,7 @@
       },
       "properties": {
         "name": "GU UAC",
-        "owner": "RR",
+        "owner": "RGU",
         "owners": [
           "RGU",
           "RRG",
@@ -787,11 +787,11 @@
         "min": 365,
         "cur": 370,
         "max": 659,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#254ba2",
+        "stroke": "#254ba2",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#254ba2",
         "fill-opacity": 0.3
       }
     },
@@ -826,7 +826,7 @@
       },
       "properties": {
         "name": "BOTA HIGH SOUTH",
-        "owner": "RR",
+        "owner": "RUS",
         "owners": [
           "RUS",
           "RRS",
@@ -835,11 +835,11 @@
         "min": 365,
         "cur": 370,
         "max": 659,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#3069a0",
+        "stroke": "#3069a0",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#3069a0",
         "fill-opacity": 0.3
       }
     },
@@ -878,7 +878,7 @@
       },
       "properties": {
         "name": "BOTA HIGH NORTH",
-        "owner": "RR",
+        "owner": "RWU",
         "owners": [
           "RWU",
           "RRW",
@@ -887,11 +887,11 @@
         "min": 355,
         "cur": 370,
         "max": 659,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#005192",
+        "stroke": "#005192",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#005192",
         "fill-opacity": 0.3
       }
     },
@@ -962,7 +962,7 @@
       },
       "properties": {
         "name": "AU UAC",
-        "owner": "RR",
+        "owner": "RAU",
         "owners": [
           "RAU",
           "RAI",
@@ -974,11 +974,11 @@
         "min": 365,
         "cur": 370,
         "max": 659,
-        "color_hex": "#165a86",
-        "stroke": "#165a86",
+        "color_hex": "#15716a",
+        "stroke": "#15716a",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#165a86",
+        "fill": "#15716a",
         "fill-opacity": 0.3
       }
     },
@@ -1049,7 +1049,7 @@
       },
       "properties": {
         "name": "ZH UAC",
-        "owner": "MM",
+        "owner": "MWU",
         "owners": [
           "MWU",
           "MUU",
@@ -1059,11 +1059,11 @@
         "min": 355,
         "cur": 370,
         "max": 659,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a88b61",
+        "stroke": "#a88b61",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a88b61",
         "fill-opacity": 0.3
       }
     },
@@ -1154,7 +1154,7 @@
       },
       "properties": {
         "name": "Y3 UAC",
-        "owner": "MM",
+        "owner": "MEU",
         "owners": [
           "MEU",
           "MUU",
@@ -1164,11 +1164,11 @@
         "min": 355,
         "cur": 370,
         "max": 374,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#8d8f7e",
+        "stroke": "#8d8f7e",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#8d8f7e",
         "fill-opacity": 0.3
       }
     },
@@ -1235,7 +1235,7 @@
       },
       "properties": {
         "name": "W3 UAC",
-        "owner": "MM",
+        "owner": "MMW",
         "owners": [
           "MMW",
           "MWU",
@@ -1245,11 +1245,11 @@
         "min": 355,
         "cur": 370,
         "max": 659,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#8fa853",
+        "stroke": "#8fa853",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#8fa853",
         "fill-opacity": 0.3
       }
     },
@@ -1336,7 +1336,7 @@
       },
       "properties": {
         "name": "M3 UAC",
-        "owner": "MM",
+        "owner": "MWU",
         "owners": [
           "MWU",
           "MUU",
@@ -1346,11 +1346,11 @@
         "min": 355,
         "cur": 370,
         "max": 374,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a88b61",
+        "stroke": "#a88b61",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a88b61",
         "fill-opacity": 0.3
       }
     },
@@ -1441,7 +1441,7 @@
       },
       "properties": {
         "name": "K3 UAC",
-        "owner": "MM",
+        "owner": "MUU",
         "owners": [
           "MUU",
           "MME",
@@ -1451,11 +1451,11 @@
         "min": 355,
         "cur": 370,
         "max": 659,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#99aa61",
+        "stroke": "#99aa61",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#99aa61",
         "fill-opacity": 0.3
       }
     },
@@ -1530,7 +1530,7 @@
       },
       "properties": {
         "name": "G3 UAC",
-        "owner": "MM",
+        "owner": "MEU",
         "owners": [
           "MEU",
           "MUU",
@@ -1540,11 +1540,11 @@
         "min": 355,
         "cur": 370,
         "max": 374,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#8d8f7e",
+        "stroke": "#8d8f7e",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#8d8f7e",
         "fill-opacity": 0.3
       }
     },
@@ -1623,7 +1623,7 @@
       },
       "properties": {
         "name": "F3 UAC",
-        "owner": "MM",
+        "owner": "MWU",
         "owners": [
           "MWU",
           "MUU",
@@ -1633,11 +1633,11 @@
         "min": 355,
         "cur": 370,
         "max": 374,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a88b61",
+        "stroke": "#a88b61",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a88b61",
         "fill-opacity": 0.3
       }
     },
@@ -1740,7 +1740,7 @@
       },
       "properties": {
         "name": "E3 UAC",
-        "owner": "MM",
+        "owner": "MUU",
         "owners": [
           "MUU",
           "MME",
@@ -1750,11 +1750,11 @@
         "min": 355,
         "cur": 370,
         "max": 659,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#99aa61",
+        "stroke": "#99aa61",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#99aa61",
         "fill-opacity": 0.3
       }
     },
@@ -1833,7 +1833,7 @@
       },
       "properties": {
         "name": "D3 UAC",
-        "owner": "MM",
+        "owner": "MWU",
         "owners": [
           "MWU",
           "MUU",
@@ -1843,11 +1843,11 @@
         "min": 355,
         "cur": 370,
         "max": 374,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#a88b61",
+        "stroke": "#a88b61",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#a88b61",
         "fill-opacity": 0.3
       }
     },
@@ -1946,7 +1946,7 @@
       },
       "properties": {
         "name": "B3 UAC",
-        "owner": "MM",
+        "owner": "MEU",
         "owners": [
           "MEU",
           "MUU",
@@ -1956,11 +1956,11 @@
         "min": 355,
         "cur": 370,
         "max": 374,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#8d8f7e",
+        "stroke": "#8d8f7e",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#8d8f7e",
         "fill-opacity": 0.3
       }
     },
@@ -2059,7 +2059,7 @@
       },
       "properties": {
         "name": "A3 UAC",
-        "owner": "MM",
+        "owner": "MMA",
         "owners": [
           "MMA",
           "MEU",
@@ -2069,11 +2069,11 @@
         "min": 355,
         "cur": 370,
         "max": 374,
-        "color_hex": "#909967",
-        "stroke": "#909967",
+        "color_hex": "#72a058",
+        "stroke": "#72a058",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#909967",
+        "fill": "#72a058",
         "fill-opacity": 0.3
       }
     },
@@ -2128,7 +2128,7 @@
       },
       "properties": {
         "name": "UJ2 UAC",
-        "owner": "PAR",
+        "owner": "UJ",
         "owners": [
           "UJ",
           "LMHJ",
@@ -2140,11 +2140,11 @@
         "min": 355,
         "cur": 370,
         "max": 384,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#2554ab",
+        "stroke": "#2554ab",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#2554ab",
         "fill-opacity": 0.3
       }
     },
@@ -2243,7 +2243,7 @@
       },
       "properties": {
         "name": "HP UAC",
-        "owner": "PAR",
+        "owner": "HP",
         "owners": [
           "HP",
           "LMH",
@@ -2256,11 +2256,11 @@
         "min": 355,
         "cur": 370,
         "max": 659,
-        "color_hex": "#4067a9",
-        "stroke": "#4067a9",
+        "color_hex": "#495dba",
+        "stroke": "#495dba",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#4067a9",
+        "fill": "#495dba",
         "fill-opacity": 0.3
       }
     },
@@ -2343,7 +2343,7 @@
       },
       "properties": {
         "name": "YR UAC",
-        "owner": "EE",
+        "owner": "YR",
         "owners": [
           "YR",
           "HR",
@@ -2354,11 +2354,11 @@
         "min": 365,
         "cur": 370,
         "max": 374,
-        "color_hex": "#71aa71",
-        "stroke": "#71aa71",
+        "color_hex": "#8c987c",
+        "stroke": "#8c987c",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#71aa71",
+        "fill": "#8c987c",
         "fill-opacity": 0.3
       }
     },
@@ -2417,7 +2417,7 @@
       },
       "properties": {
         "name": "KF UAC",
-        "owner": "EE",
+        "owner": "KF",
         "owners": [
           "KF",
           "EE",
@@ -2426,11 +2426,11 @@
         "min": 345,
         "cur": 370,
         "max": 659,
-        "color_hex": "#71aa71",
-        "stroke": "#71aa71",
+        "color_hex": "#5c9c67",
+        "stroke": "#5c9c67",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#71aa71",
+        "fill": "#5c9c67",
         "fill-opacity": 0.3
       }
     },
@@ -2541,7 +2541,7 @@
       },
       "properties": {
         "name": "KD2 UAC",
-        "owner": "EE",
+        "owner": "KD",
         "owners": [
           "KD",
           "EE",
@@ -2550,11 +2550,11 @@
         "min": 355,
         "cur": 370,
         "max": 384,
-        "color_hex": "#71aa71",
-        "stroke": "#71aa71",
+        "color_hex": "#53c386",
+        "stroke": "#53c386",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#71aa71",
+        "fill": "#53c386",
         "fill-opacity": 0.3
       }
     },
@@ -2653,7 +2653,7 @@
       },
       "properties": {
         "name": "HN UAC",
-        "owner": "EE",
+        "owner": "HN",
         "owners": [
           "HN",
           "EEN",
@@ -2663,11 +2663,11 @@
         "min": 365,
         "cur": 370,
         "max": 659,
-        "color_hex": "#71aa71",
-        "stroke": "#71aa71",
+        "color_hex": "#8bc270",
+        "stroke": "#8bc270",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#71aa71",
+        "fill": "#8bc270",
         "fill-opacity": 0.3
       }
     },
@@ -2946,7 +2946,7 @@
       },
       "properties": {
         "name": "HH UAC",
-        "owner": "EE",
+        "owner": "HH",
         "owners": [
           "HH",
           "EE",
@@ -2955,11 +2955,11 @@
         "min": 365,
         "cur": 370,
         "max": 659,
-        "color_hex": "#71aa71",
-        "stroke": "#71aa71",
+        "color_hex": "#8fb48e",
+        "stroke": "#8fb48e",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#71aa71",
+        "fill": "#8fb48e",
         "fill-opacity": 0.3
       }
     },
@@ -3722,7 +3722,7 @@
       },
       "properties": {
         "name": "HE UAC",
-        "owner": "EE",
+        "owner": "HE",
         "owners": [
           "HE",
           "EE",
@@ -3731,11 +3731,11 @@
         "min": 365,
         "cur": 370,
         "max": 659,
-        "color_hex": "#71aa71",
-        "stroke": "#71aa71",
+        "color_hex": "#64c16a",
+        "stroke": "#64c16a",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#71aa71",
+        "fill": "#64c16a",
         "fill-opacity": 0.3
       }
     },
@@ -3894,7 +3894,7 @@
       },
       "properties": {
         "name": "Z4 UAC",
-        "owner": "BB",
+        "owner": "Z1",
         "owners": [
           "Z1",
           "US",
@@ -3903,11 +3903,11 @@
         "min": 365,
         "cur": 370,
         "max": 384,
-        "color_hex": "#837285",
-        "stroke": "#837285",
+        "color_hex": "#a06288",
+        "stroke": "#a06288",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#837285",
+        "fill": "#a06288",
         "fill-opacity": 0.3
       }
     },
@@ -3938,7 +3938,7 @@
       },
       "properties": {
         "name": "Z1 UAC",
-        "owner": "BB",
+        "owner": "Z1",
         "owners": [
           "Z1",
           "US",
@@ -3947,11 +3947,11 @@
         "min": 195,
         "cur": 370,
         "max": 659,
-        "color_hex": "#837285",
-        "stroke": "#837285",
+        "color_hex": "#a06288",
+        "stroke": "#a06288",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#837285",
+        "fill": "#a06288",
         "fill-opacity": 0.3
       }
     },
@@ -3998,7 +3998,7 @@
       },
       "properties": {
         "name": "X4 UAC",
-        "owner": "BB",
+        "owner": "X1",
         "owners": [
           "X1",
           "US",
@@ -4007,11 +4007,11 @@
         "min": 365,
         "cur": 370,
         "max": 384,
-        "color_hex": "#837285",
-        "stroke": "#837285",
+        "color_hex": "#9c719d",
+        "stroke": "#9c719d",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#837285",
+        "fill": "#9c719d",
         "fill-opacity": 0.3
       }
     },
@@ -4086,7 +4086,7 @@
       },
       "properties": {
         "name": "T4 UAC",
-        "owner": "BB",
+        "owner": "T1",
         "owners": [
           "T1",
           "UN",
@@ -4095,11 +4095,11 @@
         "min": 365,
         "cur": 370,
         "max": 384,
-        "color_hex": "#837285",
-        "stroke": "#837285",
+        "color_hex": "#7f8392",
+        "stroke": "#7f8392",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#837285",
+        "fill": "#7f8392",
         "fill-opacity": 0.3
       }
     },
@@ -4190,7 +4190,7 @@
       },
       "properties": {
         "name": "R4 UAC",
-        "owner": "BB",
+        "owner": "R1",
         "owners": [
           "R1",
           "UN",
@@ -4199,11 +4199,11 @@
         "min": 365,
         "cur": 370,
         "max": 384,
-        "color_hex": "#837285",
-        "stroke": "#837285",
+        "color_hex": "#655798",
+        "stroke": "#655798",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#837285",
+        "fill": "#655798",
         "fill-opacity": 0.3
       }
     },
@@ -4298,7 +4298,7 @@
       },
       "properties": {
         "name": "P4 UAC",
-        "owner": "BB",
+        "owner": "P1",
         "owners": [
           "P1",
           "UN",
@@ -4307,11 +4307,11 @@
         "min": 365,
         "cur": 370,
         "max": 659,
-        "color_hex": "#837285",
-        "stroke": "#837285",
+        "color_hex": "#726483",
+        "stroke": "#726483",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#837285",
+        "fill": "#726483",
         "fill-opacity": 0.3
       }
     },
@@ -4402,7 +4402,7 @@
       },
       "properties": {
         "name": "N4 UAC",
-        "owner": "BB",
+        "owner": "N1",
         "owners": [
           "N1",
           "US",
@@ -4411,11 +4411,11 @@
         "min": 365,
         "cur": 370,
         "max": 384,
-        "color_hex": "#837285",
-        "stroke": "#837285",
+        "color_hex": "#867a6e",
+        "stroke": "#867a6e",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#837285",
+        "fill": "#867a6e",
         "fill-opacity": 0.3
       }
     },
@@ -4474,7 +4474,7 @@
       },
       "properties": {
         "name": "L4 UAC",
-        "owner": "BB",
+        "owner": "L1",
         "owners": [
           "L1",
           "UN",
@@ -4483,11 +4483,11 @@
         "min": 365,
         "cur": 370,
         "max": 384,
-        "color_hex": "#837285",
-        "stroke": "#837285",
+        "color_hex": "#706085",
+        "stroke": "#706085",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#837285",
+        "fill": "#706085",
         "fill-opacity": 0.3
       }
     },
@@ -4594,7 +4594,7 @@
       },
       "properties": {
         "name": "H4 UAC",
-        "owner": "BB",
+        "owner": "H1",
         "owners": [
           "H1",
           "US",
@@ -4603,11 +4603,11 @@
         "min": 365,
         "cur": 370,
         "max": 384,
-        "color_hex": "#837285",
-        "stroke": "#837285",
+        "color_hex": "#78726e",
+        "stroke": "#78726e",
         "stroke-width": 1,
         "stroke-opacity": 0.7,
-        "fill": "#837285",
+        "fill": "#78726e",
         "fill-opacity": 0.3
       }
     }

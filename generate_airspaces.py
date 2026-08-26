@@ -115,7 +115,15 @@ def getpoints(borders):
             print(f"Sectorline has no coordinates: {b}")
             return None
 
+        # Ignore zero-length helper lines such as ORLY sectorline 166,
+        # whose coordinates are the same point repeated twice.
+        if len({tuple(point) for point in coor}) < 2:
+            continue
+
         coordinates.append(coor)
+
+    if not coordinates:
+        return None
 
     if len(coordinates) == 1:
         return coordinates[0]
@@ -158,7 +166,7 @@ fir_list = config["config"]["valid_fir"]
 position_regexp = config["config"]["valid_callsign"]
 
 print(f"Loading ESE file {ese_input_file}")
-with open(ese_input_file, "r", encoding="cp1252") as file:
+with open(ese_input_file, "r", encoding="utf-8-sig") as file:
     ese_data = file.readlines()
 
 # Extract positions
@@ -235,7 +243,10 @@ linedic = {}
 for sectorline in sectorlines:
     lines = sectorline.split("\n")
     coor = getcoor(lines)
-    name = lines[0].split(":")[1]
+    # Sectorline declarations can contain an inline descriptive comment,
+    # e.g. "SECTORLINE:1894 ; GLO18288-GLO36927".  BORDER entries refer
+    # only to the identifier ("1894"), so discard the comment here.
+    name = lines[0].split(":", 1)[1].split(";", 1)[0].strip()
 
     linedic[name] = {
         "coor": coor
