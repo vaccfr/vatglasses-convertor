@@ -113,11 +113,29 @@ for ese_input_file in get_input_files():
                 continue
 
             position_id = parts[3].strip()
+            position_callsign = parts[0].strip()
             normalized_line = line.rstrip("\r\n")
 
             if (
                 allowed_position_ids is not None
                 and position_id not in allowed_position_ids
+            ):
+                continue
+
+            # Area-control definitions are copied into neighbouring FIR files
+            # for coordination. Keep them only from their canonical home file.
+            callsign_prefix = position_callsign.split("_", 1)[0]
+            if callsign_prefix == "PAR" or callsign_prefix == "LFFM":
+                canonical_fir = "LFFF"
+            elif callsign_prefix in config["config"].get("valid_fir", []):
+                canonical_fir = callsign_prefix
+            else:
+                canonical_fir = None
+
+            if (
+                source_fir in config["config"].get("valid_fir", [])
+                and canonical_fir is not None
+                and source_fir != canonical_fir
             ):
                 continue
 
@@ -130,6 +148,29 @@ for ese_input_file in get_input_files():
     print(f"  Found {file_count} matching positions")
 
 print(f"Found {len(ese_positions)} unique positions across all input files")
+
+# VATGlass cannot use several position IDs with the same displayed callsign
+# and frequency. Prefer the least specialised callsign, e.g. PAR_CTR over
+# PAR_TB_CTR, and retain one canonical ID for each callsign/frequency pair.
+canonical_positions = {}
+for position_id, line in ese_positions.items():
+    parts = line.split(":")
+    semantic_key = (parts[1].strip(), parts[2].strip())
+    score = (parts[0].count("_"), parts[0])
+
+    current = canonical_positions.get(semantic_key)
+    if current is None or score < current[0]:
+        canonical_positions[semantic_key] = (score, position_id, line)
+
+removed_duplicates = len(ese_positions) - len(canonical_positions)
+ese_positions = {
+    position_id: line
+    for _, position_id, line in canonical_positions.values()
+}
+print(
+    f"Kept {len(ese_positions)} canonical callsign/frequency definitions "
+    f"({removed_duplicates} duplicate aliases removed)"
+)
 
 # Function to get color
 def get_position_color(position):
