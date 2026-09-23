@@ -63,7 +63,7 @@
           "ZX",
           "RRE",
           "RR",
-          "PAR"
+          "FF"
         ],
         "min": 295,
         "cur": 320,
@@ -174,7 +174,7 @@
           "ZX",
           "RRE",
           "RR",
-          "PAR"
+          "FF"
         ],
         "min": 305,
         "cur": 320,
@@ -379,7 +379,7 @@
           "QX",
           "RRE",
           "RR",
-          "PAR"
+          "FF"
         ],
         "min": 295,
         "cur": 320,
@@ -538,7 +538,7 @@
           "MZ",
           "RRE",
           "RR",
-          "PAR"
+          "FF"
         ],
         "min": 295,
         "cur": 320,
@@ -2591,7 +2591,7 @@
           "XR",
           "URMN",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 315,
         "cur": 320,
@@ -2885,7 +2885,7 @@
           "4EH",
           "URME",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 315,
         "cur": 320,
@@ -3663,7 +3663,7 @@
           "4EH",
           "URME",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 315,
         "cur": 320,
@@ -3756,7 +3756,7 @@
           "UN",
           "URMN",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 285,
         "cur": 320,
@@ -3833,7 +3833,7 @@
           "UF",
           "URME",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 265,
         "cur": 320,
@@ -3906,7 +3906,7 @@
           "UB",
           "URMN",
           "EE",
-          "PAR"
+          "P"
         ],
         "min": 265,
         "cur": 320,
@@ -4076,8 +4076,8 @@
         "name": "Z2 UAC",
         "owner": "BB",
         "owners": [
-          "BB.Z",
-          "BB.US",
+          "Z",
+          "US",
           "BB"
         ],
         "min": 295,
@@ -4120,8 +4120,8 @@
         "name": "Z1 UAC",
         "owner": "BB",
         "owners": [
-          "BB.Z",
-          "BB.US",
+          "Z",
+          "US",
           "BB"
         ],
         "min": 195,
@@ -4180,8 +4180,8 @@
         "name": "X2 UAC",
         "owner": "BB",
         "owners": [
-          "BB.X",
-          "BB.US",
+          "X",
+          "US",
           "BB"
         ],
         "min": 295,
@@ -4269,7 +4269,7 @@
         "owner": "BB",
         "owners": [
           "T",
-          "BB.UN",
+          "UN",
           "BB"
         ],
         "min": 295,
@@ -4373,7 +4373,7 @@
         "owner": "BB",
         "owners": [
           "R",
-          "BB.UN",
+          "UN",
           "BB"
         ],
         "min": 295,
@@ -4481,7 +4481,7 @@
         "owner": "BB",
         "owners": [
           "P",
-          "BB.UN",
+          "UN",
           "BB"
         ],
         "min": 295,
@@ -4584,8 +4584,8 @@
         "name": "N2 UAC",
         "owner": "BB",
         "owners": [
-          "BB.N",
-          "BB.US",
+          "N",
+          "US",
           "BB"
         ],
         "min": 295,
@@ -4657,7 +4657,7 @@
         "owner": "BB",
         "owners": [
           "L",
-          "BB.UN",
+          "UN",
           "BB"
         ],
         "min": 295,
@@ -4777,7 +4777,7 @@
         "owner": "BB",
         "owners": [
           "H",
-          "BB.US",
+          "US",
           "BB"
         ],
         "min": 295,

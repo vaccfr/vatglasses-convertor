@@ -5,8 +5,6 @@ import requests
 import yaml
 from pathlib import Path
 
-import ese
-
 vatspy_dat_url = "https://raw.githubusercontent.com/vatsimnetwork/vatspy-data-project/refs/heads/master/VATSpy.dat"
 
 combined_ese_input_file = Path("inputs/LFXX.ese")
@@ -61,7 +59,7 @@ def build_position_airport_map(ese_data, valid_airport, position_regexp):
 
 
 def build_topdown_from_ese(
-    ese_data, valid_airport, position_regexp, translate, source_fir=None
+    ese_data, valid_airport, position_regexp, source_fir=None
 ):
     position_to_airport = build_position_airport_map(
         ese_data,
@@ -105,8 +103,8 @@ def build_topdown_from_ese(
                 airport_icao = position_to_airport[owner]
 
                 if airport_icao not in topdown:
-                    topdown[airport_icao] = translate(owners)
-                    print(f"ESE TOPDOWN: {airport_icao} -> {topdown[airport_icao]}")
+                    topdown[airport_icao] = owners
+                    print(f"ESE TOPDOWN: {airport_icao} -> {owners}")
 
     print(f"Found {len(topdown)} topdown chains from ESE")
     return topdown
@@ -203,22 +201,20 @@ position_regexp = config["config"]["valid_callsign"]
 # 1. Build topdown from ESE
 topdown_by_airport = {}
 
-ese_files = {}
 for ese_input_file in get_input_files():
     print(f"Loading {ese_input_file}")
-    ese_files[ese_input_file] = ese.load(ese_input_file)
+    with open(ese_input_file, "r", encoding="utf-8-sig") as file:
+        ese_data = file.readlines()
 
-# Owner IDs are local to each ESE file; translate them to the output IDs used
-# by generate_positions.py.
-position_ids = ese.PositionIds(ese_files, config["config"]["valid_fir"], position_regexp)
+    source_fir = ese_input_file.stem.upper()
+    if source_fir not in config["config"]["valid_fir"]:
+        source_fir = None
 
-for ese_input_file, ese_data in ese_files.items():
     file_topdown = build_topdown_from_ese(
         ese_data,
         valid_airport,
         position_regexp,
-        lambda owners: position_ids.translate(ese_input_file, owners),
-        ese.source_fir(ese_input_file, config["config"]["valid_fir"]),
+        source_fir,
     )
     topdown_by_airport.update(file_topdown)
 

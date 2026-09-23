@@ -9,7 +9,7 @@
         "ZX",
         "RRE",
         "RR",
-        "PAR"
+        "FF"
       ],
       "sectors": [
         {
@@ -73,7 +73,7 @@
         "ZX",
         "RRE",
         "RR",
-        "PAR"
+        "FF"
       ],
       "sectors": [
         {
@@ -137,7 +137,7 @@
         "ZX",
         "RRE",
         "RR",
-        "PAR"
+        "FF"
       ],
       "sectors": [
         {
@@ -205,7 +205,7 @@
         "ZX",
         "RRE",
         "RR",
-        "PAR"
+        "FF"
       ],
       "sectors": [
         {
@@ -305,7 +305,7 @@
         "ZX",
         "RRE",
         "RR",
-        "PAR"
+        "FF"
       ],
       "sectors": [
         {
@@ -405,7 +405,7 @@
         "ZX",
         "RRE",
         "RR",
-        "PAR"
+        "FF"
       ],
       "sectors": [
         {
@@ -489,7 +489,7 @@
         "ZX",
         "RRE",
         "RR",
-        "PAR"
+        "FF"
       ],
       "sectors": [
         {
@@ -888,6 +888,121 @@
       ]
     },
     {
+      "id": "WORTHING RELEASE",
+      "group": "LFRR",
+      "owner": [
+        "LS",
+        "LSC",
+        "L"
+      ],
+      "sectors": [
+        {
+          "min": 345,
+          "max": 659,
+          "points": [
+            [
+              "500000",
+              "-0014301"
+            ],
+            [
+              "500000",
+              "-0010929"
+            ],
+            [
+              "500000",
+              "-0003200"
+            ],
+            [
+              "500000",
+              "-0001500"
+            ],
+            [
+              "495302",
+              "-0002139"
+            ],
+            [
+              "492929",
+              "-0010434"
+            ],
+            [
+              "493115",
+              "-0014843"
+            ],
+            [
+              "500000",
+              "-0020000"
+            ],
+            [
+              "500000",
+              "-0014700"
+            ],
+            [
+              "500000",
+              "-0014301"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WORTHING RELEASE",
+      "group": "LFRR",
+      "owner": [
+        "LHW",
+        "LS",
+        "LSC",
+        "L"
+      ],
+      "sectors": [
+        {
+          "min": 195,
+          "max": 344,
+          "points": [
+            [
+              "500000",
+              "-0014301"
+            ],
+            [
+              "500000",
+              "-0010929"
+            ],
+            [
+              "500000",
+              "-0003200"
+            ],
+            [
+              "500000",
+              "-0001500"
+            ],
+            [
+              "495302",
+              "-0002139"
+            ],
+            [
+              "492929",
+              "-0010434"
+            ],
+            [
+              "493115",
+              "-0014843"
+            ],
+            [
+              "500000",
+              "-0020000"
+            ],
+            [
+              "500000",
+              "-0014700"
+            ],
+            [
+              "500000",
+              "-0014301"
+            ]
+          ]
+        }
+      ]
+    },
+    {
       "id": "WI UAC",
       "group": "LFRR",
       "owner": [
@@ -1140,7 +1255,7 @@
         "QX",
         "RRE",
         "RR",
-        "PAR"
+        "FF"
       ],
       "sectors": [
         {
@@ -1188,7 +1303,7 @@
         "QX",
         "RRE",
         "RR",
-        "PAR"
+        "FF"
       ],
       "sectors": [
         {
@@ -1236,7 +1351,7 @@
         "QX",
         "RRE",
         "RR",
-        "PAR"
+        "FF"
       ],
       "sectors": [
         {
@@ -1709,7 +1824,7 @@
         "MZ",
         "RRE",
         "RR",
-        "PAR"
+        "FF"
       ],
       "sectors": [
         {
@@ -1761,7 +1876,7 @@
         "MZ",
         "RRE",
         "RR",
-        "PAR"
+        "FF"
       ],
       "sectors": [
         {
@@ -1813,7 +1928,7 @@
         "MZ",
         "RRE",
         "RR",
-        "PAR"
+        "FF"
       ],
       "sectors": [
         {
@@ -8394,7 +8509,7 @@
       "owner": [
         "RLA",
         "RBA",
-        "CCMC",
+        "FM",
         "W",
         "RR"
       ],
@@ -15284,7 +15399,7 @@
         "RHT",
         "RHA",
         "RBA",
-        "CCMC",
+        "FM",
         "RRN",
         "RRW",
         "RR"
@@ -15633,7 +15748,7 @@
         "RLT",
         "RLA",
         "RBA",
-        "CCMC",
+        "FM",
         "RRN",
         "RRW",
         "RR"
@@ -15794,7 +15909,7 @@
         "RJT",
         "RLI",
         "RBA",
-        "CCMC",
+        "FM",
         "RRN",
         "RRW",
         "RR"
@@ -72579,11 +72694,12 @@
       "id": "TB UAC",
       "group": "LFFF",
       "owner": [
-        "PAR",
+        "TB",
         "TNTB",
         "AENB",
         "RPAW",
-        "LOW"
+        "LOW",
+        "PAR"
       ],
       "sectors": [
         {
@@ -72646,11 +72762,12 @@
       "id": "TB UAC",
       "group": "LFFF",
       "owner": [
-        "PAR",
+        "TB",
         "TNTB",
         "AENB",
         "RPAW",
-        "LOW"
+        "LOW",
+        "PAR"
       ],
       "sectors": [
         {
@@ -72805,11 +72922,12 @@
       "id": "TB UAC",
       "group": "LFFF",
       "owner": [
-        "PAR",
+        "TB",
         "TNTB",
         "AENB",
         "RPAW",
-        "LOW"
+        "LOW",
+        "PAR"
       ],
       "sectors": [
         {
@@ -72976,11 +73094,12 @@
       "id": "TB UAC",
       "group": "LFFF",
       "owner": [
-        "PAR",
+        "TB",
         "TNTB",
         "AENB",
         "RPAW",
-        "LOW"
+        "LOW",
+        "PAR"
       ],
       "sectors": [
         {
@@ -78204,11 +78323,12 @@
       "owner": [
         "QW",
         "QE",
-        "PAR",
+        "TB",
         "TNTB",
         "AENB",
         "RPAW",
-        "LOW"
+        "LOW",
+        "PAR"
       ],
       "sectors": [
         {
@@ -78377,11 +78497,12 @@
       "owner": [
         "QW",
         "QE",
-        "PAR",
+        "TB",
         "TNTB",
         "AENB",
         "RPAW",
-        "LOW"
+        "LOW",
+        "PAR"
       ],
       "sectors": [
         {
@@ -78482,11 +78603,12 @@
       "owner": [
         "QW",
         "QE",
-        "PAR",
+        "TB",
         "TNTB",
         "AENB",
         "RPAW",
-        "LOW"
+        "LOW",
+        "PAR"
       ],
       "sectors": [
         {
@@ -78615,11 +78737,12 @@
       "owner": [
         "QW",
         "QE",
-        "PAR",
+        "TB",
         "TNTB",
         "AENB",
         "RPAW",
-        "LOW"
+        "LOW",
+        "PAR"
       ],
       "sectors": [
         {
@@ -79477,11 +79600,12 @@
       "group": "LFFF",
       "owner": [
         "QE",
-        "PAR",
+        "TB",
         "TNTB",
         "AENB",
         "RPAW",
-        "LOW"
+        "LOW",
+        "PAR"
       ],
       "sectors": [
         {
@@ -79641,11 +79765,12 @@
       "group": "LFFF",
       "owner": [
         "QE",
-        "PAR",
+        "TB",
         "TNTB",
         "AENB",
         "RPAW",
-        "LOW"
+        "LOW",
+        "PAR"
       ],
       "sectors": [
         {
@@ -79801,11 +79926,12 @@
       "group": "LFFF",
       "owner": [
         "QE",
-        "PAR",
+        "TB",
         "TNTB",
         "AENB",
         "RPAW",
-        "LOW"
+        "LOW",
+        "PAR"
       ],
       "sectors": [
         {
@@ -80838,11 +80964,12 @@
       "owner": [
         "QD",
         "QE",
-        "PAR",
+        "TB",
         "HPKZ",
         "OPKZ",
         "RPAW",
-        "LOW"
+        "LOW",
+        "PAR"
       ],
       "sectors": [
         {
@@ -80931,11 +81058,12 @@
       "owner": [
         "QA",
         "QE",
-        "PAR",
+        "TB",
         "TNTB",
         "AENB",
         "RPAW",
-        "LOW"
+        "LOW",
+        "PAR"
       ],
       "sectors": [
         {
@@ -81164,11 +81292,12 @@
       "owner": [
         "QA",
         "QE",
-        "PAR",
+        "TB",
         "TNTB",
         "AENB",
         "RPAW",
-        "LOW"
+        "LOW",
+        "PAR"
       ],
       "sectors": [
         {
@@ -81253,11 +81382,12 @@
       "owner": [
         "QA",
         "QE",
-        "PAR",
+        "TB",
         "TNTB",
         "AENB",
         "RPAW",
-        "LOW"
+        "LOW",
+        "PAR"
       ],
       "sectors": [
         {
@@ -92886,11 +93016,12 @@
         "OPT",
         "QR",
         "QE",
-        "PAR",
+        "TB",
         "TNTB",
         "AENB",
         "RPAW",
-        "LOW"
+        "LOW",
+        "PAR"
       ],
       "sectors": [
         {
@@ -94928,11 +95059,12 @@
         "QTT",
         "QW",
         "QE",
-        "PAR",
+        "TB",
         "TNTB",
         "AENB",
         "RPAW",
-        "LOW"
+        "LOW",
+        "PAR"
       ],
       "sectors": [
         {
@@ -95215,11 +95347,12 @@
       "owner": [
         "QQT",
         "QE",
-        "PAR",
+        "TB",
         "TNTB",
         "AENB",
         "RPAW",
-        "LOW"
+        "LOW",
+        "PAR"
       ],
       "sectors": [
         {
@@ -96121,11 +96254,12 @@
         "ATT",
         "QW",
         "QE",
-        "PAR",
+        "TB",
         "TNTB",
         "AENB",
         "RPAW",
-        "LOW"
+        "LOW",
+        "PAR"
       ],
       "sectors": [
         {
@@ -96681,11 +96815,12 @@
         "AQT",
         "QA",
         "QE",
-        "PAR",
+        "TB",
         "TNTB",
         "AENB",
         "RPAW",
-        "LOW"
+        "LOW",
+        "PAR"
       ],
       "sectors": [
         {
@@ -97881,11 +98016,12 @@
         "QTT",
         "QW",
         "QE",
-        "PAR",
+        "TB",
         "TNTB",
         "AENB",
         "RPAW",
-        "LOW"
+        "LOW",
+        "PAR"
       ],
       "sectors": [
         {
@@ -97947,11 +98083,12 @@
         "QTT",
         "QW",
         "QE",
-        "PAR",
+        "TB",
         "TNTB",
         "AENB",
         "RPAW",
-        "LOW"
+        "LOW",
+        "PAR"
       ],
       "sectors": [
         {
@@ -98132,11 +98269,12 @@
         "QQG",
         "QQT",
         "QE",
-        "PAR",
+        "TB",
         "TNTB",
         "AENB",
         "RPAW",
-        "LOW"
+        "LOW",
+        "PAR"
       ],
       "sectors": [
         {
@@ -98177,11 +98315,12 @@
       "owner": [
         "QQT",
         "QE",
-        "PAR",
+        "TB",
         "TNTB",
         "AENB",
         "RPAW",
-        "LOW"
+        "LOW",
+        "PAR"
       ],
       "sectors": [
         {
@@ -98288,11 +98427,12 @@
         "ATT",
         "QW",
         "QE",
-        "PAR",
+        "TB",
         "TNTB",
         "AENB",
         "RPAW",
-        "LOW"
+        "LOW",
+        "PAR"
       ],
       "sectors": [
         {
@@ -98354,11 +98494,12 @@
         "ATT",
         "QW",
         "QE",
-        "PAR",
+        "TB",
         "TNTB",
         "AENB",
         "RPAW",
-        "LOW"
+        "LOW",
+        "PAR"
       ],
       "sectors": [
         {
@@ -100109,7 +100250,7 @@
       "owner": [
         "URMN",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -100195,7 +100336,7 @@
         "YB",
         "URMN",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -100257,7 +100398,7 @@
         "XR",
         "URMN",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -100348,7 +100489,7 @@
         "4EH",
         "URME",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -100631,7 +100772,7 @@
         "4EH",
         "URME",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -101397,7 +101538,7 @@
         "UR",
         "URMN",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -101475,7 +101616,7 @@
         "UN",
         "URMN",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -101557,7 +101698,7 @@
         "UN",
         "URMN",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -101640,7 +101781,7 @@
         "4EH",
         "URME",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -101922,7 +102063,7 @@
         "UF",
         "URME",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -101988,7 +102129,7 @@
         "UF",
         "URME",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -102035,7 +102176,7 @@
         "4EH",
         "URME",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -102806,7 +102947,7 @@
         "4EH",
         "URME",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -103716,7 +103857,7 @@
         "UB",
         "URMN",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -103778,7 +103919,7 @@
         "KR",
         "URMN",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -103872,7 +104013,7 @@
         "KN",
         "URMN",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -103955,7 +104096,7 @@
         "4EH",
         "URME",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -104237,7 +104378,7 @@
         "KF",
         "URME",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -104300,7 +104441,7 @@
         "4EH",
         "URME",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -105066,7 +105207,7 @@
         "KD",
         "URME",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -105184,7 +105325,7 @@
         "KD",
         "URME",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -105298,7 +105439,7 @@
         "KD",
         "URME",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -105392,7 +105533,7 @@
         "HR",
         "URMN",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -105478,7 +105619,7 @@
         "HN",
         "URMN",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -105581,7 +105722,7 @@
         "4EH",
         "URME",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -105864,7 +106005,7 @@
         "4EH",
         "URME",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -106630,11 +106771,12 @@
         "UB",
         "URMN",
         "EE",
-        "PAR",
+        "TB",
         "TNTB",
         "AENB",
         "RPAW",
-        "LOW"
+        "PLOW",
+        "P"
       ],
       "sectors": [
         {
@@ -110460,6 +110602,7 @@
         "SBC",
         "4EH",
         "URME",
+        "EE",
         "EE"
       ],
       "sectors": [
@@ -110506,6 +110649,7 @@
         "SBC",
         "4EH",
         "URME",
+        "EE",
         "EE"
       ],
       "sectors": [
@@ -110760,6 +110904,7 @@
         "SBC",
         "4EH",
         "URME",
+        "EE",
         "EE"
       ],
       "sectors": [
@@ -111623,6 +111768,7 @@
         "SBC",
         "4EH",
         "URME",
+        "EE",
         "EE"
       ],
       "sectors": [
@@ -111713,6 +111859,7 @@
         "SBC",
         "4EH",
         "URME",
+        "EE",
         "EE"
       ],
       "sectors": [
@@ -112167,6 +112314,7 @@
         "SBC",
         "4EH",
         "URME",
+        "EE",
         "EE"
       ],
       "sectors": [
@@ -112221,6 +112369,7 @@
         "SBC",
         "4EH",
         "URME",
+        "EE",
         "EE"
       ],
       "sectors": [
@@ -112660,7 +112809,11 @@
         "SBC",
         "4EH",
         "URME",
-        "EE"
+        "EE",
+        "SZW",
+        "SZS",
+        "SZ",
+        "SAS"
       ],
       "sectors": [
         {
@@ -112795,7 +112948,11 @@
         "SBC",
         "4EH",
         "URME",
-        "EE"
+        "EE",
+        "SZW",
+        "SZS",
+        "SZ",
+        "SAS"
       ],
       "sectors": [
         {
@@ -112990,7 +113147,11 @@
         "SBC",
         "4EH",
         "URME",
-        "EE"
+        "EE",
+        "SZW",
+        "SZS",
+        "SZ",
+        "SAS"
       ],
       "sectors": [
         {
@@ -113093,7 +113254,11 @@
         "SBC",
         "4EH",
         "URME",
-        "EE"
+        "EE",
+        "SZW",
+        "SZS",
+        "SZ",
+        "SAS"
       ],
       "sectors": [
         {
@@ -113356,7 +113521,11 @@
         "SBC",
         "4EH",
         "URME",
-        "EE"
+        "EE",
+        "SZW",
+        "SZS",
+        "SZ",
+        "SAS"
       ],
       "sectors": [
         {
@@ -113431,7 +113600,11 @@
         "SBC",
         "4EH",
         "URME",
-        "EE"
+        "EE",
+        "SZW",
+        "SZS",
+        "SZ",
+        "SAS"
       ],
       "sectors": [
         {
@@ -113534,7 +113707,11 @@
         "SBC",
         "4EH",
         "URME",
-        "EE"
+        "EE",
+        "SZW",
+        "SZS",
+        "SZ",
+        "SAS"
       ],
       "sectors": [
         {
@@ -113737,7 +113914,11 @@
         "SBC",
         "4EH",
         "URME",
-        "EE"
+        "EE",
+        "SZW",
+        "SZS",
+        "SZ",
+        "SAS"
       ],
       "sectors": [
         {
@@ -113904,7 +114085,11 @@
         "SBC",
         "4EH",
         "URME",
-        "EE"
+        "EE",
+        "SZW",
+        "SZS",
+        "SZ",
+        "SAS"
       ],
       "sectors": [
         {
@@ -114993,7 +115178,11 @@
         "SBC",
         "4EH",
         "URME",
-        "EE"
+        "EE",
+        "SZW",
+        "SZS",
+        "SZ",
+        "SAS"
       ],
       "sectors": [
         {
@@ -115668,7 +115857,11 @@
         "SBC",
         "4EH",
         "URME",
-        "EE"
+        "EE",
+        "SZW",
+        "SZS",
+        "SZ",
+        "SAS"
       ],
       "sectors": [
         {
@@ -115737,7 +115930,11 @@
         "SBC",
         "4EH",
         "URME",
-        "EE"
+        "EE",
+        "SZW",
+        "SZS",
+        "SZ",
+        "SAS"
       ],
       "sectors": [
         {
@@ -115811,7 +116008,11 @@
         "SBC",
         "4EH",
         "URME",
-        "EE"
+        "EE",
+        "SZW",
+        "SZS",
+        "SZ",
+        "SAS"
       ],
       "sectors": [
         {
@@ -115881,7 +116082,11 @@
         "SBC",
         "4EH",
         "URME",
-        "EE"
+        "EE",
+        "SZW",
+        "SZS",
+        "SZ",
+        "SAS"
       ],
       "sectors": [
         {
@@ -115953,7 +116158,11 @@
         "SBC",
         "4EH",
         "URME",
-        "EE"
+        "EE",
+        "SZW",
+        "SZS",
+        "SZ",
+        "SAS"
       ],
       "sectors": [
         {
@@ -116044,8 +116253,8 @@
       "id": "Z5 UAC",
       "group": "LFBB",
       "owner": [
-        "BB.Z",
-        "BB.US",
+        "Z",
+        "US",
         "BB"
       ],
       "sectors": [
@@ -116205,8 +116414,8 @@
       "id": "Z4 UAC",
       "group": "LFBB",
       "owner": [
-        "BB.Z",
-        "BB.US",
+        "Z",
+        "US",
         "BB"
       ],
       "sectors": [
@@ -116366,8 +116575,8 @@
       "id": "Z3 UAC",
       "group": "LFBB",
       "owner": [
-        "BB.Z",
-        "BB.US",
+        "Z",
+        "US",
         "BB"
       ],
       "sectors": [
@@ -116527,8 +116736,8 @@
       "id": "Z2 UAC",
       "group": "LFBB",
       "owner": [
-        "BB.Z",
-        "BB.US",
+        "Z",
+        "US",
         "BB"
       ],
       "sectors": [
@@ -116688,8 +116897,8 @@
       "id": "Z1 UAC",
       "group": "LFBB",
       "owner": [
-        "BB.Z",
-        "BB.US",
+        "Z",
+        "US",
         "BB"
       ],
       "sectors": [
@@ -116721,8 +116930,8 @@
       "id": "Z1 UAC",
       "group": "LFBB",
       "owner": [
-        "BB.Z",
-        "BB.US",
+        "Z",
+        "US",
         "BB"
       ],
       "sectors": [
@@ -116882,8 +117091,8 @@
       "id": "X5 UAC",
       "group": "LFBB",
       "owner": [
-        "BB.X",
-        "BB.US",
+        "X",
+        "US",
         "BB"
       ],
       "sectors": [
@@ -116931,8 +117140,8 @@
       "id": "X4 UAC",
       "group": "LFBB",
       "owner": [
-        "BB.X",
-        "BB.US",
+        "X",
+        "US",
         "BB"
       ],
       "sectors": [
@@ -116980,8 +117189,8 @@
       "id": "X3 UAC",
       "group": "LFBB",
       "owner": [
-        "BB.X",
-        "BB.US",
+        "X",
+        "US",
         "BB"
       ],
       "sectors": [
@@ -117029,8 +117238,8 @@
       "id": "X2 UAC",
       "group": "LFBB",
       "owner": [
-        "BB.X",
-        "BB.US",
+        "X",
+        "US",
         "BB"
       ],
       "sectors": [
@@ -117078,8 +117287,8 @@
       "id": "X1 UAC",
       "group": "LFBB",
       "owner": [
-        "BB.X",
-        "BB.US",
+        "X",
+        "US",
         "BB"
       ],
       "sectors": [
@@ -117478,7 +117687,7 @@
       "group": "LFBB",
       "owner": [
         "T",
-        "BB.UN",
+        "UN",
         "BB"
       ],
       "sectors": [
@@ -117555,7 +117764,7 @@
       "group": "LFBB",
       "owner": [
         "T",
-        "BB.UN",
+        "UN",
         "BB"
       ],
       "sectors": [
@@ -117632,7 +117841,7 @@
       "group": "LFBB",
       "owner": [
         "T",
-        "BB.UN",
+        "UN",
         "BB"
       ],
       "sectors": [
@@ -117709,7 +117918,7 @@
       "group": "LFBB",
       "owner": [
         "T",
-        "BB.UN",
+        "UN",
         "BB"
       ],
       "sectors": [
@@ -117786,7 +117995,7 @@
       "group": "LFBB",
       "owner": [
         "T",
-        "BB.UN",
+        "UN",
         "BB"
       ],
       "sectors": [
@@ -117863,7 +118072,7 @@
       "group": "LFBB",
       "owner": [
         "T",
-        "BB.UN",
+        "UN",
         "BB"
       ],
       "sectors": [
@@ -117944,7 +118153,7 @@
       "group": "LFBB",
       "owner": [
         "R",
-        "BB.UN",
+        "UN",
         "BB"
       ],
       "sectors": [
@@ -118037,7 +118246,7 @@
       "group": "LFBB",
       "owner": [
         "R",
-        "BB.UN",
+        "UN",
         "BB"
       ],
       "sectors": [
@@ -118130,7 +118339,7 @@
       "group": "LFBB",
       "owner": [
         "R",
-        "BB.UN",
+        "UN",
         "BB"
       ],
       "sectors": [
@@ -118223,7 +118432,7 @@
       "group": "LFBB",
       "owner": [
         "R",
-        "BB.UN",
+        "UN",
         "BB"
       ],
       "sectors": [
@@ -118316,7 +118525,7 @@
       "group": "LFBB",
       "owner": [
         "R",
-        "BB.UN",
+        "UN",
         "BB"
       ],
       "sectors": [
@@ -118409,7 +118618,7 @@
       "group": "LFBB",
       "owner": [
         "R",
-        "BB.UN",
+        "UN",
         "BB"
       ],
       "sectors": [
@@ -118462,7 +118671,7 @@
       "group": "LFBB",
       "owner": [
         "P",
-        "BB.UN",
+        "UN",
         "BB"
       ],
       "sectors": [
@@ -118559,7 +118768,7 @@
       "group": "LFBB",
       "owner": [
         "P",
-        "BB.UN",
+        "UN",
         "BB"
       ],
       "sectors": [
@@ -118656,7 +118865,7 @@
       "group": "LFBB",
       "owner": [
         "P",
-        "BB.UN",
+        "UN",
         "BB"
       ],
       "sectors": [
@@ -118753,7 +118962,7 @@
       "group": "LFBB",
       "owner": [
         "P",
-        "BB.UN",
+        "UN",
         "BB"
       ],
       "sectors": [
@@ -118850,7 +119059,7 @@
       "group": "LFBB",
       "owner": [
         "P",
-        "BB.UN",
+        "UN",
         "BB"
       ],
       "sectors": [
@@ -118914,8 +119123,8 @@
       "id": "N5 UAC",
       "group": "LFBB",
       "owner": [
-        "BB.N",
-        "BB.US",
+        "N",
+        "US",
         "BB"
       ],
       "sectors": [
@@ -119007,8 +119216,8 @@
       "id": "N4 UAC",
       "group": "LFBB",
       "owner": [
-        "BB.N",
-        "BB.US",
+        "N",
+        "US",
         "BB"
       ],
       "sectors": [
@@ -119100,8 +119309,8 @@
       "id": "N3 UAC",
       "group": "LFBB",
       "owner": [
-        "BB.N",
-        "BB.US",
+        "N",
+        "US",
         "BB"
       ],
       "sectors": [
@@ -119193,8 +119402,8 @@
       "id": "N2 UAC",
       "group": "LFBB",
       "owner": [
-        "BB.N",
-        "BB.US",
+        "N",
+        "US",
         "BB"
       ],
       "sectors": [
@@ -119286,8 +119495,8 @@
       "id": "N1 UAC",
       "group": "LFBB",
       "owner": [
-        "BB.N",
-        "BB.US",
+        "N",
+        "US",
         "BB"
       ],
       "sectors": [
@@ -119503,7 +119712,7 @@
       "group": "LFBB",
       "owner": [
         "L",
-        "BB.UN",
+        "UN",
         "BB"
       ],
       "sectors": [
@@ -119564,7 +119773,7 @@
       "group": "LFBB",
       "owner": [
         "L",
-        "BB.UN",
+        "UN",
         "BB"
       ],
       "sectors": [
@@ -119625,7 +119834,7 @@
       "group": "LFBB",
       "owner": [
         "L",
-        "BB.UN",
+        "UN",
         "BB"
       ],
       "sectors": [
@@ -119686,7 +119895,7 @@
       "group": "LFBB",
       "owner": [
         "L",
-        "BB.UN",
+        "UN",
         "BB"
       ],
       "sectors": [
@@ -119747,7 +119956,7 @@
       "group": "LFBB",
       "owner": [
         "L",
-        "BB.UN",
+        "UN",
         "BB"
       ],
       "sectors": [
@@ -119808,7 +120017,7 @@
       "group": "LFBB",
       "owner": [
         "H",
-        "BB.US",
+        "US",
         "BB"
       ],
       "sectors": [
@@ -119917,7 +120126,7 @@
       "group": "LFBB",
       "owner": [
         "H",
-        "BB.US",
+        "US",
         "BB"
       ],
       "sectors": [
@@ -120026,7 +120235,7 @@
       "group": "LFBB",
       "owner": [
         "H",
-        "BB.US",
+        "US",
         "BB"
       ],
       "sectors": [
@@ -120135,7 +120344,7 @@
       "group": "LFBB",
       "owner": [
         "H",
-        "BB.US",
+        "US",
         "BB"
       ],
       "sectors": [
@@ -120244,7 +120453,7 @@
       "group": "LFBB",
       "owner": [
         "H",
-        "BB.US",
+        "US",
         "BB"
       ],
       "sectors": [
@@ -120353,7 +120562,7 @@
       "group": "LFBB",
       "owner": [
         "H",
-        "BB.US",
+        "US",
         "BB"
       ],
       "sectors": [
@@ -144757,16 +144966,16 @@
         }
       ]
     },
-    "BB.N": {
-      "callsign": "Bordeaux Control",
-      "frequency": "135.665",
+    "N": {
+      "callsign": "Brest Control",
+      "frequency": "118.030",
       "type": "CTR",
       "pre": [
-        "LFBB"
+        "LFRR"
       ],
       "colours": [
         {
-          "hex": "#887974"
+          "hex": "#19688f"
         }
       ]
     },
@@ -144809,55 +145018,55 @@
         }
       ]
     },
-    "BB.UN": {
-      "callsign": "Bordeaux Control",
-      "frequency": "118.430",
+    "UN": {
+      "callsign": "Reims Control",
+      "frequency": "133.255",
       "type": "CTR",
       "pre": [
-        "LFBB"
+        "LFEE"
       ],
       "colours": [
         {
-          "hex": "#8f6080"
+          "hex": "#82b963"
         }
       ]
     },
-    "BB.US": {
-      "callsign": "Bordeaux Control",
-      "frequency": "136.040",
+    "US": {
+      "callsign": "Paris Control",
+      "frequency": "128.140",
       "type": "CTR",
       "pre": [
-        "LFBB"
+        "PAR"
       ],
       "colours": [
         {
-          "hex": "#71568a"
+          "hex": "#585e91"
         }
       ]
     },
-    "BB.X": {
-      "callsign": "Bordeaux Control",
-      "frequency": "126.130",
+    "X": {
+      "callsign": "Brest Control",
+      "frequency": "125.965",
       "type": "CTR",
       "pre": [
-        "LFBB"
+        "LFRR"
       ],
       "colours": [
         {
-          "hex": "#696c97"
+          "hex": "#003f8d"
         }
       ]
     },
-    "BB.Z": {
-      "callsign": "Bordeaux Control",
-      "frequency": "128.765",
+    "Z": {
+      "callsign": "Brest Control",
+      "frequency": "118.885",
       "type": "CTR",
       "pre": [
-        "LFBB"
+        "LFRR"
       ],
       "colours": [
         {
-          "hex": "#958289"
+          "hex": "#10407a"
         }
       ]
     },
@@ -145547,19 +145756,6 @@
       "colours": [
         {
           "hex": "#6db777"
-        }
-      ]
-    },
-    "UN": {
-      "callsign": "Reims Control",
-      "frequency": "133.255",
-      "type": "CTR",
-      "pre": [
-        "LFEE"
-      ],
-      "colours": [
-        {
-          "hex": "#82b963"
         }
       ]
     },
@@ -146980,19 +147176,6 @@
         }
       ]
     },
-    "US": {
-      "callsign": "Paris Control",
-      "frequency": "128.140",
-      "type": "CTR",
-      "pre": [
-        "PAR"
-      ],
-      "colours": [
-        {
-          "hex": "#585e91"
-        }
-      ]
-    },
     "UT": {
       "callsign": "Paris Control",
       "frequency": "133.505",
@@ -148384,19 +148567,6 @@
         }
       ]
     },
-    "N": {
-      "callsign": "Brest Control",
-      "frequency": "118.030",
-      "type": "CTR",
-      "pre": [
-        "LFRR"
-      ],
-      "colours": [
-        {
-          "hex": "#19688f"
-        }
-      ]
-    },
     "RRN": {
       "callsign": "Brest Control",
       "frequency": "133.480",
@@ -148498,32 +148668,6 @@
       "colours": [
         {
           "hex": "#344795"
-        }
-      ]
-    },
-    "X": {
-      "callsign": "Brest Control",
-      "frequency": "125.965",
-      "type": "CTR",
-      "pre": [
-        "LFRR"
-      ],
-      "colours": [
-        {
-          "hex": "#003f8d"
-        }
-      ]
-    },
-    "Z": {
-      "callsign": "Brest Control",
-      "frequency": "118.885",
-      "type": "CTR",
-      "pre": [
-        "LFRR"
-      ],
-      "colours": [
-        {
-          "hex": "#10407a"
         }
       ]
     },

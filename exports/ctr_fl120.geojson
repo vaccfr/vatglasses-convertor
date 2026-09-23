@@ -1194,7 +1194,7 @@
         "owners": [
           "RLA",
           "RBA",
-          "CCMC",
+          "FM",
           "W",
           "RR"
         ],
@@ -11291,11 +11291,12 @@
         "name": "TB UAC",
         "owner": "PAR",
         "owners": [
-          "PAR",
+          "TB",
           "TNTB",
           "AENB",
           "RPAW",
-          "LOW"
+          "LOW",
+          "PAR"
         ],
         "min": 115,
         "cur": 120,
@@ -11341,11 +11342,12 @@
         "name": "TB UAC",
         "owner": "PAR",
         "owners": [
-          "PAR",
+          "TB",
           "TNTB",
           "AENB",
           "RPAW",
-          "LOW"
+          "LOW",
+          "PAR"
         ],
         "min": 95,
         "cur": 120,
@@ -14165,6 +14167,7 @@
           "SBC",
           "4EH",
           "URME",
+          "EE",
           "EE"
         ],
         "min": 115,
@@ -14430,6 +14433,7 @@
           "SBC",
           "4EH",
           "URME",
+          "EE",
           "EE"
         ],
         "min": 115,
@@ -14575,6 +14579,7 @@
           "SBC",
           "4EH",
           "URME",
+          "EE",
           "EE"
         ],
         "min": 115,
@@ -14721,7 +14726,11 @@
           "SBC",
           "4EH",
           "URME",
-          "EE"
+          "EE",
+          "SZW",
+          "SZS",
+          "SZ",
+          "SAS"
         ],
         "min": 115,
         "cur": 120,
@@ -14927,7 +14936,11 @@
           "SBC",
           "4EH",
           "URME",
-          "EE"
+          "EE",
+          "SZW",
+          "SZS",
+          "SZ",
+          "SAS"
         ],
         "min": 20,
         "cur": 120,

@@ -16,7 +16,6 @@ on:
       - 'export_geojson.py'
       - 'export_viff.py'
       - 'vatglasses.py'
-      - 'ese.py'
       - 'requirements.txt'
       - '.github/workflows/generate.yaml'
   workflow_dispatch:

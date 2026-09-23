@@ -1625,7 +1625,7 @@
         "owners": [
           "RLA",
           "RBA",
-          "CCMC",
+          "FM",
           "W",
           "RR"
         ],
@@ -11329,11 +11329,12 @@
         "name": "TB UAC",
         "owner": "PAR",
         "owners": [
-          "PAR",
+          "TB",
           "TNTB",
           "AENB",
           "RPAW",
-          "LOW"
+          "LOW",
+          "PAR"
         ],
         "min": 95,
         "cur": 110,
@@ -12092,11 +12093,12 @@
         "owners": [
           "QW",
           "QE",
-          "PAR",
+          "TB",
           "TNTB",
           "AENB",
           "RPAW",
-          "LOW"
+          "LOW",
+          "PAR"
         ],
         "min": 45,
         "cur": 110,
@@ -12408,11 +12410,12 @@
         "owner": "PAR",
         "owners": [
           "QE",
-          "PAR",
+          "TB",
           "TNTB",
           "AENB",
           "RPAW",
-          "LOW"
+          "LOW",
+          "PAR"
         ],
         "min": 45,
         "cur": 110,
@@ -12512,11 +12515,12 @@
         "owners": [
           "QD",
           "QE",
-          "PAR",
+          "TB",
           "HPKZ",
           "OPKZ",
           "RPAW",
-          "LOW"
+          "LOW",
+          "PAR"
         ],
         "min": 0,
         "cur": 110,
@@ -12620,11 +12624,12 @@
         "owners": [
           "QA",
           "QE",
-          "PAR",
+          "TB",
           "TNTB",
           "AENB",
           "RPAW",
-          "LOW"
+          "LOW",
+          "PAR"
         ],
         "min": 20,
         "cur": 110,
@@ -15287,6 +15292,7 @@
           "SBC",
           "4EH",
           "URME",
+          "EE",
           "EE"
         ],
         "min": 25,
@@ -15493,7 +15499,11 @@
           "SBC",
           "4EH",
           "URME",
-          "EE"
+          "EE",
+          "SZW",
+          "SZS",
+          "SZ",
+          "SAS"
         ],
         "min": 20,
         "cur": 110,
@@ -15755,7 +15765,11 @@
           "SBC",
           "4EH",
           "URME",
-          "EE"
+          "EE",
+          "SZW",
+          "SZS",
+          "SZ",
+          "SAS"
         ],
         "min": 20,
         "cur": 110,

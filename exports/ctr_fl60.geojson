@@ -1511,7 +1511,7 @@
         "owners": [
           "RLA",
           "RBA",
-          "CCMC",
+          "FM",
           "W",
           "RR"
         ],
@@ -11978,11 +11978,12 @@
         "owners": [
           "QW",
           "QE",
-          "PAR",
+          "TB",
           "TNTB",
           "AENB",
           "RPAW",
-          "LOW"
+          "LOW",
+          "PAR"
         ],
         "min": 45,
         "cur": 60,
@@ -12302,11 +12303,12 @@
         "owner": "PAR",
         "owners": [
           "QE",
-          "PAR",
+          "TB",
           "TNTB",
           "AENB",
           "RPAW",
-          "LOW"
+          "LOW",
+          "PAR"
         ],
         "min": 45,
         "cur": 60,
@@ -12406,11 +12408,12 @@
         "owners": [
           "QD",
           "QE",
-          "PAR",
+          "TB",
           "HPKZ",
           "OPKZ",
           "RPAW",
-          "LOW"
+          "LOW",
+          "PAR"
         ],
         "min": 0,
         "cur": 60,
@@ -12514,11 +12517,12 @@
         "owners": [
           "QA",
           "QE",
-          "PAR",
+          "TB",
           "TNTB",
           "AENB",
           "RPAW",
-          "LOW"
+          "LOW",
+          "PAR"
         ],
         "min": 20,
         "cur": 60,
@@ -16251,6 +16255,7 @@
           "SBC",
           "4EH",
           "URME",
+          "EE",
           "EE"
         ],
         "min": 0,
@@ -16700,6 +16705,7 @@
           "SBC",
           "4EH",
           "URME",
+          "EE",
           "EE"
         ],
         "min": 25,
@@ -16906,7 +16912,11 @@
           "SBC",
           "4EH",
           "URME",
-          "EE"
+          "EE",
+          "SZW",
+          "SZS",
+          "SZ",
+          "SAS"
         ],
         "min": 20,
         "cur": 60,
@@ -16992,7 +17002,11 @@
           "SBC",
           "4EH",
           "URME",
-          "EE"
+          "EE",
+          "SZW",
+          "SZS",
+          "SZ",
+          "SAS"
         ],
         "min": 20,
         "cur": 60,
@@ -17254,7 +17268,11 @@
           "SBC",
           "4EH",
           "URME",
-          "EE"
+          "EE",
+          "SZW",
+          "SZS",
+          "SZ",
+          "SAS"
         ],
         "min": 20,
         "cur": 60,
