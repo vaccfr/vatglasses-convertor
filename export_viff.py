@@ -22,20 +22,16 @@ import json
 import re
 import sys
 import urllib.error
-import urllib.request
 from collections import defaultdict
 from typing import IO
+
+from vatglasses import load, ring, sector_levels
 
 DEFAULT_SOURCE = "https://raw.githubusercontent.com/lennycolton/vatglasses-data/refs/heads/main/data/lf.json"
 FIR_PREFIX = "LF"
 ACC_OVERRIDES = {"LFFF": "PAR"}
 DEFAULT_MIN_CEILING = 14
 ID_RE = re.compile(r"^LF-[A-Z0-9]+-[A-Z0-9._-]+(/\d{3}-\d{3})?$")
-
-_COORD_RES = {
-    digits: re.compile(rf"^(-?)(\d{{{digits}}})(\d{{2}})(\d{{2}}(?:\.\d+)?)$")
-    for digits in (2, 3)
-}
 
 
 def acc_token(group: str) -> str:
@@ -64,29 +60,6 @@ def sector_name(vg_id: str) -> str:
     return s
 
 
-def parse_coord(value: str, deg_digits: int) -> float:
-    """Parse a VATGlasses [-]D{deg_digits}MMSS[.s] string into decimal degrees."""
-    m = _COORD_RES[deg_digits].match(str(value).strip())
-    if not m:
-        raise ValueError(f"bad coordinate {value!r}")
-    sign, deg, mins, secs = m.groups()
-    result = int(deg) + int(mins) / 60 + float(secs) / 3600
-    return -result if sign == "-" else result
-
-
-def ring(points: list, where: str) -> list[list[float]]:
-    """Convert VATGlasses [lat, lon] points into a closed GeoJSON [lon, lat] ring."""
-    try:
-        out = [[parse_coord(lon, 3), parse_coord(lat, 2)] for lat, lon in points]
-    except (ValueError, TypeError) as exc:
-        raise ValueError(f"{where}: {exc}") from None
-    if out and out[0] != out[-1]:
-        out.append(out[0])
-    if len(out) < 4:
-        raise ValueError(f"{where}: ring has fewer than 4 points")
-    return out
-
-
 def convert(data: dict, min_ceiling: int) -> tuple[list[dict], int]:
     """Build vIFF features from VATGlasses data; return (features, dropped_count)."""
     airspaces = data.get("airspace") if isinstance(data, dict) else None
@@ -100,9 +73,7 @@ def convert(data: dict, min_ceiling: int) -> tuple[list[dict], int]:
         acc = acc_token(airspace["group"])
         name = sector_name(vg_id)
         for sector in airspace.get("sectors", []):
-            # Missing bounds: assume VATGlasses' implied full column (unverified).
-            lo = int(sector.get("min", 0))
-            hi = int(sector.get("max", 999))
+            lo, hi = sector_levels(sector)
             if hi < min_ceiling:
                 dropped += 1
                 continue
@@ -146,14 +117,6 @@ def dump(features: list[dict], fp: IO[str]) -> None:
     fp.write('{\n  "type": "FeatureCollection",\n  "features": [\n')
     fp.write(body)
     fp.write("\n  ]\n}\n")
-
-
-def load(source: str) -> dict:
-    if source.startswith(("http://", "https://")):
-        with urllib.request.urlopen(source, timeout=30) as resp:
-            return json.loads(resp.read().decode("utf-8"))
-    with open(source, encoding="utf-8") as fp:
-        return json.load(fp)
 
 
 def main(argv: list[str] | None = None) -> int:

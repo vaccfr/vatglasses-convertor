@@ -1,5 +1,6 @@
 import argparse, geojsonio, json, re
 from geojson import Feature, FeatureCollection, Polygon, dump, dumps
+from vatglasses import load, ring, sector_levels
 
 # Parse arguments
 parser = argparse.ArgumentParser()
@@ -17,13 +18,12 @@ data = {
     "positions": {}
 }
 for input_file in args.input_files:
-    with open(input_file, "r") as file:
-        d =  json.load(file)
-        for airspace in d["airspace"]:
-            data["airspace"].append(airspace)
-        for position in d["positions"]:
-            print(f" Position {position}")
-            data["positions"][position] = d["positions"][position]
+    d = load(input_file)
+    for airspace in d["airspace"]:
+        data["airspace"].append(airspace)
+    for position in d["positions"]:
+        print(f" Position {position}")
+        data["positions"][position] = d["positions"][position]
 
 # Determine opened positions
 if (args.positions):
@@ -31,31 +31,6 @@ if (args.positions):
 else:
     opened_positions = list(data["positions"].keys())
 print(opened_positions)
-
-# Convert 'N' and 'W' formatted points to decimal degrees
-def latitude_to_decimal(dms):  
-    sign = -1 if dms[0] == '-' else 1
-    dms = dms.lstrip('+-')
-    degrees = int(dms[:2])  # First 3 digits
-    minutes = int(dms[2:4]) # Next 2 digits
-    seconds = int(dms[4:]) if len(dms) > 5 else 0  # Remaining digits (optional)
-    decimal_degrees = sign * (degrees + minutes / 60 + seconds / 3600)
-    return decimal_degrees
-
-def longitude_to_decimal(dms):  
-    sign = -1 if dms[0] == '-' else 1
-    dms = dms.lstrip('+-')
-    degrees = int(dms[:3])  # First 3 digits
-    minutes = int(dms[3:5]) # Next 2 digits
-    seconds = int(dms[5:]) if len(dms) > 5 else 0  # Remaining digits (optional)
-    decimal_degrees = sign * (degrees + minutes / 60 + seconds / 3600)
-    return decimal_degrees
-
-def convert_coordinates(point):
-    latitude, longitude = point
-    lat_dec = latitude_to_decimal(latitude)
-    lon_dec = longitude_to_decimal(longitude)
-    return (lon_dec, lat_dec)
 
 # Get Position HEX color
 def get_position_color(position):
@@ -79,12 +54,10 @@ for airspace in data["airspace"]:
 
         if matching_owner:
             for sector in airspace["sectors"]:
-                sector_min = sector["min"] if "min" in sector else 0
-                sector_max = sector["max"] if "max" in sector else 660
+                sector_min, sector_max = sector_levels(sector)
                 if args.flightlevel >= sector_min and args.flightlevel <= sector_max:
                     print(f"{airspace['id'].ljust(25)} {str(sector_min).ljust(3)}:{str(sector_max).ljust(3)} {matching_owner.ljust(4)} {matching_color}")
-                    converted_points = [convert_coordinates(point) for point in sector["points"]]
-                    polygon = Polygon([converted_points])
+                    polygon = Polygon([ring(sector["points"], airspace["id"])])
                     properties = {
                         "name": airspace["id"],
                         "owner": matching_owner,
