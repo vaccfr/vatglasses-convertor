@@ -1136,7 +1136,7 @@
         "owners": [
           "RLA",
           "RBA",
-          "FM",
+          "CCMC",
           "W",
           "RR"
         ],
@@ -7715,12 +7715,11 @@
         "name": "TB UAC",
         "owner": "PAR",
         "owners": [
-          "TB",
+          "PAR",
           "TNTB",
           "AENB",
           "RPAW",
-          "LOW",
-          "PAR"
+          "LOW"
         ],
         "min": 115,
         "cur": 170,
@@ -7766,12 +7765,11 @@
         "name": "TB UAC",
         "owner": "PAR",
         "owners": [
-          "TB",
+          "PAR",
           "TNTB",
           "AENB",
           "RPAW",
-          "LOW",
-          "PAR"
+          "LOW"
         ],
         "min": 95,
         "cur": 170,
@@ -10562,7 +10560,6 @@
           "SBC",
           "4EH",
           "URME",
-          "EE",
           "EE"
         ],
         "min": 115,

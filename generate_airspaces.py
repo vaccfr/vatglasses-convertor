@@ -5,6 +5,8 @@ import sys
 import yaml
 from pathlib import Path
 
+import ese
+
 yml_config_file = Path("config/config.yml")
 combined_ese_input_file = Path("inputs/LFXX.ese")
 default_fir_ese_files = [
@@ -181,23 +183,6 @@ def get_input_files():
     return input_files
 
 
-def extract_positions(ese_data):
-    positions = []
-    block = False
-
-    for line in ese_data:
-        if line.startswith("[POSITIONS]"):
-            block = True
-        elif block and line.startswith("["):
-            block = False
-        elif block and re.search(position_regexp, line):
-            parts = line.split(":")
-            if len(parts) > 3:
-                positions.append(parts[3].strip())
-
-    return positions
-
-
 def extract_sectors(ese_data):
     sectors = []
     sector = None
@@ -260,21 +245,22 @@ with open(yml_config_file, "r") as file:
 fir_list = config["config"]["valid_fir"]
 position_regexp = config["config"]["valid_callsign"]
 ese_input_files = get_input_files()
-valid_positions = set()
 datasets = []
 
+ese_files = {}
 for ese_input_file in ese_input_files:
     print(f"Loading ESE file {ese_input_file}")
-    with open(ese_input_file, "r", encoding="utf-8-sig") as file:
-        ese_data = file.readlines()
+    ese_files[ese_input_file] = ese.load(ese_input_file)
 
+# Owner IDs are local to each ESE file; translate them to the output IDs used
+# by generate_positions.py.
+position_ids = ese.PositionIds(ese_files, fir_list, position_regexp)
+
+for ese_input_file, ese_data in ese_files.items():
     # FIR-specific files can still contain neighbouring or shared sectors.
     # Only retain sectors whose FIR prefix matches the input filename.
-    source_fir = ese_input_file.stem.upper()
-    if source_fir not in fir_list:
-        source_fir = None
+    source_fir = ese.source_fir(ese_input_file, fir_list)
 
-    file_positions = extract_positions(ese_data)
     sectors = extract_sectors(ese_data)
     if source_fir is not None:
         sectors = [
@@ -284,11 +270,9 @@ for ese_input_file in ese_input_files:
             == source_fir
         ]
     sectorlines = extract_sectorlines(ese_data)
-    valid_positions.update(file_positions)
 
     print(
-        f"  Found {len(file_positions)} positions, "
-        f"{len(sectors)} sectors"
+        f"  Found {len(sectors)} sectors"
         f"{' for ' + source_fir if source_fir else ''}, "
         f"and {len(sectorlines)} sectorlines"
     )
@@ -312,14 +296,14 @@ for ese_input_file in ese_input_files:
         sectordic[name] = {
             "low": header[2],
             "high": header[3],
-            "owners": splitowners(lines),
+            "owners": position_ids.translate(ese_input_file, splitowners(lines)),
             "borders": splitborders(lines),
             "runways": splitactive(lines),
         }
 
     datasets.append((ese_input_file, sectordic, linedic))
 
-print(f"Found {len(valid_positions)} unique positions across all input files")
+print(f"Found {len(position_ids.definitions)} positions referenced by sectors")
 
 # Build output
 airspaces = []
@@ -330,7 +314,7 @@ for ese_input_file, sectordic, linedic in reversed(datasets):
         name = sector.split("·")[1]
 
         if sector.split("·")[0] in fir_list:
-            if any(pos in valid_positions for pos in sectordic[sector]["owners"]):
+            if sectordic[sector]["owners"]:
                 tmp = {
                     "id": name,
                     "group": get_group_name(sector),

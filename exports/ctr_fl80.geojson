@@ -1625,7 +1625,7 @@
         "owners": [
           "RLA",
           "RBA",
-          "FM",
+          "CCMC",
           "W",
           "RR"
         ],
@@ -11524,12 +11524,11 @@
         "owners": [
           "QW",
           "QE",
-          "TB",
+          "PAR",
           "TNTB",
           "AENB",
           "RPAW",
-          "LOW",
-          "PAR"
+          "LOW"
         ],
         "min": 45,
         "cur": 80,
@@ -11853,12 +11852,11 @@
         "owner": "PAR",
         "owners": [
           "QE",
-          "TB",
+          "PAR",
           "TNTB",
           "AENB",
           "RPAW",
-          "LOW",
-          "PAR"
+          "LOW"
         ],
         "min": 45,
         "cur": 80,
@@ -11958,12 +11956,11 @@
         "owners": [
           "QD",
           "QE",
-          "TB",
+          "PAR",
           "HPKZ",
           "OPKZ",
           "RPAW",
-          "LOW",
-          "PAR"
+          "LOW"
         ],
         "min": 0,
         "cur": 80,
@@ -12067,12 +12064,11 @@
         "owners": [
           "QA",
           "QE",
-          "TB",
+          "PAR",
           "TNTB",
           "AENB",
           "RPAW",
-          "LOW",
-          "PAR"
+          "LOW"
         ],
         "min": 20,
         "cur": 80,
@@ -15894,7 +15890,6 @@
           "SBC",
           "4EH",
           "URME",
-          "EE",
           "EE"
         ],
         "min": 25,
@@ -16101,11 +16096,7 @@
           "SBC",
           "4EH",
           "URME",
-          "EE",
-          "SZW",
-          "SZS",
-          "SZ",
-          "SAS"
+          "EE"
         ],
         "min": 20,
         "cur": 80,
@@ -16191,11 +16182,7 @@
           "SBC",
           "4EH",
           "URME",
-          "EE",
-          "SZW",
-          "SZS",
-          "SZ",
-          "SAS"
+          "EE"
         ],
         "min": 20,
         "cur": 80,
@@ -16457,11 +16444,7 @@
           "SBC",
           "4EH",
           "URME",
-          "EE",
-          "SZW",
-          "SZS",
-          "SZ",
-          "SAS"
+          "EE"
         ],
         "min": 20,
         "cur": 80,

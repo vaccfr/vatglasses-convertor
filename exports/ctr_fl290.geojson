@@ -2647,7 +2647,7 @@
           "UR",
           "URMN",
           "EE",
-          "P"
+          "PAR"
         ],
         "min": 265,
         "cur": 290,
@@ -2740,7 +2740,7 @@
           "UN",
           "URMN",
           "EE",
-          "P"
+          "PAR"
         ],
         "min": 285,
         "cur": 290,
@@ -3034,7 +3034,7 @@
           "4EH",
           "URME",
           "EE",
-          "P"
+          "PAR"
         ],
         "min": 195,
         "cur": 290,
@@ -3111,7 +3111,7 @@
           "UF",
           "URME",
           "EE",
-          "P"
+          "PAR"
         ],
         "min": 265,
         "cur": 290,
@@ -3893,7 +3893,7 @@
           "4EH",
           "URME",
           "EE",
-          "P"
+          "PAR"
         ],
         "min": 245,
         "cur": 290,
@@ -3966,7 +3966,7 @@
           "UB",
           "URMN",
           "EE",
-          "P"
+          "PAR"
         ],
         "min": 265,
         "cur": 290,
@@ -4008,8 +4008,8 @@
         "name": "Z1 UAC",
         "owner": "BB",
         "owners": [
-          "Z",
-          "US",
+          "BB.Z",
+          "BB.US",
           "BB"
         ],
         "min": 195,
@@ -4180,8 +4180,8 @@
         "name": "Z1 UAC",
         "owner": "BB",
         "owners": [
-          "Z",
-          "US",
+          "BB.Z",
+          "BB.US",
           "BB"
         ],
         "min": 195,
@@ -4240,8 +4240,8 @@
         "name": "X1 UAC",
         "owner": "BB",
         "owners": [
-          "X",
-          "US",
+          "BB.X",
+          "BB.US",
           "BB"
         ],
         "min": 195,
@@ -4329,7 +4329,7 @@
         "owner": "BB",
         "owners": [
           "T",
-          "UN",
+          "BB.UN",
           "BB"
         ],
         "min": 245,
@@ -4433,7 +4433,7 @@
         "owner": "BB",
         "owners": [
           "R",
-          "UN",
+          "BB.UN",
           "BB"
         ],
         "min": 195,
@@ -4541,7 +4541,7 @@
         "owner": "BB",
         "owners": [
           "P",
-          "UN",
+          "BB.UN",
           "BB"
         ],
         "min": 265,
@@ -4644,8 +4644,8 @@
         "name": "N1 UAC",
         "owner": "BB",
         "owners": [
-          "N",
-          "US",
+          "BB.N",
+          "BB.US",
           "BB"
         ],
         "min": 195,
@@ -4717,7 +4717,7 @@
         "owner": "BB",
         "owners": [
           "L",
-          "UN",
+          "BB.UN",
           "BB"
         ],
         "min": 195,
@@ -4837,7 +4837,7 @@
         "owner": "BB",
         "owners": [
           "H",
-          "US",
+          "BB.US",
           "BB"
         ],
         "min": 245,

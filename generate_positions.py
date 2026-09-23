@@ -7,6 +7,8 @@ import sys
 import yaml
 from pathlib import Path
 
+import ese
+
 yml_config_file = Path("config/config.yml")
 yml_colors_file = Path("config/colors.yml")
 combined_ese_input_file = Path("inputs/LFXX.ese")
@@ -45,28 +47,6 @@ def get_input_files():
 
     return input_files
 
-
-def get_fir_owner_ids(ese_data, source_fir):
-    """Return position IDs referenced by sectors belonging to source_fir."""
-    owner_ids = set()
-    in_source_sector = False
-
-    for line in ese_data:
-        if line.startswith("SECTOR:"):
-            sector_name = line.split(":", 2)[1]
-            sector_fir = sector_name.split("·", 1)[0]
-            in_source_sector = sector_fir == source_fir
-        elif in_source_sector and line.startswith("OWNER:"):
-            owner_ids.update(
-                owner.strip()
-                for owner in line.strip().split(":")[1:]
-                if owner.strip()
-            )
-        elif in_source_sector and not line.strip():
-            in_source_sector = False
-
-    return owner_ids
-
 # Load Config file
 print(f"Loading config file {yml_config_file}")
 with open(yml_config_file, "r") as file:
@@ -81,96 +61,19 @@ else:
     print(f"Color file {yml_colors_file} does not exist, will create new one")
     colors = []
 
-# Load and merge ESE positions. Sector IDs are the output keys, so using a
-# dictionary removes shared positions repeated across multiple FIR files.
-ese_positions = {}
-
+# Position IDs are local to each ESE file; resolve every referenced vACC
+# callsign to one output ID shared with generate_airspaces/generate_airports.
+ese_files = {}
 for ese_input_file in get_input_files():
     print(f"Loading ESE file {ese_input_file}")
-    with open(ese_input_file, "r", encoding="utf-8-sig") as file:
-        ese_data = file.readlines()
+    ese_files[ese_input_file] = ese.load(ese_input_file)
 
-    source_fir = ese_input_file.stem.upper()
-    if source_fir in config["config"].get("valid_fir", []):
-        allowed_position_ids = get_fir_owner_ids(ese_data, source_fir)
-        print(
-            f"  Restricting positions to {len(allowed_position_ids)} "
-            f"owner IDs used by {source_fir} sectors"
-        )
-    else:
-        allowed_position_ids = None
-
-    block = False
-    file_count = 0
-    for line in ese_data:
-        if line.startswith("[POSITIONS]"):
-            block = True
-        elif block and line.startswith("["):
-            block = False
-        elif block and re.search(config["config"]["valid_callsign"], line):
-            parts = line.rstrip("\r\n").split(":")
-            if len(parts) <= 6:
-                continue
-
-            position_id = parts[3].strip()
-            position_callsign = parts[0].strip()
-            normalized_line = line.rstrip("\r\n")
-
-            if (
-                allowed_position_ids is not None
-                and position_id not in allowed_position_ids
-            ):
-                continue
-
-            # Area-control definitions are copied into neighbouring FIR files
-            # for coordination. Keep them only from their canonical home file.
-            callsign_prefix = position_callsign.split("_", 1)[0]
-            if callsign_prefix == "PAR" or callsign_prefix == "LFFM":
-                canonical_fir = "LFFF"
-            elif callsign_prefix in config["config"].get("valid_fir", []):
-                canonical_fir = callsign_prefix
-            else:
-                canonical_fir = None
-
-            if (
-                source_fir in config["config"].get("valid_fir", [])
-                and canonical_fir is not None
-                and source_fir != canonical_fir
-            ):
-                continue
-
-            # Some FIRs intentionally reuse short IDs such as UN, X, or Z.
-            # FIR files are processed in the configured order, matching the
-            # legacy combined ESE's last-definition-wins behavior.
-            ese_positions[position_id] = normalized_line
-            file_count += 1
-
-    print(f"  Found {file_count} matching positions")
-
-print(f"Found {len(ese_positions)} unique positions across all input files")
-
-# VATGlass cannot use several position IDs with the same displayed callsign
-# and frequency. Prefer the least specialised callsign, e.g. PAR_CTR over
-# PAR_TB_CTR, and retain one canonical ID for each callsign/frequency pair.
-canonical_positions = {}
-for position_id, line in ese_positions.items():
-    parts = line.split(":")
-    semantic_key = (parts[1].strip(), parts[2].strip())
-    score = (parts[0].count("_"), parts[0])
-
-    current = canonical_positions.get(semantic_key)
-    if current is None or score < current[0]:
-        canonical_positions[semantic_key] = (score, position_id, line)
-
-removed_duplicates = len(ese_positions) - len(canonical_positions)
-ese_positions = {
-    position_id: line
-    for _, position_id, line in canonical_positions.values()
-}
-print(
-    f"Kept {len(ese_positions)} canonical callsign/frequency definitions "
-    f"({removed_duplicates} duplicate aliases removed)"
+position_ids = ese.PositionIds(
+    ese_files,
+    config["config"].get("valid_fir", []),
+    config["config"]["valid_callsign"],
 )
+print(f"Found {len(position_ids.definitions)} positions referenced by sectors")
 
 # Function to get color
 def get_position_color(position):
@@ -200,10 +103,8 @@ def clamp(x):
 
 positions = {}
 color_errors = False
-for pos in ese_positions.values():
-    line_parts = pos.split(":")
+for id, line_parts in position_ids.definitions.items():
     callsign = line_parts[0]
-    id = line_parts[3]
 
     if line_parts[6] not in ["ATIS", "GND", "RMP", "DEL"]:
         color = get_position_color(callsign)

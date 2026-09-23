@@ -52,16 +52,16 @@
         }
       ]
     },
-    "N": {
-      "callsign": "Brest Control",
-      "frequency": "118.030",
+    "BB.N": {
+      "callsign": "Bordeaux Control",
+      "frequency": "135.665",
       "type": "CTR",
       "pre": [
-        "LFRR"
+        "LFBB"
       ],
       "colours": [
         {
-          "hex": "#19688f"
+          "hex": "#887974"
         }
       ]
     },
@@ -104,55 +104,55 @@
         }
       ]
     },
-    "UN": {
-      "callsign": "Reims Control",
-      "frequency": "133.255",
+    "BB.UN": {
+      "callsign": "Bordeaux Control",
+      "frequency": "118.430",
       "type": "CTR",
       "pre": [
-        "LFEE"
+        "LFBB"
       ],
       "colours": [
         {
-          "hex": "#82b963"
+          "hex": "#8f6080"
         }
       ]
     },
-    "US": {
-      "callsign": "Paris Control",
-      "frequency": "128.140",
+    "BB.US": {
+      "callsign": "Bordeaux Control",
+      "frequency": "136.040",
       "type": "CTR",
       "pre": [
-        "PAR"
+        "LFBB"
       ],
       "colours": [
         {
-          "hex": "#585e91"
+          "hex": "#71568a"
         }
       ]
     },
-    "X": {
-      "callsign": "Brest Control",
-      "frequency": "125.965",
+    "BB.X": {
+      "callsign": "Bordeaux Control",
+      "frequency": "126.130",
       "type": "CTR",
       "pre": [
-        "LFRR"
+        "LFBB"
       ],
       "colours": [
         {
-          "hex": "#003f8d"
+          "hex": "#696c97"
         }
       ]
     },
-    "Z": {
-      "callsign": "Brest Control",
-      "frequency": "118.885",
+    "BB.Z": {
+      "callsign": "Bordeaux Control",
+      "frequency": "128.765",
       "type": "CTR",
       "pre": [
-        "LFRR"
+        "LFBB"
       ],
       "colours": [
         {
-          "hex": "#10407a"
+          "hex": "#958289"
         }
       ]
     },
@@ -842,6 +842,19 @@
       "colours": [
         {
           "hex": "#6db777"
+        }
+      ]
+    },
+    "UN": {
+      "callsign": "Reims Control",
+      "frequency": "133.255",
+      "type": "CTR",
+      "pre": [
+        "LFEE"
+      ],
+      "colours": [
+        {
+          "hex": "#82b963"
         }
       ]
     },
@@ -2262,6 +2275,19 @@
         }
       ]
     },
+    "US": {
+      "callsign": "Paris Control",
+      "frequency": "128.140",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#585e91"
+        }
+      ]
+    },
     "UT": {
       "callsign": "Paris Control",
       "frequency": "133.505",
@@ -3653,6 +3679,19 @@
         }
       ]
     },
+    "N": {
+      "callsign": "Brest Control",
+      "frequency": "118.030",
+      "type": "CTR",
+      "pre": [
+        "LFRR"
+      ],
+      "colours": [
+        {
+          "hex": "#19688f"
+        }
+      ]
+    },
     "RRN": {
       "callsign": "Brest Control",
       "frequency": "133.480",
@@ -3754,6 +3793,32 @@
       "colours": [
         {
           "hex": "#344795"
+        }
+      ]
+    },
+    "X": {
+      "callsign": "Brest Control",
+      "frequency": "125.965",
+      "type": "CTR",
+      "pre": [
+        "LFRR"
+      ],
+      "colours": [
+        {
+          "hex": "#003f8d"
+        }
+      ]
+    },
+    "Z": {
+      "callsign": "Brest Control",
+      "frequency": "118.885",
+      "type": "CTR",
+      "pre": [
+        "LFRR"
+      ],
+      "colours": [
+        {
+          "hex": "#10407a"
         }
       ]
     },
