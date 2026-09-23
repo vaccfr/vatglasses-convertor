@@ -1,6 +1,7 @@
 import argparse
 import json
 import re
+import sys
 import yaml
 from pathlib import Path
 
@@ -111,17 +112,16 @@ def removesequentialduplicates(coors):
 
 def getpoints(borders, linedic):
     coordinates = []
+    used_borders = []
 
     for b in borders:
         if b not in linedic:
-            print(f"Missing sectorline referenced by border: {b}")
-            return None
+            raise ValueError(f"missing sectorline referenced by border: {b}")
 
         coor = linedic[b]["coor"]
 
         if not coor:
-            print(f"Sectorline has no coordinates: {b}")
-            return None
+            raise ValueError(f"sectorline has no coordinates: {b}")
 
         # Ignore zero-length helper lines such as ORLY sectorline 166,
         # whose coordinates are the same point repeated twice.
@@ -129,6 +129,7 @@ def getpoints(borders, linedic):
             continue
 
         coordinates.append(coor)
+        used_borders.append(b)
 
     if not coordinates:
         return None
@@ -139,17 +140,11 @@ def getpoints(borders, linedic):
     chained = chain(coordinates.copy())
 
     if chained is None:
-        print("\nERROR: Could not chain borders:")
-        print(borders)
-
-        for border, fragment in zip(borders, coordinates):
-            print(
-                f"  {border}: "
-                f"{fragment[0] if fragment else 'EMPTY'} -> "
-                f"{fragment[-1] if fragment else 'EMPTY'}"
-            )
-
-        return None
+        details = "\n".join(
+            f"  {border}: {fragment[0]} -> {fragment[-1]}"
+            for border, fragment in zip(used_borders, coordinates)
+        )
+        raise ValueError(f"could not chain borders {borders}\n{details}")
 
     return removesequentialduplicates(chained)
 
@@ -328,6 +323,7 @@ print(f"Found {len(valid_positions)} unique positions across all input files")
 
 # Build output
 airspaces = []
+error_count = 0
 
 for ese_input_file, sectordic, linedic in reversed(datasets):
     for sector in reversed(sectordic.keys()):
@@ -344,13 +340,18 @@ for ese_input_file, sectordic, linedic in reversed(datasets):
                 if sectordic[sector]["runways"]:
                     tmp["runways"] = sectordic[sector]["runways"]
 
+                try:
+                    points = getpoints(sectordic[sector]["borders"], linedic)
+                except ValueError as exc:
+                    print(f"ERROR: {ese_input_file}: {sector}: {exc}")
+                    error_count += 1
+                    points = None
+
                 tmp["sectors"] = [
                     {
                         "min": int(int(sectordic[sector]["low"]) / 100),
                         "max": int(int(sectordic[sector]["high"]) / 100) - 1,
-                        "points": getpoints(
-                            sectordic[sector]["borders"], linedic
-                        ),
+                        "points": points,
                     }
                 ]
 
@@ -373,6 +374,10 @@ for ese_input_file, sectordic, linedic in reversed(datasets):
             print(sector.ljust(30), "not part of this vacc", fir_list)
 
 print(f"Found {len(airspaces)} airspaces")
+
+if error_count:
+    print(f"ERROR: {error_count} sector(s) could not be converted; {json_output_file} not written")
+    sys.exit(1)
 
 output = {
     "airspace": airspaces

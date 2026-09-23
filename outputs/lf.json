@@ -9,7 +9,7 @@
         "ZX",
         "RRE",
         "RR",
-        "PAR"
+        "FF"
       ],
       "sectors": [
         {
@@ -73,7 +73,7 @@
         "ZX",
         "RRE",
         "RR",
-        "PAR"
+        "FF"
       ],
       "sectors": [
         {
@@ -137,7 +137,7 @@
         "ZX",
         "RRE",
         "RR",
-        "PAR"
+        "FF"
       ],
       "sectors": [
         {
@@ -205,7 +205,7 @@
         "ZX",
         "RRE",
         "RR",
-        "PAR"
+        "FF"
       ],
       "sectors": [
         {
@@ -305,7 +305,7 @@
         "ZX",
         "RRE",
         "RR",
-        "PAR"
+        "FF"
       ],
       "sectors": [
         {
@@ -405,7 +405,7 @@
         "ZX",
         "RRE",
         "RR",
-        "PAR"
+        "FF"
       ],
       "sectors": [
         {
@@ -489,7 +489,7 @@
         "ZX",
         "RRE",
         "RR",
-        "PAR"
+        "FF"
       ],
       "sectors": [
         {
@@ -1255,7 +1255,7 @@
         "QX",
         "RRE",
         "RR",
-        "PAR"
+        "FF"
       ],
       "sectors": [
         {
@@ -1303,7 +1303,7 @@
         "QX",
         "RRE",
         "RR",
-        "PAR"
+        "FF"
       ],
       "sectors": [
         {
@@ -1351,7 +1351,7 @@
         "QX",
         "RRE",
         "RR",
-        "PAR"
+        "FF"
       ],
       "sectors": [
         {
@@ -1824,7 +1824,7 @@
         "MZ",
         "RRE",
         "RR",
-        "PAR"
+        "FF"
       ],
       "sectors": [
         {
@@ -1876,7 +1876,7 @@
         "MZ",
         "RRE",
         "RR",
-        "PAR"
+        "FF"
       ],
       "sectors": [
         {
@@ -1928,7 +1928,7 @@
         "MZ",
         "RRE",
         "RR",
-        "PAR"
+        "FF"
       ],
       "sectors": [
         {
@@ -8509,7 +8509,7 @@
       "owner": [
         "RLA",
         "RBA",
-        "CCMC",
+        "FM",
         "W",
         "RR"
       ],
@@ -15399,7 +15399,7 @@
         "RHT",
         "RHA",
         "RBA",
-        "CCMC",
+        "FM",
         "RRN",
         "RRW",
         "RR"
@@ -15748,7 +15748,7 @@
         "RLT",
         "RLA",
         "RBA",
-        "CCMC",
+        "FM",
         "RRN",
         "RRW",
         "RR"
@@ -15909,7 +15909,7 @@
         "RJT",
         "RLI",
         "RBA",
-        "CCMC",
+        "FM",
         "RRN",
         "RRW",
         "RR"
@@ -100250,7 +100250,7 @@
       "owner": [
         "URMN",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -100336,7 +100336,7 @@
         "YB",
         "URMN",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -100398,7 +100398,7 @@
         "XR",
         "URMN",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -100489,7 +100489,7 @@
         "4EH",
         "URME",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -100772,7 +100772,7 @@
         "4EH",
         "URME",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -101538,7 +101538,7 @@
         "UR",
         "URMN",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -101616,7 +101616,7 @@
         "UN",
         "URMN",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -101698,7 +101698,7 @@
         "UN",
         "URMN",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -101781,7 +101781,7 @@
         "4EH",
         "URME",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -102063,7 +102063,7 @@
         "UF",
         "URME",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -102129,7 +102129,7 @@
         "UF",
         "URME",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -102176,7 +102176,7 @@
         "4EH",
         "URME",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -102947,7 +102947,7 @@
         "4EH",
         "URME",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -103857,7 +103857,7 @@
         "UB",
         "URMN",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -103919,7 +103919,7 @@
         "KR",
         "URMN",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -104013,7 +104013,7 @@
         "KN",
         "URMN",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -104096,7 +104096,7 @@
         "4EH",
         "URME",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -104378,7 +104378,7 @@
         "KF",
         "URME",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -104441,7 +104441,7 @@
         "4EH",
         "URME",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -105207,7 +105207,7 @@
         "KD",
         "URME",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -105325,7 +105325,7 @@
         "KD",
         "URME",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -105439,7 +105439,7 @@
         "KD",
         "URME",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -105533,7 +105533,7 @@
         "HR",
         "URMN",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -105619,7 +105619,7 @@
         "HN",
         "URMN",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -105722,7 +105722,7 @@
         "4EH",
         "URME",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -106005,7 +106005,7 @@
         "4EH",
         "URME",
         "EE",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -106776,7 +106776,7 @@
         "AENB",
         "RPAW",
         "PLOW",
-        "PAR"
+        "P"
       ],
       "sectors": [
         {
@@ -118670,7 +118670,7 @@
       "id": "P4 UAC",
       "group": "LFBB",
       "owner": [
-        "PAR",
+        "P",
         "UN",
         "BB"
       ],
@@ -118767,7 +118767,7 @@
       "id": "P3 UAC",
       "group": "LFBB",
       "owner": [
-        "PAR",
+        "P",
         "UN",
         "BB"
       ],
@@ -118864,7 +118864,7 @@
       "id": "P2 UAC",
       "group": "LFBB",
       "owner": [
-        "PAR",
+        "P",
         "UN",
         "BB"
       ],
@@ -118961,7 +118961,7 @@
       "id": "P1 2 UAC",
       "group": "LFBB",
       "owner": [
-        "PAR",
+        "P",
         "UN",
         "BB"
       ],
@@ -119058,7 +119058,7 @@
       "id": "P1 1 UAC",
       "group": "LFBB",
       "owner": [
-        "PAR",
+        "P",
         "UN",
         "BB"
       ],
@@ -152770,7 +152770,7 @@
       ]
     },
     "LFSL": {
-      "callsign": "Brive\u00e2\u20ac\u201cSouillac",
+      "callsign": "Brive\u2013Souillac",
       "coord": [
         45.039721,
         1.485555
