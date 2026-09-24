@@ -14,6 +14,16 @@ The final target file is `outputs/lf.json`. Each section of that json are genera
 
 The script `merge_all.py` takes all 5 above files and merge them into `outputs/lf.json`
 
+## Code layout
+
+The scripts at the repository root are the command-line entry points; run them from the repository root. Shared code lives in the `vatglasses_convertor` package:
+
+| Module | Content |
+| --- | --- |
+| `vatglasses_convertor/config.py` | Repository paths and `config/config.yml` loading |
+| `vatglasses_convertor/ese.py` | EuroScope `.ese` parsing (positions, sectors, sectorlines) and ESE input selection |
+| `vatglasses_convertor/vatglasses.py` | VATGlasses JSON load/save and geometry helpers (standard library only) |
+
 
 ## Install the prerequisites
 
@@ -22,7 +32,7 @@ The script `merge_all.py` takes all 5 above files and merge them into `outputs/l
 pip install -r requirements.txt
 ```
 
-- Copy the latest Euroscope ESE files in `inputs\LFXX.ese`
+- Copy the latest Euroscope ESE files in `inputs/`: either the five FIR files `inputs/LFBB.ese`, `LFEE.ese`, `LFFF.ese`, `LFMM.ese`, `LFRR.ese` (used when all are present), or the combined `inputs/LFXX.ese`. The generators also accept explicit ESE paths, e.g. `python generate_airspaces.py inputs/LFFF.ese`.
 
 ## Generate the target files
 
@@ -31,7 +41,7 @@ pip install -r requirements.txt
 python generate_airports.py
 ```
 
-- Run the following command to generate the `outputs/airspaces.json`
+- Run the following command to generate the `outputs/airspace.json`
 ```
 python generate_airspaces.py
 ```
@@ -51,21 +61,26 @@ python merge_all.py
 You can use the script `export_geojson.py` to generate GeoJSON file and visualize them with https://geojson.io/
 
 ```
-usage: export_geojson.py [-h] --input-files [INPUT_FILES ...] [--output-file OUTPUT_FILE] [--show] --flight-level FLIGHTLEVEL [--positions [POSITIONS ...]] [--sector-regexp SECTOR_REGEXP]
+usage: export_geojson.py [-h] --input-files [INPUT_FILES ...]
+                         [--output-file OUTPUT_FILE] [--show]
+                         --flight-level FLIGHT_LEVEL
+                         [--positions [POSITIONS ...]]
+                         [--sector-regexp SECTOR_REGEXP]
 
-optional arguments:
+options:
   -h, --help            show this help message and exit
-  --input-files [INPUT_FILES ...], -i [INPUT_FILES ...]
-                        VATGlass input file
-  --output-file OUTPUT_FILE, -o OUTPUT_FILE
+  --input-files, -i [INPUT_FILES ...]
+                        VATGlasses input files or URLs
+  --output-file, -o OUTPUT_FILE
                         GeoJSON output file
-  --show, -s            Show on geojson.io
-  --flight-level FLIGHTLEVEL, -f FLIGHTLEVEL
-                        Flight Level
-  --positions [POSITIONS ...], -p [POSITIONS ...]
-                        Space separated list of position codes
+  --show, -s            show on geojson.io
+  --flight-level, -f FLIGHT_LEVEL
+                        flight level
+  --positions, -p [POSITIONS ...]
+                        space separated list of open position IDs (default:
+                        all)
   --sector-regexp SECTOR_REGEXP
-                        Regular Express to filter sector
+                        regular expression filtering airspace IDs
 ```
 
 For example:

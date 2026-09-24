@@ -1,242 +1,173 @@
-import argparse
-import json
-import os
+"""Generate outputs/positions.json, the VATGlasses "positions" section, from ESE files.
+
+Also updates the per-callsign colour cache config/colors.yml.
+"""
+
 import random
 import re
 import sys
-import yaml
+from collections.abc import Sequence
 from pathlib import Path
 
-yml_config_file = Path("config/config.yml")
-yml_colors_file = Path("config/colors.yml")
-combined_ese_input_file = Path("inputs/LFXX.ese")
-default_fir_ese_files = [
-    Path("inputs/LFBB.ese"),
-    Path("inputs/LFEE.ese"),
-    Path("inputs/LFFF.ese"),
-    Path("inputs/LFMM.ese"),
-    Path("inputs/LFRR.ese"),
-]
-json_output_file = Path("outputs/positions.json")
+import yaml
+
+from vatglasses_convertor import ese, vatglasses
+from vatglasses_convertor.config import COLORS_FILE, OUTPUTS_DIR, ColorRule, load_config
+
+OUTPUT_FILE = OUTPUTS_DIR / "positions.json"
+EXCLUDED_TYPES = frozenset({"ATIS", "GND", "RMP", "DEL"})
+# Home FIR of area-control callsign prefixes that are not an FIR code.
+AREA_CONTROL_HOME_FIR = {"PAR": "LFFF", "LFFM": "LFFF"}
+COLOR_VARIANCE = 30
 
 
-def get_input_files():
-    parser = argparse.ArgumentParser(
-        description="Generate positions from one or more ESE files."
-    )
-    parser.add_argument("ese_files", nargs="*", type=Path)
-    args = parser.parse_args()
-
-    if args.ese_files:
-        input_files = args.ese_files
-    elif all(path.is_file() for path in default_fir_ese_files):
-        input_files = default_fir_ese_files
-    elif combined_ese_input_file.is_file():
-        input_files = [combined_ese_input_file]
-    else:
-        parser.error(
-            "No ESE input found. Add inputs/LFXX.ese, add all five FIR "
-            "files, or pass ESE paths on the command line."
-        )
-
-    missing = [str(path) for path in input_files if not path.is_file()]
-    if missing:
-        parser.error("ESE input file(s) not found: " + ", ".join(missing))
-
-    return input_files
+def home_fir(callsign: str, valid_fir: Sequence[str]) -> str | None:
+    """FIR file that owns the definition of an area-control callsign, if any."""
+    prefix = callsign.split("_", 1)[0]
+    if prefix in AREA_CONTROL_HOME_FIR:
+        return AREA_CONTROL_HOME_FIR[prefix]
+    return prefix if prefix in valid_fir else None
 
 
-def get_fir_owner_ids(ese_data, source_fir):
-    """Return position IDs referenced by sectors belonging to source_fir."""
-    owner_ids = set()
-    in_source_sector = False
-
-    for line in ese_data:
-        if line.startswith("SECTOR:"):
-            sector_name = line.split(":", 2)[1]
-            sector_fir = sector_name.split("·", 1)[0]
-            in_source_sector = sector_fir == source_fir
-        elif in_source_sector and line.startswith("OWNER:"):
-            owner_ids.update(
-                owner.strip()
-                for owner in line.strip().split(":")[1:]
-                if owner.strip()
+def collect_positions(
+    ese_files: Sequence[ese.EseFile], callsign_re: re.Pattern, valid_fir: Sequence[str]
+) -> dict[str, ese.Position]:
+    """vACC positions keyed by ID; files are applied in order, the last definition wins."""
+    positions = {}
+    for ese_file in ese_files:
+        source_fir = ese_file.source_fir
+        allowed_ids = None
+        if source_fir is not None:
+            allowed_ids = {owner for sector in ese_file.sectors for owner in sector.owners}
+            print(
+                f"  Restricting positions to {len(allowed_ids)} "
+                f"owner IDs used by {source_fir} sectors"
             )
-        elif in_source_sector and not line.strip():
-            in_source_sector = False
 
-    return owner_ids
-
-# Load Config file
-print(f"Loading config file {yml_config_file}")
-with open(yml_config_file, "r") as file:
-    config = yaml.safe_load(file)
-
-# Load Colors file if it exists
-if os.path.exists(yml_colors_file):
-    print(f"Loading color file {yml_colors_file}")
-    with open(yml_colors_file, "r") as file:
-        colors = yaml.safe_load(file)
-else:
-    print(f"Color file {yml_colors_file} does not exist, will create new one")
-    colors = []
-
-# Load and merge ESE positions. Sector IDs are the output keys, so using a
-# dictionary removes shared positions repeated across multiple FIR files.
-ese_positions = {}
-
-for ese_input_file in get_input_files():
-    print(f"Loading ESE file {ese_input_file}")
-    with open(ese_input_file, "r", encoding="utf-8-sig") as file:
-        ese_data = file.readlines()
-
-    source_fir = ese_input_file.stem.upper()
-    if source_fir in config["config"].get("valid_fir", []):
-        allowed_position_ids = get_fir_owner_ids(ese_data, source_fir)
-        print(
-            f"  Restricting positions to {len(allowed_position_ids)} "
-            f"owner IDs used by {source_fir} sectors"
-        )
-    else:
-        allowed_position_ids = None
-
-    block = False
-    file_count = 0
-    for line in ese_data:
-        if line.startswith("[POSITIONS]"):
-            block = True
-        elif block and line.startswith("["):
-            block = False
-        elif block and re.search(config["config"]["valid_callsign"], line):
-            parts = line.rstrip("\r\n").split(":")
-            if len(parts) <= 6:
+        count = 0
+        for position in ese_file.positions:
+            if not callsign_re.search(position.callsign):
                 continue
-
-            position_id = parts[3].strip()
-            position_callsign = parts[0].strip()
-            normalized_line = line.rstrip("\r\n")
-
-            if (
-                allowed_position_ids is not None
-                and position_id not in allowed_position_ids
-            ):
+            if allowed_ids is not None and position.id not in allowed_ids:
                 continue
-
             # Area-control definitions are copied into neighbouring FIR files
-            # for coordination. Keep them only from their canonical home file.
-            callsign_prefix = position_callsign.split("_", 1)[0]
-            if callsign_prefix == "PAR" or callsign_prefix == "LFFM":
-                canonical_fir = "LFFF"
-            elif callsign_prefix in config["config"].get("valid_fir", []):
-                canonical_fir = callsign_prefix
-            else:
-                canonical_fir = None
-
-            if (
-                source_fir in config["config"].get("valid_fir", [])
-                and canonical_fir is not None
-                and source_fir != canonical_fir
-            ):
+            # for coordination. Keep them only from their home file.
+            home = home_fir(position.callsign, valid_fir)
+            if source_fir is not None and home is not None and home != source_fir:
                 continue
-
             # Some FIRs intentionally reuse short IDs such as UN, X, or Z.
-            # FIR files are processed in the configured order, matching the
-            # legacy combined ESE's last-definition-wins behavior.
-            ese_positions[position_id] = normalized_line
-            file_count += 1
+            positions[position.id] = position
+            count += 1
+        print(f"  Found {count} matching positions")
+    return positions
 
-    print(f"  Found {file_count} matching positions")
 
-print(f"Found {len(ese_positions)} unique positions across all input files")
+def deduplicate(positions: dict[str, ese.Position]) -> dict[str, ese.Position]:
+    """Keep one position per (radio name, frequency).
 
-# VATGlass cannot use several position IDs with the same displayed callsign
-# and frequency. Prefer the least specialised callsign, e.g. PAR_CTR over
-# PAR_TB_CTR, and retain one canonical ID for each callsign/frequency pair.
-canonical_positions = {}
-for position_id, line in ese_positions.items():
-    parts = line.split(":")
-    semantic_key = (parts[1].strip(), parts[2].strip())
-    score = (parts[0].count("_"), parts[0])
+    VATGlasses cannot use several position IDs with the same displayed callsign and
+    frequency. The least specialised callsign wins, e.g. PAR_CTR over PAR_TB_CTR.
+    """
+    best: dict[tuple[str, str], ese.Position] = {}
+    for position in positions.values():
+        key = (position.radio_name, position.frequency)
+        current = best.get(key)
+        if current is None or _specificity(position) < _specificity(current):
+            best[key] = position
+    return {position.id: position for position in best.values()}
 
-    current = canonical_positions.get(semantic_key)
-    if current is None or score < current[0]:
-        canonical_positions[semantic_key] = (score, position_id, line)
 
-removed_duplicates = len(ese_positions) - len(canonical_positions)
-ese_positions = {
-    position_id: line
-    for _, position_id, line in canonical_positions.values()
-}
-print(
-    f"Kept {len(ese_positions)} canonical callsign/frequency definitions "
-    f"({removed_duplicates} duplicate aliases removed)"
-)
+def _specificity(position: ese.Position) -> tuple[int, str]:
+    return position.callsign.count("_"), position.callsign
 
-# Function to get color
-def get_position_color(position):
-    for color in colors:
-        if color["callsign"] == position:
-            return color["color"]
-    for pattern in config["colors"]:
-        if re.search(pattern["callsign"], position):
-            # LFXX_CTR: main color, LFXX_X_CTR: randomized color
-            if position.count("_") >= 2:
-                color = randomize_color(pattern["color"])
-            else:
-                color = pattern["color"]
-            colors.append({"callsign": position, "color": color})
+
+def load_color_cache(path: Path) -> list[dict[str, str]]:
+    if not path.exists():
+        print(f"Color file {path} does not exist, will create new one")
+        return []
+    print(f"Loading color file {path}")
+    with open(path, encoding="utf-8") as file:
+        return yaml.safe_load(file) or []
+
+
+def resolve_color(
+    callsign: str, cache: list[dict[str, str]], rules: Sequence[ColorRule]
+) -> str | None:
+    """Cached colour of ``callsign``, else derive one from ``rules`` and cache it.
+
+    LFXX_CTR gets the rule colour; sub-sectors such as LFXX_X_CTR get a random shade.
+    """
+    for entry in cache:
+        if entry["callsign"] == callsign:
+            return entry["color"]
+    for rule in rules:
+        if re.search(rule.pattern, callsign):
+            color = rule.color
+            if callsign.count("_") >= 2:
+                color = randomize_color(color)
+            cache.append({"callsign": callsign, "color": color})
             return color
-    return ""
+    return None
 
-# Function to ramdom color
-def randomize_color(color_hex, variance=30):
-    r = clamp(int(color_hex[1:3], 16) + random.randint(-variance, variance))
-    g = clamp(int(color_hex[3:5], 16) + random.randint(-variance, variance))
-    b = clamp(int(color_hex[5:7], 16) + random.randint(-variance, variance))
+
+def randomize_color(color_hex: str, variance: int = COLOR_VARIANCE) -> str:
+    channels = (int(color_hex[i : i + 2], 16) for i in (1, 3, 5))
+    r, g, b = (_clamp(c + random.randint(-variance, variance)) for c in channels)
     return f"#{r:02x}{g:02x}{b:02x}"
 
-def clamp(x):
-    return max(0, min(x, 255))
 
-positions = {}
-color_errors = False
-for pos in ese_positions.values():
-    line_parts = pos.split(":")
-    callsign = line_parts[0]
-    id = line_parts[3]
+def _clamp(value: int) -> int:
+    return max(0, min(value, 255))
 
-    if line_parts[6] not in ["ATIS", "GND", "RMP", "DEL"]:
-        color = get_position_color(callsign)
-        if len(color) > 0:
-            position = {
-                "callsign" : line_parts[1],
-                "frequency" : line_parts[2],
-                "type" : line_parts[6],
-                "pre" : [line_parts[5]],
-                "colours" : [{"hex": color}]
-            }
-            positions[id] = position 
-        else:
-            print(f"Error: no colors defined for {id} ({callsign})")
-            color_hex = "#ffffff"
-            color_errors = True
 
-output = {
-    "positions" : positions
-}
+def main(argv: Sequence[str] | None = None) -> int:
+    config = load_config()
+    colors = load_color_cache(COLORS_FILE)
+    input_files = ese.parse_input_files(
+        "Generate VATGlasses positions from one or more ESE files.", argv
+    )
+    ese_files = [ese.load(path, config.valid_fir) for path in input_files]
 
-# Colors errors
-if color_errors:
-    sys.exit(1)
-else:
+    positions = collect_positions(
+        ese_files, re.compile(config.valid_callsign), config.valid_fir
+    )
+    print(f"Found {len(positions)} unique positions across all input files")
+
+    canonical = deduplicate(positions)
+    print(
+        f"Kept {len(canonical)} canonical callsign/frequency definitions "
+        f"({len(positions) - len(canonical)} duplicate aliases removed)"
+    )
+
+    output = {}
+    missing_color = False
+    for position in canonical.values():
+        if position.suffix in EXCLUDED_TYPES:
+            continue
+        color = resolve_color(position.callsign, colors, config.colors)
+        if color is None:
+            print(f"Error: no colors defined for {position.id} ({position.callsign})")
+            missing_color = True
+            continue
+        output[position.id] = {
+            "callsign": position.radio_name,
+            "frequency": position.frequency,
+            "type": position.suffix,
+            "pre": [position.prefix],
+            "colours": [{"hex": color}],
+        }
+
+    if missing_color:
+        return 1
     print("Was able to find colours for all positions")
 
-# Save updated colors file
-print(f"Updating color file {yml_colors_file}")
-with open(yml_colors_file, "w") as file:
-    yaml.dump(colors, file)
+    print(f"Updating color file {COLORS_FILE}")
+    with open(COLORS_FILE, "w", encoding="utf-8") as file:
+        yaml.dump(colors, file)
 
-# Store output JSON
-print(f"Writing positions to {json_output_file}")
-with open(json_output_file, 'w') as outfile:
-    json.dump(output, outfile, indent=2)
+    vatglasses.save(OUTPUT_FILE, {"positions": output})
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

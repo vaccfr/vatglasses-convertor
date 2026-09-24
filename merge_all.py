@@ -1,31 +1,47 @@
-import argparse, json
+"""Merge the per-section JSON files into the final VATGlasses file (outputs/lf.json)."""
 
-input_files = [
+import argparse
+import sys
+from collections.abc import Sequence
+from pathlib import Path
+
+from vatglasses_convertor import vatglasses
+from vatglasses_convertor.config import OUTPUTS_DIR
+
+# Each file holds one top-level section; on key collisions the later file wins.
+SECTION_FILES = (
     "airspace.json",
     "groups.json",
     "positions.json",
     "callsigns.json",
-    "airports.json"
-]
+    "airports.json",
+)
 
-parser = argparse.ArgumentParser()
-parser.add_argument("--input-dir", "-i", dest="input_dir", default="./outputs", help="VATGlass output file")
-parser.add_argument("--output-file", "-o", dest="output_file", default="./outputs/lf.json", help="VATGlass output file")
-args = parser.parse_args()
 
-final_data = {}
+def main(argv: Sequence[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--input-dir", "-i", type=Path, default=OUTPUTS_DIR,
+        help="directory holding the section files (default: %(default)s)",
+    )
+    parser.add_argument(
+        "--output-file", "-o", type=Path, default=OUTPUTS_DIR / "lf.json",
+        help="merged VATGlasses output file (default: %(default)s)",
+    )
+    args = parser.parse_args(argv)
 
-for input_file in input_files:
-    file_path = args.input_dir + "/" + input_file
-    print(f"Opening {file_path}")
-    with open(file_path, "r") as file:
-        input_data = json.load(file)
-    first_property = list(input_data.keys())[0]
-    data_size = (len(list(input_data[first_property])))
-    print(f"  Found {data_size} entries")
-    final_data = {**final_data, **input_data}
+    merged = {}
+    for name in SECTION_FILES:
+        path = args.input_dir / name
+        print(f"Opening {path}")
+        section = vatglasses.load(path)
+        for key, entries in section.items():
+            print(f"  Found {len(entries)} entries in {key}")
+        merged.update(section)
 
-print (f"Writing to {args.output_file}")
-with open(args.output_file, "w") as file:
-    json.dump(final_data, file, indent=2)
+    vatglasses.save(args.output_file, merged)
+    return 0
 
+
+if __name__ == "__main__":
+    sys.exit(main())
