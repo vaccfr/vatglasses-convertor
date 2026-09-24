@@ -13,7 +13,7 @@
         }
       ]
     },
-    "BB": {
+    "BDX": {
       "callsign": "Bordeaux Control",
       "frequency": "125.105",
       "type": "CTR",
@@ -53,15 +53,15 @@
       ]
     },
     "N": {
-      "callsign": "Brest Control",
-      "frequency": "118.030",
+      "callsign": "Bordeaux Control",
+      "frequency": "135.665",
       "type": "CTR",
       "pre": [
-        "LFRR"
+        "LFBB"
       ],
       "colours": [
         {
-          "hex": "#19688f"
+          "hex": "#887974"
         }
       ]
     },
@@ -104,55 +104,81 @@
         }
       ]
     },
-    "UN": {
-      "callsign": "Reims Control",
-      "frequency": "133.255",
+    "UNOR": {
+      "callsign": "Bordeaux Control",
+      "frequency": "118.430",
       "type": "CTR",
       "pre": [
-        "LFEE"
+        "LFBB"
       ],
       "colours": [
         {
-          "hex": "#82b963"
+          "hex": "#8f6080"
         }
       ]
     },
-    "US": {
-      "callsign": "Paris Control",
-      "frequency": "128.140",
+    "USUD": {
+      "callsign": "Bordeaux Control",
+      "frequency": "136.040",
       "type": "CTR",
       "pre": [
-        "PAR"
+        "LFBB"
       ],
       "colours": [
         {
-          "hex": "#585e91"
+          "hex": "#71568a"
         }
       ]
     },
     "X": {
-      "callsign": "Brest Control",
-      "frequency": "125.965",
+      "callsign": "Bordeaux Control",
+      "frequency": "126.130",
       "type": "CTR",
       "pre": [
-        "LFRR"
+        "LFBB"
       ],
       "colours": [
         {
-          "hex": "#003f8d"
+          "hex": "#696c97"
         }
       ]
     },
     "Z": {
-      "callsign": "Brest Control",
-      "frequency": "118.885",
+      "callsign": "Bordeaux Control",
+      "frequency": "128.765",
       "type": "CTR",
       "pre": [
-        "LFRR"
+        "LFBB"
       ],
       "colours": [
         {
-          "hex": "#10407a"
+          "hex": "#958289"
+        }
+      ]
+    },
+    "BC": {
+      "callsign": "Cazaux Approach",
+      "frequency": "119.600",
+      "type": "APP",
+      "pre": [
+        "LFBC"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "BCT": {
+      "callsign": "Cazaux Tower",
+      "frequency": "118.400",
+      "type": "TWR",
+      "pre": [
+        "LFBC"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
         }
       ]
     },
@@ -179,6 +205,19 @@
       "colours": [
         {
           "hex": "#a24fde"
+        }
+      ]
+    },
+    "BDV": {
+      "callsign": "Aquitaine Information",
+      "frequency": "120.575",
+      "type": "APP",
+      "pre": [
+        "LFBD"
+      ],
+      "colours": [
+        {
+          "hex": "#a04ec1"
         }
       ]
     },
@@ -364,6 +403,19 @@
         }
       ]
     },
+    "BNI": {
+      "callsign": "Niort Information",
+      "frequency": "119.105",
+      "type": "TWR",
+      "pre": [
+        "LFBN"
+      ],
+      "colours": [
+        {
+          "hex": "#59b463"
+        }
+      ]
+    },
     "AE": {
       "callsign": "Toulouse Approach",
       "frequency": "129.305",
@@ -416,6 +468,19 @@
         }
       ]
     },
+    "BOV": {
+      "callsign": "Toulouse Information",
+      "frequency": "123.930",
+      "type": "APP",
+      "pre": [
+        "LFBO"
+      ],
+      "colours": [
+        {
+          "hex": "#975fe1"
+        }
+      ]
+    },
     "BOT": {
       "callsign": "Blagnac Tower",
       "frequency": "118.105",
@@ -455,6 +520,19 @@
         }
       ]
     },
+    "PYV": {
+      "callsign": "Pyrenees Information",
+      "frequency": "126.525",
+      "type": "APP",
+      "pre": [
+        "LFBP"
+      ],
+      "colours": [
+        {
+          "hex": "#bd39d6"
+        }
+      ]
+    },
     "BPT": {
       "callsign": "Pau Tower",
       "frequency": "124.150",
@@ -470,7 +548,7 @@
     },
     "BRT": {
       "callsign": "Muret Tower",
-      "frequency": "123.200",
+      "frequency": "123.205",
       "type": "TWR",
       "pre": [
         "LFBR"
@@ -507,6 +585,19 @@
         }
       ]
     },
+    "BYA": {
+      "callsign": "Dax Approach",
+      "frequency": "122.050",
+      "type": "APP",
+      "pre": [
+        "LFBY"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
     "BYT": {
       "callsign": "Dax Tower",
       "frequency": "118.325",
@@ -533,6 +624,19 @@
         }
       ]
     },
+    "BZV": {
+      "callsign": "Biarritz Information",
+      "frequency": "119.180",
+      "type": "APP",
+      "pre": [
+        "LFBZ"
+      ],
+      "colours": [
+        {
+          "hex": "#a534f0"
+        }
+      ]
+    },
     "BZT": {
       "callsign": "Biarritz Tower",
       "frequency": "118.705",
@@ -556,6 +660,19 @@
       "colours": [
         {
           "hex": "#55b084"
+        }
+      ]
+    },
+    "CLT": {
+      "callsign": "Lasbordes Tower",
+      "frequency": "122.700",
+      "type": "TWR",
+      "pre": [
+        "LFCL"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
         }
       ]
     },
@@ -624,7 +741,7 @@
         }
       ]
     },
-    "EE": {
+    "RMS": {
       "callsign": "Reims Control",
       "frequency": "133.005",
       "type": "CTR",
@@ -845,6 +962,19 @@
         }
       ]
     },
+    "UN": {
+      "callsign": "Reims Control",
+      "frequency": "133.255",
+      "type": "CTR",
+      "pre": [
+        "LFEE"
+      ],
+      "colours": [
+        {
+          "hex": "#82b963"
+        }
+      ]
+    },
     "UR": {
       "callsign": "Reims Control",
       "frequency": "135.505",
@@ -962,6 +1092,19 @@
         }
       ]
     },
+    "LHI": {
+      "callsign": "Chalon Information",
+      "frequency": "118.605",
+      "type": "TWR",
+      "pre": [
+        "LFLH"
+      ],
+      "colours": [
+        {
+          "hex": "#5fb288"
+        }
+      ]
+    },
     ".QE": {
       "callsign": "Etain Approach",
       "frequency": "120.125",
@@ -985,6 +1128,19 @@
       "colours": [
         {
           "hex": "#71aa71"
+        }
+      ]
+    },
+    "QMI": {
+      "callsign": "La Veze information",
+      "frequency": "122.205",
+      "type": "TWR",
+      "pre": [
+        "LFQM"
+      ],
+      "colours": [
+        {
+          "hex": "#59956f"
         }
       ]
     },
@@ -1053,6 +1209,32 @@
         }
       ]
     },
+    "SDI": {
+      "callsign": "Dijon Information",
+      "frequency": "118.330",
+      "type": "TWR",
+      "pre": [
+        "LFSD"
+      ],
+      "colours": [
+        {
+          "hex": "#82ae81"
+        }
+      ]
+    },
+    "SGI": {
+      "callsign": "Epinal Information",
+      "frequency": "120.205",
+      "type": "TWR",
+      "pre": [
+        "LFSG"
+      ],
+      "colours": [
+        {
+          "hex": "#539c86"
+        }
+      ]
+    },
     ".SI": {
       "callsign": "Saint Dizier Approach",
       "frequency": "134.775",
@@ -1076,6 +1258,19 @@
       "colours": [
         {
           "hex": "#71aa71"
+        }
+      ]
+    },
+    "SNI": {
+      "callsign": "Nancy Information",
+      "frequency": "119.605",
+      "type": "TWR",
+      "pre": [
+        "LFSN"
+      ],
+      "colours": [
+        {
+          "hex": "#8aa762"
         }
       ]
     },
@@ -1196,6 +1391,19 @@
         }
       ]
     },
+    "ACI": {
+      "callsign": "Calais Information",
+      "frequency": "119.485",
+      "type": "TWR",
+      "pre": [
+        "LFAC"
+      ],
+      "colours": [
+        {
+          "hex": "#859067"
+        }
+      ]
+    },
     "AQT": {
       "callsign": "Albert Tower",
       "frequency": "136.360",
@@ -1222,7 +1430,20 @@
         }
       ]
     },
-    "CCMC": {
+    "AVI": {
+      "callsign": "Valenciennes Information",
+      "frequency": "122.605",
+      "type": "TWR",
+      "pre": [
+        "LFAV"
+      ],
+      "colours": [
+        {
+          "hex": "#86af78"
+        }
+      ]
+    },
+    "FMC": {
       "callsign": "France Military Control",
       "frequency": "128.375",
       "type": "CTR",
@@ -1232,6 +1453,32 @@
       "colours": [
         {
           "hex": "#43ffff"
+        }
+      ]
+    },
+    "LAI": {
+      "callsign": "Auxerre Information",
+      "frequency": "129.805",
+      "type": "TWR",
+      "pre": [
+        "LFLA"
+      ],
+      "colours": [
+        {
+          "hex": "#71b660"
+        }
+      ]
+    },
+    "LDI": {
+      "callsign": "Bourges Information",
+      "frequency": "119.600",
+      "type": "TWR",
+      "pre": [
+        "LFLD"
+      ],
+      "colours": [
+        {
+          "hex": "#709d6a"
         }
       ]
     },
@@ -1274,12 +1521,51 @@
         }
       ]
     },
+    "OBV": {
+      "callsign": "Beauvais Information",
+      "frequency": "119.800",
+      "type": "APP",
+      "pre": [
+        "LFOB"
+      ],
+      "colours": [
+        {
+          "hex": "#8e6bf6"
+        }
+      ]
+    },
     "OBT": {
       "callsign": "Beauvais Tower",
       "frequency": "121.405",
       "type": "TWR",
       "pre": [
         "LFOB"
+      ],
+      "colours": [
+        {
+          "hex": "#71aa71"
+        }
+      ]
+    },
+    "OE": {
+      "callsign": "Evreux Approach",
+      "frequency": "118.125",
+      "type": "APP",
+      "pre": [
+        "LFOE"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "OET": {
+      "callsign": "Evreux Tower",
+      "frequency": "122.100",
+      "type": "TWR",
+      "pre": [
+        "LFOE"
       ],
       "colours": [
         {
@@ -1339,6 +1625,19 @@
         }
       ]
     },
+    "OQI": {
+      "callsign": "Blois Information",
+      "frequency": "118.455",
+      "type": "TWR",
+      "pre": [
+        "LFOQ"
+      ],
+      "colours": [
+        {
+          "hex": "#5ebf7e"
+        }
+      ]
+    },
     "OTT": {
       "callsign": "Tours Tower",
       "frequency": "124.400",
@@ -1349,6 +1648,19 @@
       "colours": [
         {
           "hex": "#71aa71"
+        }
+      ]
+    },
+    "OZI": {
+      "callsign": "St Denis Information",
+      "frequency": "122.405",
+      "type": "TWR",
+      "pre": [
+        "LFOZ"
+      ],
+      "colours": [
+        {
+          "hex": "#539d74"
         }
       ]
     },
@@ -1482,6 +1794,45 @@
         }
       ]
     },
+    "ISJ": {
+      "callsign": "Seine Information",
+      "frequency": "134.300",
+      "type": "APP",
+      "pre": [
+        "LFPM"
+      ],
+      "colours": [
+        {
+          "hex": "#8735e5"
+        }
+      ]
+    },
+    "ISK": {
+      "callsign": "Seine Information",
+      "frequency": "120.330",
+      "type": "APP",
+      "pre": [
+        "LFPM"
+      ],
+      "colours": [
+        {
+          "hex": "#8561e3"
+        }
+      ]
+    },
+    "ISL": {
+      "callsign": "Seine Information",
+      "frequency": "127.815",
+      "type": "APP",
+      "pre": [
+        "LFPM"
+      ],
+      "colours": [
+        {
+          "hex": "#9d4dd6"
+        }
+      ]
+    },
     "SI": {
       "callsign": "Seine Approach",
       "frequency": "118.890",
@@ -1534,6 +1885,19 @@
         }
       ]
     },
+    "PNV": {
+      "callsign": "Chevreuse Information",
+      "frequency": "119.305",
+      "type": "TWR",
+      "pre": [
+        "LFPN"
+      ],
+      "colours": [
+        {
+          "hex": "#86aa85"
+        }
+      ]
+    },
     "PNT": {
       "callsign": "Toussus Tower",
       "frequency": "120.755",
@@ -1549,7 +1913,7 @@
     },
     "PO": {
       "callsign": "Orly Approach",
-      "frequency": "123.875",
+      "frequency": "123.880",
       "type": "APP",
       "pre": [
         "LFPO"
@@ -1562,7 +1926,7 @@
     },
     "PODD": {
       "callsign": "Orly Departure",
-      "frequency": "127.750",
+      "frequency": "127.755",
       "type": "DEP",
       "pre": [
         "LFPO"
@@ -1575,7 +1939,7 @@
     },
     "POF": {
       "callsign": "Orly Arrival",
-      "frequency": "124.450",
+      "frequency": "124.455",
       "type": "APP",
       "pre": [
         "LFPO"
@@ -1588,7 +1952,7 @@
     },
     "POT": {
       "callsign": "Orly Tower",
-      "frequency": "118.700",
+      "frequency": "118.705",
       "type": "TWR",
       "pre": [
         "LFPO"
@@ -1612,9 +1976,22 @@
         }
       ]
     },
+    "PTV": {
+      "callsign": "Le Bourget Information",
+      "frequency": "123.835",
+      "type": "APP",
+      "pre": [
+        "LFPT"
+      ],
+      "colours": [
+        {
+          "hex": "#9d43d3"
+        }
+      ]
+    },
     "PTT": {
       "callsign": "Pontoise Tower",
-      "frequency": "121.200",
+      "frequency": "121.205",
       "type": "TWR",
       "pre": [
         "LFPT"
@@ -1674,6 +2051,32 @@
       "colours": [
         {
           "hex": "#71aa71"
+        }
+      ]
+    },
+    "QAI": {
+      "callsign": "Prunay Information",
+      "frequency": "134.930",
+      "type": "TWR",
+      "pre": [
+        "LFQA"
+      ],
+      "colours": [
+        {
+          "hex": "#8cc786"
+        }
+      ]
+    },
+    "QBI": {
+      "callsign": "Troyes Information",
+      "frequency": "123.730",
+      "type": "TWR",
+      "pre": [
+        "LFQB"
+      ],
+      "colours": [
+        {
+          "hex": "#63a459"
         }
       ]
     },
@@ -2002,7 +2405,7 @@
         }
       ]
     },
-    "LOW": {
+    "PARL": {
       "callsign": "Paris Control",
       "frequency": "135.410",
       "type": "CTR",
@@ -2262,6 +2665,19 @@
         }
       ]
     },
+    "US": {
+      "callsign": "Paris Control",
+      "frequency": "128.140",
+      "type": "CTR",
+      "pre": [
+        "PAR"
+      ],
+      "colours": [
+        {
+          "hex": "#585e91"
+        }
+      ]
+    },
     "UT": {
       "callsign": "Paris Control",
       "frequency": "133.505",
@@ -2288,9 +2704,22 @@
         }
       ]
     },
+    "CCT": {
+      "callsign": "Cahors information",
+      "frequency": "119.230",
+      "type": "TWR",
+      "pre": [
+        "LFCC"
+      ],
+      "colours": [
+        {
+          "hex": "#58be60"
+        }
+      ]
+    },
     "CRT": {
       "callsign": "Rodez Tower",
-      "frequency": "118.125",
+      "frequency": "118.130",
       "type": "TWR",
       "pre": [
         "LFCR"
@@ -2298,6 +2727,32 @@
       "colours": [
         {
           "hex": "#71aa71"
+        }
+      ]
+    },
+    "HPT": {
+      "callsign": "Le Puy Information",
+      "frequency": "118.005",
+      "type": "TWR",
+      "pre": [
+        "LFHP"
+      ],
+      "colours": [
+        {
+          "hex": "#5a9564"
+        }
+      ]
+    },
+    "HYT": {
+      "callsign": "Moulins Information",
+      "frequency": "125.205",
+      "type": "TWR",
+      "pre": [
+        "LFHY"
+      ],
+      "colours": [
+        {
+          "hex": "#599e8e"
         }
       ]
     },
@@ -2310,7 +2765,33 @@
       ],
       "colours": [
         {
-          "hex": "#b93fdb"
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "BIN": {
+      "callsign": "Bastia Information",
+      "frequency": "124.725",
+      "type": "APP",
+      "pre": [
+        "LFKB"
+      ],
+      "colours": [
+        {
+          "hex": "#9451d5"
+        }
+      ]
+    },
+    "BIS": {
+      "callsign": "Bastia Information",
+      "frequency": "135.135",
+      "type": "APP",
+      "pre": [
+        "LFKB"
+      ],
+      "colours": [
+        {
+          "hex": "#8e39ca"
         }
       ]
     },
@@ -2379,6 +2860,19 @@
         }
       ]
     },
+    "KJV": {
+      "callsign": "Ajaccio Information",
+      "frequency": "119.825",
+      "type": "APP",
+      "pre": [
+        "LFKJ"
+      ],
+      "colours": [
+        {
+          "hex": "#a046d2"
+        }
+      ]
+    },
     "KJT": {
       "callsign": "Ajaccio Tower",
       "frequency": "118.075",
@@ -2428,6 +2922,19 @@
       "colours": [
         {
           "hex": "#a24fde"
+        }
+      ]
+    },
+    "LBV": {
+      "callsign": "Chambery Information",
+      "frequency": "123.705",
+      "type": "APP",
+      "pre": [
+        "LFLB"
+      ],
+      "colours": [
+        {
+          "hex": "#a83ae3"
         }
       ]
     },
@@ -2561,6 +3068,19 @@
         }
       ]
     },
+    "LLV": {
+      "callsign": "Lyon Information",
+      "frequency": "135.200",
+      "type": "APP",
+      "pre": [
+        "LFLL"
+      ],
+      "colours": [
+        {
+          "hex": "#9560c5"
+        }
+      ]
+    },
     "LLT": {
       "callsign": "Saint-Exupery Tower",
       "frequency": "120.455",
@@ -2626,6 +3146,19 @@
         }
       ]
     },
+    "": {
+      "callsign": "Le Luc Approach",
+      "frequency": "122.200",
+      "type": "APP",
+      "pre": [
+        "LFMC"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
     "LPT": {
       "callsign": "Annecy Tower",
       "frequency": "118.205",
@@ -2665,6 +3198,32 @@
         }
       ]
     },
+    "LVI": {
+      "callsign": "Vichy Information",
+      "frequency": "121.405",
+      "type": "TWR",
+      "pre": [
+        "LFLV"
+      ],
+      "colours": [
+        {
+          "hex": "#78bf54"
+        }
+      ]
+    },
+    "LWT": {
+      "callsign": "Aurillac Information",
+      "frequency": "118.330",
+      "type": "TWR",
+      "pre": [
+        "LFLW"
+      ],
+      "colours": [
+        {
+          "hex": "#8ebb69"
+        }
+      ]
+    },
     "LYT": {
       "callsign": "Bron Tower",
       "frequency": "118.100",
@@ -2680,7 +3239,7 @@
     },
     "MAT": {
       "callsign": "Aix Tower",
-      "frequency": "118.750",
+      "frequency": "118.755",
       "type": "TWR",
       "pre": [
         "LFMA"
@@ -2688,19 +3247,6 @@
       "colours": [
         {
           "hex": "#71aa71"
-        }
-      ]
-    },
-    "MC": {
-      "callsign": "Le Luc Approach",
-      "frequency": "122.200",
-      "type": "APP",
-      "pre": [
-        "LFMC"
-      ],
-      "colours": [
-        {
-          "hex": "#a24fde"
         }
       ]
     },
@@ -2818,6 +3364,19 @@
       "colours": [
         {
           "hex": "#a86ae7"
+        }
+      ]
+    },
+    "MZ": {
+      "callsign": "Provence Approach",
+      "frequency": "120.205",
+      "type": "APP",
+      "pre": [
+        "LFML"
+      ],
+      "colours": [
+        {
+          "hex": "#ae54f3"
         }
       ]
     },
@@ -2964,6 +3523,45 @@
         }
       ]
     },
+    "NIN": {
+      "callsign": "Nice Information",
+      "frequency": "120.850",
+      "type": "APP",
+      "pre": [
+        "LFMN"
+      ],
+      "colours": [
+        {
+          "hex": "#bc45e1"
+        }
+      ]
+    },
+    "NIS": {
+      "callsign": "Nice Information",
+      "frequency": "122.925",
+      "type": "APP",
+      "pre": [
+        "LFMN"
+      ],
+      "colours": [
+        {
+          "hex": "#b931d4"
+        }
+      ]
+    },
+    "NIW": {
+      "callsign": "Nice Information",
+      "frequency": "124.425",
+      "type": "APP",
+      "pre": [
+        "LFMN"
+      ],
+      "colours": [
+        {
+          "hex": "#bb38d5"
+        }
+      ]
+    },
     "MDF": {
       "callsign": "Nice Approach",
       "frequency": "120.655",
@@ -3068,6 +3666,19 @@
         }
       ]
     },
+    "MQT": {
+      "callsign": "Le Castellet Information",
+      "frequency": "119.005",
+      "type": "TWR",
+      "pre": [
+        "LFMQ"
+      ],
+      "colours": [
+        {
+          "hex": "#71b182"
+        }
+      ]
+    },
     "FA": {
       "callsign": "Montpellier Approach",
       "frequency": "130.855",
@@ -3091,6 +3702,45 @@
       "colours": [
         {
           "hex": "#8931c9"
+        }
+      ]
+    },
+    "MI1": {
+      "callsign": "Montpellier Information",
+      "frequency": "134.375",
+      "type": "APP",
+      "pre": [
+        "LFMT"
+      ],
+      "colours": [
+        {
+          "hex": "#9d36ea"
+        }
+      ]
+    },
+    "MI2": {
+      "callsign": "Montpellier Information",
+      "frequency": "125.900",
+      "type": "APP",
+      "pre": [
+        "LFMT"
+      ],
+      "colours": [
+        {
+          "hex": "#8f5ccf"
+        }
+      ]
+    },
+    "MI3": {
+      "callsign": "Montpellier Information",
+      "frequency": "136.625",
+      "type": "APP",
+      "pre": [
+        "LFMT"
+      ],
+      "colours": [
+        {
+          "hex": "#8e51cc"
         }
       ]
     },
@@ -3159,6 +3809,32 @@
         }
       ]
     },
+    "MZT": {
+      "callsign": "Lezignan Information",
+      "frequency": "121.205",
+      "type": "TWR",
+      "pre": [
+        "LFMZ"
+      ],
+      "colours": [
+        {
+          "hex": "#62b985"
+        }
+      ]
+    },
+    "NBT": {
+      "callsign": "Mende Information",
+      "frequency": "119.605",
+      "type": "TWR",
+      "pre": [
+        "LFNB"
+      ],
+      "colours": [
+        {
+          "hex": "#869d5e"
+        }
+      ]
+    },
     "THA": {
       "callsign": "Toulon Approach",
       "frequency": "126.325",
@@ -3211,6 +3887,45 @@
         }
       ]
     },
+    "EAI": {
+      "callsign": "Belle Ile Information",
+      "frequency": "118.755",
+      "type": "TWR",
+      "pre": [
+        "LFEA"
+      ],
+      "colours": [
+        {
+          "hex": "#58b773"
+        }
+      ]
+    },
+    "EQI": {
+      "callsign": "Quiberon Informaton",
+      "frequency": "119.605",
+      "type": "TWR",
+      "pre": [
+        "LFEQ"
+      ],
+      "colours": [
+        {
+          "hex": "#68a184"
+        }
+      ]
+    },
+    "EYI": {
+      "callsign": "Ile d'Yeu Information",
+      "frequency": "118.905",
+      "type": "TWR",
+      "pre": [
+        "LFEY"
+      ],
+      "colours": [
+        {
+          "hex": "#7ba879"
+        }
+      ]
+    },
     "JRI": {
       "callsign": "Angers Information",
       "frequency": "124.705",
@@ -3237,6 +3952,32 @@
         }
       ]
     },
+    "OUI": {
+      "callsign": "Cholet Information",
+      "frequency": "120.405",
+      "type": "TWR",
+      "pre": [
+        "LFOU"
+      ],
+      "colours": [
+        {
+          "hex": "#5cab61"
+        }
+      ]
+    },
+    "OVI": {
+      "callsign": "Laval Information",
+      "frequency": "120.805",
+      "type": "TWR",
+      "pre": [
+        "LFOV"
+      ],
+      "colours": [
+        {
+          "hex": "#89b48f"
+        }
+      ]
+    },
     "RBA": {
       "callsign": "Iroise Approach",
       "frequency": "125.860",
@@ -3260,6 +4001,19 @@
       "colours": [
         {
           "hex": "#916bc6"
+        }
+      ]
+    },
+    "IIS": {
+      "callsign": "Iroise Information",
+      "frequency": "135.830",
+      "type": "APP",
+      "pre": [
+        "LFRB"
+      ],
+      "colours": [
+        {
+          "hex": "#b759ce"
         }
       ]
     },
@@ -3299,6 +4053,19 @@
       "colours": [
         {
           "hex": "#71aa71"
+        }
+      ]
+    },
+    "REI": {
+      "callsign": "La Baule Information",
+      "frequency": "121.405",
+      "type": "TWR",
+      "pre": [
+        "LFRE"
+      ],
+      "colours": [
+        {
+          "hex": "#75be56"
         }
       ]
     },
@@ -3419,6 +4186,32 @@
         }
       ]
     },
+    "RMD": {
+      "callsign": "Le Mans Delivery",
+      "frequency": "127.350",
+      "type": "DEP",
+      "pre": [
+        "LFRM"
+      ],
+      "colours": [
+        {
+          "hex": "#a24fde"
+        }
+      ]
+    },
+    "RMT": {
+      "callsign": "Le Mans Tower",
+      "frequency": "125.905",
+      "type": "TWR",
+      "pre": [
+        "LFRM"
+      ],
+      "colours": [
+        {
+          "hex": "#60a272"
+        }
+      ]
+    },
     "RN": {
       "callsign": "Rennes Approach",
       "frequency": "134.000",
@@ -3499,7 +4292,7 @@
     },
     "RQT": {
       "callsign": "Quimper Tower",
-      "frequency": "118.625",
+      "frequency": "118.630",
       "type": "TWR",
       "pre": [
         "LFRQ"
@@ -3523,7 +4316,7 @@
         }
       ]
     },
-    "RR": {
+    "BRST": {
       "callsign": "Brest Control",
       "frequency": "125.500",
       "type": "CTR",
@@ -3536,7 +4329,7 @@
         }
       ]
     },
-    "RRE": {
+    "EST": {
       "callsign": "Brest Control",
       "frequency": "134.335",
       "type": "CTR",
@@ -3640,7 +4433,7 @@
         }
       ]
     },
-    "MZ": {
+    "RRMZ": {
       "callsign": "Brest control",
       "frequency": "125.435",
       "type": "CTR",
@@ -3654,6 +4447,19 @@
       ]
     },
     "RRN": {
+      "callsign": "Brest Control",
+      "frequency": "118.030",
+      "type": "CTR",
+      "pre": [
+        "LFRR"
+      ],
+      "colours": [
+        {
+          "hex": "#19688f"
+        }
+      ]
+    },
+    "NOR": {
       "callsign": "Brest Control",
       "frequency": "133.480",
       "type": "CTR",
@@ -3744,7 +4550,7 @@
         }
       ]
     },
-    "RRW": {
+    "WST": {
       "callsign": "Brest Control",
       "frequency": "136.000",
       "type": "CTR",
@@ -3754,6 +4560,32 @@
       "colours": [
         {
           "hex": "#344795"
+        }
+      ]
+    },
+    "RRX": {
+      "callsign": "Brest Control",
+      "frequency": "125.965",
+      "type": "CTR",
+      "pre": [
+        "LFRR"
+      ],
+      "colours": [
+        {
+          "hex": "#003f8d"
+        }
+      ]
+    },
+    "RRZ": {
+      "callsign": "Brest Control",
+      "frequency": "118.885",
+      "type": "CTR",
+      "pre": [
+        "LFRR"
+      ],
+      "colours": [
+        {
+          "hex": "#10407a"
         }
       ]
     },
@@ -3796,7 +4628,7 @@
         }
       ]
     },
-    "NIW": {
+    "RSIW": {
       "callsign": "Nantes Information",
       "frequency": "119.400",
       "type": "APP",
@@ -3874,9 +4706,22 @@
         }
       ]
     },
+    "RVI": {
+      "callsign": "Vannes Information",
+      "frequency": "122.605",
+      "type": "TWR",
+      "pre": [
+        "LFRV"
+      ],
+      "colours": [
+        {
+          "hex": "#79975a"
+        }
+      ]
+    },
     "RZT": {
       "callsign": "Saint Nazaire Tower",
-      "frequency": "118.950",
+      "frequency": "118.955",
       "type": "TWR",
       "pre": [
         "LFRZ"

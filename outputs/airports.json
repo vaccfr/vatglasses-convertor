@@ -3748,9 +3748,9 @@
       "topdown": [
         "RHT",
         "RHA",
-        "RRN",
-        "RRW",
-        "RR"
+        "NOR",
+        "WST",
+        "BRST"
       ]
     },
     "LFRS": {
