@@ -91,6 +91,9 @@ def main(argv: Sequence[str] | None = None) -> int:
 
     airspaces, positions = load_documents(args.input_files)
     opened = args.positions or list(positions)
+    unknown = [position for position in opened if position not in positions]
+    if unknown:
+        parser.error(f"unknown position IDs: {' '.join(unknown)}")
     print(f"Open positions: {opened}")
 
     try:

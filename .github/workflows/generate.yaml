@@ -59,7 +59,7 @@ jobs:
         run: |
           for i in $(seq 0 10 390); do
             echo "Exporting GeoJSON for FL$i"
-            python export_geojson.py -i outputs/lf.json -o exports/ctr_fl$i.geojson -f $i --positions PAR BB EE MM RR
+            python export_geojson.py -i outputs/lf.json -o exports/ctr_fl$i.geojson -f $i --positions PAR BDX RMS MM BRST
           done
 
       # colors.yml caches the randomised sub-sector colours; it must be committed
