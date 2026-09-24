@@ -1,0 +1,72 @@
+name: Generate VATGlasses data
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'inputs/**'
+      - 'config/config.yml'
+      - 'outputs/groups.json'
+      - 'outputs/callsigns.json'
+  workflow_dispatch:
+
+# Each run pushes to its branch: never run two at once.
+concurrency:
+  group: generate-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    # Pinned: ubuntu-latest moves to Ubuntu 26.04 from 2026-10-19.
+    runs-on: ubuntu-24.04
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.14'
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # Every step fails the job on error, so nothing is committed from a partial run.
+      - name: Generate outputs/airports.json
+        run: python generate_airports.py
+
+      - name: Generate outputs/airspace.json
+        run: python generate_airspaces.py
+
+      - name: Generate outputs/positions.json
+        run: python generate_positions.py
+
+      - name: Merge into outputs/lf.json
+        run: python merge_all.py
+
+      - name: Generate outputs/airblocks.json (vIFF)
+        run: python export_viff.py -i outputs/lf.json -o outputs/airblocks.json
+
+      # colors.yml caches the randomised sub-sector colours; it must be committed
+      # or colours change on every run.
+      - name: Commit generated files
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          file_pattern: >-
+            outputs/airports.json
+            outputs/airspace.json
+            outputs/positions.json
+            outputs/lf.json
+            outputs/airblocks.json
+            outputs/missing_topdown.txt
+            config/colors.yml
+          commit_message: 'Generate VATGlasses data'
+          commit_options: '--no-verify'

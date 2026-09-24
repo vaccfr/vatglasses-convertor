@@ -113,3 +113,4 @@ The current VatGlasses data are pre-exported in GeoJSON format and stored in the
 ## Publish to VATGlasses
 
 Copy the file `outputs/lf.json` into the repository `vaccfr/vatglasses-data/data` and submit a PR.
+
