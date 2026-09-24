@@ -55,6 +55,13 @@ jobs:
       - name: Generate outputs/airblocks.json (vIFF)
         run: python export_viff.py -i outputs/lf.json -o outputs/airblocks.json
 
+      - name: Export exports/ctr_fl*.geojson
+        run: |
+          for i in $(seq 0 10 390); do
+            echo "Exporting GeoJSON for FL$i"
+            python export_geojson.py -i outputs/lf.json -o exports/ctr_fl$i.geojson -f $i --positions PAR BB EE MM RR
+          done
+
       # colors.yml caches the randomised sub-sector colours; it must be committed
       # or colours change on every run.
       - name: Commit generated files
@@ -67,6 +74,7 @@ jobs:
             outputs/lf.json
             outputs/airblocks.json
             outputs/missing_topdown.txt
+            exports/*.geojson
             config/colors.yml
           commit_message: 'Generate VATGlasses data'
           commit_options: '--no-verify'
