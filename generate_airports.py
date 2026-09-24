@@ -1,276 +1,152 @@
-import argparse
+"""Generate outputs/airports.json, the VATGlasses "airports" section.
+
+Airports come from VATSpy.dat; their topdown order comes from the ESE sectors, overridden
+by inputs/airports.json. Airports without topdown are listed in outputs/missing_topdown.txt.
+"""
+
 import json
 import re
-import requests
-import yaml
+import sys
+from collections.abc import Sequence
 from pathlib import Path
 
-vatspy_dat_url = "https://raw.githubusercontent.com/vatsimnetwork/vatspy-data-project/refs/heads/master/VATSpy.dat"
+import requests
 
-combined_ese_input_file = Path("inputs/LFXX.ese")
-default_fir_ese_files = [
-    Path("inputs/LFBB.ese"),
-    Path("inputs/LFEE.ese"),
-    Path("inputs/LFFF.ese"),
-    Path("inputs/LFMM.ese"),
-    Path("inputs/LFRR.ese"),
-]
-yml_config_file = Path("config/config.yml")
-manual_airports_file = Path("inputs/airports.json")
+from vatglasses_convertor import ese, vatglasses
+from vatglasses_convertor.config import MANUAL_AIRPORTS_FILE, OUTPUTS_DIR, load_config
 
-json_output_file = Path("outputs/airports.json")
-missing_output_file = Path("outputs/missing_topdown.txt")
+VATSPY_DAT_URL = "https://raw.githubusercontent.com/vatsimnetwork/vatspy-data-project/refs/heads/master/VATSpy.dat"
+OUTPUT_FILE = OUTPUTS_DIR / "airports.json"
+MISSING_TOPDOWN_FILE = OUTPUTS_DIR / "missing_topdown.txt"
 
 
-def splitowners(lines):
-    owner_lines = [x for x in lines if x.startswith("OWNER:")]
-    return owner_lines[0].split(":")[1:] if owner_lines else []
+def position_airports(
+    ese_file: ese.EseFile, callsign_re: re.Pattern, airport_re: re.Pattern
+) -> dict[str, str]:
+    """Map vACC position IDs to the airport ICAO in their prefix field."""
+    return {
+        position.id: position.prefix
+        for position in ese_file.positions
+        if callsign_re.search(position.callsign) and airport_re.match(position.prefix)
+    }
 
 
-def build_position_airport_map(ese_data, valid_airport, position_regexp):
-    position_to_airport = {}
-    block = False
+def topdown_from_ese(
+    ese_file: ese.EseFile, callsign_re: re.Pattern, airport_re: re.Pattern
+) -> dict[str, list[str]]:
+    """Airport ICAO -> owner list of the first sector owned by one of its positions."""
+    airport_of = position_airports(ese_file, callsign_re, airport_re)
+    print(f"Found {len(airport_of)} position -> airport mappings")
 
-    for line in ese_data:
-        line = line.strip()
-
-        if line.startswith("[POSITIONS]"):
-            block = True
-            continue
-
-        if block and line.startswith("["):
-            block = False
-            continue
-
-        if not block or not line or line.startswith(";"):
-            continue
-
-        parts = [p.strip() for p in line.split(":")]
-
-        if len(parts) > 6 and re.search(position_regexp, line):
-            sector_code = parts[3]
-            airport_icao = parts[5]
-
-            if re.match(valid_airport, airport_icao):
-                position_to_airport[sector_code] = airport_icao
-
-    print(f"Found {len(position_to_airport)} position -> airport mappings")
-    return position_to_airport
-
-
-def build_topdown_from_ese(
-    ese_data, valid_airport, position_regexp, source_fir=None
-):
-    position_to_airport = build_position_airport_map(
-        ese_data,
-        valid_airport,
-        position_regexp
-    )
-
-    sectors = []
-    block = False
-    sector = ""
-
-    for line in ese_data:
-        if line.startswith("SECTOR:"):
-            block = True
-            sector = line.strip().replace("\u00b7", "·").replace("�", "·")
-        elif block and len(line.strip()) == 0:
-            block = False
-            if "OWNER:" in sector:
-                sectors.append(sector)
-        elif block and not line.strip().startswith(";"):
-            clean_line = line.strip().replace("\u00b7", "·").replace("�", "·")
-            sector += "\n" + clean_line
-
-    print(f"Found {len(sectors)} SECTOR blocks with OWNER")
-
-    topdown = {}
-
-    for sector in sectors:
-        lines = sector.split("\n")
-        sector_fir = lines[0].split(":", 2)[1].split("·", 1)[0]
-        if source_fir is not None and sector_fir != source_fir:
-            continue
-
-        owners = splitowners(lines)
-
-        if not owners:
-            continue
-
-        for owner in owners:
-            if owner in position_to_airport:
-                airport_icao = position_to_airport[owner]
-
-                if airport_icao not in topdown:
-                    topdown[airport_icao] = owners
-                    print(f"ESE TOPDOWN: {airport_icao} -> {owners}")
+    topdown: dict[str, list[str]] = {}
+    for sector in ese_file.sectors:
+        for owner in sector.owners:
+            icao = airport_of.get(owner)
+            if icao is not None and icao not in topdown:
+                topdown[icao] = list(sector.owners)
+                print(f"ESE TOPDOWN: {icao} -> {topdown[icao]}")
 
     print(f"Found {len(topdown)} topdown chains from ESE")
     return topdown
 
 
-def get_input_files():
-    parser = argparse.ArgumentParser(
-        description="Generate airports from one or more ESE files."
-    )
-    parser.add_argument("ese_files", nargs="*", type=Path)
-    args = parser.parse_args()
+def load_manual_topdown(path: Path) -> dict[str, list[str]]:
+    """Manual topdown overrides.
 
-    if args.ese_files:
-        input_files = args.ese_files
-    elif all(path.is_file() for path in default_fir_ese_files):
-        input_files = default_fir_ese_files
-    elif combined_ese_input_file.is_file():
-        input_files = [combined_ese_input_file]
-    else:
-        parser.error(
-            "No ESE input found. Add inputs/LFXX.ese, add all five FIR "
-            "files, or pass ESE paths on the command line."
-        )
-
-    missing = [str(path) for path in input_files if not path.is_file()]
-    if missing:
-        parser.error("ESE input file(s) not found: " + ", ".join(missing))
-
-    return input_files
-
-
-def load_manual_topdown(path):
+    Preferred format: ``[{"icao": "LFAC", "topdown": ["ACI", "QW", ...]}, ...]``.
+    Legacy format: ``{"airports": {"LFAC": {"topdown": [...]}}}``.
+    """
     if not path.exists():
         print(f"No manual airports file found at {path}")
         return {}
 
     print(f"Loading manual topdown data from {path}")
+    data = vatglasses.load(path)
 
-    with open(path, "r", encoding="utf-8") as file:
-        data = json.load(file)
-
-    manual = {}
-
-    # New preferred format:
-    # [
-    #   {"icao": "LFAC", "topdown": ["ACI", "QW", "..."]},
-    #   {"icao": "LFAB", "topdown": ["Uncontrolled(?)"]}
-    # ]
     if isinstance(data, list):
-        for item in data:
-            icao = item.get("icao")
-            topdown = item.get("topdown")
-
-            if icao and topdown:
-                manual[icao] = topdown
-
-    # Backwards-compatible old format:
-    # {"airports": {"LFAC": {"topdown": [...]}}}
-    elif isinstance(data, dict) and "airports" in data:
-        for icao, airport in data.get("airports", {}).items():
-            if "topdown" in airport and airport["topdown"]:
-                manual[icao] = airport["topdown"]
+        entries = ((item.get("icao"), item.get("topdown")) for item in data)
+    elif isinstance(data, dict):
+        entries = (
+            (icao, airport.get("topdown"))
+            for icao, airport in data.get("airports", {}).items()
+        )
+    else:
+        entries = ()
+    manual = {icao: topdown for icao, topdown in entries if icao and topdown}
 
     print(f"Loaded {len(manual)} manual topdown chains")
     return manual
 
 
-def write_missing_topdown(path, missing_airports):
+def download_vatspy(url: str) -> str:
+    print(f"Downloading VATSPY data from {url}")
+    response = requests.get(url, timeout=60)
+    response.raise_for_status()
+    return response.text
+
+
+def build_airports(
+    vatspy_data: str, airport_re: re.Pattern, topdown: dict[str, list[str]]
+) -> tuple[dict[str, dict], list[tuple[str, str]]]:
+    """Return (airports keyed by ICAO, [(icao, name)] of airports without topdown)."""
+    airports = {}
+    missing = []
+    for line in vatspy_data.splitlines():
+        fields = line.split("|")
+        if len(fields) <= 5 or not airport_re.match(fields[0]):
+            continue
+
+        icao, name, lat, lon = fields[:4]
+        airport = {"callsign": name, "coord": [float(lat), float(lon)]}
+        if icao in topdown:
+            airport["default"] = False
+            airport["topdown"] = topdown[icao]
+        else:
+            missing.append((icao, name))
+        airports[icao] = airport
+    return airports, missing
+
+
+def write_missing_topdown(path: Path, missing: Sequence[tuple[str, str]]) -> None:
+    """One paste-ready inputs/airports.json entry per line (the file is not valid JSON)."""
     with open(path, "w", encoding="utf-8") as outfile:
         outfile.write("# Airports missing topdown\n")
         outfile.write("# Add these to inputs/airports.json if needed.\n\n")
-
-        for icao, callsign in missing_airports:
-            outfile.write(
-                json.dumps(
-                    {
-                        "icao": icao,
-                        "callsign": callsign,
-                        "topdown": ["Uncontrolled(?)"]
-                    },
-                    ensure_ascii=False
-                )
-            )
-            outfile.write(",\n")
+        for icao, name in missing:
+            entry = {"icao": icao, "callsign": name, "topdown": ["Uncontrolled(?)"]}
+            outfile.write(json.dumps(entry, ensure_ascii=False) + ",\n")
+    print(f"Wrote {path}")
 
 
-print(f"Loading config file {yml_config_file}")
-with open(yml_config_file, "r", encoding="utf-8") as file:
-    config = yaml.safe_load(file)
-
-valid_airport = config["config"]["valid_airport"]
-position_regexp = config["config"]["valid_callsign"]
-
-# 1. Build topdown from ESE
-topdown_by_airport = {}
-
-for ese_input_file in get_input_files():
-    print(f"Loading {ese_input_file}")
-    with open(ese_input_file, "r", encoding="utf-8-sig") as file:
-        ese_data = file.readlines()
-
-    source_fir = ese_input_file.stem.upper()
-    if source_fir not in config["config"]["valid_fir"]:
-        source_fir = None
-
-    file_topdown = build_topdown_from_ese(
-        ese_data,
-        valid_airport,
-        position_regexp,
-        source_fir,
+def main(argv: Sequence[str] | None = None) -> int:
+    config = load_config()
+    input_files = ese.parse_input_files(
+        "Generate VATGlasses airports from one or more ESE files.", argv
     )
-    topdown_by_airport.update(file_topdown)
+    callsign_re = re.compile(config.valid_callsign)
+    airport_re = re.compile(config.valid_airport)
 
-# 2. Manual airports.json wins over ESE
-manual_topdown = load_manual_topdown(manual_airports_file)
+    # 1. Topdown from the ESE files; later files win.
+    topdown = {}
+    for path in input_files:
+        ese_file = ese.load(path, config.valid_fir)
+        topdown.update(topdown_from_ese(ese_file, callsign_re, airport_re))
 
-for icao, topdown in manual_topdown.items():
-    topdown_by_airport[icao] = topdown
-    print(f"MANUAL TOPDOWN: {icao} -> {topdown}")
+    # 2. Manual inputs/airports.json wins over ESE.
+    for icao, chain in load_manual_topdown(MANUAL_AIRPORTS_FILE).items():
+        topdown[icao] = chain
+        print(f"MANUAL TOPDOWN: {icao} -> {chain}")
+    print(f"Total topdown airport chains: {len(topdown)}")
 
-print(f"Total topdown airport chains: {len(topdown_by_airport)}")
+    # 3. Airport list from VATSpy.
+    airports, missing = build_airports(download_vatspy(VATSPY_DAT_URL), airport_re, topdown)
+    print(f"Found {len(airports)} airports")
 
-# 3. Load VATSPY data
-print(f"Downloading VATSPY data from {vatspy_dat_url}")
-response = requests.get(vatspy_dat_url)
-response.raise_for_status()
-vatspy_data = response.text
+    vatglasses.save(OUTPUT_FILE, {"airports": airports}, ensure_ascii=False)
+    write_missing_topdown(MISSING_TOPDOWN_FILE, missing)
+    print(f"Airports without topdown: {len(missing)}")
+    return 0
 
-airports = {}
-missing_topdown = []
 
-for line in vatspy_data.splitlines():
-    line_parts = line.split("|")
-
-    if len(line_parts) > 5 and re.match(valid_airport, line_parts[0]):
-        icao = line_parts[0]
-
-        airport = {
-            "callsign": line_parts[1],
-            "coord": [
-                float(line_parts[2]),
-                float(line_parts[3])
-            ]
-        }
-
-        if icao in topdown_by_airport:
-            airport["default"] = False
-            airport["topdown"] = topdown_by_airport[icao]
-        else:
-            missing_topdown.append((icao, line_parts[1]))
-
-        airports[icao] = airport
-
-print(f"Found {len(airports)} airports")
-
-json_output_file.parent.mkdir(parents=True, exist_ok=True)
-
-output = {
-    "airports": airports
-}
-
-with open(json_output_file, "w", encoding="utf-8") as outfile:
-    json.dump(output, outfile, indent=2, ensure_ascii=False)
-
-write_missing_topdown(missing_output_file, missing_topdown)
-
-print(f"Wrote {json_output_file}")
-print(f"Wrote {missing_output_file}")
-print(f"Airports without topdown: {len(missing_topdown)}")
+if __name__ == "__main__":
+    sys.exit(main())

@@ -1,124 +1,123 @@
-import argparse, geojsonio, json, re
-from geojson import Feature, FeatureCollection, Polygon, dump, dumps
+"""Export the airspaces active at one flight level as GeoJSON, e.g. for geojson.io.
 
-# Parse arguments
-parser = argparse.ArgumentParser()
-parser.add_argument("--input-files", "-i", dest="input_files", nargs="*", required=True, help="VATGlass input file")
-parser.add_argument("--output-file", "-o", dest="output_file", required=False, help="GeoJSON output file")
-parser.add_argument("--show", "-s", dest="show", required=False, action="store_true", help="Show on geojson.io")
-parser.add_argument("--flight-level", "-f", dest="flightlevel", required=True, type=int, help="Flight Level")
-parser.add_argument("--positions", "-p", nargs="*", help="Space separated list of position codes")
-parser.add_argument("--sector-regexp", dest="sector_regexp", help="Regular Express to filter sector")
-args = parser.parse_args()
+Each airspace is coloured after its owner: the first position of its owner list that is
+open (``--positions``, default all positions).
+"""
 
-# Open VATGlass input file
-data = {
-    "airspace": [], 
-    "positions": {}
-}
-for input_file in args.input_files:
-    with open(input_file, "r") as file:
-        d =  json.load(file)
-        for airspace in d["airspace"]:
-            data["airspace"].append(airspace)
-        for position in d["positions"]:
-            print(f" Position {position}")
-            data["positions"][position] = d["positions"][position]
+import argparse
+import json
+import re
+import sys
+from collections.abc import Sequence
 
-# Determine opened positions
-if (args.positions):
-    opened_positions = args.positions
-else:
-    opened_positions = list(data["positions"].keys())
-print(opened_positions)
+from geojson import Feature, FeatureCollection, Polygon, dumps
 
-# Convert 'N' and 'W' formatted points to decimal degrees
-def latitude_to_decimal(dms):  
-    sign = -1 if dms[0] == '-' else 1
-    dms = dms.lstrip('+-')
-    degrees = int(dms[:2])  # First 3 digits
-    minutes = int(dms[2:4]) # Next 2 digits
-    seconds = int(dms[4:]) if len(dms) > 5 else 0  # Remaining digits (optional)
-    decimal_degrees = sign * (degrees + minutes / 60 + seconds / 3600)
-    return decimal_degrees
+from vatglasses_convertor import vatglasses
 
-def longitude_to_decimal(dms):  
-    sign = -1 if dms[0] == '-' else 1
-    dms = dms.lstrip('+-')
-    degrees = int(dms[:3])  # First 3 digits
-    minutes = int(dms[3:5]) # Next 2 digits
-    seconds = int(dms[5:]) if len(dms) > 5 else 0  # Remaining digits (optional)
-    decimal_degrees = sign * (degrees + minutes / 60 + seconds / 3600)
-    return decimal_degrees
+DEFAULT_COLOR = "#ffffff"
 
-def convert_coordinates(point):
-    latitude, longitude = point
-    lat_dec = latitude_to_decimal(latitude)
-    lon_dec = longitude_to_decimal(longitude)
-    return (lon_dec, lat_dec)
 
-# Get Position HEX color
-def get_position_color(position):
-    if "colours" in data["positions"][position]:
-        for color in data["positions"][position]["colours"]:
-            return color["hex"]
-    else:
-        return "#ffffff"
+def load_documents(sources: Sequence[str]) -> tuple[list[dict], dict[str, dict]]:
+    """Concatenated airspaces and merged positions (later files win) of VATGlasses files."""
+    airspaces: list[dict] = []
+    positions: dict[str, dict] = {}
+    for source in sources:
+        document = vatglasses.load(source)
+        airspaces.extend(document["airspace"])
+        positions.update(document["positions"])
+    return airspaces, positions
 
-feature_list = []
-for airspace in data["airspace"]:
-    
-    if args.sector_regexp is None or re.search(args.sector_regexp, airspace["id"]):
 
-        matching_owner = None
-        for owner in airspace["owner"]:
-            if owner in opened_positions:
-                matching_owner = owner
-                matching_color = get_position_color(matching_owner)
-                break
+def position_color(position: dict) -> str:
+    colours = position.get("colours") or [{"hex": DEFAULT_COLOR}]
+    return colours[0]["hex"]
 
-        if matching_owner:
-            for sector in airspace["sectors"]:
-                sector_min = sector["min"] if "min" in sector else 0
-                sector_max = sector["max"] if "max" in sector else 660
-                if args.flightlevel >= sector_min and args.flightlevel <= sector_max:
-                    print(f"{airspace['id'].ljust(25)} {str(sector_min).ljust(3)}:{str(sector_max).ljust(3)} {matching_owner.ljust(4)} {matching_color}")
-                    converted_points = [convert_coordinates(point) for point in sector["points"]]
-                    polygon = Polygon([converted_points])
-                    properties = {
-                        "name": airspace["id"],
-                        "owner": matching_owner,
-                        "owners": airspace["owner"],
-                        "min": sector_min,
-                        "cur": args.flightlevel,
-                        "max": sector_max,
-                        "color_hex": matching_color,
-                        "stroke": matching_color,
-                        "stroke-width": 1,
-                        "stroke-opacity": 0.7,
-                        "fill": matching_color,
-                        "fill-opacity": 0.3
-                    }
-                    feature = Feature(geometry=polygon, properties=properties)
-                    feature_list.append(feature)
-feature_collection = FeatureCollection(feature_list)
 
-if (len(feature_list) == 0):
-    print("No matching airspace found for the given flight level and positions.")
-else:
-    print(f"Total matching airspaces: {len(feature_list)}")
-    feature_collection = FeatureCollection(feature_list)
+def build_features(
+    airspaces: Sequence[dict],
+    positions: dict[str, dict],
+    opened: Sequence[str],
+    flight_level: int,
+    sector_regexp: str | None,
+) -> list[Feature]:
+    features = []
+    for airspace in airspaces:
+        if sector_regexp is not None and not re.search(sector_regexp, airspace["id"]):
+            continue
+        owner = next((owner for owner in airspace["owner"] if owner in opened), None)
+        if owner is None:
+            continue
+        color = position_color(positions.get(owner, {}))
+
+        for sector in airspace["sectors"]:
+            sector_min, sector_max = vatglasses.sector_levels(sector)
+            if not sector_min <= flight_level <= sector_max:
+                continue
+            print(
+                f"{airspace['id'].ljust(25)} {str(sector_min).ljust(3)}:"
+                f"{str(sector_max).ljust(3)} {owner.ljust(4)} {color}"
+            )
+            polygon = Polygon([vatglasses.ring(sector["points"], airspace["id"])])
+            properties = {
+                "name": airspace["id"],
+                "owner": owner,
+                "owners": airspace["owner"],
+                "min": sector_min,
+                "cur": flight_level,
+                "max": sector_max,
+                "color_hex": color,
+                "stroke": color,
+                "stroke-width": 1,
+                "stroke-opacity": 0.7,
+                "fill": color,
+                "fill-opacity": 0.3,
+            }
+            features.append(Feature(geometry=polygon, properties=properties))
+    return features
+
+
+def main(argv: Sequence[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--input-files", "-i", nargs="*", required=True,
+                        help="VATGlasses input files or URLs")
+    parser.add_argument("--output-file", "-o", help="GeoJSON output file")
+    parser.add_argument("--show", "-s", action="store_true", help="show on geojson.io")
+    parser.add_argument("--flight-level", "-f", dest="flight_level", required=True,
+                        type=int, help="flight level")
+    parser.add_argument("--positions", "-p", nargs="*",
+                        help="space separated list of open position IDs (default: all)")
+    parser.add_argument("--sector-regexp", help="regular expression filtering airspace IDs")
+    args = parser.parse_args(argv)
+
+    airspaces, positions = load_documents(args.input_files)
+    opened = args.positions or list(positions)
+    print(f"Open positions: {opened}")
+
+    try:
+        features = build_features(
+            airspaces, positions, opened, args.flight_level, args.sector_regexp
+        )
+    except ValueError as exc:
+        print(f"export_geojson: error: {exc}", file=sys.stderr)
+        return 1
+
+    if not features:
+        print("No matching airspace found for the given flight level and positions.")
+        return 0
+    print(f"Total matching airspaces: {len(features)}")
+    collection = FeatureCollection(features)
 
     if args.output_file:
         print(f"Write to file {args.output_file}")
-        with open(args.output_file, 'w') as outfile:
-            json.dump(feature_collection, outfile, indent=2)
+        with open(args.output_file, "w", encoding="utf-8") as outfile:
+            json.dump(collection, outfile, indent=2)
 
-    # Write output file
     if args.show:
-        geojsonio.display(dumps(feature_collection))
+        import geojsonio  # only needed to open geojson.io
+
+        geojsonio.display(dumps(collection))
+    return 0
 
 
-
-
-
+if __name__ == "__main__":
+    sys.exit(main())
